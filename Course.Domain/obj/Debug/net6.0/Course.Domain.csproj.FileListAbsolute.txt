@@ -1,0 +1,12 @@
+C:\Users\pc\Desktop\Course\Course\Course.Domain\bin\Debug\net6.0\Course.Domain.deps.json
+C:\Users\pc\Desktop\Course\Course\Course.Domain\bin\Debug\net6.0\Course.Domain.dll
+C:\Users\pc\Desktop\Course\Course\Course.Domain\bin\Debug\net6.0\Course.Domain.pdb
+C:\Users\pc\Desktop\Course\Course\Course.Domain\obj\Debug\net6.0\Course.Domain.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\Course\Course\Course.Domain\obj\Debug\net6.0\Course.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\Course\Course\Course.Domain\obj\Debug\net6.0\Course.Domain.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\Course\Course\Course.Domain\obj\Debug\net6.0\Course.Domain.AssemblyInfo.cs
+C:\Users\pc\Desktop\Course\Course\Course.Domain\obj\Debug\net6.0\Course.Domain.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\Course\Course\Course.Domain\obj\Debug\net6.0\Course.Domain.dll
+C:\Users\pc\Desktop\Course\Course\Course.Domain\obj\Debug\net6.0\refint\Course.Domain.dll
+C:\Users\pc\Desktop\Course\Course\Course.Domain\obj\Debug\net6.0\Course.Domain.pdb
+C:\Users\pc\Desktop\Course\Course\Course.Domain\obj\Debug\net6.0\ref\Course.Domain.dll

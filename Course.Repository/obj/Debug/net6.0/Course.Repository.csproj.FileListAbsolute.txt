@@ -1,0 +1,17 @@
+C:\Users\pc\Desktop\Course\Course\Course.Repository\bin\Debug\net6.0\Course.Repository.deps.json
+C:\Users\pc\Desktop\Course\Course\Course.Repository\bin\Debug\net6.0\Course.Repository.runtimeconfig.json
+C:\Users\pc\Desktop\Course\Course\Course.Repository\bin\Debug\net6.0\Course.Repository.dll
+C:\Users\pc\Desktop\Course\Course\Course.Repository\bin\Debug\net6.0\Course.Repository.pdb
+C:\Users\pc\Desktop\Course\Course\Course.Repository\bin\Debug\net6.0\Course.Domain.dll
+C:\Users\pc\Desktop\Course\Course\Course.Repository\bin\Debug\net6.0\Course.Domain.pdb
+C:\Users\pc\Desktop\Course\Course\Course.Repository\obj\Debug\net6.0\Course.Repository.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\Course\Course\Course.Repository\obj\Debug\net6.0\Course.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\Course\Course\Course.Repository\obj\Debug\net6.0\Course.Repository.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\Course\Course\Course.Repository\obj\Debug\net6.0\Course.Repository.AssemblyInfo.cs
+C:\Users\pc\Desktop\Course\Course\Course.Repository\obj\Debug\net6.0\Course.Repository.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\Course\Course\Course.Repository\obj\Debug\net6.0\Course.Repository.csproj.CopyComplete
+C:\Users\pc\Desktop\Course\Course\Course.Repository\obj\Debug\net6.0\Course.Repository.dll
+C:\Users\pc\Desktop\Course\Course\Course.Repository\obj\Debug\net6.0\refint\Course.Repository.dll
+C:\Users\pc\Desktop\Course\Course\Course.Repository\obj\Debug\net6.0\Course.Repository.pdb
+C:\Users\pc\Desktop\Course\Course\Course.Repository\obj\Debug\net6.0\Course.Repository.genruntimeconfig.cache
+C:\Users\pc\Desktop\Course\Course\Course.Repository\obj\Debug\net6.0\ref\Course.Repository.dll
