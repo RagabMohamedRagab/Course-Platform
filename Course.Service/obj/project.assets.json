@@ -3441,11 +3441,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\Desktop\\Course\\Course\\Course.Service\\Course.Service.csproj",
+      "projectUniqueName": "C:\\Users\\pc\\Desktop\\Course\\Course.Service\\Course.Service.csproj",
       "projectName": "Course.Service",
-      "projectPath": "C:\\Users\\pc\\Desktop\\Course\\Course\\Course.Service\\Course.Service.csproj",
+      "projectPath": "C:\\Users\\pc\\Desktop\\Course\\Course.Service\\Course.Service.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc\\Desktop\\Course\\Course\\Course.Service\\obj\\",
+      "outputPath": "C:\\Users\\pc\\Desktop\\Course\\Course.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3467,8 +3467,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\pc\\Desktop\\Course\\Course\\Course.Repository\\Course.Repository.csproj": {
-              "projectPath": "C:\\Users\\pc\\Desktop\\Course\\Course\\Course.Repository\\Course.Repository.csproj"
+            "C:\\Users\\pc\\Desktop\\Course\\Course.Repository\\Course.Repository.csproj": {
+              "projectPath": "C:\\Users\\pc\\Desktop\\Course\\Course.Repository\\Course.Repository.csproj"
             }
           }
         }
