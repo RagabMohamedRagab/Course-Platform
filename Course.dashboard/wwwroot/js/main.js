@@ -48,7 +48,7 @@
 		
 	$('#sidebarCollapse').on('click', function () {
 		$("body").toggleClass("mini-navbar");
-		SmoothlyMenu();
+
 	});
 	$(document).on('click', '.header-right-menu .dropdown-menu', function (e) {
 		  e.stopPropagation();
