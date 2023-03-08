@@ -2019,7 +2019,7 @@ ul.two-part-sp li{
 	display:block;
 }
 .header-top-area {
-    position: fixed;
+    position: static !important;
     background: -webkit-linear-gradient(178deg, #e12503 0%, #85060c 100%);
     background: linear-gradient(178deg, #e12503 0%, #85060c 100%);
     z-index: 99;
