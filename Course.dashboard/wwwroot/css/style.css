@@ -4719,3 +4719,6 @@ div#sparklinehome canvas {
 	color:#fff;
 	text-decoration:none;
 }
+.mean-container .mean-bar {
+    right: 18px !important;
+}
