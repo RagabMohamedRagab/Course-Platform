@@ -24,7 +24,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllerRoute(
       name: "Dashboard",
-      pattern: "{Controller=Home}/{action=index}/{id?}"
+      pattern: "{Controller=Account}/{action=login}/{id?}"
     );
 app.Run();
 
