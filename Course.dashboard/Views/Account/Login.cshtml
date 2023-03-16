@@ -1,8 +1,12 @@
-﻿<div class="error-pagewrap">
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="error-pagewrap">
     <div class="error-page-int">
         <div class="text-center m-b-md custom-login">
-            <h3>PLEASE LOGIN TO APP</h3>
-            <p>This is the best app ever!</p>
+            <h3>Login</h3>
         </div>
         <div class="content-error">
             <div class="hpanel">
@@ -22,16 +26,13 @@
                             <label>
                                 <input type="checkbox" class="i-checks"> Remember me
                             </label>
-                            <p class="help-block small">(if this is a private computer)</p>
+
                         </div>
                         <button class="btn btn-success btn-block loginbtn">Login</button>
-                        <a class="btn btn-default btn-block" href="#">Register</a>
+                        <a class="btn btn-default btn-block link" asp-controller="Account" asp-action="Register">Register</a>
                     </form>
                 </div>
             </div>
-        </div>
-        <div class="text-center login-footer">
-            <p>Copyright © 2018. All rights reserved. Template by <a href="https://colorlib.com/wp/templates/">Colorlib</a></p>
         </div>
     </div>
 </div>

@@ -61,6 +61,9 @@ a:hover{
   color: #ec4445;
   text-decoration: none;
 }
+button ,a{
+    cursor:pointer;
+}
 a:visited, a:link, a:active {
   text-decoration: none;
 }
@@ -2748,7 +2751,8 @@ td.text-right.mail-date {
     padding: 0;
     width: 22px;
     height: 22px;
-    background: url(img/green1.png) no-repeat;
+    background-image: url(/img/green1.png) !important;
+    background-repeat:no-repeat !important;
     border: none;
     cursor: pointer;
 }
@@ -3334,7 +3338,7 @@ td.text-right.mail-date {
     font-size: 14px;
     font-weight: 700;
     color: #fff;
-    padding: 10px 30px;
+    /*padding: 10px 30px;*/
     border-radius: 3px;
     background: #006DF0;
     transition: all .4s ease 0s;
@@ -4307,9 +4311,10 @@ div#sparklinehome canvas {
 .multi-uploader-cs .dropzone.dz-clickable .dz-message{
 	border: 0px dashed #006DF0;
 }
-.custom-login h3, .ps-recovered h3{
-	font-size:20px;
-	color:#303030;
+.custom-login h3, .ps-recovered h3 {
+    font-size: 27px;
+    color: #303030;
+    margin-bottom: 2rem;
 }
 .custom-login p, .ps-recovered p{
 	font-size:14px;
@@ -4606,9 +4611,9 @@ div#sparklinehome canvas {
     display: inline-block;
 }
 .error-page-int  {
-    max-width: 500px;
+    max-width: 570px;
     padding: 20px 0;
-    width: 80%;
+    width: 90%;
     position: relative;
     margin: 0 auto;
 }
@@ -4634,15 +4639,18 @@ div#sparklinehome canvas {
 .content-error .hpanel {
 	text-align: left;
 }
+.content-error #loginForm a.link {
+    padding: 6px 0px;
+    margin: 5px 0px;
+    border: none;
+}
 .content-error #loginForm a{
-	padding: 6px 0px;
-	margin: 5px 0px;
-	border:none;
+    border-radius:6px;
 }
 .header-right-info .author-message-top::before, .header-right-info .notification-author::before {
-	position: unset;
-	display: block;
-	border-width: 0px;
+    position: unset;
+    display: block;
+    border-width: 0px;
 }
 .profile-img img{
 	width:100%;
@@ -4721,4 +4729,12 @@ div#sparklinehome canvas {
 }
 .mean-container .mean-bar {
     right: 18px !important;
+}
+.radio,
+.checkbox {
+    position: relative !important;
+    display: block !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    margin-left: 20px !important;
 }

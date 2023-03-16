@@ -15,6 +15,15 @@
       "files": [
         "jquery.validate.unobtrusive.min.js"
       ]
+    },
+    {
+      "library": "twitter-bootstrap@5.2.3",
+      "destination": "wwwroot/Lib/bootstrap/",
+      "files": [
+        "js/bootstrap.min.js",
+        "css/bootstrap.min.css",
+        "js/bootstrap.bundle.min.js"
+      ]
     }
   ]
 }
