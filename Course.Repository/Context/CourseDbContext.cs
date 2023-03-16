@@ -7,6 +7,7 @@ namespace Course.Repository.Context {
         public virtual DbSet<Course.Domain.Domains.UserCourse> UserCourses { get; set; }  
         public virtual DbSet<Course.Domain.Domains.Video> Videos { get; set; }  
         public virtual DbSet<Course.Domain.Domains.Book> Books { get; set; }  
+        public virtual DbSet<Course.Domain.Domains.Department>  Departments { get; set; }  
         
         protected override void OnModelCreating(ModelBuilder builder)
         {
