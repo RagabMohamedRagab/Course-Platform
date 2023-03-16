@@ -1,7 +1,6 @@
 ﻿@{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
 <div class="error-pagewrap">
     <div class="error-page-int">
         <div class="text-center custom-login">
@@ -41,6 +40,8 @@
                 </div>
             </div>
         </div>
-
     </div>
 </div>
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
