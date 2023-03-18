@@ -4,10 +4,12 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using NToastNotify;
 
-namespace Course.dashboard.Controllers {
-    public class AccountController : Controller {
+namespace Course.dashboard.Controllers.MVC
+{
+    public class AccountController : Controller
+    {
         private readonly IAccountService _accountService;
-       private readonly IToastNotification _toast;
+        private readonly IToastNotification _toast;
 
         public AccountController(IAccountService accountService, IToastNotification toast)
         {
@@ -36,9 +38,9 @@ namespace Course.dashboard.Controllers {
         [AllowAnonymous]
         public IActionResult Register(RegisterViewModel model)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-               var IsComplete=_accountService.RegsiterForm(model).Result;
+                var IsComplete = _accountService.RegsiterForm(model).Result;
                 if (IsComplete > 0)
                 {
                     _toast.AddSuccessToastMessage("Completed Register");

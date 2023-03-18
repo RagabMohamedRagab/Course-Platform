@@ -62,6 +62,8 @@ app.UseRouting();
 app.UseStaticFiles();
 app.UseAuthentication();
 app.UseAuthorization();
+
+
 app.MapControllerRoute(
       name: "Dashboard",
       pattern: "{Controller=Account}/{action=login}/{id?}"
