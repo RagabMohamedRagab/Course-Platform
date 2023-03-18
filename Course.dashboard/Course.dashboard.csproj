@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Course.Service\Course.Service.csproj" />
+    <ProjectReference Include="..\Course.UnitOfWork\Course.UnitOfWork.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,6 +20,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="NToastNotify" Version="7.0.0" />
   </ItemGroup>
 
 </Project>

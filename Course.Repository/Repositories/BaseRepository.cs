@@ -16,27 +16,28 @@ namespace Course.Repository.Repositories {
             _dbSet = course.Set<T>();
         }
 
-        public void Add(T entity)
+        public async Task Add(T entity)
         {
-            _dbSet.Add(entity);
+            await _dbSet.AddAsync(entity);
+      
         }
 
-        public void Delete(T entity)
+        public async Task Delete(T entity)
         {
            _dbSet.Remove(entity);
         }
 
-        public T Find(Expression<Func<T, bool>> expression)
+        public async Task<T> Find(Expression<Func<T, bool>> expression)
         {
-        return  _dbSet.SingleOrDefault(expression);
+        return  await _dbSet.SingleOrDefaultAsync(expression);
         }
 
-        public IEnumerable<T> GetAll()
+        public async Task<IEnumerable<T>> GetAll()
         {
-            return _dbSet;
+            return await _dbSet.ToListAsync();
         }
 
-        public void Update(T entity)
+        public  async Task Update(T entity)
         {
             _dbSet.Update(entity);
         }

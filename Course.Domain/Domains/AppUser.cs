@@ -7,8 +7,8 @@ namespace Course.Domain.Domains {
             UserCourses = new Collection<UserCourse>();
         }
         [StringLength(maximumLength: 150)]
-        public string About { get; set; }
-          public byte[] Logo { get; set; }
+        public string? About { get; set; }
+        public string? Logo { get; set; } 
         public virtual ICollection<UserCourse> UserCourses { get; set; }
     }
 }

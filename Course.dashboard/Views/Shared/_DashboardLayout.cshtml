@@ -1,4 +1,5 @@
-﻿<!doctype html>
+﻿@inject SignInManager<AppUser> _sign;
+<!doctype html>
 <html class="no-js" lang="en">
 <head>
     <meta charset="utf-8">
@@ -73,7 +74,7 @@
                 </a>
                 <strong>
                     <a href="index.html">
-                        <img src="img/logo/logosn.png" alt="" />
+                        <img src="~/img/logo/logosn.png" alt="" />
                     </a>
                 </strong>
             </div>
@@ -294,8 +295,8 @@
                                             <ul class="nav navbar-nav mai-top-nav header-right-menu">
                                                 <li class="nav-item">
                                                     <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
-                                                        <img src="img/product/pro4.jpg" alt="" />
-                                                        <span class="admin-name">Prof.Anderson</span>
+                                                        <img src="~/img/logo/profile.jpg" alt="Profile" />
+                                                        <span class="admin-name">@User.Identity.Name</span>
                                                     </a>
                                                 </li>
                                             </ul>
@@ -472,6 +473,7 @@
     <script src="~/js/main.js"></script>
 
     @RenderSection("Scripts", required: false)
+     @await Component.InvokeAsync("NToastNotify")
 
 </body>
 </html>

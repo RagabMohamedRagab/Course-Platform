@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\Lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\Dashboard.css",
+      "PackagePath": "staticwebassets\\css\\Dashboard.css"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\accordions.css",
       "PackagePath": "staticwebassets\\css\\accordions.css"
     },
@@ -319,6 +323,10 @@
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\logo\\logosn.png",
       "PackagePath": "staticwebassets\\img\\logo\\logosn.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\logo\\profile.jpg",
+      "PackagePath": "staticwebassets\\img\\logo\\profile.jpg"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\notification\\1.jpg",

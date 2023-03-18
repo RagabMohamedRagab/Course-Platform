@@ -20,7 +20,9 @@ C:\Users\pc\Desktop\Course\Course.Service\bin\Debug\net6.0\Course.Service.dll
 C:\Users\pc\Desktop\Course\Course.Service\bin\Debug\net6.0\Course.Service.pdb
 C:\Users\pc\Desktop\Course\Course.Service\bin\Debug\net6.0\Course.Domain.dll
 C:\Users\pc\Desktop\Course\Course.Service\bin\Debug\net6.0\Course.Repository.dll
+C:\Users\pc\Desktop\Course\Course.Service\bin\Debug\net6.0\Course.UnitOfWork.dll
 C:\Users\pc\Desktop\Course\Course.Service\bin\Debug\net6.0\Course.Repository.pdb
+C:\Users\pc\Desktop\Course\Course.Service\bin\Debug\net6.0\Course.UnitOfWork.pdb
 C:\Users\pc\Desktop\Course\Course.Service\bin\Debug\net6.0\Course.Domain.pdb
 C:\Users\pc\Desktop\Course\Course.Service\obj\Debug\net6.0\Course.Service.csproj.AssemblyReference.cache
 C:\Users\pc\Desktop\Course\Course.Service\obj\Debug\net6.0\Course.Service.GeneratedMSBuildEditorConfig.editorconfig

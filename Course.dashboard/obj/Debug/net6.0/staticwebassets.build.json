@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Zn6i9dJ3fZRLeUZIiYQMKA0IjXaIL2xvS/ntlPZmpLw=",
+  "Hash": "lRso5iBEdXT00WUQK6gMdM87Z9UKOft/DogtAFDI8Hg=",
   "Source": "Course.dashboard",
   "BasePath": "_content/Course.dashboard",
   "Mode": "Default",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\pc\\.nuget\\packages\\ntoastnotify\\7.0.0\\staticwebassets\\noty.js",
+      "SourceId": "NToastNotify",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\pc\\.nuget\\packages\\ntoastnotify\\7.0.0\\staticwebassets\\",
+      "BasePath": "_content/NToastNotify",
+      "RelativePath": "noty.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pc\\.nuget\\packages\\ntoastnotify\\7.0.0\\staticwebassets\\noty.js"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\.nuget\\packages\\ntoastnotify\\7.0.0\\staticwebassets\\toastr.js",
+      "SourceId": "NToastNotify",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\pc\\.nuget\\packages\\ntoastnotify\\7.0.0\\staticwebassets\\",
+      "BasePath": "_content/NToastNotify",
+      "RelativePath": "toastr.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pc\\.nuget\\packages\\ntoastnotify\\7.0.0\\staticwebassets\\toastr.js"
+    },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\accordions.css",
       "SourceId": "Course.dashboard",
@@ -270,6 +304,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\cropper\\cropper.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\Dashboard.css",
+      "SourceId": "Course.dashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
+      "BasePath": "_content/Course.dashboard",
+      "RelativePath": "css/Dashboard.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Dashboard.css"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\datapicker\\colorpicker.css",
@@ -1290,6 +1341,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\logo\\logosn.png"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\logo\\profile.jpg",
+      "SourceId": "Course.dashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
+      "BasePath": "_content/Course.dashboard",
+      "RelativePath": "img/logo/profile.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logo\\profile.jpg"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\notification\\1.jpg",

@@ -1,6 +1,9 @@
-﻿@{
+﻿@model RegisterViewModel;
+@{
     Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Register";
 }
+
 <div class="error-pagewrap">
     <div class="error-page-int">
         <div class="text-center custom-login">
@@ -9,27 +12,33 @@
         <div class="content-error">
             <div class="hpanel">
                 <div class="panel-body">
-                    <form action="#" id="loginForm">
+                    <form method="post" asp-controller="Account" asp-action="Register" asp-antiforgery="true" id="loginForm">
+                        <div asp-validation-summary="ModelOnly" class="text-danger error"></div>
                         <div class="row">
                             <div class="form-group col-lg-12">
-                                <label>Username</label>
-                                <input class="form-control">
+                                <label asp-for="Username"></label>
+                                <input asp-for="Username" class="form-control">
+                                <span asp-validation-for="Username" class="text-danger error"></span>
                             </div>
                             <div class="form-group col-lg-6">
-                                <label>Password</label>
-                                <input type="password" class="form-control">
+                                <label asp-for="Password"></label>
+                                <input  asp-for="Password" class="form-control">
+                                <span asp-validation-for="Password" class="text-danger error"></span>
                             </div>
                             <div class="form-group col-lg-6">
-                                <label>Repeat Password</label>
-                                <input type="password" class="form-control">
+                                <label asp-for="RepeatPassword"></label>
+                                <input asp-for="RepeatPassword" class="form-control">
+                                <span asp-validation-for="RepeatPassword" class="text-danger error"></span>
                             </div>
                             <div class="form-group col-lg-6">
-                                <label>Email Address</label>
-                                <input class="form-control">
+                                <label asp-for="EmailAddress"></label>
+                                <input asp-for="EmailAddress" class="form-control">
+                                <span asp-validation-for="EmailAddress" class="text-danger error"></span>
                             </div>
                             <div class="form-group col-lg-6">
-                                <label>Repeat Email Address</label>
-                                <input class="form-control">
+                                <label asp-for="RepeatEmailAddress"></label>
+                                <input asp-for="RepeatEmailAddress" class="form-control">
+                                <span asp-validation-for="RepeatEmailAddress" class="text-danger error"></span>
                             </div>
                         </div>
                         <div class="text-center">

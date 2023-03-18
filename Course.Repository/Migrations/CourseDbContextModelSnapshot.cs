@@ -437,13 +437,11 @@ namespace Course.Repository.Migrations
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
 
                     b.Property<string>("About")
-                        .IsRequired()
                         .HasMaxLength(150)
                         .HasColumnType("nvarchar(150)");
 
-                    b.Property<byte[]>("Logo")
-                        .IsRequired()
-                        .HasColumnType("varbinary(max)");
+                    b.Property<string>("Logo")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasDiscriminator().HasValue("AppUser");
                 });
