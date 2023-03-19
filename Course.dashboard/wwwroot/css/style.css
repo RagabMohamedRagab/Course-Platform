@@ -4747,3 +4747,7 @@ div#sparklinehome canvas {
     text-decoration:underline !important;
     text-decoration-color:blue !important;
 }
+.pupo {
+    display: flex !important;
+    justify-content: space-between !important;
+}
