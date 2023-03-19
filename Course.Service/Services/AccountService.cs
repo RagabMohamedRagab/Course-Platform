@@ -11,13 +11,15 @@ namespace Course.Service.Services {
             _accountRepository = accountRepository;
         }
 
-        public async Task<int> RegsiterForm(RegisterViewModel model)
+        public async Task<bool> LoginForm(LoginViewModel model)
         {
-            if (await _accountRepository.Add(model) > 0)
-            {
-                return 1;
-            }
-            return 0;
+            return await _accountRepository.Login(model);
+        }
+
+        public async Task<bool> RegsiterForm(RegisterViewModel model)
+        {
+            return await _accountRepository.Add(model); 
+            
         }
     }
 }

@@ -4733,8 +4733,17 @@ div#sparklinehome canvas {
 .radio,
 .checkbox {
     position: relative !important;
-    display: block !important;
+    display: flex !important;
     margin-top: 10px !important;
     margin-bottom: 10px !important;
     margin-left: 20px !important;
+    justify-content: space-between !important;
+}
+.pop{
+    cursor:pointer !important;
+}
+.pop:hover{
+    color:blue !important;
+    text-decoration:underline !important;
+    text-decoration-color:blue !important;
 }

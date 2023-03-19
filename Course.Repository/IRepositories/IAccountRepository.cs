@@ -4,6 +4,7 @@ using Course.Repository.ViewModeles;
 
 namespace Course.Repository.IRepositories {
     public interface IAccountRepository {
-          Task<int> Add(RegisterViewModel entity);
+          Task<bool> Add(RegisterViewModel entity);
+        Task<bool> Login(LoginViewModel entity);
     }
 }

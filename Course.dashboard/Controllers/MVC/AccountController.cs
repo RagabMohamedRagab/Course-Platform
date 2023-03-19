@@ -23,9 +23,31 @@ namespace Course.dashboard.Controllers.MVC
         }
         [HttpGet]
         [AllowAnonymous]
-        public IActionResult Login()
+        public IActionResult Login(string returnUrl)
         {
+            ViewBag.returnUrl=returnUrl;
             return View();
+        }
+        [HttpPost]
+        [AllowAnonymous]
+        [ValidateAntiForgeryToken]
+        public IActionResult Login(LoginViewModel model,string? returnUrl)
+        {
+            if (ModelState.IsValid)
+            {
+                if (_accountService.LoginForm(model).Result)
+                {
+                    if (!String.IsNullOrEmpty(returnUrl))
+                    {
+                        return Redirect(returnUrl);
+                    }
+                    _toast.AddSuccessToastMessage("Completed Login");
+                    return RedirectToAction("Index", "Home");
+                }
+            }
+            _toast.AddErrorToastMessage("Failed Login");
+            ModelState.AddModelError(string.Empty, "Incorrect Password or Email");
+            return View(model);
         }
         [HttpGet]
         [AllowAnonymous]
@@ -40,8 +62,7 @@ namespace Course.dashboard.Controllers.MVC
         {
             if (ModelState.IsValid)
             {
-                var IsComplete = _accountService.RegsiterForm(model).Result;
-                if (IsComplete > 0)
+                if (_accountService.RegsiterForm(model).Result)
                 {
                     _toast.AddSuccessToastMessage("Completed Register");
                     return RedirectToAction("Index", "Home");

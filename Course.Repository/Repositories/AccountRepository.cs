@@ -15,12 +15,13 @@ namespace Course.Repository.Repositories {
             _signInManager = signInManager;
         }
 
-        public async Task<int> Add(RegisterViewModel entity)
+        public async Task<bool> Add(RegisterViewModel entity)
         {
             AppUser user = new AppUser()
             {
-                UserName = entity.Username,
+                UserName = entity.EmailAddress,
                 Email = entity.EmailAddress,
+                PasswordHash=entity.Password,
             };
             IdentityResult result = await _userManager.CreateAsync(user, entity.Password);
             if (result.Succeeded)
@@ -28,15 +29,15 @@ namespace Course.Repository.Repositories {
                 string token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
                 await _userManager.ConfirmEmailAsync(user, token);
                 await _signInManager.SignInAsync(user, isPersistent: false);
-                return 1;
+                return true;
             }
-            return 0;
+            return false;
         }
 
-
-
-
-
-     
+        public async Task<bool> Login(LoginViewModel model)
+        {
+            SignInResult result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RemmberMe, true);
+            return result.Succeeded ? true : false;
+        }
     }
 }

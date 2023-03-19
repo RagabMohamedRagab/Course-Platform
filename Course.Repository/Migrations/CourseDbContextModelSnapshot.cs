@@ -61,7 +61,7 @@ namespace Course.Repository.Migrations
 
                     b.HasIndex("UserCourseID");
 
-                    b.ToTable("Books");
+                    b.ToTable("Books", (string)null);
                 });
 
             modelBuilder.Entity("Course.Domain.Domains.Course", b =>
@@ -105,7 +105,7 @@ namespace Course.Repository.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Courses");
+                    b.ToTable("Courses", (string)null);
                 });
 
             modelBuilder.Entity("Course.Domain.Domains.Department", b =>
@@ -137,7 +137,7 @@ namespace Course.Repository.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Departments");
+                    b.ToTable("Departments", (string)null);
                 });
 
             modelBuilder.Entity("Course.Domain.Domains.UserCourse", b =>
@@ -181,7 +181,7 @@ namespace Course.Repository.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("UserCourses");
+                    b.ToTable("UserCourses", (string)null);
                 });
 
             modelBuilder.Entity("Course.Domain.Domains.Video", b =>
@@ -223,7 +223,7 @@ namespace Course.Repository.Migrations
 
                     b.HasIndex("UserCourseID");
 
-                    b.ToTable("Videos");
+                    b.ToTable("Videos", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

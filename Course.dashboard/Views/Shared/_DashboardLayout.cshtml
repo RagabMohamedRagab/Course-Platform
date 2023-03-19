@@ -296,7 +296,10 @@
                                                 <li class="nav-item">
                                                     <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
                                                         <img src="~/img/logo/profile.jpg" alt="Profile" />
-                                                        <span class="admin-name">@User.Identity.Name</span>
+                                                        @{
+                                                            var currentUser = User.Identity.Name.Substring(0, User.Identity.Name.IndexOf('@'));
+                                                        }
+                                                        <span class="admin-name">@currentUser</span>
                                                     </a>
                                                 </li>
                                             </ul>
