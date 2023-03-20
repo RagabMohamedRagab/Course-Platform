@@ -21,6 +21,11 @@ namespace Course.Service.Services {
             return await _accountRepository.Login(model);
         }
 
+        public async Task<bool> Logout()
+        {
+            return await _accountRepository.Logout();
+        }
+
         public async Task<bool> RegsiterForm(RegisterViewModel model)
         {
             return await _accountRepository.Add(model); 

@@ -39,7 +39,7 @@
     <link rel="stylesheet" href="~/css/main.css">
     <!-- educate icon CSS
         ============================================ -->
-    <link rel="stylesheet" href="~/css/educate-custon-icon.css"> 
+    <link rel="stylesheet" href="~/css/educate-custon-icon.css">
     <!-- morrisjs CSS
     ============================================ -->
     <link rel="stylesheet" href="~/css/morrisjs/morris.css">
@@ -82,11 +82,11 @@
                 <nav class="sidebar-nav left-sidebar-menu-pro">
                     <ul class="metismenu" id="menu1">
                         <li class="active">
-                            <a  asp-action="Index" asp-controller="Home">
+                            <a asp-action="Index" asp-controller="Home">
                                 <i class="bi bi-houses-fill" style="font-size:1.3rem"></i>
                                 <span class="mini-click-non">Education</span>
                             </a>
-                          
+
                         </li>
                         <li>
                             <a title="Landing Page" href="events.html" aria-expanded="false">
@@ -230,42 +230,10 @@
                             </ul>
                         </li>
                         <li id="removable">
-                            <a class="has-arrow" href="#" aria-expanded="false">
+                            <a  asp-controller="Account" asp-action="LogOut" aria-expanded="false">
                                 <i class="bi bi-save-fill" style="font-size:1.3rem"></i>
-                                <span class="mini-click-non">Pages</span>
+                                <span class="mini-click-non">LogOut</span>
                             </a>
-                            <ul class="submenu-angle page-mini-nb-dp" aria-expanded="false">
-                                <li>
-                                    <a title="Login" href="login.html">
-                                        <span class="mini-sub-pro">Login</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="Register" href="register.html">
-                                        <span class="mini-sub-pro">Register</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="Lock" href="lock.html">
-                                        <span class="mini-sub-pro">Lock</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="Password Recovery" href="password-recovery.html">
-                                        <span class="mini-sub-pro">Password Recovery</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="404 Page" href="404.html">
-                                        <span class="mini-sub-pro">404 Page</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="500 Page" href="500.html">
-                                        <span class="mini-sub-pro">500 Page</span>
-                                    </a>
-                                </li>
-                            </ul>
                         </li>
                     </ul>
                 </nav>
@@ -289,7 +257,7 @@
                                             </button>
                                         </div>
                                     </div>
-                                  
+
                                     <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                                         <div class="header-right-info">
                                             <ul class="nav navbar-nav mai-top-nav header-right-menu">
@@ -302,6 +270,7 @@
                                                         <span class="admin-name">@currentUser</span>
                                                     </a>
                                                 </li>
+
                                             </ul>
                                         </div>
                                     </div>
@@ -311,6 +280,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Mobile Menu start -->
             <!-- Mobile Menu start -->
             <div class="mobile-menu-area">
                 <div class="container">
@@ -412,21 +382,21 @@
                     </div>
                 </div>
             </div>
-            <!-- Mobile Menu end --> 
+            <!-- Mobile Menu end -->
             <div class="container-fluid">
-      <div class="row">
-          <div class="offset-5">
-              @RenderBody()
-          </div>
-      </div>
+                <div class="row">
+                    <div class="offset-5">
+                        @RenderBody()
+                    </div>
+                </div>
 
-  </div>
+            </div>
         </div>
     </div>
 
-    
-  
-  
+
+
+
     <!-- jquery
     ============================================ -->
     <script src="~/js/vendor/jquery-1.12.4.min.js"></script>
@@ -463,8 +433,8 @@
     <!-- metisMenu JS
     ============================================ -->
     <script src="~/js/metisMenu/metisMenu.min.js"></script>
-    <script src="~/js/metisMenu/metisMenu-active.js"></script> 
- 
+    <script src="~/js/metisMenu/metisMenu-active.js"></script>
+
     <script src="~/js/calendar/moment.min.js"></script>
     <script src="~/js/calendar/fullcalendar.min.js"></script>
     <script src="~/js/calendar/fullcalendar-active.js"></script>
@@ -476,7 +446,7 @@
     <script src="~/js/main.js"></script>
 
     @RenderSection("Scripts", required: false)
-     @await Component.InvokeAsync("NToastNotify")
+    @await Component.InvokeAsync("NToastNotify")
 
 </body>
 </html>

@@ -4,10 +4,8 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using NToastNotify;
 
-namespace Course.dashboard.Controllers.MVC
-{
-    public class AccountController : Controller
-    {
+namespace Course.dashboard.Controllers.MVC {
+    public class AccountController : Controller {
         private readonly IAccountService _accountService;
         private readonly IToastNotification _toast;
 
@@ -36,15 +34,15 @@ namespace Course.dashboard.Controllers.MVC
         }
         [HttpGet]
         [AllowAnonymous]
-        public IActionResult Login(string returnUrl)
+        public IActionResult Login(string returnUrl = null)
         {
-            ViewBag.returnUrl=returnUrl;
+            ViewBag.returnUrl = returnUrl;
             return View();
         }
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
-        public IActionResult Login(LoginViewModel model,string? returnUrl)
+        public IActionResult Login(LoginViewModel model, string? returnUrl)
         {
             if (ModelState.IsValid)
             {
@@ -83,6 +81,18 @@ namespace Course.dashboard.Controllers.MVC
             }
             _toast.AddErrorToastMessage("Failed Register");
             return View(model);
+        }
+        [HttpGet]
+
+        public IActionResult LogOut()
+        {
+            if (_accountService.Logout().Result)
+            {
+                _toast.AddSuccessToastMessage("Completed LogOut");
+                return RedirectToAction(nameof(Login));
+            }
+            _toast.AddErrorToastMessage("Failed Logout");
+            return RedirectToAction("Index", "Home");
         }
     }
 }

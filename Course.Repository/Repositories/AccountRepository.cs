@@ -48,6 +48,20 @@ namespace Course.Repository.Repositories {
             SignInResult result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RemmberMe, true);
             return result.Succeeded ? true : false;
         }
+
+        public async Task<bool> Logout()
+        {
+            try
+            {
+                await  _signInManager.SignOutAsync();
+                return true;
+            }
+            catch (Exception e) {
+                return false;
+            }
+         
+
+        }
     }
 }
 
