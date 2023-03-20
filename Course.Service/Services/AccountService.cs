@@ -11,6 +11,11 @@ namespace Course.Service.Services {
             _accountRepository = accountRepository;
         }
 
+        public Task<bool> ForgetPassword(ForgetPasswordViewModel model)
+        {
+            return _accountRepository.ForgetPassword(model);
+        }
+
         public async Task<bool> LoginForm(LoginViewModel model)
         {
             return await _accountRepository.Login(model);

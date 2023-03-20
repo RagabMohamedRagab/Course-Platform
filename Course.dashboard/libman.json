@@ -24,6 +24,21 @@
         "css/bootstrap.min.css",
         "js/bootstrap.bundle.min.js"
       ]
+    },
+    {
+      "library": "toast-css@1.1.0",
+      "destination": "wwwroot/Lib/toastr/",
+      "files": [
+        "grid.min.css"
+      ]
+    },
+    {
+      "library": "toastr.js@2.1.4",
+      "destination": "wwwroot/Lib/toastr/",
+      "files": [
+        "toastr.min.js",
+        "toastr.min.css"
+      ]
     }
   ]
 }

@@ -4751,3 +4751,8 @@ div#sparklinehome canvas {
     display: flex !important;
     justify-content: space-between !important;
 }
+.required {
+    color: red;
+    display: none;
+    font-size: 0.7rem;
+}

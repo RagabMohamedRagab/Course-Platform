@@ -23,6 +23,19 @@ namespace Course.dashboard.Controllers.MVC
         }
         [HttpGet]
         [AllowAnonymous]
+        public JsonResult ForgetPassword(ForgetPasswordViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                if (_accountService.ForgetPassword(model).Result)
+                {
+                    return Json("ok");
+                }
+            }
+            return Json("No");
+        }
+        [HttpGet]
+        [AllowAnonymous]
         public IActionResult Login(string returnUrl)
         {
             ViewBag.returnUrl=returnUrl;

@@ -21,7 +21,7 @@ namespace Course.Repository.Repositories {
             {
                 UserName = entity.EmailAddress,
                 Email = entity.EmailAddress,
-                PasswordHash=entity.Password,
+                PasswordHash = entity.Password,
             };
             IdentityResult result = await _userManager.CreateAsync(user, entity.Password);
             if (result.Succeeded)
@@ -34,6 +34,15 @@ namespace Course.Repository.Repositories {
             return false;
         }
 
+        public async Task<bool> ForgetPassword(ForgetPasswordViewModel model)
+        {
+            var user = await _userManager.FindByEmailAsync(model.Email);
+            if (user is null) return false;
+            string Token = await _userManager.GeneratePasswordResetTokenAsync(user);
+            IdentityResult result = await _userManager.ResetPasswordAsync(user, Token, model.Password);
+            return result.Succeeded;
+        }
+
         public async Task<bool> Login(LoginViewModel model)
         {
             SignInResult result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RemmberMe, true);
@@ -41,3 +50,4 @@ namespace Course.Repository.Repositories {
         }
     }
 }
+

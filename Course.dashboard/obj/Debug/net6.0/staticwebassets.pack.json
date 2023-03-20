@@ -21,6 +21,18 @@
       "PackagePath": "staticwebassets\\Lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\toastr\\grid.min.css",
+      "PackagePath": "staticwebassets\\Lib\\toastr\\grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\toastr\\toastr.min.css",
+      "PackagePath": "staticwebassets\\Lib\\toastr\\toastr.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\toastr\\toastr.min.js",
+      "PackagePath": "staticwebassets\\Lib\\toastr\\toastr.min.js"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\Dashboard.css",
       "PackagePath": "staticwebassets\\css\\Dashboard.css"
     },
