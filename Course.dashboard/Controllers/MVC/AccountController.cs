@@ -83,7 +83,6 @@ namespace Course.dashboard.Controllers.MVC {
             return View(model);
         }
         [HttpGet]
-
         public IActionResult LogOut()
         {
             if (_accountService.Logout().Result)

@@ -44,11 +44,36 @@ namespace Course.dashboard.Controllers.API {
             {
                 if (_accountService.LoginForm(model).Result)
                 {
-                    return Ok(model);
+                    return Ok(new { Data = model, Message = "Success" });
                 }
             }
-            return BadRequest("Incorrect Password or Email");
+            return BadRequest(new { Data = model, Message = "Incorrect Password or Email" });
+        }
+        [HttpPost]
+        [AllowAnonymous]
+        public IActionResult ForgetPassword([FromForm]ForgetPasswordViewModel model)
+        {
+            if (String.IsNullOrEmpty(model.Email) || String.IsNullOrEmpty(model.Password))
+            {
+                return BadRequest(new { Data = model, Message = "Incorrect Password or Email" });
+            }
+            if (_accountService.ForgetPassword(model).Result)
+            {
+                return Ok(new { Data = model, Message = "Done" });
+            }
+            return NotFound(new { Data = String.Empty, Message = "Try Again" });
+        }
+        [HttpGet]
+        public IActionResult LogOut()
+        {
+            if (_accountService.Logout().Result)
+            {
+                return Ok(new {Message = "Done" });
+            }
+            return NotFound(new { Message = "Try Again" });
         }
     }
+   
 }
+
 
