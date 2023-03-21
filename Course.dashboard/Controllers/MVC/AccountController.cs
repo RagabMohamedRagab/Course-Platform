@@ -7,12 +7,14 @@ using NToastNotify;
 namespace Course.dashboard.Controllers.MVC {
     public class AccountController : Controller {
         private readonly IAccountService _accountService;
+        private readonly IEmailSender _emailSender;
         private readonly IToastNotification _toast;
 
-        public AccountController(IAccountService accountService, IToastNotification toast)
+        public AccountController(IAccountService accountService, IToastNotification toast, IEmailSender emailSender)
         {
             _accountService = accountService;
             _toast = toast;
+            _emailSender = emailSender;
         }
 
         public IActionResult Index()
@@ -75,6 +77,11 @@ namespace Course.dashboard.Controllers.MVC {
             {
                 if (_accountService.RegsiterForm(model).Result)
                 {
+                    var FilePath = $"{Directory.GetCurrentDirectory()}\\Views\\Shared\\MailSentSuccessfully.html";
+                    var str = new StreamReader(FilePath);
+                    var mailtext = str.ReadToEnd();
+                     str.Close();
+                    _emailSender.SendEmailAsync(model.EmailAddress, "Course Online", mailtext);
                     _toast.AddSuccessToastMessage("Completed Register");
                     return RedirectToAction("Index", "Home");
                 }
@@ -93,5 +100,6 @@ namespace Course.dashboard.Controllers.MVC {
             _toast.AddErrorToastMessage("Failed Logout");
             return RedirectToAction("Index", "Home");
         }
+
     }
 }

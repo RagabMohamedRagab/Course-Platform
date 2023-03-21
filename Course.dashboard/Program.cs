@@ -4,6 +4,7 @@ using Course.Repository.IRepositories;
 using Course.Repository.Repositories;
 using Course.Service.IServices;
 using Course.Service.Services;
+using Course.Service.Utilities;
 using Course.UnitOfWork;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -13,6 +14,7 @@ using NToastNotify;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
+builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
 builder.Services.AddAuthentication();
 builder.Services.AddAuthorization();
 var connection = builder.Configuration.GetConnectionString("Connection");
@@ -50,6 +52,7 @@ builder.Services.AddMvc(option =>
 builder.Services.AddScoped<IAccountRepository, AccountRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IAccountService, AccountService>();
+builder.Services.AddScoped<IEmailSender,EmailSender>();
 
 var app = builder.Build();
 if (app.Environment.IsDevelopment())

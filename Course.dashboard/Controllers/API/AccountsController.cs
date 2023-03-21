@@ -9,9 +9,11 @@ namespace Course.dashboard.Controllers.API {
     [ApiController]
     public class AccountsController : ControllerBase {
         private readonly IAccountService _accountService;
-        public AccountsController(IAccountService accountService)
+        private readonly IEmailSender _emailSender;
+        public AccountsController(IAccountService accountService, IEmailSender emailSender)
         {
             _accountService = accountService;
+            _emailSender = emailSender;
         }
 
         [HttpPost]
@@ -32,6 +34,11 @@ namespace Course.dashboard.Controllers.API {
             }
             if (_accountService.RegsiterForm(model).Result)
             {
+                var FilePath = $"{Directory.GetCurrentDirectory()}\\Views\\Shared\\MailSentSuccessfully.html";
+                var str = new StreamReader(FilePath);
+                var mailtext = str.ReadToEnd();
+                str.Close();
+                _emailSender.SendEmailAsync(model.EmailAddress, "Course Online", mailtext);
                 return Ok(model);
             }
             return NotFound("Data incorrect Name or Password");
