@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Course.Repository.Migrations
 {
     [DbContext(typeof(CourseDbContext))]
-    [Migration("20230324125948_DAddeedingDataforRole")]
-    partial class DAddeedingDataforRole
+    [Migration("20230324142743_AddSeedingDataforUserAndUser")]
+    partial class AddSeedingDataforUserAndUser
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -259,7 +259,7 @@ namespace Course.Repository.Migrations
                         new
                         {
                             Id = "2c5e174e-3b0e-446f-86af-483d56fd7210",
-                            ConcurrencyStamp = "da9afda3-3ede-4d00-b555-9ebd741026e7",
+                            ConcurrencyStamp = "9b82df59-71b0-421f-a6ac-db96ec19ccfe",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
@@ -456,6 +456,24 @@ namespace Course.Repository.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasDiscriminator().HasValue("AppUser");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "3b710f84-40d6-43f9-80e7-7d02031aa2ef",
+                            Email = "Admin123@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = true,
+                            NormalizedEmail = "ADMIN123@GMAIL.COM",
+                            NormalizedUserName = "ADMIN123@GMAIL.COM",
+                            PasswordHash = "AQAAAAEAACcQAAAAEKs1gghNCbJo0Z+BOK6PUW8XmN60f0HKw0ieOMCoFhjy56dhC/OPA4DsMp0ClcLn7Q==",
+                            PhoneNumberConfirmed = true,
+                            SecurityStamp = "107964f0-2e29-442b-aeec-12c97296bead",
+                            TwoFactorEnabled = false,
+                            UserName = "Admin123@gmail.com"
+                        });
                 });
 
             modelBuilder.Entity("Course.Domain.Domains.Book", b =>

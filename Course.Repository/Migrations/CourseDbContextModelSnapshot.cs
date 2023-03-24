@@ -256,7 +256,7 @@ namespace Course.Repository.Migrations
                         new
                         {
                             Id = "2c5e174e-3b0e-446f-86af-483d56fd7210",
-                            ConcurrencyStamp = "a47f4b9d-ceb9-4aad-8662-5255ed714207",
+                            ConcurrencyStamp = "49937824-1fd6-4abf-b11a-8c9940510bde",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
@@ -420,6 +420,13 @@ namespace Course.Repository.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetUserRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = "8e445865-a24d-4543-a6c6-9443d048cdb9",
+                            RoleId = "2c5e174e-3b0e-446f-86af-483d56fd7210"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
@@ -457,17 +464,17 @@ namespace Course.Repository.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "fdb4e8dc-6660-42be-951f-3513e65734f1",
+                            Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "a0e708d7-3daf-4d26-ac64-50070fe5ea55",
+                            ConcurrencyStamp = "14b93a45-0556-4123-8105-00fb5dfc3caf",
                             Email = "Admin123@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ADMIN123@GMAIL.COM",
                             NormalizedUserName = "ADMIN123@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEJxgo6CpgWBmmxVUBz2MZ3VIbycSJFemxRz2gIGIff44g2zvlDJrrozV1JDAI18OiQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEKBIocCsEmJki9xMRLK+IjLrOmBDvJwgpsdgQ4h5X22NBrJh5SD4gcfsxlAaD25UlA==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "eaf0a2e6-e618-41e8-af5f-be7e6a093bc4",
+                            SecurityStamp = "59532a9a-928a-44b4-af99-434e24b93738",
                             TwoFactorEnabled = false,
                             UserName = "Admin123@gmail.com"
                         });
