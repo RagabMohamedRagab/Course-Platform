@@ -4,6 +4,7 @@ using Course.Repository.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Course.Repository.Migrations
 {
     [DbContext(typeof(CourseDbContext))]
-    partial class CourseDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230324130700_DAddeedingDataforUser")]
+    partial class DAddeedingDataforUser
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -256,7 +259,7 @@ namespace Course.Repository.Migrations
                         new
                         {
                             Id = "2c5e174e-3b0e-446f-86af-483d56fd7210",
-                            ConcurrencyStamp = "a47f4b9d-ceb9-4aad-8662-5255ed714207",
+                            ConcurrencyStamp = "6b04250d-e6d0-4db9-a096-7df0b68e29b8",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
@@ -457,19 +460,19 @@ namespace Course.Repository.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "fdb4e8dc-6660-42be-951f-3513e65734f1",
+                            Id = "60768616-1e39-49a2-8004-29549846ff12",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "a0e708d7-3daf-4d26-ac64-50070fe5ea55",
+                            ConcurrencyStamp = "65513950-3927-4d0f-b1c9-7c4d3f20a199",
                             Email = "Admin123@gmail.com",
                             EmailConfirmed = true,
-                            LockoutEnabled = true,
+                            LockoutEnabled = false,
                             NormalizedEmail = "ADMIN123@GMAIL.COM",
-                            NormalizedUserName = "ADMIN123@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEJxgo6CpgWBmmxVUBz2MZ3VIbycSJFemxRz2gIGIff44g2zvlDJrrozV1JDAI18OiQ==",
-                            PhoneNumberConfirmed = true,
-                            SecurityStamp = "eaf0a2e6-e618-41e8-af5f-be7e6a093bc4",
+                            NormalizedUserName = "ADMIN",
+                            PasswordHash = "AQAAAAEAACcQAAAAEPBNjaqNwqA+fXpekhEdK3IwDiKgqFmjsKFDAPfplgQ3ZMUjLXTVRr2tIc3+wWFJtw==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "2106f7b8-6d99-492b-aa77-840a121eab18",
                             TwoFactorEnabled = false,
-                            UserName = "Admin123@gmail.com"
+                            UserName = "Admin"
                         });
                 });
 
