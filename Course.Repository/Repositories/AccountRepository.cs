@@ -9,10 +9,12 @@ namespace Course.Repository.Repositories {
     public class AccountRepository : IAccountRepository {
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
-        public AccountRepository(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager)
+        private readonly RoleManager<IdentityRole> _roleManager;
+        public AccountRepository(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, RoleManager<IdentityRole> roleManager)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _roleManager = roleManager;
         }
 
         public async Task<bool> Add(RegisterViewModel entity)
@@ -29,6 +31,23 @@ namespace Course.Repository.Repositories {
                 string token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
                 await _userManager.ConfirmEmailAsync(user, token);
                 await _signInManager.SignInAsync(user, isPersistent: false);
+                // Role 
+                bool IsFind = await _roleManager.RoleExistsAsync("User");
+                if (IsFind)
+                {
+                    if(!await _userManager.IsInRoleAsync(user, "User"))
+                    {
+                       await _userManager.AddToRoleAsync(user, "User");
+                    }
+                }
+                else
+                {
+                  IdentityResult role=  await _roleManager.CreateAsync(new IdentityRole() { Name = "User", NormalizedName = "USER", ConcurrencyStamp = Guid.NewGuid().ToString() });
+                    if (role.Succeeded)
+                    {
+                        await _userManager.AddToRoleAsync(user, "User");
+                    }
+                }
                 return true;
             }
             return false;
@@ -64,4 +83,7 @@ namespace Course.Repository.Repositories {
         }
     }
 }
+
+
+
 
