@@ -91,19 +91,14 @@
                         @if (User.IsInRole("Admin"))
                         {
                             <li>
-                                <a class="has-arrow" title="Landing Page" href="events.html" aria-expanded="false">
+                                <a class="has-arrow" title="Landing Page" aria-expanded="false">
                                 <i class="bi bi-diagram-3-fill" style="font-size:1.3rem"></i>
                                 <span class="mini-click-non" title="Roles">Roles</span>
                             </a>
                             <ul class="submenu-angle" aria-expanded="false">
                                 <li>
-                                    <a title="All Roles" href="all-professors.html">
+                                        <a title="All Roles" asp-controller="Admistration" asp-action="Roles">
                                         <span class="mini-sub-pro">All Roles</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="Add Role" href="add-professor.html">
-                                        <span class="mini-sub-pro">Add Role</span>
                                     </a>
                                 </li>
                             </ul>
@@ -453,6 +448,16 @@
     <script src="~/js/calendar/moment.min.js"></script>
     <script src="~/js/calendar/fullcalendar.min.js"></script>
     <script src="~/js/calendar/fullcalendar-active.js"></script>
+    <!-- data table JS
+       ============================================ -->
+    <script src="~/js/data-table/bootstrap-table.js"></script>
+    <script src="~/js/data-table/tableExport.js"></script>
+    <script src="~/js/data-table/data-table-active.js"></script>
+    <script src="~/js/data-table/bootstrap-table-editable.js"></script>
+    <script src="~/js/data-table/bootstrap-editable.js"></script>
+    <script src="~/js/data-table/bootstrap-table-resizable.js"></script>
+    <script src="~/js/data-table/colResizable-1.5.source.js"></script>
+    <script src="~/js/data-table/bootstrap-table-export.js"></script>
     <!-- plugins JS
     ============================================ -->
     <script src="~/js/plugins.js"></script>
