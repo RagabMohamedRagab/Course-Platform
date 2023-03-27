@@ -4756,3 +4756,11 @@ div#sparklinehome canvas {
     display: none;
     font-size: 0.7rem;
 }
+.fixed-table-body .fixed-table-loading {
+    display: none !important;
+}
+.roles {
+    margin-top: 20px;
+    background-color:#fff;
+    padding:10px;
+}

@@ -13,6 +13,42 @@
       "PackagePath": "staticwebassets\\Lib\\bootstrap\\js\\bootstrap.min.js"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\datatables\\css\\dataTables.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Lib\\datatables\\css\\dataTables.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\datatables\\css\\jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets\\Lib\\datatables\\css\\jquery.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\datatables\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\Lib\\datatables\\images\\sort_asc.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\datatables\\images\\sort_asc_disabled.png",
+      "PackagePath": "staticwebassets\\Lib\\datatables\\images\\sort_asc_disabled.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\datatables\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\Lib\\datatables\\images\\sort_both.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\datatables\\images\\sort_desc.png",
+      "PackagePath": "staticwebassets\\Lib\\datatables\\images\\sort_desc.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\datatables\\images\\sort_desc_disabled.png",
+      "PackagePath": "staticwebassets\\Lib\\datatables\\images\\sort_desc_disabled.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\datatables\\js\\dataTables.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Lib\\datatables\\js\\dataTables.bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\datatables\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\Lib\\datatables\\js\\jquery.dataTables.min.js"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\jquery-validate\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\Lib\\jquery-validate\\jquery.validate.min.js"
     },
@@ -275,6 +311,62 @@
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\tree-viewer\\tree-viewer.css",
       "PackagePath": "staticwebassets\\css\\tree-viewer\\tree-viewer.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\educate-icon.svg",
+      "PackagePath": "staticwebassets\\fonts\\educate-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\educate-icon.ttf",
+      "PackagePath": "staticwebassets\\fonts\\educate-icon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\educate-icon.woff",
+      "PackagePath": "staticwebassets\\fonts\\educate-icon.woff"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff2"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\blog-details\\1.jpg",

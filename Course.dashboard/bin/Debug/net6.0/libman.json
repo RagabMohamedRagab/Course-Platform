@@ -39,6 +39,17 @@
         "toastr.min.js",
         "toastr.min.css"
       ]
+    },
+    {
+      "library": "datatables@1.10.21",
+      "destination": "wwwroot/Lib/datatables/",
+      "files": [
+        "images/sort_asc.png",
+        "images/sort_asc_disabled.png",
+        "images/sort_both.png",
+        "images/sort_desc.png",
+        "images/sort_desc_disabled.png"
+      ]
     }
   ]
 }

@@ -63,6 +63,8 @@
     <!-- modernizr JS
         ============================================ -->
     <script src="~/js/vendor/modernizr-2.8.3.min.js"></script>
+    <link href="~/Lib/datatables/css/datatables.bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Lib/datatables/css/jquery.datatables.min.css" rel="stylesheet" />
 </head>
 <body>
     <!-- Start Left menu area -->
@@ -393,7 +395,7 @@
                 </div>
             </div>
             <!-- Mobile Menu end -->
-            <div class="container-fluid">
+            <div class="container mt-4">
                 <div class="row">
                     <div class="offset-5">
                         @RenderBody()
@@ -448,23 +450,15 @@
     <script src="~/js/calendar/moment.min.js"></script>
     <script src="~/js/calendar/fullcalendar.min.js"></script>
     <script src="~/js/calendar/fullcalendar-active.js"></script>
-    <!-- data table JS
-       ============================================ -->
-    <script src="~/js/data-table/bootstrap-table.js"></script>
-    <script src="~/js/data-table/tableExport.js"></script>
-    <script src="~/js/data-table/data-table-active.js"></script>
-    <script src="~/js/data-table/bootstrap-table-editable.js"></script>
-    <script src="~/js/data-table/bootstrap-editable.js"></script>
-    <script src="~/js/data-table/bootstrap-table-resizable.js"></script>
-    <script src="~/js/data-table/colResizable-1.5.source.js"></script>
-    <script src="~/js/data-table/bootstrap-table-export.js"></script>
     <!-- plugins JS
     ============================================ -->
     <script src="~/js/plugins.js"></script>
     <!-- main JS
     ============================================ -->
     <script src="~/js/main.js"></script>
-
+    <script src="~/Lib/datatables/js/jquery.datatables.min.js"></script>
+    <script src="~/Lib/datatables/js/datatables.bootstrap.min.js"></script>
+  
     @RenderSection("Scripts", required: false)
     @await Component.InvokeAsync("NToastNotify")
 
