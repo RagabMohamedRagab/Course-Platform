@@ -31,5 +31,16 @@ namespace Course.dashboard.Controllers.API {
             }
             return Ok(new { Data = result, Message = "Done" });
         }
+        [HttpDelete]
+        [AllowAnonymous]
+        public IActionResult DeleteRole(string Id)
+        {
+            var result = _accountService.DeleteRole(Id).Result;
+            if (result is null)
+            {
+                return Ok(new { Data = string.Empty, Message = "Falied Your Request" });
+            }
+            return Ok(new { Data = result, Message = "Done" });
+        }
     }
 }
