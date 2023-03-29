@@ -53,7 +53,7 @@
                     "url": "/Admistration/Roles",
                     "type": "GET",
                     "dataSrc": "",
-                     "datatype": "json"
+                    "datatype": "json"
                 },
                 "columnDefs": [{
                     "targets": 2,
@@ -62,7 +62,7 @@
                "columns": [
                     { "data": "code", "autoWidth": true },
                     { "data": 'name', "autoWidth":true},
-                    { "ordering": false, "render": function (data, type, full) { return "<a  class='btn btn-danger' onclick=DeleteCustomer('" + full.code + "') ><i class='bi bi-trash3-fill'></i></a>   <a href='#' class='btn btn-primary' onclick=DeleteCustomer('" + full.code + "'); ><i class='bi bi-pencil-square'></i></a>" } }
+                    { "render": function (data, type, full) { return "<a  class='btn btn-danger' onclick=DeleteCustomer('" + full.code + "') ><i class='bi bi-trash3-fill'></i></a>   <a href='#' class='btn btn-primary' onclick=DeleteCustomer('" + full.code + "'); ><i class='bi bi-pencil-square'></i></a>" } }
                 ]
             });
         })
