@@ -9,6 +9,7 @@ namespace Course.Repository.IRepositories {
         Task<bool> ForgetPassword(ForgetPasswordViewModel model);
         Task<bool> Logout();
         Task<AddRoleViewModel> AddRole(AddRoleViewModel model);
+        Task<AddRoleViewModel> DeleteRole(string Id);
         Task<IEnumerable<RolesViewModel>> GetAllRole();
     }
 }

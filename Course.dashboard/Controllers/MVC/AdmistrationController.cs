@@ -31,6 +31,19 @@ namespace Course.dashboard.Controllers.MVC {
             }
             return Json("no");
         }
-
+        [HttpGet]
+        public JsonResult DeleteRole(string Id)
+        {
+            if (String.IsNullOrEmpty(Id))
+            {
+                return Json("no");
+            }
+            var result=_accountService.DeleteRole(Id).Result;
+            if(result is null)
+            {
+               return Json("no");
+            }
+            return Json("ok");
+        }
     }
 }

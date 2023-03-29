@@ -95,6 +95,14 @@ namespace Course.Repository.Repositories {
            IdentityResult result=await _roleManager.CreateAsync(role);
             return result.Succeeded ? new AddRoleViewModel() { Id=role.Id,Name=role.Name} : null;
         }
+     public async  Task<AddRoleViewModel> DeleteRole(string id)
+        {
+            var role = await _roleManager.FindByIdAsync(id);
+            if (role is null)
+                return null;
+            IdentityResult result =await _roleManager.DeleteAsync(role);
+            return result.Succeeded ? new AddRoleViewModel() { Id = role.Id, Name = role.Name } : null;
+        }
     }
 }
 

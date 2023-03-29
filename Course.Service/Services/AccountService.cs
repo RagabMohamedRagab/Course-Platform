@@ -45,6 +45,11 @@ namespace Course.Service.Services {
             var result = await _accountRepository.AddRole(model);
             return result is null ? null:result;
         }
+       public async Task<AddRoleViewModel> DeleteRole(string Name)
+        {
+            var result =await _accountRepository.DeleteRole(Name);
+            return result;
+        }
     }
 }
 
