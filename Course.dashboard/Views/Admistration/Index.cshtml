@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Roles";
+}
+<section class="roles">
+      <div class="row">
+          <div class="col-md-12">
+            <div><a data-toggle="modal" data-target="#myModal"  class="btn btn-primary" style="background-color: #006df0"><i class="bi bi-plus"></i>New Role</a></div>
+          </div>
+          <div class="col-md-10" style="margin-top:20px">
+              <table class="table table-hover" id="table">
+                  <thead>
+                      <tr>
+                          <th>Code</th>
+                          <th>Name</th>
+                          <th></th>
+                      </tr>
+                  </thead>
+              </table>
+          </div>
+      </div>
+</section>
+<!-------------Popup Add Role---------------->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" style="text-align: center;">New Role</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="role">Name</label>
+                        <input type="text" class="form-control" placeholder="Role Name" id="role" required="">
+                        <span class="role" id="reemail">Required Name</span>
+                    </div>
+                    <div class="form-group pupo">
+                        <input type="submit" value="Change" style="background-color: #006df0"  class="btn btn-primary"/>
+                        <button type="button" id="close" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+@section Scripts{
+    <script>
+        $(document).ready(function(){
+            debugger;
+            $("#table").dataTable({
+                "ajax": {
+                    "url": "/Admistration/Roles",
+                    "type": "GET",
+                    "dataSrc": "",
+                     "datatype": "json"
+                },
+                "columnDefs": [{
+                    "targets": 2,
+                    "orderable": false
+                }],
+               "columns": [
+                    { "data": "code", "autoWidth": true },
+                    { "data": 'name', "autoWidth":true},
+                    { "ordering": false, "render": function (data, type, full) { return "<a  class='btn btn-danger' onclick=DeleteCustomer('" + full.code + "') ><i class='bi bi-trash3-fill'></i></a>   <a href='#' class='btn btn-primary' onclick=DeleteCustomer('" + full.code + "'); ><i class='bi bi-pencil-square'></i></a>" } }
+                ]
+            });
+        })
+   
+    </script>
+}

@@ -3,6 +3,7 @@ using Course.Domain.Domains;
 using Course.Repository.IRepositories;
 using Course.Repository.ViewModeles;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
 namespace Course.Repository.Repositories {
@@ -80,6 +81,10 @@ namespace Course.Repository.Repositories {
             }
          
 
+        }
+        public async Task<IEnumerable<RolesViewModel>> GetAllRole()
+        {
+            return await _roleManager.Roles.Select(b => new RolesViewModel() { Code = b.Id, Name = b.Name }).ToListAsync();
         }
     }
 }

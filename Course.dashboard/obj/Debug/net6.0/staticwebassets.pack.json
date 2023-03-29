@@ -13,42 +13,6 @@
       "PackagePath": "staticwebassets\\Lib\\bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\datatables\\css\\dataTables.bootstrap.min.css",
-      "PackagePath": "staticwebassets\\Lib\\datatables\\css\\dataTables.bootstrap.min.css"
-    },
-    {
-      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\datatables\\css\\jquery.dataTables.min.css",
-      "PackagePath": "staticwebassets\\Lib\\datatables\\css\\jquery.dataTables.min.css"
-    },
-    {
-      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\datatables\\images\\sort_asc.png",
-      "PackagePath": "staticwebassets\\Lib\\datatables\\images\\sort_asc.png"
-    },
-    {
-      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\datatables\\images\\sort_asc_disabled.png",
-      "PackagePath": "staticwebassets\\Lib\\datatables\\images\\sort_asc_disabled.png"
-    },
-    {
-      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\datatables\\images\\sort_both.png",
-      "PackagePath": "staticwebassets\\Lib\\datatables\\images\\sort_both.png"
-    },
-    {
-      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\datatables\\images\\sort_desc.png",
-      "PackagePath": "staticwebassets\\Lib\\datatables\\images\\sort_desc.png"
-    },
-    {
-      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\datatables\\images\\sort_desc_disabled.png",
-      "PackagePath": "staticwebassets\\Lib\\datatables\\images\\sort_desc_disabled.png"
-    },
-    {
-      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\datatables\\js\\dataTables.bootstrap.min.js",
-      "PackagePath": "staticwebassets\\Lib\\datatables\\js\\dataTables.bootstrap.min.js"
-    },
-    {
-      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\datatables\\js\\jquery.dataTables.min.js",
-      "PackagePath": "staticwebassets\\Lib\\datatables\\js\\jquery.dataTables.min.js"
-    },
-    {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\jquery-validate\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\Lib\\jquery-validate\\jquery.validate.min.js"
     },

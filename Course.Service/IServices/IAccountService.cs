@@ -7,5 +7,6 @@ namespace Course.Service.IServices {
         Task<bool> LoginForm(LoginViewModel model);
         Task<bool> ForgetPassword(ForgetPasswordViewModel model);
         Task<bool> Logout();
+        Task<IEnumerable<RolesViewModel>> GetRoles();
     }
 }

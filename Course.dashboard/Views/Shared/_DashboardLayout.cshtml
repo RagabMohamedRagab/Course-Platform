@@ -63,8 +63,10 @@
     <!-- modernizr JS
         ============================================ -->
     <script src="~/js/vendor/modernizr-2.8.3.min.js"></script>
-    <link href="~/Lib/datatables/css/datatables.bootstrap.min.css" rel="stylesheet" />
-    <link href="~/Lib/datatables/css/jquery.datatables.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+
+
+
 </head>
 <body>
     <!-- Start Left menu area -->
@@ -99,7 +101,7 @@
                             </a>
                             <ul class="submenu-angle" aria-expanded="false">
                                 <li>
-                                        <a title="All Roles" asp-controller="Admistration" asp-action="Roles">
+                                        <a title="All Roles" asp-controller="Admistration" asp-action="Index">
                                         <span class="mini-sub-pro">All Roles</span>
                                     </a>
                                 </li>
@@ -454,10 +456,14 @@
     ============================================ -->
     <script src="~/js/plugins.js"></script>
     <!-- main JS
+    ============================================ -->   
+    <!-- DataTable JS
+    ============================================ -->
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+    <!-- main JS
     ============================================ -->
     <script src="~/js/main.js"></script>
-    <script src="~/Lib/datatables/js/jquery.datatables.min.js"></script>
-    <script src="~/Lib/datatables/js/datatables.bootstrap.min.js"></script>
+   
   
     @RenderSection("Scripts", required: false)
     @await Component.InvokeAsync("NToastNotify")
