@@ -86,6 +86,15 @@ namespace Course.Repository.Repositories {
         {
             return await _roleManager.Roles.Select(b => new RolesViewModel() { Code = b.Id, Name = b.Name }).ToListAsync();
         }
+        public async Task<AddRoleViewModel> AddRole(AddRoleViewModel model)
+        {
+            IdentityRole role = new IdentityRole()
+            {
+                Name = model.Name
+            };
+           IdentityResult result=await _roleManager.CreateAsync(role);
+            return result.Succeeded ? new AddRoleViewModel() { Id=role.Id,Name=role.Name} : null;
+        }
     }
 }
 

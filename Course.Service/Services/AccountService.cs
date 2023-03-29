@@ -36,6 +36,15 @@ namespace Course.Service.Services {
             var Roles =await _accountRepository.GetAllRole();
             return Roles is null ? null : Roles;
         }
+        public async Task<AddRoleViewModel> AddRole(string Name)
+        {
+            AddRoleViewModel model = new AddRoleViewModel()
+            {
+                Name = Name
+            };
+            var result = await _accountRepository.AddRole(model);
+            return result is null ? null:result;
+        }
     }
 }
 

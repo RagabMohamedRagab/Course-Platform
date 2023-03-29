@@ -21,5 +21,16 @@ namespace Course.dashboard.Controllers.MVC {
             var data = _accountService.GetRoles().Result;
             return Json(data);
         }
+        [HttpGet]
+        
+        public JsonResult AddRole(string Name)
+        {
+            if(! (_accountService.AddRole(Name).Result is null)) {   
+                
+                return Json("ok");
+            }
+            return Json("no");
+        }
+
     }
 }

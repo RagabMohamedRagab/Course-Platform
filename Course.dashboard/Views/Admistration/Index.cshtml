@@ -1,23 +1,29 @@
 ﻿@{
     ViewData["Title"] = "Roles";
 }
+<style>
+    #newrole {
+        display: none;
+        color: red;
+    }
+</style>
 <section class="roles">
-      <div class="row">
-          <div class="col-md-12">
-            <div><a data-toggle="modal" data-target="#myModal"  class="btn btn-primary" style="background-color: #006df0"><i class="bi bi-plus"></i>New Role</a></div>
-          </div>
-          <div class="col-md-10" style="margin-top:20px">
-              <table class="table table-hover" id="table">
-                  <thead>
-                      <tr>
-                          <th>Code</th>
-                          <th>Name</th>
-                          <th></th>
-                      </tr>
-                  </thead>
-              </table>
-          </div>
-      </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div><a data-toggle="modal" data-target="#myModal" class="btn btn-primary" style="background-color: #006df0"><i class="bi bi-plus"></i>New Role</a></div>
+        </div>
+        <div class="col-md-10" style="margin-top:20px">
+            <table class="table table-hover" id="table">
+                <thead>
+                    <tr>
+                        <th>Code</th>
+                        <th>Name</th>
+                        <th></th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
 </section>
 <!-------------Popup Add Role---------------->
 <div class="modal fade" id="myModal" role="dialog">
@@ -28,14 +34,14 @@
                 <h4 class="modal-title" style="text-align: center;">New Role</h4>
             </div>
             <div class="modal-body">
-                <form>
+                <form id="sub">
                     <div class="form-group">
                         <label for="role">Name</label>
-                        <input type="text" class="form-control" placeholder="Role Name" id="role" required="">
-                        <span class="role" id="reemail">Required Name</span>
+                        <input type="text" class="form-control" placeholder="Role Name" id="role">
+                        <span id="newrole">Required Name</span>
                     </div>
                     <div class="form-group pupo">
-                        <input type="submit" value="Change" style="background-color: #006df0"  class="btn btn-primary"/>
+                        <input type="submit" value="Add" style="background-color: #006df0" class="btn btn-primary" />
                         <button type="button" id="close" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
                 </form>
@@ -46,8 +52,7 @@
 </div>
 @section Scripts{
     <script>
-        $(document).ready(function(){
-            debugger;
+        $(document).ready(function () {
             $("#table").dataTable({
                 "ajax": {
                     "url": "/Admistration/Roles",
@@ -59,13 +64,55 @@
                     "targets": 2,
                     "orderable": false
                 }],
-               "columns": [
+                "columns": [
                     { "data": "code", "autoWidth": true },
-                    { "data": 'name', "autoWidth":true},
+                    { "data": 'name', "autoWidth": true },
                     { "render": function (data, type, full) { return "<a  class='btn btn-danger' onclick=DeleteCustomer('" + full.code + "') ><i class='bi bi-trash3-fill'></i></a>   <a href='#' class='btn btn-primary' onclick=DeleteCustomer('" + full.code + "'); ><i class='bi bi-pencil-square'></i></a>" } }
                 ]
             });
         })
-   
+        document.getElementById('sub').addEventListener("submit", function (e) {
+            debugger
+            e.preventDefault();
+            if (ValidtionForm()) {
+                var name = document.getElementById('role').value;
+                $.ajax({
+                    url: '/Admistration/AddRole?Name=' + name,
+                    type: "GET",
+                    contentType: "application/json; charset=utf-8",
+                    success: function (data) {
+                        if (data == 'ok') {
+                            toastr.success('Success ');
+                        } else {
+                            toastr.error('Errors ');
+                        }
+                        $("#close").click();
+                        setTimeout(function(){
+                            window.location = '/Admistration/Index'
+                        },1000)
+                    },
+                })
+            } else {
+                console.log(false);
+            }
+        });
+        function ValidtionForm() {
+            debugger
+            var name = document.getElementById('role').value;
+            var required = document.getElementById('newrole');
+            if (name == "" || name == undefined || name == null) {
+                required.style.display = "block"
+                return false;
+            } else {
+                required.style.display = "none"
+                return true;
+            }
+        }
+        document.getElementById('role').onkeyup = function () {
+            ValidtionForm();
+        }
+
     </script>
-}
+    }
+
+
