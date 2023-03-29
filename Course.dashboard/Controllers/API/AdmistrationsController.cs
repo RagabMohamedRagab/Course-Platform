@@ -20,5 +20,16 @@ namespace Course.dashboard.Controllers.API {
             var data = _accountService.GetRoles().Result;
             return Ok(new {Data=data,Message="Successfully Request"});
         }
+        [HttpPost]
+        [AllowAnonymous]
+        public IActionResult AddRole(string Name)
+        {
+            var result = _accountService.AddRole(Name).Result;
+            if (result is null)
+            {
+                return Ok(new { Data = string.Empty, Message = "Falied Your Request" });
+            }
+            return Ok(new { Data = result, Message = "Done" });
+        }
     }
 }
