@@ -103,6 +103,23 @@ namespace Course.Repository.Repositories {
             IdentityResult result =await _roleManager.DeleteAsync(role);
             return result.Succeeded ? new AddRoleViewModel() { Id = role.Id, Name = role.Name } : null;
         }
+        public async Task<AddRoleViewModel> GetRoleById(string Id)
+        {
+            var role = await _roleManager.FindByIdAsync(Id);
+            return role is null ? null : new AddRoleViewModel() { Id = role.Id, Name = role.Name };
+        }
+        public async Task<IList<string>> UserInRole(string roleName)
+        {
+            IList<string> userInRoles = new List<string>();
+            foreach (var item in await _userManager.Users.ToListAsync())
+            {
+                if (await _userManager.IsInRoleAsync(item, roleName))
+                {
+                    userInRoles.Add(item.UserName);
+                }
+            }
+            return userInRoles;
+        }
     }
 }
 

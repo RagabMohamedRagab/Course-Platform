@@ -50,6 +50,16 @@ namespace Course.Service.Services {
             var result =await _accountRepository.DeleteRole(Name);
             return result;
         }
+        public async Task<AddRoleViewModel> GetRoleById(string Id)
+        {
+            var result = await _accountRepository.GetRoleById(Id);
+            return result is null ? null : result;
+        }
+        public async Task<IList<string>> UserInRole(string roleName)
+        {
+            var roleUsers = await _accountRepository.UserInRole(roleName);
+            return roleUsers == null ? null : roleUsers;
+        }
     }
 }
 

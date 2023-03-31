@@ -10,5 +10,7 @@ namespace Course.Service.IServices {
         Task<AddRoleViewModel> AddRole(string Name);
         Task<AddRoleViewModel> DeleteRole(string Name);
         Task<IEnumerable<RolesViewModel>> GetRoles();
+        Task<AddRoleViewModel> GetRoleById(string Id);
+        Task<IList<string>> UserInRole(string roleName);
     }
 }

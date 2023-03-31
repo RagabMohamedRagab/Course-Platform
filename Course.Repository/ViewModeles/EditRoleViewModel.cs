@@ -6,8 +6,7 @@ namespace Course.Repository.ViewModeles {
         {
                 UserName=new List<string>();    
         }
-      public string Id { get; set; }
-      public string Name { get; set; }
+      public AddRoleViewModel role { get; set; }
       public IList<string> UserName { get; set; }
     }
 }

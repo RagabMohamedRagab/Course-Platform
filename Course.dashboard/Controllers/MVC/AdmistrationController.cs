@@ -1,4 +1,5 @@
-﻿using Course.Service.IServices;
+﻿using Course.Repository.ViewModeles;
+using Course.Service.IServices;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Course.dashboard.Controllers.MVC {
@@ -49,7 +50,14 @@ namespace Course.dashboard.Controllers.MVC {
         public ActionResult EditRole(string Id)
         {
             ViewBag.Id= Id;
-            return View();
+            var role = _accountService.GetRoleById(Id).Result;
+            var usersinRole = _accountService.UserInRole(role.Name).Result;
+            EditRoleViewModel model = new EditRoleViewModel()
+            {
+                role = role,
+                UserName = usersinRole
+            };
+            return View(model);
         }
     }
 }

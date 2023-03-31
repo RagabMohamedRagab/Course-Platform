@@ -92,17 +92,6 @@
                 },
             })
         }
-        function EditRole(id) {
-            debugger;
-            $.ajax({
-                url: '/Admistration/EditRole?Id=' + id,
-                type: "GET",
-                contentType: "application/json; charset=utf-8",
-                success: function (data) {
-                  console.log(data);
-                }
-            })
-        }
         document.getElementById('sub').addEventListener("submit", function (e) {
             debugger
             e.preventDefault();
