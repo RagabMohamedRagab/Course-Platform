@@ -48,7 +48,8 @@ namespace Course.dashboard.Controllers.MVC {
         [HttpGet]
         public ActionResult EditRole(string Id)
         {
-            return View("done");
+            ViewBag.Id= Id;
+            return View();
         }
     }
 }
