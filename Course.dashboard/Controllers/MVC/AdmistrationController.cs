@@ -45,5 +45,10 @@ namespace Course.dashboard.Controllers.MVC {
             }
             return Json("ok");
         }
+        [HttpGet]
+        public ActionResult EditRole(string Id)
+        {
+            return View("done");
+        }
     }
 }

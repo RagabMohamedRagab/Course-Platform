@@ -70,7 +70,7 @@
                 "columns": [
                     { "data": "code", "autoWidth": true },
                     { "data": 'name', "autoWidth": true },
-                    { "render": function (data, type, full) { return "<a  class='btn btn-danger' onclick=DeleteRole('" + full.code + "') ><i class='bi bi-trash3-fill'></i></a>   <a href='#' class='btn btn-primary' onclick=DeleteCustomer('" + full.code + "'); ><i class='bi bi-pencil-square'></i></a>" } }
+                    { "render": function (data, type, full) { return "<a  class='btn btn-danger' onclick=DeleteRole('" + full.code + "') ><i class='bi bi-trash3-fill'></i></a>   <a  class='btn btn-primary' onclick=EditRole('" + full.code + "'); ><i class='bi bi-pencil-square'></i></a>" } }
                 ]
             });
         })
@@ -90,6 +90,17 @@
                         window.location = '/Admistration/Index'
                     }, 500)
                 },
+            })
+        }
+        function EditRole(id) {
+            debugger;
+            $.ajax({
+                url: '/Admistration/EditRole?Id=' + id,
+                type: "GET",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                  console.log(data);
+                }
             })
         }
         document.getElementById('sub').addEventListener("submit", function (e) {
