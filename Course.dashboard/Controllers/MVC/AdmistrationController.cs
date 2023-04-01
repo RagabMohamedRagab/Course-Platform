@@ -49,7 +49,6 @@ namespace Course.dashboard.Controllers.MVC {
         [HttpGet]
         public ActionResult EditRole(string Id)
         {
-            ViewBag.Id= Id;
             var role = _accountService.GetRoleById(Id).Result;
             var usersinRole = _accountService.UserInRole(role.Name).Result;
             EditRoleViewModel model = new EditRoleViewModel()

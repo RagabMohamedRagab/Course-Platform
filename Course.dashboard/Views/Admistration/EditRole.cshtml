@@ -1,2 +1,69 @@
-﻿
-<h2>@ViewBag.Id</h2>
+﻿@model EditRoleViewModel;
+@{
+   ViewData["Title"] = "Update Role";
+}
+<section>
+    <div class="row roles">
+        <div class="col-md-12">
+            @if (Model.role != null)
+            {
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label asp-for="@Model.role.Id" class="control-label col-sm-2" ></label>
+                        <div class="col-sm-10">
+                            <input disabled asp-for="@Model.role.Id" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.role.Name" class="control-label col-sm-2" ></label>
+                        <div class="col-sm-10">
+                            <input asp-for="@Model.role.Name" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <input type="submit" value="Update" class="btn btn-primary" style="background-color: #006df0" />
+                            <a asp-area="" asp-controller="Admistration" asp-action="Index" class="btn btn-danger">Cancel</a>
+                        </div>
+                    </div>
+                </form>
+            }
+            else
+            {
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-text">Not Avaliable Update Role at Moment</h3>
+                        <a asp-area="" asp-controller="Admistration" asp-action="Index" class="btn btn-danger" class="card-link">Cancel</a>
+              </div>
+            </div>
+            }
+        </div>
+    </div>
+</section>
+<section>
+    <div class="row" style="display:flex;justify-content:center;margin-top:5px">
+        @if (Model.role != null && Model.UserName.Any())
+        {
+            @foreach (var user in Model.UserName.ToList())
+            {
+                <div class=" col-md-3 card roles" style="margin:5px">
+                    <div class="card-body">
+                        <h5 class="card-title">@Model.role.Name</h5>
+                        <p class="card-text">@user</p>
+                        <a class="btn btn-primary card-link" style="background-color: #006df0">Add</a>
+                        <a asp-area="" asp-controller="Admistration" asp-action="Index" class="btn btn-danger" class="card-link">Cancel</a>
+                    </div>
+                </div>
+                }
+            }
+        else{
+                <div class=" col-md-4 card roles">
+                    <div class="card-body">
+                        <h5 class="card-title">Role</h5>
+                        <p class="card-text">Not Valiable Role at Moment</p>
+                        <a asp-area="" asp-controller="Admistration" asp-action="Index" class="btn btn-danger" class="card-link">Cancel</a>
+                    </div>
+                </div>
+            }
+            </div>
+</section>
