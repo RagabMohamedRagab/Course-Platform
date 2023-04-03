@@ -13,5 +13,6 @@ namespace Course.Repository.IRepositories {
         Task<IEnumerable<RolesViewModel>> GetAllRole();
         Task<AddRoleViewModel> GetRoleById(string Id);
         Task<IList<string>> UserInRole(string roleName);
+        Task<bool> UpdateRole(UpdateRoleViewModel model);
     }
 }

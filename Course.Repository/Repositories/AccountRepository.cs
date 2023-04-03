@@ -120,6 +120,14 @@ namespace Course.Repository.Repositories {
             }
             return userInRoles;
         }
+        public async Task<bool> UpdateRole(UpdateRoleViewModel model)
+        {
+            var role =await _roleManager.FindByIdAsync(model.Id);
+            if (role == null) return false;
+            role.Name=model.Name;
+            IdentityResult result= await _roleManager.UpdateAsync(role);
+            return result.Succeeded?true:false;
+        }
     }
 }
 

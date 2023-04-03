@@ -60,6 +60,19 @@ namespace Course.Service.Services {
             var roleUsers = await _accountRepository.UserInRole(roleName);
             return roleUsers == null ? null : roleUsers;
         }
+        public async Task<UpdateRoleViewModel> UpdateRole(string Id, string roleName)
+        {
+            if (String.IsNullOrEmpty(Id) || String.IsNullOrEmpty(roleName))
+            {
+                return null;
+            }
+            UpdateRoleViewModel mod = new UpdateRoleViewModel()
+            {
+                Id = Id,
+                Name = roleName
+            };
+            return await _accountRepository.UpdateRole(mod) ? mod : null;
+        }
     }
 }
 

@@ -1,14 +1,17 @@
 ﻿using Course.Repository.ViewModeles;
 using Course.Service.IServices;
 using Microsoft.AspNetCore.Mvc;
+using NToastNotify;
 
 namespace Course.dashboard.Controllers.MVC {
     public class AdmistrationController : Controller {
         private readonly IAccountService _accountService;
+        private readonly IToastNotification _toast;
 
-        public AdmistrationController(IAccountService accountService)
+        public AdmistrationController(IAccountService accountService, IToastNotification toast)
         {
             _accountService = accountService;
+            _toast = toast;
         }
 
         [HttpGet]
@@ -57,6 +60,17 @@ namespace Course.dashboard.Controllers.MVC {
                 UserName = usersinRole
             };
             return View(model);
+        }
+        [HttpPost]
+        public IActionResult EditRole(string Id,string Name)
+        {
+            if(_accountService.UpdateRole(Id,Name).Result is null)
+            {
+                _toast.AddErrorToastMessage("Failed Update");
+                return RedirectToAction(nameof(EditRole),new {Id=Id });
+            }
+            _toast.AddSuccessToastMessage("Completed Change");
+            return RedirectToAction(nameof(Index));
         }
     }
 }

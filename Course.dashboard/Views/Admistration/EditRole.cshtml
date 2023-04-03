@@ -1,23 +1,26 @@
 ﻿@model EditRoleViewModel;
 @{
-   ViewData["Title"] = "Update Role";
+    ViewData["Title"] = "Update Role";
 }
 <section>
     <div class="row roles">
         <div class="col-md-12">
             @if (Model.role != null)
             {
-                <form class="form-horizontal">
+                <form asp-controller="Admistration" asp-action="EditRole" asp-route-Id="@Model.role.Id" class="form-horizontal">
+                 <div asp-validation-summary="ModelOnly"></div>
                     <div class="form-group">
-                        <label asp-for="@Model.role.Id" class="control-label col-sm-2" ></label>
+                        <label asp-for="@Model.role.Id" class="control-label col-sm-2"></label>
                         <div class="col-sm-10">
-                            <input disabled asp-for="@Model.role.Id" class="form-control">
+                            <input disabled asp-for="@Model.role.Id" name="Id" class="form-control">
+                            <span asp-validation-for="@Model.role.Id"></span>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label asp-for="@Model.role.Name" class="control-label col-sm-2" ></label>
+                        <label asp-for="@Model.role.Name" class="control-label col-sm-2"></label>
                         <div class="col-sm-10">
-                            <input asp-for="@Model.role.Name" class="form-control">
+                            <input asp-for="@Model.role.Name" name="Name" class="form-control">
+                            <span asp-validation-for="@Model.role.Name"></span>
                         </div>
                     </div>
                     <div class="form-group">
@@ -30,12 +33,12 @@
             }
             else
             {
-            <div class="card">
-              <div class="card-body">
-                <h3 class="card-text">Not Avaliable Update Role at Moment</h3>
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-text">Not Avaliable Update Role at Moment</h3>
                         <a asp-area="" asp-controller="Admistration" asp-action="Index" class="btn btn-danger" class="card-link">Cancel</a>
-              </div>
-            </div>
+                    </div>
+                </div>
             }
         </div>
     </div>
@@ -44,26 +47,30 @@
     <div class="row" style="display:flex;justify-content:center;margin-top:5px">
         @if (Model.role != null && Model.UserName.Any())
         {
-            @foreach (var user in Model.UserName.ToList())
-            {
-                <div class=" col-md-3 card roles" style="margin:5px">
-                    <div class="card-body">
-                        <h5 class="card-title">@Model.role.Name</h5>
+            <div class=" col-md-12 card roles" style="margin:5px">
+                <div class="card-body">
+                    <h5 class="card-title">@Model.role.Name</h5>
+                    @foreach (var user in Model.UserName.ToList())
+                    {
                         <p class="card-text">@user</p>
-                        <a class="btn btn-primary card-link" style="background-color: #006df0">Add</a>
-                        <a asp-area="" asp-controller="Admistration" asp-action="Index" class="btn btn-danger" class="card-link">Cancel</a>
-                    </div>
+                    }
+                    <a class="btn btn-primary card-link" style="background-color: #006df0">Edit</a>
+                    <a asp-area="" asp-controller="Admistration" asp-action="Index" class="btn btn-danger" class="card-link">Cancel</a>
                 </div>
-                }
-            }
-        else{
-                <div class=" col-md-4 card roles">
-                    <div class="card-body">
-                        <h5 class="card-title">Role</h5>
-                        <p class="card-text">Not Valiable Role at Moment</p>
-                        <a asp-area="" asp-controller="Admistration" asp-action="Index" class="btn btn-danger" class="card-link">Cancel</a>
-                    </div>
-                </div>
-            }
             </div>
+        }
+        else
+        {
+            <div class=" col-md-4 card roles">
+                <div class="card-body">
+                    <h5 class="card-title">Role</h5>
+                    <p class="card-text">Not Valiable Role at Moment</p>
+                    <a asp-area="" asp-controller="Admistration" asp-action="Index" class="btn btn-danger" class="card-link">Cancel</a>
+                </div>
+            </div>
+        }
+    </div>
 </section>
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
