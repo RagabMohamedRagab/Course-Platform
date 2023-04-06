@@ -14,5 +14,6 @@ namespace Course.Repository.IRepositories {
         Task<AddRoleViewModel> GetRoleById(string Id);
         Task<IList<string>> UserInRole(string roleName);
         Task<bool> UpdateRole(UpdateRoleViewModel model);
+        public 
     }
 }

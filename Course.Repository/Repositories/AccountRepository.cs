@@ -128,6 +128,28 @@ namespace Course.Repository.Repositories {
             IdentityResult result= await _roleManager.UpdateAsync(role);
             return result.Succeeded?true:false;
         }
+        public async Task<IList<UsersInfoViewModel>> UsersInRole(string roleName)
+        {
+            IList<UsersInfoViewModel> usersInfos = new List<UsersInfoViewModel>();//Count =0
+            foreach (var user in await _userManager.Users.ToListAsync())
+            {
+                UsersInfoViewModel usersInfo = new UsersInfoViewModel()
+                {
+                    UserId = user.Id,
+                    UserName = user.UserName,
+                };
+                if (await _userManager.IsInRoleAsync(user, roleName))
+                {
+                   usersInfo.IsSelected = true;
+                }
+                else
+                {
+                    usersInfo.IsSelected = false;
+                }
+                usersInfos.Add(usersInfo);
+            }
+            return usersInfos;
+        }
     }
 }
 

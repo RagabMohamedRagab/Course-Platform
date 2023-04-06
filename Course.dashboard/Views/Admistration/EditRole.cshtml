@@ -54,7 +54,7 @@
                     {
                         <p class="card-text">@user</p>
                     }
-                    <a class="btn btn-primary card-link" style="background-color: #006df0">Edit</a>
+                    <a asp-controller="Admistration" asp-action="EditUserRole" asp-route-roleId="@Model.role.Id" class="btn btn-primary card-link" style="background-color: #006df0">Edit</a>
                     <a asp-area="" asp-controller="Admistration" asp-action="Index" class="btn btn-danger" class="card-link">Cancel</a>
                 </div>
             </div>

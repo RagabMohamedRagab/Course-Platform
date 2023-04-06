@@ -72,5 +72,12 @@ namespace Course.dashboard.Controllers.MVC {
             _toast.AddSuccessToastMessage("Completed Change");
             return RedirectToAction(nameof(Index));
         }
+        [HttpGet]
+        public IActionResult EditUserRole(string roleId)
+        {
+            var role = _accountService.GetRoleById(roleId).Result;
+
+            return View();
+        }
     }
 }
