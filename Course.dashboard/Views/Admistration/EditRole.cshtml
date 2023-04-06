@@ -47,7 +47,7 @@
     <div class="row" style="display:flex;justify-content:center;margin-top:5px">
         @if (Model.role != null && Model.UserName.Any())
         {
-            <div class=" col-md-12 card roles" style="margin:5px">
+            <div class=" col-md-6 card roles" style="margin:5px">
                 <div class="card-body">
                     <h5 class="card-title">@Model.role.Name</h5>
                     @foreach (var user in Model.UserName.ToList())
