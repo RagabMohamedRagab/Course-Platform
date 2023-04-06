@@ -76,8 +76,18 @@ namespace Course.dashboard.Controllers.MVC {
         public IActionResult EditUserRole(string roleId)
         {
             var role = _accountService.GetRoleById(roleId).Result;
+            var usersInRole=_accountService.UsersInRole(role.Name).Result;
+            if(role==null || usersInRole == null)
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            UsersInRoleViewModel usersInRoleView = new UsersInRoleViewModel()
+            {
+                role = role,
+                UsersInfo = usersInRole
+            };
 
-            return View();
+            return View(usersInRoleView);
         }
     }
 }

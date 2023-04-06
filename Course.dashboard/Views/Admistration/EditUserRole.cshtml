@@ -1,0 +1,44 @@
+﻿@model UsersInRoleViewModel;
+@{
+    ViewData["Title"] = "Edit Users Role";
+}
+@if (Model is null)
+{
+    <div class="card roles">
+        <div class="card-body">
+            <h3 class="card-text">Not Avaliable Update Role at Moment</h3>
+            <a asp-area="" asp-controller="Admistration" asp-action="Index" class="btn btn-danger" class="card-link">Cancel</a>
+        </div>
+    </div>
+}else{
+    <div class="card roles">
+        <div class="card-body">
+            <h3 class="card-text">@Model.role.Name</h3>
+
+            <form method="post" asp-action="EditUserRole" asp-controller="Admistration" asp-route-roleId="@Model.role.Id" style="margin-top:20px">
+                @if (Model.UsersInfo.Any())
+                {
+                    foreach (var user in Model.UsersInfo.ToList())
+                    {
+                        <div class="form-check" style="margin-top:5px">
+                            <input class="form-check-input" type="checkbox" asp-for="@user.IsSelected" id="defaultCheck1"/>
+                            <label class="form-check-label" for="defaultCheck1">
+                                @user.UserName
+                            </label>
+                        </div>
+                    }
+
+                    <div class="form-group" style="margin-top:20px">
+                        <a asp-controller="Admistration" asp-action="EditUserRole" asp-route-roleId="@Model.role.Id" class="btn btn-primary card-link" style="background-color: #006df0">Edit</a>
+                        <a asp-area="" asp-controller="Admistration" asp-action="Index" class="btn btn-danger" class="card-link">Cancel</a>
+                    </div>
+                }
+            </form>
+        </div>
+    </div>
+    }
+    @section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
+
+

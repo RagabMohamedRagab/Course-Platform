@@ -73,6 +73,15 @@ namespace Course.Service.Services {
             };
             return await _accountRepository.UpdateRole(mod) ? mod : null;
         }
+        public async  Task<IList<UsersInfoViewModel>> UsersInRole(string roleName)
+        {
+            if (String.IsNullOrEmpty(roleName))
+            {
+                return null;
+            }
+            var result = await _accountRepository.UsersInRole(roleName);
+            return await _accountRepository.UsersInRole(roleName) is null ? null : result;
+        }
     }
 }
 
