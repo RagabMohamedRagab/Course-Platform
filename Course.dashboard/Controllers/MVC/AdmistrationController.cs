@@ -89,5 +89,18 @@ namespace Course.dashboard.Controllers.MVC {
 
             return View(usersInRoleView);
         }
+        [HttpPost]
+        public IActionResult EditUserRole(UsersInRoleViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                if (_accountService.UpdateUsersInRole(model).Result)
+                {
+                    return RedirectToAction(nameof(EditRole), new { Id = model.role.Id });
+                }
+            }
+            ModelState.AddModelError(String.Empty, "Something Happing");
+            return View();
+        }
     }
 }

@@ -36,6 +36,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h3 class="card-text">Not Avaliable Update Role at Moment</h3>
+                     
                         <a asp-area="" asp-controller="Admistration" asp-action="Index" class="btn btn-danger" class="card-link">Cancel</a>
                     </div>
                 </div>
@@ -63,8 +64,9 @@
         {
             <div class=" col-md-4 card roles">
                 <div class="card-body">
-                    <h5 class="card-title">Role</h5>
-                    <p class="card-text">Not Valiable Role at Moment</p>
+                    <h5 class="card-title">@Model.role.Name</h5>
+                    <p class="card-text">Not Valiable User at Moment</p>
+                    <a asp-area="" asp-controller="Admistration" asp-action="EditUserRole" asp-route-roleId="@Model.role.Id" class="btn btn-primary" style="background-color: #006df0" class="card-link">Edit</a>
                     <a asp-area="" asp-controller="Admistration" asp-action="Index" class="btn btn-danger" class="card-link">Cancel</a>
                 </div>
             </div>

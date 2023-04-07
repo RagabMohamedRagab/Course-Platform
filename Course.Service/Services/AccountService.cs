@@ -82,6 +82,10 @@ namespace Course.Service.Services {
             var result = await _accountRepository.UsersInRole(roleName);
             return await _accountRepository.UsersInRole(roleName) is null ? null : result;
         }
+        public async Task<bool> UpdateUsersInRole(UsersInRoleViewModel model)
+        {
+            return await _accountRepository.UpdateUsersInRole(model) ? true : false;
+        }
     }
 }
 

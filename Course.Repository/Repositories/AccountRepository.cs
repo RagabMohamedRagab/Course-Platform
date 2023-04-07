@@ -36,14 +36,14 @@ namespace Course.Repository.Repositories {
                 bool IsFind = await _roleManager.RoleExistsAsync("User");
                 if (IsFind)
                 {
-                    if(!await _userManager.IsInRoleAsync(user, "User"))
+                    if (!await _userManager.IsInRoleAsync(user, "User"))
                     {
-                       await _userManager.AddToRoleAsync(user, "User");
+                        await _userManager.AddToRoleAsync(user, "User");
                     }
                 }
                 else
                 {
-                  IdentityResult role=  await _roleManager.CreateAsync(new IdentityRole() { Name = "User", NormalizedName = "USER", ConcurrencyStamp = Guid.NewGuid().ToString() });
+                    IdentityResult role = await _roleManager.CreateAsync(new IdentityRole() { Name = "User", NormalizedName = "USER", ConcurrencyStamp = Guid.NewGuid().ToString() });
                     if (role.Succeeded)
                     {
                         await _userManager.AddToRoleAsync(user, "User");
@@ -73,13 +73,14 @@ namespace Course.Repository.Repositories {
         {
             try
             {
-                await  _signInManager.SignOutAsync();
+                await _signInManager.SignOutAsync();
                 return true;
             }
-            catch (Exception e) {
+            catch (Exception e)
+            {
                 return false;
             }
-         
+
 
         }
         public async Task<IEnumerable<RolesViewModel>> GetAllRole()
@@ -92,15 +93,15 @@ namespace Course.Repository.Repositories {
             {
                 Name = model.Name
             };
-           IdentityResult result=await _roleManager.CreateAsync(role);
-            return result.Succeeded ? new AddRoleViewModel() { Id=role.Id,Name=role.Name} : null;
+            IdentityResult result = await _roleManager.CreateAsync(role);
+            return result.Succeeded ? new AddRoleViewModel() { Id = role.Id, Name = role.Name } : null;
         }
-     public async  Task<AddRoleViewModel> DeleteRole(string id)
+        public async Task<AddRoleViewModel> DeleteRole(string id)
         {
             var role = await _roleManager.FindByIdAsync(id);
             if (role is null)
                 return null;
-            IdentityResult result =await _roleManager.DeleteAsync(role);
+            IdentityResult result = await _roleManager.DeleteAsync(role);
             return result.Succeeded ? new AddRoleViewModel() { Id = role.Id, Name = role.Name } : null;
         }
         public async Task<AddRoleViewModel> GetRoleById(string Id)
@@ -122,11 +123,11 @@ namespace Course.Repository.Repositories {
         }
         public async Task<bool> UpdateRole(UpdateRoleViewModel model)
         {
-            var role =await _roleManager.FindByIdAsync(model.Id);
+            var role = await _roleManager.FindByIdAsync(model.Id);
             if (role == null) return false;
-            role.Name=model.Name;
-            IdentityResult result= await _roleManager.UpdateAsync(role);
-            return result.Succeeded?true:false;
+            role.Name = model.Name;
+            IdentityResult result = await _roleManager.UpdateAsync(role);
+            return result.Succeeded ? true : false;
         }
         public async Task<IList<UsersInfoViewModel>> UsersInRole(string roleName)
         {
@@ -140,7 +141,7 @@ namespace Course.Repository.Repositories {
                 };
                 if (await _userManager.IsInRoleAsync(user, roleName))
                 {
-                   usersInfo.IsSelected = true;
+                    usersInfo.IsSelected = true;
                 }
                 else
                 {
@@ -150,8 +151,43 @@ namespace Course.Repository.Repositories {
             }
             return usersInfos;
         }
+        public async Task<bool> UpdateUsersInRole(UsersInRoleViewModel model)
+        {
+            // Users --
+            // role   - -
+            var role = model.role;
+            foreach (UsersInfoViewModel boy in model.UsersInfo)
+            {
+                IdentityResult result = new IdentityResult() ;
+                // GetUserById
+                var user = await _userManager.FindByIdAsync(boy.UserId);
+                // test User in Role User
+                if (!await _userManager.IsInRoleAsync(user, role.Name) && boy.IsSelected)
+                {
+                   result=await _userManager.AddToRoleAsync(user, role.Name);
+                }
+                else if (await _userManager.IsInRoleAsync(user, role.Name) && !boy.IsSelected)
+                {
+                   result=await _userManager.RemoveFromRoleAsync(user, role.Name);
+                }
+                else
+                {
+                    continue;
+                }
+                if (result.Succeeded)
+                {
+                    continue;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
     }
 }
+
 
 
 
