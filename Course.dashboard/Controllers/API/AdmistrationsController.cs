@@ -1,4 +1,5 @@
-﻿using Course.Service.IServices;
+﻿using Course.Repository.ViewModeles;
+using Course.Service.IServices;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -41,6 +42,31 @@ namespace Course.dashboard.Controllers.API {
                 return Ok(new { Data = string.Empty, Message = "Falied Your Request" });
             }
             return Ok(new { Data = result, Message = "Done" });
+        }
+        [HttpPut]
+        [AllowAnonymous]
+        public IActionResult EditRole(string Id,string roleName)
+        {
+            if(_accountService.UpdateRole(Id,roleName).Result != null)
+            {
+                return Ok(new { Data = new { Id = Id, Name = roleName }, Message = "Success Update" });
+            }
+            return Ok(new { Data = string.Empty, Message = "Falied Your Request" });
+        }
+        [HttpPost]
+        [AllowAnonymous]
+        public IActionResult EditUserRole(UsersInRoleViewModel model)
+        {
+            if (model is null || !model.UsersInfo.Any())
+            {
+                return Ok(new { Data = String.Empty, Message = "Try Again" });
+            }
+
+            if (_accountService.UpdateUsersInRole(model).Result)
+            {
+                return Ok(new { Data = model, Message = "Success Update" });
+            }
+            return Ok(new { Data = string.Empty, Message = "Falied Your Request" });
         }
     }
 }
