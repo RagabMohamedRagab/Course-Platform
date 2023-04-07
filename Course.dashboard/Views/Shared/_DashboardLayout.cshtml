@@ -272,10 +272,10 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                    <div class="col-lg-10 col-md-5 col-sm-12 col-xs-12">
                                         <div class="header-right-info">
                                             <ul class="nav navbar-nav mai-top-nav header-right-menu">
-                                                <li class="nav-item">
+                                                <li class="nav-item dropdown">
                                                     <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
                                                         <img src="~/img/logo/profile.jpg" alt="Profile" />
                                                         @{
@@ -283,6 +283,9 @@
                                                         }
                                                         <span class="admin-name">@currentUser</span>
                                                     </a>
+                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="text-align: center;font-size: large;">
+                                                        <a class="dropdown-item" href="#">Profile</a>
+                                                    </div>
                                                 </li>
 
                                             </ul>
@@ -306,7 +309,22 @@
                                         <li>
                                             <a data-toggle="collapse" data-target="#Charts" asp-action="Index" asp-controller="Home">Home</a>
                                         </li>
-                                        <li><a href="events.html">Event</a></li>
+                                        @if (User.IsInRole("Admin"))
+                                        {
+                                            <li>
+                                                <a class="has-arrow" title="Landing Page" aria-expanded="false">
+                                                   
+                                                    <span class="mini-click-non" title="Roles">Roles</span>
+                                                </a>
+                                                <ul class="submenu-angle" aria-expanded="false">
+                                                    <li>
+                                                        <a title="All Roles" asp-controller="Admistration" asp-action="Index">
+                                                            <span class="mini-sub-pro">All Roles</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        }
                                         <li>
                                             <a data-toggle="collapse" data-target="#demoevent" href="#">Professors <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                             <ul id="demoevent" class="collapse dropdown-header-top">
@@ -389,8 +407,15 @@
                                                 </li>
                                             </ul>
                                         </li>
+                                          <li id="removable">
+                            <a  asp-controller="Account" asp-action="LogOut" aria-expanded="false">
+                             
+                                <span class="mini-click-non">LogOut</span>
+                            </a>
+                        </li>
                                     </ul>
                                 </nav>
+                               
                             </div>
                         </div>
                     </div>
