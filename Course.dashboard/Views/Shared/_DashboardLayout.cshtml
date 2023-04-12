@@ -54,9 +54,7 @@
         ============================================ -->
     <link rel="stylesheet" href="~/css/calendar/fullcalendar.min.css">
     <link rel="stylesheet" href="~/css/calendar/fullcalendar.print.min.css">
-    <!-- style CSS
-        ============================================ -->
-    <link rel="stylesheet" href="~/css/style.css">
+   
     <!-- responsive CSS
         ============================================ -->
     <link rel="stylesheet" href="~/css/responsive.css">
@@ -64,6 +62,9 @@
         ============================================ -->
     <script src="~/js/vendor/modernizr-2.8.3.min.js"></script>
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+    <!-- style CSS
+    ============================================ -->
+    <link rel="stylesheet" href="~/css/style.css">
 
 
 
@@ -276,7 +277,7 @@
                                         <div class="header-right-info">
                                             <ul class="nav navbar-nav mai-top-nav header-right-menu">
                                                 <li class="nav-item dropdown">
-                                                    <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
+                                                    <a asp-area="" asp-controller="ProfileUser" asp-action="Profile" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
                                                         <img src="~/img/logo/profile.jpg" alt="Profile" />
                                                         @{
                                                             var currentUser = User.Identity.Name.Substring(0, User.Identity.Name.IndexOf('@'));
@@ -284,7 +285,7 @@
                                                         <span class="admin-name">@currentUser</span>
                                                     </a>
                                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="text-align: center;font-size: large;">
-                                                        <a class="dropdown-item" href="#">Profile</a>
+                                                        <a asp-area="" asp-controller="ProfileUser" asp-action="Profile">Profile</a>
                                                     </div>
                                                 </li>
 
