@@ -16,5 +16,6 @@ namespace Course.Repository.IRepositories {
         Task<bool> UpdateRole(UpdateRoleViewModel model);
         Task<IList<UsersInfoViewModel>> UsersInRole(string roleName);
         Task<bool> UpdateUsersInRole(UsersInRoleViewModel model);
+        Task<ProfileUserViewModel> ProfileUser();
     }
 }

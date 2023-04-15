@@ -185,6 +185,11 @@ namespace Course.Repository.Repositories {
             }
             return true;
         }
+        public async Task<ProfileUserViewModel> ProfileUser()
+        {
+            return null;
+            // Get User By Current User
+        }
     }
 }
 

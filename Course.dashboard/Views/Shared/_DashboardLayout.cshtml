@@ -285,7 +285,7 @@
                                                         <span class="admin-name">@currentUser</span>
                                                     </a>
                                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="text-align: center;font-size: large;">
-                                                        <a asp-area="" asp-controller="ProfileUser" asp-action="Profile">Profile</a>
+                                                        <a asp-area="" asp-controller="ProfileUser" asp-action="Profile" asp-route-email="@User.Identity.Name">Profile</a>
                                                     </div>
                                                 </li>
 
