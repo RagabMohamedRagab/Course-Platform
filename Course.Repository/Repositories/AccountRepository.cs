@@ -158,17 +158,17 @@ namespace Course.Repository.Repositories {
             var role = model.role;
             foreach (UsersInfoViewModel boy in model.UsersInfo)
             {
-                IdentityResult result = new IdentityResult() ;
+                IdentityResult result = new IdentityResult();
                 // GetUserById
                 var user = await _userManager.FindByIdAsync(boy.UserId);
                 // test User in Role User
                 if (!await _userManager.IsInRoleAsync(user, role.Name) && boy.IsSelected)
                 {
-                   result=await _userManager.AddToRoleAsync(user, role.Name);
+                    result = await _userManager.AddToRoleAsync(user, role.Name);
                 }
                 else if (await _userManager.IsInRoleAsync(user, role.Name) && !boy.IsSelected)
                 {
-                   result=await _userManager.RemoveFromRoleAsync(user, role.Name);
+                    result = await _userManager.RemoveFromRoleAsync(user, role.Name);
                 }
                 else
                 {
@@ -185,13 +185,27 @@ namespace Course.Repository.Repositories {
             }
             return true;
         }
-        public async Task<ProfileUserViewModel> ProfileUser()
+        public async Task<ProfileUserViewModel> ProfileUser(string email)
         {
-            return null;
-            // Get User By Current User
+            // Get Full User Info 
+            var userInfo = await _userManager.FindByEmailAsync(email);
+            if(userInfo is null) return null;
+            // ViewModel
+            ProfileUserViewModel model = new ProfileUserViewModel()
+            {
+                Name = userInfo.UserName,
+                About = userInfo.About,
+                img = userInfo.Logo,
+                Facebook = userInfo.Facebook,
+                Instagram = userInfo.Instagram,
+                Twitter = userInfo.Twitter,
+            };
+            return model;
+
         }
     }
 }
+
 
 
 

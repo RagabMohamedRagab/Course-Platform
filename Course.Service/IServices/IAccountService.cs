@@ -15,5 +15,6 @@ namespace Course.Service.IServices {
         Task<UpdateRoleViewModel> UpdateRole(string Id, string roleName);
         Task<IList<UsersInfoViewModel>> UsersInRole(string roleName);
         Task<bool> UpdateUsersInRole(UsersInRoleViewModel model);
+        Task<ProfileUserViewModel> ProfileUser(string email);
     }
 }
