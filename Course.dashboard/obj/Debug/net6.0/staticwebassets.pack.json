@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Profile\\Profile.png",
+      "PackagePath": "staticwebassets\\Images\\Profile\\Profile.png"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\bootstrap\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\Lib\\bootstrap\\css\\bootstrap.min.css"
     },
@@ -207,6 +211,10 @@
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\notifications\\notifications.css",
       "PackagePath": "staticwebassets\\css\\notifications\\notifications.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\originalt.css",
+      "PackagePath": "staticwebassets\\css\\originalt.css"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\owl.carousel.css",

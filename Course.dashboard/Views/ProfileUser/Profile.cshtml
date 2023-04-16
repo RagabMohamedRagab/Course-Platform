@@ -1,22 +1,55 @@
-﻿@{
+﻿@model ProfileUserViewModel;
+@{
     ViewData["Title"] = "Profile";
 }
-<section>
-    <!--Image-->
-    <div class="roles">
-        <div class="user-photo">
+<section class="Profie">
+    <!--Test If Object Is null-->
+    @if (Model != null)
+    {
+        <!--Image-->
+        <div class="roles row">
+            <div class="user-photo col-md-12 text-center">
+                @if (String.IsNullOrEmpty(Model.img))
+                {
+                    <img src="~/Images/Profile/Profile.png" alt="@Model.Name" />
+                }
+                else
+                {
+                    <img src="~/Images/Profile/@Model.img" alt="@Model.Name"/>
+                }
+                @if (String.IsNullOrEmpty(Model.Name))
+                {
+                    <h4 class="name">Your Name</h4>
+                }
+                else
+                {
+                    <h4 class="name">@Model.Name</h4>
+                }
+                <i class="bi bi-pencil-square"></i>
+            </div>
         </div>
-        <div class="user-socialmedia">
-
+        <div class="row roles user-media">
+            <div class="user-socialmedia">
+                <a href="https://www.facebook.com/@Model.Facebook" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.Twitter.com/@Model.Twitter" target="_blank"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.Instagram.com/@Model.Instagram  target=" _blank""><i class="bi bi-instagram"></i></a>
+            </div>
+            <i class="bi bi-pencil-square"></i>
         </div>
-    </div>
-    <div class="roles">
-        <div class="about-user">
-
+        <div class="row roles about-user">
+            @if (string.IsNullOrEmpty(Model.About))
+            {
+                <p class="about">Tell Us About YourSelf</p>
+            }
+            else
+            {
+                <p>@Model.About</p>
+            }
+            <i class="bi bi-pencil-square"></i>
         </div>
-    </div>
+    }
 </section>
-
+ 
 
 
 
