@@ -15,5 +15,10 @@ namespace Course.dashboard.Controllers.MVC {
             var result=_service.ProfileUser(email).Result;
             return View(result);
         }
+        [HttpPost]
+        public IActionResult UpdateNameAndPhoto(string username,string userphoto)
+        {
+            return View();
+        }
     }
 }
