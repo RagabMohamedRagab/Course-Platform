@@ -1,5 +1,5 @@
 ﻿.bi{
-    font-size:1rem;
+    font-size:1.3rem !important;
 }
 .Profie{
     padding:6px;
@@ -11,7 +11,7 @@
         position: absolute;
         top: 0px;
         right: 20px;
-        cursor:pointer
+        cursor: pointer;
     }
     .user-socialmedia {
         display: flex;

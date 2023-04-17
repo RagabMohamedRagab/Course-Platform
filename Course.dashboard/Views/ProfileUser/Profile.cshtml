@@ -34,7 +34,7 @@
                 <a href="@Model.Twitter" target="_blank"><i class="bi bi-twitter"></i></a>
                 <a href="@Model.Instagram" target=" _blank"><i class="bi bi-instagram"></i></a>
             </div>
-            <i class="bi bi-pencil-square"></i>
+            <i data-toggle="modal" data-target="#Social" class="bi bi-pencil-square"></i>
         </div>
         <div class="row roles about-user">
             @if (string.IsNullOrEmpty(Model.About))
@@ -45,7 +45,7 @@
             {
                 <p>@Model.About</p>
             }
-            <i class="bi bi-pencil-square"></i>
+            <i data-toggle="modal" data-target="#About" class="bi bi-pencil-square"></i>
         </div>
     }
 </section>
@@ -56,10 +56,10 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title text-center">Edit</h4>
+                <h4 class="modal-title text-center">User Info</h4>
             </div>
             <div class="modal-body">
-                <form method="post" asp-action="UpdateNameAndPhoto" asp-controller="ProfileUser">
+                <form method="post" asp-action="UpdateUserNameAndPhoto" asp-controller="ProfileUser">
                     <div asp-validation-summary="ModelOnly"></div>
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Name" id="Name" name="username" />
@@ -68,9 +68,63 @@
                         <input type="file" class="form-control" placeholder="Your Image" id="photo" name="userphoto" />
                     </div>
                     <div class="form-group">
-                        <input type="submit" class="btn btn-primary" value="Update" />
+                        <input type="submit" class="btn btn-primary" value="Update" style="background-color: #006df0" />
                     </div>
                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Popup for Social Media-->
+<div id="Social" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title text-center">Social Media</h4>
+            </div>
+            <div class="modal-body">
+                <form method="post" asp-action="UpdateUserSocial" asp-controller="ProfileUser">
+                    <div asp-validation-summary="ModelOnly"></div>
+                    <div class="form-group">
+                        <input type="url" class="form-control" placeholder="Facebook" id="Name" name="Facebook" />
+                    </div>
+                    <div class="form-group">
+                        <input type="url" class="form-control" placeholder="Twitter" id="Name" name="Twitter" />
+                    </div>
+                    <div class="form-group">
+                        <input type="url" class="form-control" placeholder="Instagram" id="Name" name="Instagram" />
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-primary" value="Update" style="background-color: #006df0" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Popup for Tell Us About your Self-->
+<div id="About" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title text-center">About </h4>
+            </div>
+            <div class="modal-body">
+                <form method="post" asp-action="UpdateUserAbout" asp-controller="ProfileUser">
+                    <div asp-validation-summary="ModelOnly"></div>
+                    <div class="form-group">
+                        <textarea class="form-control" cols="12" rows="12" name="about" placeholder="About you ...."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-primary" value="Update" style="background-color: #006df0" />
+                    </div>
+                </form>
             </div>
         </div>
     </div>

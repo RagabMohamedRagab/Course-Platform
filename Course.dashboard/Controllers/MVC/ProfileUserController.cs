@@ -16,7 +16,17 @@ namespace Course.dashboard.Controllers.MVC {
             return View(result);
         }
         [HttpPost]
-        public IActionResult UpdateNameAndPhoto(string username,string userphoto)
+        public IActionResult UpdateUserNameAndPhoto(string username,string userphoto)
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult UpdateUserSocial(string Facebook, string Twitter,string Instagram)
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult UpdateUserAbout(string about)
         {
             return View();
         }
