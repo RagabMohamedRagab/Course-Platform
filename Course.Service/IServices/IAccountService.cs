@@ -1,5 +1,6 @@
 ﻿
 using Course.Repository.ViewModeles;
+using Microsoft.AspNetCore.Http;
 
 namespace Course.Service.IServices {
     public interface IAccountService {
@@ -16,5 +17,6 @@ namespace Course.Service.IServices {
         Task<IList<UsersInfoViewModel>> UsersInRole(string roleName);
         Task<bool> UpdateUsersInRole(UsersInRoleViewModel model);
         Task<ProfileUserViewModel> ProfileUser(string email);
+        Task<bool> UpdateUserInfo(IFormFile file, string Username);
     }
 }

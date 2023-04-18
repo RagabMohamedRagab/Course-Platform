@@ -59,7 +59,7 @@
                 <h4 class="modal-title text-center">User Info</h4>
             </div>
             <div class="modal-body">
-                <form method="post" asp-action="UpdateUserNameAndPhoto" asp-controller="ProfileUser">
+                <form method="post" asp-action="UpdateUserNameAndPhoto" asp-controller="ProfileUser" asp-route-email="@User.Identity.Name" enctype="multipart/form-data">
                     <div asp-validation-summary="ModelOnly"></div>
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Name" id="Name" name="username" />

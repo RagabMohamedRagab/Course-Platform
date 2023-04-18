@@ -1,14 +1,19 @@
 ﻿using Course.Repository.IRepositories;
 using Course.Repository.ViewModeles;
+using Course.Service.Utilities;
+using Microsoft.AspNetCore.Http;
+
 namespace Course.Service.Services {
     public class AccountService : IAccountService {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IAccountRepository _accountRepository;
+        private readonly IFileService _fileService;
 
-        public AccountService(IUnitOfWork unitOfWork, IAccountRepository accountRepository)
+        public AccountService(IUnitOfWork unitOfWork, IAccountRepository accountRepository, IFileService fileService)
         {
             _unitOfWork = unitOfWork;
             _accountRepository = accountRepository;
+            _fileService = fileService;
         }
 
         public Task<bool> ForgetPassword(ForgetPasswordViewModel model)
@@ -94,6 +99,14 @@ namespace Course.Service.Services {
             }
             var result= await _accountRepository.ProfileUser(email);
             return result is null ? null : result;
+        }
+        public async Task<bool> UpdateUserInfo(IFormFile file, string Username)
+        {
+           if(await _fileService.UploadFile(file, "Images\\Profile"))
+            {
+               
+            }
+            return false;
         }
     }
 }

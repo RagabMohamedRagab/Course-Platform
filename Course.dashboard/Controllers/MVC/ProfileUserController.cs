@@ -16,8 +16,9 @@ namespace Course.dashboard.Controllers.MVC {
             return View(result);
         }
         [HttpPost]
-        public IActionResult UpdateUserNameAndPhoto(string username,string userphoto)
+        public IActionResult UpdateUserNameAndPhoto(string email,string username,IFormFile userphoto)
         {
+            _service.UpdateUserInfo(userphoto,username);
             return View();
         }
         [HttpPost]
