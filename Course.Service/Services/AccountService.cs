@@ -100,11 +100,11 @@ namespace Course.Service.Services {
             var result= await _accountRepository.ProfileUser(email);
             return result is null ? null : result;
         }
-        public async Task<bool> UpdateUserInfo(IFormFile file, string Username)
+        public async Task<bool> UpdateUserInfo(IFormFile file, string Username,string email)
         {
-           if(await _fileService.UploadFile(file, "Images\\Profile"))
+           if(await _fileService.UploadFile(file, "Images\\Profile")&& String.IsNullOrEmpty(Username) && String.IsNullOrEmpty(email))
             {
-               
+
             }
             return false;
         }

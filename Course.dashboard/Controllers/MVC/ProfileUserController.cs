@@ -18,7 +18,10 @@ namespace Course.dashboard.Controllers.MVC {
         [HttpPost]
         public IActionResult UpdateUserNameAndPhoto(string email,string username,IFormFile userphoto)
         {
-            _service.UpdateUserInfo(userphoto,username);
+           if( _service.UpdateUserInfo(userphoto,username, email).Result)
+            {
+                return RedirectToAction(nameof(Profile), new { email = email });
+            }
             return View();
         }
         [HttpPost]

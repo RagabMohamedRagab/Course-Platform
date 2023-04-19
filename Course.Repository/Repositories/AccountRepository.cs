@@ -189,7 +189,7 @@ namespace Course.Repository.Repositories {
         {
             // Get Full User Info 
             var userInfo = await _userManager.FindByEmailAsync(email);
-            if(userInfo is null) return null;
+            if (userInfo is null) return null;
             // ViewModel
             ProfileUserViewModel model = new ProfileUserViewModel()
             {
@@ -203,8 +203,22 @@ namespace Course.Repository.Repositories {
             return model;
 
         }
+        public async Task<bool> UpdateUserInfo(string photo, string newUser, string email)
+        {
+            var user = await _userManager.FindByEmailAsync(email);
+            if (user != null)
+            {
+                user.Name = newUser;
+                user.Logo = photo;
+                IdentityResult result = await _userManager.UpdateAsync(user);
+                return result.Succeeded ? true : false;
+            }
+
+            return false;
+        }
     }
 }
+
 
 
 

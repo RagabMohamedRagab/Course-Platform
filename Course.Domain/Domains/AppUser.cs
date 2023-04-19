@@ -6,6 +6,7 @@ namespace Course.Domain.Domains {
         {
             UserCourses = new Collection<UserCourse>();
         }
+        public string? Name { get; set; }
         [StringLength(maximumLength: 150)]
         public string? About { get; set; }
         public string? Logo { get; set; }
@@ -17,7 +18,6 @@ namespace Course.Domain.Domains {
         public string? Instagram { get; set; }
         [Column(TypeName = "nvarchar(150)")]
         public string? Profile { get; set; } 
-
         public virtual ICollection<UserCourse> UserCourses { get; set; }
     }
 }
