@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "O/vSbv9KHtc/uqJlxkJxmwVH0KUwnhamB79TOqQuOnA=",
+  "Hash": "kdcNagUFq490/Je2FsCmvh8oEmTBLydrvmgFBNOFcxI=",
   "Source": "Course.dashboard",
   "BasePath": "_content/Course.dashboard",
   "Mode": "Default",
@@ -1358,40 +1358,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Profile\\0_7yy4jyRSyZ57BP8T.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Profile\\5ad262a6-d5fb-4b92-936b-37e5a62d705d_0_7yy4jyRSyZ57BP8T.jpg",
-      "SourceId": "Course.dashboard",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
-      "BasePath": "_content/Course.dashboard",
-      "RelativePath": "Images/Profile/5ad262a6-d5fb-4b92-936b-37e5a62d705d_0_7yy4jyRSyZ57BP8T.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Profile\\5ad262a6-d5fb-4b92-936b-37e5a62d705d_0_7yy4jyRSyZ57BP8T.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Profile\\cf2d020b-cc4b-435f-a171-5a963be9e4d70_7yy4jyRSyZ57BP8T.jpg",
-      "SourceId": "Course.dashboard",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
-      "BasePath": "_content/Course.dashboard",
-      "RelativePath": "Images/Profile/cf2d020b-cc4b-435f-a171-5a963be9e4d70_7yy4jyRSyZ57BP8T.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Profile\\cf2d020b-cc4b-435f-a171-5a963be9e4d70_7yy4jyRSyZ57BP8T.jpg"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Profile\\Profile.png",

@@ -17,7 +17,7 @@ namespace Course.Service.Utilities {
                 var root = Path.Combine(_hosting.WebRootPath, fname);
                 if (!Directory.Exists(root))
                     Directory.CreateDirectory(root);
-                string Name = Guid.NewGuid().ToString() + "_" + file.FileName;
+                string Name =file.FileName;
                 var fullPath = Path.Combine(root, Name);
                 using (var stream = new FileStream(fullPath, FileMode.Create))
                 {

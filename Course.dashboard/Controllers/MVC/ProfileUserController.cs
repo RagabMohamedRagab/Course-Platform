@@ -22,7 +22,7 @@ namespace Course.dashboard.Controllers.MVC {
             {
                 return RedirectToAction(nameof(Profile), new { email = email });
             }
-            return View();
+            return RedirectToAction(nameof(Profile), new { email = email });
         }
         [HttpPost]
         public IActionResult UpdateUserSocial(string Facebook, string Twitter,string Instagram)

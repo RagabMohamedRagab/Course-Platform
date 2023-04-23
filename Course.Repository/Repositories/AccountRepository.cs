@@ -193,7 +193,7 @@ namespace Course.Repository.Repositories {
             // ViewModel
             ProfileUserViewModel model = new ProfileUserViewModel()
             {
-                Name = userInfo.UserName,
+                Name=(userInfo.Name==null)?userInfo.UserName:userInfo.Name,
                 About = userInfo.About,
                 img = userInfo.Logo,
                 Facebook = userInfo.Facebook,

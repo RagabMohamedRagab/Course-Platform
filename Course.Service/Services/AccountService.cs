@@ -102,9 +102,13 @@ namespace Course.Service.Services {
         }
         public async Task<bool> UpdateUserInfo(IFormFile file, string Username,string email)
         {
-           if(await _fileService.UploadFile(file, "Images\\Profile")&& String.IsNullOrEmpty(Username) && String.IsNullOrEmpty(email))
+            if (!(String.IsNullOrEmpty(Username) && String.IsNullOrEmpty(email)))
             {
-
+                if (await _fileService.UploadFile(file, "Images\\Profile"))
+                {
+                    if (await _accountRepository.UpdateUserInfo(file.FileName, Username, email))
+                        return true;
+                }
             }
             return false;
         }
