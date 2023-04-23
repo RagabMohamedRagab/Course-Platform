@@ -15,6 +15,8 @@ using NToastNotify;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
+builder.Services.AddSession();
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddAuthentication();
 builder.Services.AddAuthorization();
 var connection = builder.Configuration.GetConnectionString("Connection");
@@ -65,7 +67,7 @@ app.UseRouting();
 app.UseStaticFiles();
 app.UseAuthentication();
 app.UseAuthorization();
-
+app.UseSession();
 
 app.MapControllerRoute(
       name: "Dashboard",

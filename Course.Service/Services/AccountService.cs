@@ -112,6 +112,25 @@ namespace Course.Service.Services {
             }
             return false;
         }
+      public async  Task<bool> UpdateUserSocial(string Fb, string Twtter, string insgram, string email)
+        {
+            if (String.IsNullOrEmpty(Fb)||String.IsNullOrEmpty(Twtter)||String.IsNullOrEmpty(insgram)||String.IsNullOrEmpty(email))
+            {
+                return false;
+            }
+            if (await _accountRepository.UpdateUserSocial(Fb, Twtter, insgram, email))
+            {
+                return true;
+            }
+            return false;
+        }
+        public async Task<bool> UpdateUserAbout(string about, string email)
+        {
+            if (String.IsNullOrEmpty(about) || String.IsNullOrEmpty(email))
+                return false;
+            if(await _accountRepository.UpdateUserAbout(about,email)) return true;
+            return false;
+        }
     }
 }
 

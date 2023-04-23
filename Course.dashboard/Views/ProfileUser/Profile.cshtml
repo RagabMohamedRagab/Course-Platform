@@ -9,13 +9,14 @@
         <!--Image-->
         <div class="roles row">
             <div class="user-photo col-md-12 text-center">
+                <div style="width:20%;height:20%;margin: auto;">
                 @if (String.IsNullOrEmpty(Model.img))
                 {
-                    <img src="~/Images/Profile/Profile.png" alt="@Model.Name" />
+                        <img src="~/Images/Profile/Profile.png" class="img-thumbnail img-fluid rounded" alt="@Model.Name" />
                 }
                 else
                 {
-                    <img src="~/Images/Profile/@Model.img" alt="@Model.Name"/>
+                        <img src="~/Images/Profile/@Model.img" class="img-thumbnail img-fluid rounded" alt="@Model.Name" />
                 }
                 @if (String.IsNullOrEmpty(Model.Name))
                 {
@@ -23,8 +24,9 @@
                 }
                 else
                 {
-                    <h4 class="name">@Model.Name</h4>
-                }
+                    <p class="name">@Model.Name</p>
+                    }
+                </div>
                 <i data-toggle="modal" data-target="#Photo" class="bi bi-pencil-square"></i>
             </div>
         </div>
@@ -33,6 +35,7 @@
                 <a href="@Model.Facebook" target="_blank"><i class="bi bi-facebook"></i></a>
                 <a href="@Model.Twitter" target="_blank"><i class="bi bi-twitter"></i></a>
                 <a href="@Model.Instagram" target=" _blank"><i class="bi bi-instagram"></i></a>
+                <a href="@Model.LinkedIn" target=" _blank"><i class="bi bi-linkedin"></i></a>
             </div>
             <i data-toggle="modal" data-target="#Social" class="bi bi-pencil-square"></i>
         </div>
@@ -43,7 +46,7 @@
             }
             else
             {
-                <p>@Model.About</p>
+                <p class="about">@Model.About</p>
             }
             <i data-toggle="modal" data-target="#About" class="bi bi-pencil-square"></i>
         </div>
@@ -56,16 +59,16 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title text-center">User Info</h4>
+                <h4 class="modal-title text-center">Enter Name and Photo </h4>
             </div>
             <div class="modal-body">
                 <form method="post" asp-action="UpdateUserNameAndPhoto" asp-controller="ProfileUser" asp-route-email="@User.Identity.Name" enctype="multipart/form-data">
                     <div asp-validation-summary="ModelOnly"></div>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Name" id="Name" name="username" />
+                        <input type="text" class="form-control" placeholder="Name" id="Name" name="username" required="" />
                     </div>
                     <div class="form-group">
-                        <input type="file" class="form-control" placeholder="Your Image" id="photo" name="userphoto" />
+                        <input type="file" class="form-control" placeholder="Your Image" id="photo" name="userphoto" required="" />
                     </div>
                     <div class="form-group">
                         <input type="submit" class="btn btn-primary" value="Update" style="background-color: #006df0" />
@@ -86,16 +89,19 @@
                 <h4 class="modal-title text-center">Social Media</h4>
             </div>
             <div class="modal-body">
-                <form method="post" asp-action="UpdateUserSocial" asp-controller="ProfileUser">
+                <form method="post" asp-action="UpdateUserSocial" asp-controller="ProfileUser" asp-route-email="@User.Identity.Name">
                     <div asp-validation-summary="ModelOnly"></div>
                     <div class="form-group">
-                        <input type="url" class="form-control" placeholder="Facebook" id="Name" name="Facebook" />
+                        <input type="url" class="form-control" placeholder="Facebook" id="Facebook" name="Facebook" required="" />
                     </div>
                     <div class="form-group">
-                        <input type="url" class="form-control" placeholder="Twitter" id="Name" name="Twitter" />
+                        <input type="url" class="form-control" placeholder="Twitter" id="Twitter" name="Twitter" required="" />
                     </div>
                     <div class="form-group">
-                        <input type="url" class="form-control" placeholder="Instagram" id="Name" name="Instagram" />
+                        <input type="url" class="form-control" placeholder="Instagram" id="Instagram" name="Instagram" required="" />
+                    </div>  
+                    <div class="form-group">
+                        <input type="url" class="form-control" placeholder="LinkedIn" id="LinkedIn" name="LinkedIn" required="" />
                     </div>
                     <div class="form-group">
                         <input type="submit" class="btn btn-primary" value="Update" style="background-color: #006df0" />
@@ -116,7 +122,7 @@
                 <h4 class="modal-title text-center">About </h4>
             </div>
             <div class="modal-body">
-                <form method="post" asp-action="UpdateUserAbout" asp-controller="ProfileUser">
+                <form method="post" asp-action="UpdateUserAbout" asp-controller="ProfileUser" asp-route-email="@User.Identity.Name">
                     <div asp-validation-summary="ModelOnly"></div>
                     <div class="form-group">
                         <textarea class="form-control" cols="12" rows="12" name="about" placeholder="About you ...."></textarea>

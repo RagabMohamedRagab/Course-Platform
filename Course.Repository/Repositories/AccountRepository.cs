@@ -193,12 +193,13 @@ namespace Course.Repository.Repositories {
             // ViewModel
             ProfileUserViewModel model = new ProfileUserViewModel()
             {
-                Name=(userInfo.Name==null)?userInfo.UserName:userInfo.Name,
+                Name = (userInfo.Name == null) ? userInfo.UserName : userInfo.Name,
                 About = userInfo.About,
                 img = userInfo.Logo,
                 Facebook = userInfo.Facebook,
                 Instagram = userInfo.Instagram,
                 Twitter = userInfo.Twitter,
+                LinkedIn=userInfo.LinkedIn,
             };
             return model;
 
@@ -208,12 +209,37 @@ namespace Course.Repository.Repositories {
             var user = await _userManager.FindByEmailAsync(email);
             if (user != null)
             {
-                user.Name = newUser;
-                user.Logo = photo;
+                if (newUser != null)
+                    user.Name = newUser;
+                if (photo != null)
+                    user.Logo = photo;
                 IdentityResult result = await _userManager.UpdateAsync(user);
                 return result.Succeeded ? true : false;
             }
-
+            return false;
+        }
+        public async Task<bool> UpdateUserSocial(string Fb, string Twtter, string insgram, string email)
+        {
+            var user = await _userManager.FindByEmailAsync(email);
+            if (user != null)
+            {
+                user.Facebook = Fb;
+                user.Twitter = Twtter;
+                user.Instagram = insgram;
+                IdentityResult result = await _userManager.UpdateAsync(user);
+                return result.Succeeded ? true : false;
+            }
+            return false;
+        }
+        public async Task<bool> UpdateUserAbout(string about, string email)
+        {
+            var user = await _userManager.FindByEmailAsync(email);
+            if (user != null)
+            {
+                user.About = about;
+                IdentityResult result = await _userManager.UpdateAsync(user);
+                return result.Succeeded ? true : false;
+            }
             return false;
         }
     }

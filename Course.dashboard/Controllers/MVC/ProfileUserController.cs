@@ -1,13 +1,16 @@
 ﻿using Course.Service.IServices;
 using Microsoft.AspNetCore.Mvc;
+using NToastNotify;
 
 namespace Course.dashboard.Controllers.MVC {
     public class ProfileUserController : Controller {
         private readonly IAccountService _service;
+        private readonly IToastNotification _toast;
 
-        public ProfileUserController(IAccountService service)
+        public ProfileUserController(IAccountService service, IToastNotification toast)
         {
             _service = service;
+            _toast = toast;
         }
         [HttpGet]
         public IActionResult Profile(string email)
@@ -20,19 +23,34 @@ namespace Course.dashboard.Controllers.MVC {
         {
            if( _service.UpdateUserInfo(userphoto,username, email).Result)
             {
+                _toast.AddSuccessToastMessage("Completed Change");
                 return RedirectToAction(nameof(Profile), new { email = email });
             }
+            _toast.AddErrorToastMessage("Failed Change");
             return RedirectToAction(nameof(Profile), new { email = email });
         }
         [HttpPost]
-        public IActionResult UpdateUserSocial(string Facebook, string Twitter,string Instagram)
+        public IActionResult UpdateUserSocial(string Facebook, string Twitter,string Instagram,string email)
         {
-            return View();
+
+            if (_service.UpdateUserSocial(Facebook,Twitter,Instagram,email).Result)
+            {
+                _toast.AddSuccessToastMessage("Completed Change");
+                return RedirectToAction(nameof(Profile), new { email = email });
+            }
+            _toast.AddErrorToastMessage("Failed Change");
+            return RedirectToAction(nameof(Profile), new { email = email });
         }
         [HttpPost]
-        public IActionResult UpdateUserAbout(string about)
+        public IActionResult UpdateUserAbout(string about,string email)
         {
-            return View();
+            if (_service.UpdateUserAbout(about,email).Result)
+            {
+                _toast.AddSuccessToastMessage("Completed Change");
+                return RedirectToAction(nameof(Profile), new { email = email });
+            }
+            _toast.AddErrorToastMessage("Failed Change");
+            return RedirectToAction(nameof(Profile), new { email = email });
         }
     }
 }

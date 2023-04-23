@@ -279,15 +279,12 @@
                                             <ul class="nav navbar-nav mai-top-nav header-right-menu">
                                                 <li class="nav-item dropdown">
                                                     <a asp-area="" asp-controller="ProfileUser" asp-action="Profile" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
-                                                        <img src="~/Images/Profile/Profile.png" alt="Profile" />
+                                                    @*    <img src="~/Images/Profile/Profile.png" alt="Profile" />*@
                                                         @{
                                                             var currentUser = User.Identity.Name.Substring(0, User.Identity.Name.IndexOf('@'));
                                                         }
-                                                        <span class="admin-name">@currentUser</span>
+                                                        <a style="padding: 7px;background-color: #fff;color: #006df0;" asp-area="" asp-controller="ProfileUser" asp-action="Profile" asp-route-email="@User.Identity.Name">Profile</a>
                                                     </a>
-                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="text-align: center;font-size: large;">
-                                                        <a asp-area="" asp-controller="ProfileUser" asp-action="Profile" asp-route-email="@User.Identity.Name">Profile</a>
-                                                    </div>
                                                 </li>
 
                                             </ul>
