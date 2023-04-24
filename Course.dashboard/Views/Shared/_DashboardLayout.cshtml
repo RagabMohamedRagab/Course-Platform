@@ -283,7 +283,7 @@
                                                         @{
                                                             var currentUser = User.Identity.Name.Substring(0, User.Identity.Name.IndexOf('@'));
                                                         }
-                                                        <a style="padding: 7px;background-color: #fff;color: #006df0;" asp-area="" asp-controller="ProfileUser" asp-action="Profile" asp-route-email="@User.Identity.Name">Profile</a>
+                                                        <a style="padding: 7px;background-color: #fff;color: #006df0;border-radius: 50%;" asp-area="" asp-controller="ProfileUser" asp-action="Profile" asp-route-email="@User.Identity.Name"><i class="bi bi-person-circle"></i></a>
                                                     </a>
                                                 </li>
 
