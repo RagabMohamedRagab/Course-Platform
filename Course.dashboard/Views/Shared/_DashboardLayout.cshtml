@@ -109,33 +109,19 @@
                                 </li>
                             </ul>
                         </li>
-                        }
+                       
                         <li>
-                            <a class="has-arrow" href="all-professors.html" aria-expanded="false">
-                                <i class="bi bi-person-circle" style="font-size:1.3rem"></i>
+                                <a class="has-arrow" asp-controller="Professor" asp-action="Index" aria-expanded="false">
+                                    <i class="bi bi-person-square" style="font-size:1.3rem"></i>&nbsp;
                                 <span class="mini-click-non">Professors</span>
                             </a>
                             <ul class="submenu-angle" aria-expanded="false">
                                 <li>
-                                    <a title="All Professors" href="all-professors.html">
+                                        <a title="All Professors" asp-controller="Professor" asp-action="Index">
                                         <span class="mini-sub-pro">All Professors</span>
                                     </a>
                                 </li>
-                                <li>
-                                    <a title="Add Professor" href="add-professor.html">
-                                        <span class="mini-sub-pro">Add Professor</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="Edit Professor" href="edit-professor.html">
-                                        <span class="mini-sub-pro">Edit Professor</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="Professor Profile" href="professor-profile.html">
-                                        <span class="mini-sub-pro">Professor Profile</span>
-                                    </a>
-                                </li>
+                          
                             </ul>
                         </li>
                         <li>
@@ -166,6 +152,7 @@
                                 </li>
                             </ul>
                         </li>
+                        }
                         <li>
                             <a class="has-arrow" href="all-courses.html" aria-expanded="false">
                                 <i class="bi bi-folder-fill" style="font-size:1.3rem"></i>

@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "All Professors";
+}
+<section class="roles">
+      <div class="row">
+        <div class="offset-2 col-md-10" style="margin-top:20px">
+            <table class="table table-hover" id="professor">
+                <thead>
+                    <tr>
+                        <th>Photo</th>
+                        <th>Name</th>
+                        <th>Social Media</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+            </table>
+        </div>
+      
+      </div>
+</section>
+@section Scripts{
+    <script>
+        $(document).ready(function(){
+            $("#professor").dataTable();
+        
+        });
+    </script>
+}

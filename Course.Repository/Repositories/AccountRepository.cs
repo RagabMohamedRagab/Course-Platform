@@ -218,7 +218,7 @@ namespace Course.Repository.Repositories {
             }
             return false;
         }
-        public async Task<bool> UpdateUserSocial(string Fb, string Twtter, string insgram, string email)
+        public async Task<bool> UpdateUserSocial(string Fb, string Twtter, string insgram, string LIn, string email)
         {
             var user = await _userManager.FindByEmailAsync(email);
             if (user != null)
@@ -226,6 +226,7 @@ namespace Course.Repository.Repositories {
                 user.Facebook = Fb;
                 user.Twitter = Twtter;
                 user.Instagram = insgram;
+                user.LinkedIn = LIn;
                 IdentityResult result = await _userManager.UpdateAsync(user);
                 return result.Succeeded ? true : false;
             }

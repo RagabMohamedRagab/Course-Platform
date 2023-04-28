@@ -5,6 +5,7 @@ namespace Course.Domain.Domains {
         public AppUser()
         {
             UserCourses = new Collection<UserCourse>();
+            IsActive= false;
         }
         public string? Name { get; set; }
         public string? About { get; set; }
@@ -17,6 +18,7 @@ namespace Course.Domain.Domains {
         public string? Instagram { get; set; }
         [Column(TypeName = "nvarchar(150)")]
         public string? LinkedIn { get; set; } 
+        public bool IsActive { get; set; }
         public virtual ICollection<UserCourse> UserCourses { get; set; }
     }
 }

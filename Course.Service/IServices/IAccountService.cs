@@ -18,7 +18,7 @@ namespace Course.Service.IServices {
         Task<bool> UpdateUsersInRole(UsersInRoleViewModel model);
         Task<ProfileUserViewModel> ProfileUser(string email);
         Task<bool> UpdateUserInfo(IFormFile file, string Username,string email);
-        Task<bool> UpdateUserSocial(string Fb, string Twtter, string insgram, string email);
+        Task<bool> UpdateUserSocial(string Fb, string Twtter, string insgram,string LIn, string email);
         Task<bool> UpdateUserAbout(string about, string email);
     }
 }

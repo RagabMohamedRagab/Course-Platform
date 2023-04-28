@@ -37,10 +37,10 @@ namespace Course.dashboard.Controllers.API {
             return NotFound(new { Message = "Your Request Falied" });
         }
         [HttpPost]
-        public IActionResult UpdateUserSocial(string Facebook, string Twitter, string Instagram, string email)
+        public IActionResult UpdateUserSocial(string Facebook, string Twitter, string Instagram, string linkedin, string email)
         {
 
-            if (_service.UpdateUserSocial(Facebook, Twitter, Instagram, email).Result)
+            if (_service.UpdateUserSocial(Facebook, Twitter, Instagram,linkedin, email).Result)
             {
 
                 return Ok(new { Message = "Done" });

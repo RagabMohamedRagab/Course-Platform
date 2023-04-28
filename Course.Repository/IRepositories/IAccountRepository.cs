@@ -18,7 +18,7 @@ namespace Course.Repository.IRepositories {
         Task<bool> UpdateUsersInRole(UsersInRoleViewModel model);
         Task<ProfileUserViewModel> ProfileUser(string email);
         Task<bool> UpdateUserInfo(string photo, string newUser, string email);
-        Task<bool> UpdateUserSocial(string Fb, string Twtter, string insgram, string email);
+        Task<bool> UpdateUserSocial(string Fb, string Twtter, string insgram, string LIn,string email);
         Task<bool> UpdateUserAbout( string about, string email);
     }
 }

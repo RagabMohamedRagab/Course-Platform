@@ -30,10 +30,10 @@ namespace Course.dashboard.Controllers.MVC {
             return RedirectToAction(nameof(Profile), new { email = email });
         }
         [HttpPost]
-        public IActionResult UpdateUserSocial(string Facebook, string Twitter,string Instagram,string email)
+        public IActionResult UpdateUserSocial(string Facebook, string Twitter,string Instagram,string LinkediN,string email)
         {
 
-            if (_service.UpdateUserSocial(Facebook,Twitter,Instagram,email).Result)
+            if (_service.UpdateUserSocial(Facebook,Twitter,Instagram,LinkediN,email).Result)
             {
                 _toast.AddSuccessToastMessage("Completed Change");
                 return RedirectToAction(nameof(Profile), new { email = email });

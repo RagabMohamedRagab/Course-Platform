@@ -112,13 +112,13 @@ namespace Course.Service.Services {
             }
             return false;
         }
-      public async  Task<bool> UpdateUserSocial(string Fb, string Twtter, string insgram, string email)
+      public async  Task<bool> UpdateUserSocial(string Fb, string Twtter, string insgram, string LIn, string email)
         {
             if (String.IsNullOrEmpty(Fb)||String.IsNullOrEmpty(Twtter)||String.IsNullOrEmpty(insgram)||String.IsNullOrEmpty(email))
             {
                 return false;
             }
-            if (await _accountRepository.UpdateUserSocial(Fb, Twtter, insgram, email))
+            if (await _accountRepository.UpdateUserSocial(Fb, Twtter, insgram, LIn,email))
             {
                 return true;
             }
