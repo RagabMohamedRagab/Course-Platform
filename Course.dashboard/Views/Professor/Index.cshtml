@@ -22,7 +22,13 @@
 @section Scripts{
     <script>
         $(document).ready(function(){
-            $("#professor").dataTable();
+            $("#professor").dataTable({
+                columns: [
+                    { data: 'photo' },
+                    { data: 'name' },
+                    { data: 'social Media' },
+                ]
+            });
         
         });
     </script>
