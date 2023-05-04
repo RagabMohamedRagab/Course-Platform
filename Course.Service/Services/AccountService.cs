@@ -131,6 +131,14 @@ namespace Course.Service.Services {
             if(await _accountRepository.UpdateUserAbout(about,email)) return true;
             return false;
         }
+        public async Task<IList<ProfessorInfoViewModel>> GetProfessors(int currentPage, int pageSize)
+        {
+            if (currentPage == 0 || pageSize == 0)
+            {
+                return null;
+            }
+            return await _accountRepository.GetProfessors(currentPage,pageSize);
+        }
     }
 }
 

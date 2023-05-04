@@ -33,20 +33,20 @@ namespace Course.Repository.Repositories {
                 await _userManager.ConfirmEmailAsync(user, token);
                 await _signInManager.SignInAsync(user, isPersistent: false);
                 // Role 
-                bool IsFind = await _roleManager.RoleExistsAsync("User");
+                bool IsFind = await _roleManager.RoleExistsAsync("Professor");
                 if (IsFind)
                 {
-                    if (!await _userManager.IsInRoleAsync(user, "User"))
+                    if (!await _userManager.IsInRoleAsync(user, "Professor"))
                     {
-                        await _userManager.AddToRoleAsync(user, "User");
+                        await _userManager.AddToRoleAsync(user, "Professor");
                     }
                 }
                 else
                 {
-                    IdentityResult role = await _roleManager.CreateAsync(new IdentityRole() { Name = "User", NormalizedName = "USER", ConcurrencyStamp = Guid.NewGuid().ToString() });
+                    IdentityResult role = await _roleManager.CreateAsync(new IdentityRole() { Name = "Professor", NormalizedName = "PROFESSOR", ConcurrencyStamp = Guid.NewGuid().ToString() });
                     if (role.Succeeded)
                     {
-                        await _userManager.AddToRoleAsync(user, "User");
+                        await _userManager.AddToRoleAsync(user, "Professor");
                     }
                 }
                 return true;
@@ -242,6 +242,23 @@ namespace Course.Repository.Repositories {
                 return result.Succeeded ? true : false;
             }
             return false;
+        }
+      public async Task<IList<ProfessorInfoViewModel>> GetProfessors(int currentPage, int pageSize)
+        {
+            int start = ((currentPage - 1) * pageSize) + 1,
+                 end = pageSize * currentPage;
+            var professorsInRole =await  _userManager.GetUsersInRoleAsync("Professor");
+            IList<ProfessorInfoViewModel> professorInfos=new List<ProfessorInfoViewModel>();
+            professorInfos = professorsInRole.Skip(start).Take(end).Select(b => new ProfessorInfoViewModel()
+            {
+                Name = (b.Name is null) ? b.UserName : b.Name,
+                Facebook = b.Facebook,
+                LinkedIn = b.LinkedIn,
+                Instagram = b.Instagram,
+                Twitter = b.Twitter,
+                img = b.Logo,
+            }).ToList();
+            return professorInfos;
         }
     }
 }

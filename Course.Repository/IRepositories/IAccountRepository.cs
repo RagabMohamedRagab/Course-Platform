@@ -20,5 +20,7 @@ namespace Course.Repository.IRepositories {
         Task<bool> UpdateUserInfo(string photo, string newUser, string email);
         Task<bool> UpdateUserSocial(string Fb, string Twtter, string insgram, string LIn,string email);
         Task<bool> UpdateUserAbout( string about, string email);
+        Task<IList<ProfessorInfoViewModel>> GetProfessors(int currentPage, int pageSize);
+
     }
 }

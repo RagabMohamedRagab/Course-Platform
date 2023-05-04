@@ -23,6 +23,12 @@
     <script>
         $(document).ready(function(){
             $("#professor").dataTable({
+                 "ajax": {
+                    "url": "",
+                    "type": "GET",
+                    "dataSrc": "",
+                    "datatype": "json"
+                },
                 columns: [
                     { data: 'photo' },
                     { data: 'name' },
