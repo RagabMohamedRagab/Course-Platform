@@ -252,12 +252,12 @@ namespace Course.Repository.Repositories {
             professorInfos = professorsInRole.Skip(start).Take(end).Select(b => new ProfessorInfoViewModel()
             {
                 Name = (b.Name is null) ? b.UserName : b.Name,
-                About=b.About,
+                About = (String.IsNullOrEmpty(b.About)? "A SoftWare Engineer" : b.About),
                 Facebook = b.Facebook,
                 LinkedIn = b.LinkedIn,
                 Instagram = b.Instagram,
                 Twitter = b.Twitter,
-                img = b.Logo,
+                img = (String.IsNullOrEmpty(b.Logo)) ? "Profile.png" : b.Logo
             }).ToList();
             return professorInfos;
         }

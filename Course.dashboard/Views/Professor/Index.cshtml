@@ -1,27 +1,42 @@
 ﻿@{
     ViewData["Title"] = "All Professors";
 }
-<section id="info">
+<section id="info" class="row">
 </section>
 @section Scripts{
     <script>
         $(document).ready(function(){
           var currentPage=1;
           LoadInfo(currentPage)
+
+          $(window).scroll(function(){
+              debugger;
+              if($(window).scrollTop()==$(document).height() - $(window).height()){
+                  currentPage+=1;
+                    LoadInfo(currentPage)
+              }else{
+                    currentPage += 1;
+                    LoadInfo(currentPage)
+              }
+          })
           function LoadInfo(CurrentPage){
+              debugger
               $.ajax({
                     url: "/Professor/GetProfessorsInfo",
                     type:"Post",
-                    data: { CurrentPage: CurrentPage, PageSize :4},
+                    data: { CurrentPage: CurrentPage, PageSize :8},
                     dataType:"json",
                     success:function(data){
+                        console.log(data) 
                         var $professor=$("#info");
                         var html="";
-                        $(data).each(function(index,pro){
+                        $.each(data,function(index,pro){  
                            html+= "<div class='col-lg-3 col-md-6 col-sm-6 col-xs-12' >"
-                            html += "<div class='hpanel hblue contact-panel contact-panel-cs mg-t-30'>"
-                            html+="<div class='panel-body custom-panel-jw '>"
-                            html += "<img src=../Images/Profile/" + pro.img + ">"
+                            html += "<div class='hpanel hblue contact-panel contact-panel-cs mg-t-30' style='width:100%;height :94%;'> "
+                            html+="<div class='panel-body custom-panel-jw ' style='width:100%;height:84%;'>"
+                            html+="<div>"
+                            html += "<img style='width:100%;height:100%' src=../Images/Profile/" + pro.img + ">"
+                            html += "</div>"
                             html+="<h3>"+pro.name+"</h3>"
                             html+="<p>"+pro.about+"</p>"
                             html+="</div>"
@@ -44,6 +59,7 @@
                             html+="</div>"
                             html+="</div>"
                             $professor.append(html);
+                            html="";
                         })
                     }
               })
