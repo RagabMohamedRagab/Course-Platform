@@ -7,5 +7,6 @@ namespace Course.Repository.ViewModeles {
         public string? Twitter { get; set; }
         public string? Instagram { get; set; }
         public string? LinkedIn { get; set; }
+        public string? About { get; set; }
     }
 }

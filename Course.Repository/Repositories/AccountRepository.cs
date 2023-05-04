@@ -245,13 +245,14 @@ namespace Course.Repository.Repositories {
         }
       public async Task<IList<ProfessorInfoViewModel>> GetProfessors(int currentPage, int pageSize)
         {
-            int start = ((currentPage - 1) * pageSize) + 1,
+            int start = ((currentPage - 1) * pageSize),
                  end = pageSize * currentPage;
             var professorsInRole =await  _userManager.GetUsersInRoleAsync("Professor");
             IList<ProfessorInfoViewModel> professorInfos=new List<ProfessorInfoViewModel>();
             professorInfos = professorsInRole.Skip(start).Take(end).Select(b => new ProfessorInfoViewModel()
             {
                 Name = (b.Name is null) ? b.UserName : b.Name,
+                About=b.About,
                 Facebook = b.Facebook,
                 LinkedIn = b.LinkedIn,
                 Instagram = b.Instagram,

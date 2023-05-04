@@ -1,41 +1,55 @@
 ﻿@{
     ViewData["Title"] = "All Professors";
 }
-<section class="roles">
-      <div class="row">
-        <div class="offset-2 col-md-10" style="margin-top:20px">
-            <table class="table table-hover" id="professor">
-                <thead>
-                    <tr>
-                        <th>Photo</th>
-                        <th>Name</th>
-                        <th>Social Media</th>
-                        <th>Action</th>
-                    </tr>
-                </thead>
-
-            </table>
-        </div>
-      
-      </div>
+<section id="info">
 </section>
 @section Scripts{
     <script>
         $(document).ready(function(){
-            $("#professor").dataTable({
-                 "ajax": {
-                    "url": "",
-                    "type": "GET",
-                    "dataSrc": "",
-                    "datatype": "json"
-                },
-                columns: [
-                    { data: 'photo' },
-                    { data: 'name' },
-                    { data: 'social Media' },
-                ]
-            });
-        
+          var currentPage=1;
+          LoadInfo(currentPage)
+          function LoadInfo(CurrentPage){
+              $.ajax({
+                    url: "/Professor/GetProfessorsInfo",
+                    type:"Post",
+                    data: { CurrentPage: CurrentPage, PageSize :4},
+                    dataType:"json",
+                    success:function(data){
+                        var $professor=$("#info");
+                        var html="";
+                        $(data).each(function(index,pro){
+                           html+= "<div class='col-lg-3 col-md-6 col-sm-6 col-xs-12' >"
+                            html += "<div class='hpanel hblue contact-panel contact-panel-cs mg-t-30'>"
+                            html+="<div class='panel-body custom-panel-jw '>"
+                            html += "<img src=../Images/Profile/" + pro.img + ">"
+                            html+="<h3>"+pro.name+"</h3>"
+                            html+="<p>"+pro.about+"</p>"
+                            html+="</div>"
+                            html+="<div class='panel-footer contact-footer'>"
+                            html += "<div class='professor-stds-int'>"
+                            html += "<a href=" + pro.facebook + ">"
+                            html+="<i class='fa fa-facebook'></i>"
+                            html+="</a>"
+                            html += "<a href=" + pro.twitter + ">"
+                            html += "<i class='fa fa-twitter'></i>"
+                            html += "</a>"
+                            html += "<a href=" + pro.instagram + ">"
+                            html+="<i class='fa fa-instagram'></i>"
+                            html+="</a>"
+                            html += "<a href=" + pro.linkedIn + ">"
+                            html += "<i class='fa fa-linkedin'></i>"
+                            html += "</a>"
+                            html+="</div>"
+                            html+="</div>"
+                            html+="</div>"
+                            html+="</div>"
+                            $professor.append(html);
+                        })
+                    }
+              })
+          }
         });
     </script>
 }
+
+

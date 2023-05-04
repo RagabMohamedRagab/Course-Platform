@@ -1262,13 +1262,18 @@ ul.breadcome-menu li a:hover{
     color: #999;
 	margin-bottom:5px;
 }
-.professor-stds-int{
-	display:flex;
+.professor-stds-int {
+    display: flex !important;
+    font-size: 1.4rem !important;
+    justify-content: space-between !important;
 }
-.contact-stat span, .contact-stat strong {
-    font-size: 13px;
-    color: #fff;
-}
+    .professor-stds-int a i.fa{
+        color:#fff !important
+    }
+    .contact-stat span, .contact-stat strong {
+        font-size: 13px;
+        color: #fff;
+    }
 .product-payment-inner-st{
 	padding:20px;
 	background:#fff;
