@@ -4,7 +4,7 @@ namespace Course.Domain.Domains {
     public partial class AppUser:IdentityUser{
         public AppUser()
         {
-            UserCourses = new Collection<UserCourse>();
+           
             IsActive= false;
         }
         public string? Name { get; set; }
@@ -19,6 +19,6 @@ namespace Course.Domain.Domains {
         [Column(TypeName = "nvarchar(150)")]
         public string? LinkedIn { get; set; } 
         public bool IsActive { get; set; }
-        public virtual ICollection<UserCourse> UserCourses { get; set; }
+   
     }
 }

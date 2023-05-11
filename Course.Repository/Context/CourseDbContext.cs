@@ -1,5 +1,4 @@
-﻿using Course.Domain.Domains;
-using Course.Repository.Utilities;
+﻿using Course.Repository.Utilities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
@@ -9,20 +8,14 @@ using System.Security.Policy;
 namespace Course.Repository.Context {
     public class CourseDbContext : IdentityDbContext {
         public CourseDbContext(DbContextOptions<CourseDbContext> options) : base(options) { }
-
-        public virtual DbSet<Course.Domain.Domains.Course> Courses { get; set; }
-        public virtual DbSet<Course.Domain.Domains.UserCourse> UserCourses { get; set; }
-        public virtual DbSet<Course.Domain.Domains.Video> Videos { get; set; }
-        public virtual DbSet<Course.Domain.Domains.Book> Books { get; set; }
-        public virtual DbSet<Course.Domain.Domains.Department> Departments { get; set; }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             //  To Enable Two Factory Authentcation Enter Phone or Set Manually.
             base.OnModelCreating(modelBuilder);
             modelBuilder.ConfigurationUserAndRole();
         }
-
+        public virtual DbSet<Course.Domain.Domains.Course> Courses { get; set; }
+        public virtual DbSet<Course.Domain.Domains.Title> Titles { get; set; }
 
     }
 }

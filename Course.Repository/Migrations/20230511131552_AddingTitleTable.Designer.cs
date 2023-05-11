@@ -4,6 +4,7 @@ using Course.Repository.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Course.Repository.Migrations
 {
     [DbContext(typeof(CourseDbContext))]
-    partial class CourseDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230511131552_AddingTitleTable")]
+    partial class AddingTitleTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -41,9 +44,9 @@ namespace Course.Repository.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<string>("Logo")
+                    b.Property<byte[]>("Logo")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("varbinary(max)");
 
                     b.Property<string>("ModifiedBy")
                         .IsRequired()
@@ -68,7 +71,7 @@ namespace Course.Repository.Migrations
 
                     b.HasIndex("TitleId");
 
-                    b.ToTable("Courses", (string)null);
+                    b.ToTable("Courses");
                 });
 
             modelBuilder.Entity("Course.Domain.Domains.Title", b =>
@@ -106,7 +109,7 @@ namespace Course.Repository.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Titles", (string)null);
+                    b.ToTable("Titles");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -139,7 +142,7 @@ namespace Course.Repository.Migrations
                         new
                         {
                             Id = "2c5e174e-3b0e-446f-86af-483d56fd7210",
-                            ConcurrencyStamp = "e1458fa0-19e2-4c90-a700-35d4ef079261",
+                            ConcurrencyStamp = "d4d5a6b3-2547-4f4e-8419-f29e500d8a56",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
@@ -366,15 +369,15 @@ namespace Course.Repository.Migrations
                         {
                             Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "584812fe-a742-4273-93f7-375010f209a6",
+                            ConcurrencyStamp = "3fe03736-ef34-456a-a433-41e69ad1ffbe",
                             Email = "Admin123@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ADMIN123@GMAIL.COM",
                             NormalizedUserName = "ADMIN123@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEM0h5sFVj7sdcZ0iV6ZpEq9rUEb8iZcORyW2mdIysGKMGZwCmKBZbtaUUSGID/bB+A==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEGd5biyxWlpLL0Dn5kYvsN9IUBvzQBBMyC5iuINXwAT9HypUKoQvUjm9oV0KJD6RKA==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "b5883906-ed46-4a35-8a05-be0238528c26",
+                            SecurityStamp = "c11322d9-b799-4c01-bb3c-01d7eb838ef3",
                             TwoFactorEnabled = false,
                             UserName = "Admin123@gmail.com",
                             IsActive = false

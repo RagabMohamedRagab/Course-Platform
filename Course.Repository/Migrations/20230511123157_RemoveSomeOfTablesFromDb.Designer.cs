@@ -4,6 +4,7 @@ using Course.Repository.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Course.Repository.Migrations
 {
     [DbContext(typeof(CourseDbContext))]
-    partial class CourseDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230511123157_RemoveSomeOfTablesFromDb")]
+    partial class RemoveSomeOfTablesFromDb
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -41,9 +44,9 @@ namespace Course.Repository.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<string>("Logo")
+                    b.Property<byte[]>("Logo")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("varbinary(max)");
 
                     b.Property<string>("ModifiedBy")
                         .IsRequired()
@@ -61,52 +64,9 @@ namespace Course.Repository.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int?>("TitleId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
-                    b.HasIndex("TitleId");
-
-                    b.ToTable("Courses", (string)null);
-                });
-
-            modelBuilder.Entity("Course.Domain.Domains.Title", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("CreateOn")
-                        .HasColumnType("date");
-
-                    b.Property<string>("CreatedBy")
-                        .IsRequired()
-                        .HasMaxLength(150)
-                        .HasColumnType("nvarchar(150)");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("Logo")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ModifiedBy")
-                        .IsRequired()
-                        .HasMaxLength(150)
-                        .HasColumnType("nvarchar(150)");
-
-                    b.Property<DateTime>("ModifiedOn")
-                        .HasColumnType("date");
-
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Titles", (string)null);
+                    b.ToTable("Courses");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -139,7 +99,7 @@ namespace Course.Repository.Migrations
                         new
                         {
                             Id = "2c5e174e-3b0e-446f-86af-483d56fd7210",
-                            ConcurrencyStamp = "e1458fa0-19e2-4c90-a700-35d4ef079261",
+                            ConcurrencyStamp = "00bfb452-c8b3-47b3-aa1f-21995690aaac",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
@@ -366,28 +326,19 @@ namespace Course.Repository.Migrations
                         {
                             Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "584812fe-a742-4273-93f7-375010f209a6",
+                            ConcurrencyStamp = "e65f8ca8-c110-4e00-99f4-4b81032b197b",
                             Email = "Admin123@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ADMIN123@GMAIL.COM",
                             NormalizedUserName = "ADMIN123@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEM0h5sFVj7sdcZ0iV6ZpEq9rUEb8iZcORyW2mdIysGKMGZwCmKBZbtaUUSGID/bB+A==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEMy3Gft1KwOjgmZlDpNTb4p9WC4Jxqa7Lo41HLnrHb7ljQC1hUVTJTdNrNZtz99TQA==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "b5883906-ed46-4a35-8a05-be0238528c26",
+                            SecurityStamp = "5f895fa4-3f87-426a-ae94-61c3ead528c6",
                             TwoFactorEnabled = false,
                             UserName = "Admin123@gmail.com",
                             IsActive = false
                         });
-                });
-
-            modelBuilder.Entity("Course.Domain.Domains.Course", b =>
-                {
-                    b.HasOne("Course.Domain.Domains.Title", "Title")
-                        .WithMany("Courses")
-                        .HasForeignKey("TitleId");
-
-                    b.Navigation("Title");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -439,11 +390,6 @@ namespace Course.Repository.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("Course.Domain.Domains.Title", b =>
-                {
-                    b.Navigation("Courses");
                 });
 #pragma warning restore 612, 618
         }
