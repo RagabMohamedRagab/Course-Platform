@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Course.Repository.Migrations
 {
     [DbContext(typeof(CourseDbContext))]
-    [Migration("20230511123157_RemoveSomeOfTablesFromDb")]
-    partial class RemoveSomeOfTablesFromDb
+    [Migration("20230511194325_AddMaxLengthToTitleTables")]
+    partial class AddMaxLengthToTitleTables
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -44,9 +44,9 @@ namespace Course.Repository.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<byte[]>("Logo")
+                    b.Property<string>("Logo")
                         .IsRequired()
-                        .HasColumnType("varbinary(max)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ModifiedBy")
                         .IsRequired()
@@ -64,9 +64,53 @@ namespace Course.Repository.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<int?>("TitleId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
+                    b.HasIndex("TitleId");
+
                     b.ToTable("Courses");
+                });
+
+            modelBuilder.Entity("Course.Domain.Domains.Title", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreateOn")
+                        .HasColumnType("date");
+
+                    b.Property<string>("CreatedBy")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Logo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ModifiedBy")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
+
+                    b.Property<DateTime>("ModifiedOn")
+                        .HasColumnType("date");
+
+                    b.Property<string>("Name")
+                        .HasMaxLength(120)
+                        .HasColumnType("nvarchar(120)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Titles");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -99,7 +143,7 @@ namespace Course.Repository.Migrations
                         new
                         {
                             Id = "2c5e174e-3b0e-446f-86af-483d56fd7210",
-                            ConcurrencyStamp = "00bfb452-c8b3-47b3-aa1f-21995690aaac",
+                            ConcurrencyStamp = "2af21ba6-ea9e-4bbf-88c7-1afa50e8e821",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
@@ -326,19 +370,28 @@ namespace Course.Repository.Migrations
                         {
                             Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "e65f8ca8-c110-4e00-99f4-4b81032b197b",
+                            ConcurrencyStamp = "3df9f37c-7d4a-4273-b241-68854d4bbbf1",
                             Email = "Admin123@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ADMIN123@GMAIL.COM",
                             NormalizedUserName = "ADMIN123@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEMy3Gft1KwOjgmZlDpNTb4p9WC4Jxqa7Lo41HLnrHb7ljQC1hUVTJTdNrNZtz99TQA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEHLaXqFcZffu46ZUtzHlZPrU4UmctRR2TUpLC7s9115guwa0J12TgALfoZHi4y3vzQ==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "5f895fa4-3f87-426a-ae94-61c3ead528c6",
+                            SecurityStamp = "d3777b05-1414-4eb7-8392-0f2022b33189",
                             TwoFactorEnabled = false,
                             UserName = "Admin123@gmail.com",
                             IsActive = false
                         });
+                });
+
+            modelBuilder.Entity("Course.Domain.Domains.Course", b =>
+                {
+                    b.HasOne("Course.Domain.Domains.Title", "Title")
+                        .WithMany("Courses")
+                        .HasForeignKey("TitleId");
+
+                    b.Navigation("Title");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -390,6 +443,11 @@ namespace Course.Repository.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Course.Domain.Domains.Title", b =>
+                {
+                    b.Navigation("Courses");
                 });
 #pragma warning restore 612, 618
         }

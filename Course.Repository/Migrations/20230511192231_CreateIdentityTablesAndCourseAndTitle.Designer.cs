@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Course.Repository.Migrations
 {
     [DbContext(typeof(CourseDbContext))]
-    [Migration("20230412024052_AddSocialMediaForUser")]
-    partial class AddSocialMediaForUser
+    [Migration("20230511192231_CreateIdentityTablesAndCourseAndTitle")]
+    partial class CreateIdentityTablesAndCourseAndTitle
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,48 +24,6 @@ namespace Course.Repository.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
-
-            modelBuilder.Entity("Course.Domain.Domains.Book", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("CreateOn")
-                        .HasColumnType("date");
-
-                    b.Property<string>("CreatedBy")
-                        .IsRequired()
-                        .HasMaxLength(150)
-                        .HasColumnType("nvarchar(150)");
-
-                    b.Property<byte[]>("Data")
-                        .IsRequired()
-                        .HasColumnType("varbinary(max)");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("ModifiedBy")
-                        .IsRequired()
-                        .HasMaxLength(150)
-                        .HasColumnType("nvarchar(150)");
-
-                    b.Property<DateTime>("ModifiedOn")
-                        .HasColumnType("date");
-
-                    b.Property<int?>("UserCourseID")
-                        .IsRequired()
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserCourseID");
-
-                    b.ToTable("Books");
-                });
 
             modelBuilder.Entity("Course.Domain.Domains.Course", b =>
                 {
@@ -86,9 +44,9 @@ namespace Course.Repository.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<byte[]>("Logo")
+                    b.Property<string>("Logo")
                         .IsRequired()
-                        .HasColumnType("varbinary(max)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ModifiedBy")
                         .IsRequired()
@@ -106,12 +64,17 @@ namespace Course.Repository.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<int?>("TitleId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("TitleId");
 
                     b.ToTable("Courses");
                 });
 
-            modelBuilder.Entity("Course.Domain.Domains.Department", b =>
+            modelBuilder.Entity("Course.Domain.Domains.Title", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -130,41 +93,8 @@ namespace Course.Repository.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<string>("ModifiedBy")
-                        .IsRequired()
-                        .HasMaxLength(150)
-                        .HasColumnType("nvarchar(150)");
-
-                    b.Property<DateTime>("ModifiedOn")
-                        .HasColumnType("date");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Departments");
-                });
-
-            modelBuilder.Entity("Course.Domain.Domains.UserCourse", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int?>("CourseId")
-                        .IsRequired()
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("CreateOn")
-                        .HasColumnType("date");
-
-                    b.Property<string>("CreatedBy")
-                        .IsRequired()
-                        .HasMaxLength(150)
-                        .HasColumnType("nvarchar(150)");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
+                    b.Property<string>("Logo")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ModifiedBy")
                         .IsRequired()
@@ -174,59 +104,12 @@ namespace Course.Repository.Migrations
                     b.Property<DateTime>("ModifiedOn")
                         .HasColumnType("date");
 
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CourseId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("UserCourses");
-                });
-
-            modelBuilder.Entity("Course.Domain.Domains.Video", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("CreateOn")
-                        .HasColumnType("date");
-
-                    b.Property<string>("CreatedBy")
-                        .IsRequired()
-                        .HasMaxLength(150)
-                        .HasColumnType("nvarchar(150)");
-
-                    b.Property<byte[]>("Data")
-                        .IsRequired()
-                        .HasColumnType("varbinary(max)");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("ModifiedBy")
-                        .IsRequired()
-                        .HasMaxLength(150)
-                        .HasColumnType("nvarchar(150)");
-
-                    b.Property<DateTime>("ModifiedOn")
-                        .HasColumnType("date");
-
-                    b.Property<int?>("UserCourseID")
-                        .IsRequired()
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserCourseID");
-
-                    b.ToTable("Videos");
+                    b.ToTable("Titles");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -259,16 +142,9 @@ namespace Course.Repository.Migrations
                         new
                         {
                             Id = "2c5e174e-3b0e-446f-86af-483d56fd7210",
-                            ConcurrencyStamp = "a2a19e8f-fa2f-41cb-b262-4ae9e08ffe97",
+                            ConcurrencyStamp = "8693596f-eeda-4b51-aa16-1f16ee0c8a29",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
-                        },
-                        new
-                        {
-                            Id = "a8279844-8c78-4c00-af6f-f2667706bd22",
-                            ConcurrencyStamp = "be1c42b0-cdf6-4e58-878f-614c072c0b5d",
-                            Name = "User",
-                            NormalizedName = "USER"
                         });
                 });
 
@@ -463,8 +339,7 @@ namespace Course.Repository.Migrations
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
 
                     b.Property<string>("About")
-                        .HasMaxLength(150)
-                        .HasColumnType("nvarchar(150)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Facebook")
                         .HasColumnType("nvarchar(150)");
@@ -472,11 +347,17 @@ namespace Course.Repository.Migrations
                     b.Property<string>("Instagram")
                         .HasColumnType("nvarchar(150)");
 
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("LinkedIn")
+                        .HasColumnType("nvarchar(150)");
+
                     b.Property<string>("Logo")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Profile")
-                        .HasColumnType("nvarchar(150)");
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Twitter")
                         .HasColumnType("nvarchar(150)");
@@ -488,59 +369,28 @@ namespace Course.Repository.Migrations
                         {
                             Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "abe60980-1af9-4659-a633-26cc8dc6abcb",
+                            ConcurrencyStamp = "de565022-ca98-4e9b-8492-d22f9eac77de",
                             Email = "Admin123@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ADMIN123@GMAIL.COM",
                             NormalizedUserName = "ADMIN123@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEFff+WoFo2cRqqgS8LwsFjThUJqNj9cdpeiMa7KQ4LXz3TbcFWEPrHUPO9lrO4q7GQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEIH9zUZWBImq8BbAaieamPoGZ/hKmXwah9l+SbjL/v1izE/9e4SXUGhvaOLtYQB8rQ==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "75c82fd3-3504-4a9b-b148-d8c28a091021",
+                            SecurityStamp = "faaf47b1-8f7e-4d44-8d5d-866922c6d366",
                             TwoFactorEnabled = false,
-                            UserName = "Admin123@gmail.com"
+                            UserName = "Admin123@gmail.com",
+                            IsActive = false
                         });
                 });
 
-            modelBuilder.Entity("Course.Domain.Domains.Book", b =>
+            modelBuilder.Entity("Course.Domain.Domains.Course", b =>
                 {
-                    b.HasOne("Course.Domain.Domains.UserCourse", "UserCourse")
-                        .WithMany()
-                        .HasForeignKey("UserCourseID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.HasOne("Course.Domain.Domains.Title", "Title")
+                        .WithMany("Courses")
+                        .HasForeignKey("TitleId");
 
-                    b.Navigation("UserCourse");
-                });
-
-            modelBuilder.Entity("Course.Domain.Domains.UserCourse", b =>
-                {
-                    b.HasOne("Course.Domain.Domains.Course", "Course")
-                        .WithMany("UserCourses")
-                        .HasForeignKey("CourseId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Course.Domain.Domains.AppUser", "User")
-                        .WithMany("UserCourses")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Course");
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("Course.Domain.Domains.Video", b =>
-                {
-                    b.HasOne("Course.Domain.Domains.UserCourse", "UserCourse")
-                        .WithMany()
-                        .HasForeignKey("UserCourseID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("UserCourse");
+                    b.Navigation("Title");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -594,14 +444,9 @@ namespace Course.Repository.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Course.Domain.Domains.Course", b =>
+            modelBuilder.Entity("Course.Domain.Domains.Title", b =>
                 {
-                    b.Navigation("UserCourses");
-                });
-
-            modelBuilder.Entity("Course.Domain.Domains.AppUser", b =>
-                {
-                    b.Navigation("UserCourses");
+                    b.Navigation("Courses");
                 });
 #pragma warning restore 612, 618
         }

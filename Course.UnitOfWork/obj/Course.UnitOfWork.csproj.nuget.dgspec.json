@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\Desktop\\Course\\Course.UnitOfWork\\Course.UnitOfWork.csproj": {}
+    "C:\\Users\\pc\\Desktop\\Cout\\Course.UnitOfWork\\Course.UnitOfWork.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\Desktop\\Course\\Course.Domain\\Course.Domain.csproj": {
+    "C:\\Users\\pc\\Desktop\\Cout\\Course.Domain\\Course.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Desktop\\Course\\Course.Domain\\Course.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Desktop\\Cout\\Course.Domain\\Course.Domain.csproj",
         "projectName": "Course.Domain",
-        "projectPath": "C:\\Users\\pc\\Desktop\\Course\\Course.Domain\\Course.Domain.csproj",
+        "projectPath": "C:\\Users\\pc\\Desktop\\Cout\\Course.Domain\\Course.Domain.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Desktop\\Course\\Course.Domain\\obj\\",
+        "outputPath": "C:\\Users\\pc\\Desktop\\Cout\\Course.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\pc\\Desktop\\Course\\Course.Repository\\Course.Repository.csproj": {
+    "C:\\Users\\pc\\Desktop\\Cout\\Course.Repository\\Course.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Desktop\\Course\\Course.Repository\\Course.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Desktop\\Cout\\Course.Repository\\Course.Repository.csproj",
         "projectName": "Course.Repository",
-        "projectPath": "C:\\Users\\pc\\Desktop\\Course\\Course.Repository\\Course.Repository.csproj",
+        "projectPath": "C:\\Users\\pc\\Desktop\\Cout\\Course.Repository\\Course.Repository.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Desktop\\Course\\Course.Repository\\obj\\",
+        "outputPath": "C:\\Users\\pc\\Desktop\\Cout\\Course.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,8 +99,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\pc\\Desktop\\Course\\Course.Domain\\Course.Domain.csproj": {
-                "projectPath": "C:\\Users\\pc\\Desktop\\Course\\Course.Domain\\Course.Domain.csproj"
+              "C:\\Users\\pc\\Desktop\\Cout\\Course.Domain\\Course.Domain.csproj": {
+                "projectPath": "C:\\Users\\pc\\Desktop\\Cout\\Course.Domain\\Course.Domain.csproj"
               }
             }
           }
@@ -164,14 +164,14 @@
         }
       }
     },
-    "C:\\Users\\pc\\Desktop\\Course\\Course.UnitOfWork\\Course.UnitOfWork.csproj": {
+    "C:\\Users\\pc\\Desktop\\Cout\\Course.UnitOfWork\\Course.UnitOfWork.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Desktop\\Course\\Course.UnitOfWork\\Course.UnitOfWork.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Desktop\\Cout\\Course.UnitOfWork\\Course.UnitOfWork.csproj",
         "projectName": "Course.UnitOfWork",
-        "projectPath": "C:\\Users\\pc\\Desktop\\Course\\Course.UnitOfWork\\Course.UnitOfWork.csproj",
+        "projectPath": "C:\\Users\\pc\\Desktop\\Cout\\Course.UnitOfWork\\Course.UnitOfWork.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Desktop\\Course\\Course.UnitOfWork\\obj\\",
+        "outputPath": "C:\\Users\\pc\\Desktop\\Cout\\Course.UnitOfWork\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -193,8 +193,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\pc\\Desktop\\Course\\Course.Repository\\Course.Repository.csproj": {
-                "projectPath": "C:\\Users\\pc\\Desktop\\Course\\Course.Repository\\Course.Repository.csproj"
+              "C:\\Users\\pc\\Desktop\\Cout\\Course.Repository\\Course.Repository.csproj": {
+                "projectPath": "C:\\Users\\pc\\Desktop\\Cout\\Course.Repository\\Course.Repository.csproj"
               }
             }
           }

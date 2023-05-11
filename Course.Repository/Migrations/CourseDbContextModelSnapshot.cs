@@ -68,7 +68,7 @@ namespace Course.Repository.Migrations
 
                     b.HasIndex("TitleId");
 
-                    b.ToTable("Courses", (string)null);
+                    b.ToTable("Courses");
                 });
 
             modelBuilder.Entity("Course.Domain.Domains.Title", b =>
@@ -102,11 +102,12 @@ namespace Course.Repository.Migrations
                         .HasColumnType("date");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(120)
+                        .HasColumnType("nvarchar(120)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Titles", (string)null);
+                    b.ToTable("Titles");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -139,7 +140,7 @@ namespace Course.Repository.Migrations
                         new
                         {
                             Id = "2c5e174e-3b0e-446f-86af-483d56fd7210",
-                            ConcurrencyStamp = "e1458fa0-19e2-4c90-a700-35d4ef079261",
+                            ConcurrencyStamp = "2af21ba6-ea9e-4bbf-88c7-1afa50e8e821",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
@@ -366,15 +367,15 @@ namespace Course.Repository.Migrations
                         {
                             Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "584812fe-a742-4273-93f7-375010f209a6",
+                            ConcurrencyStamp = "3df9f37c-7d4a-4273-b241-68854d4bbbf1",
                             Email = "Admin123@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ADMIN123@GMAIL.COM",
                             NormalizedUserName = "ADMIN123@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEM0h5sFVj7sdcZ0iV6ZpEq9rUEb8iZcORyW2mdIysGKMGZwCmKBZbtaUUSGID/bB+A==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEHLaXqFcZffu46ZUtzHlZPrU4UmctRR2TUpLC7s9115guwa0J12TgALfoZHi4y3vzQ==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "b5883906-ed46-4a35-8a05-be0238528c26",
+                            SecurityStamp = "d3777b05-1414-4eb7-8392-0f2022b33189",
                             TwoFactorEnabled = false,
                             UserName = "Admin123@gmail.com",
                             IsActive = false

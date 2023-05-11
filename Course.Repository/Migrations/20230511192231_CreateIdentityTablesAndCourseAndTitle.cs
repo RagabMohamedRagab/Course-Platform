@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Course.Repository.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialTables : Migration
+    public partial class CreateIdentityTablesAndCourseAndTitle : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -31,8 +31,14 @@ namespace Course.Repository.Migrations
                 {
                     Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Discriminator = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    About = table.Column<string>(type: "nvarchar(150)", maxLength: 150, nullable: true),
-                    Logo = table.Column<byte[]>(type: "varbinary(max)", nullable: true),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    About = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Logo = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Facebook = table.Column<string>(type: "nvarchar(150)", nullable: true),
+                    Twitter = table.Column<string>(type: "nvarchar(150)", nullable: true),
+                    Instagram = table.Column<string>(type: "nvarchar(150)", nullable: true),
+                    LinkedIn = table.Column<string>(type: "nvarchar(150)", nullable: true),
+                    IsActive = table.Column<bool>(type: "bit", nullable: true),
                     UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
@@ -54,14 +60,13 @@ namespace Course.Repository.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Courses",
+                name: "Titles",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
-                    Logo = table.Column<byte[]>(type: "varbinary(max)", nullable: false),
-                    Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Logo = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     CreateOn = table.Column<DateTime>(type: "date", nullable: false),
                     ModifiedOn = table.Column<DateTime>(type: "date", nullable: false),
                     CreatedBy = table.Column<string>(type: "nvarchar(150)", maxLength: 150, nullable: false),
@@ -70,7 +75,7 @@ namespace Course.Repository.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Courses", x => x.Id);
+                    table.PrimaryKey("PK_Titles", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -180,13 +185,15 @@ namespace Course.Repository.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "UserCourses",
+                name: "Courses",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    CourseId = table.Column<int>(type: "int", nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    Logo = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    TitleId = table.Column<int>(type: "int", nullable: true),
                     CreateOn = table.Column<DateTime>(type: "date", nullable: false),
                     ModifiedOn = table.Column<DateTime>(type: "date", nullable: false),
                     CreatedBy = table.Column<string>(type: "nvarchar(150)", maxLength: 150, nullable: false),
@@ -195,70 +202,29 @@ namespace Course.Repository.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_UserCourses", x => x.Id);
+                    table.PrimaryKey("PK_Courses", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_UserCourses_AspNetUsers_UserId",
-                        column: x => x.UserId,
-                        principalTable: "AspNetUsers",
+                        name: "FK_Courses_Titles_TitleId",
+                        column: x => x.TitleId,
+                        principalTable: "Titles",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_UserCourses_Courses_CourseId",
-                        column: x => x.CourseId,
-                        principalTable: "Courses",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete:ReferentialAction.Cascade);
                 });
 
-            migrationBuilder.CreateTable(
-                name: "Books",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Data = table.Column<byte[]>(type: "varbinary(max)", nullable: false),
-                    UserCourseID = table.Column<int>(type: "int", nullable: false),
-                    CreateOn = table.Column<DateTime>(type: "date", nullable: false),
-                    ModifiedOn = table.Column<DateTime>(type: "date", nullable: false),
-                    CreatedBy = table.Column<string>(type: "nvarchar(150)", maxLength: 150, nullable: false),
-                    ModifiedBy = table.Column<string>(type: "nvarchar(150)", maxLength: 150, nullable: false),
-                    IsDeleted = table.Column<bool>(type: "bit", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Books", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Books_UserCourses_UserCourseID",
-                        column: x => x.UserCourseID,
-                        principalTable: "UserCourses",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
+            migrationBuilder.InsertData(
+                table: "AspNetRoles",
+                columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
+                values: new object[] { "2c5e174e-3b0e-446f-86af-483d56fd7210", "8693596f-eeda-4b51-aa16-1f16ee0c8a29", "Admin", "ADMIN" });
 
-            migrationBuilder.CreateTable(
-                name: "Videos",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Data = table.Column<byte[]>(type: "varbinary(max)", nullable: false),
-                    UserCourseID = table.Column<int>(type: "int", nullable: false),
-                    CreateOn = table.Column<DateTime>(type: "date", nullable: false),
-                    ModifiedOn = table.Column<DateTime>(type: "date", nullable: false),
-                    CreatedBy = table.Column<string>(type: "nvarchar(150)", maxLength: 150, nullable: false),
-                    ModifiedBy = table.Column<string>(type: "nvarchar(150)", maxLength: 150, nullable: false),
-                    IsDeleted = table.Column<bool>(type: "bit", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Videos", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Videos_UserCourses_UserCourseID",
-                        column: x => x.UserCourseID,
-                        principalTable: "UserCourses",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
+            migrationBuilder.InsertData(
+                table: "AspNetUsers",
+                columns: new[] { "Id", "About", "AccessFailedCount", "ConcurrencyStamp", "Discriminator", "Email", "EmailConfirmed", "Facebook", "Instagram", "IsActive", "LinkedIn", "LockoutEnabled", "LockoutEnd", "Logo", "Name", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "Twitter", "TwoFactorEnabled", "UserName" },
+                values: new object[] { "8e445865-a24d-4543-a6c6-9443d048cdb9", null, 0, "de565022-ca98-4e9b-8492-d22f9eac77de", "AppUser", "Admin123@gmail.com", true, null, null, false, null, true, null, null, null, "ADMIN123@GMAIL.COM", "ADMIN123@GMAIL.COM", "AQAAAAEAACcQAAAAEIH9zUZWBImq8BbAaieamPoGZ/hKmXwah9l+SbjL/v1izE/9e4SXUGhvaOLtYQB8rQ==", null, true, "faaf47b1-8f7e-4d44-8d5d-866922c6d366", null, false, "Admin123@gmail.com" });
+
+            migrationBuilder.InsertData(
+                table: "AspNetUserRoles",
+                columns: new[] { "RoleId", "UserId" },
+                values: new object[] { "2c5e174e-3b0e-446f-86af-483d56fd7210", "8e445865-a24d-4543-a6c6-9443d048cdb9" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
@@ -300,24 +266,9 @@ namespace Course.Repository.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Books_UserCourseID",
-                table: "Books",
-                column: "UserCourseID");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_UserCourses_CourseId",
-                table: "UserCourses",
-                column: "CourseId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_UserCourses_UserId",
-                table: "UserCourses",
-                column: "UserId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Videos_UserCourseID",
-                table: "Videos",
-                column: "UserCourseID");
+                name: "IX_Courses_TitleId",
+                table: "Courses",
+                column: "TitleId");
         }
 
         /// <inheritdoc />
@@ -339,22 +290,16 @@ namespace Course.Repository.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
-                name: "Books");
-
-            migrationBuilder.DropTable(
-                name: "Videos");
+                name: "Courses");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");
 
             migrationBuilder.DropTable(
-                name: "UserCourses");
-
-            migrationBuilder.DropTable(
                 name: "AspNetUsers");
 
             migrationBuilder.DropTable(
-                name: "Courses");
+                name: "Titles");
         }
     }
 }
