@@ -1,56 +1,12 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Images\\Profile\\0_7yy4jyRSyZ57BP8T.jpg",
-      "PackagePath": "staticwebassets\\Images\\Profile\\0_7yy4jyRSyZ57BP8T.jpg"
-    },
-    {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Images\\Profile\\1.jpg",
-      "PackagePath": "staticwebassets\\Images\\Profile\\1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Images\\Profile\\11.jpg",
-      "PackagePath": "staticwebassets\\Images\\Profile\\11.jpg"
-    },
-    {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Images\\Profile\\2.jpg",
-      "PackagePath": "staticwebassets\\Images\\Profile\\2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Images\\Profile\\3.jpg",
-      "PackagePath": "staticwebassets\\Images\\Profile\\3.jpg"
-    },
-    {
       "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Images\\Profile\\4.jpg",
       "PackagePath": "staticwebassets\\Images\\Profile\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Images\\Profile\\5.jpg",
-      "PackagePath": "staticwebassets\\Images\\Profile\\5.jpg"
-    },
-    {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Images\\Profile\\7.jpg",
-      "PackagePath": "staticwebassets\\Images\\Profile\\7.jpg"
-    },
-    {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Images\\Profile\\8.jpg",
-      "PackagePath": "staticwebassets\\Images\\Profile\\8.jpg"
-    },
-    {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Images\\Profile\\9.jpg",
-      "PackagePath": "staticwebassets\\Images\\Profile\\9.jpg"
-    },
-    {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Images\\Profile\\Naruto.jpg",
-      "PackagePath": "staticwebassets\\Images\\Profile\\Naruto.jpg"
-    },
-    {
       "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Images\\Profile\\Profile.png",
       "PackagePath": "staticwebassets\\Images\\Profile\\Profile.png"
-    },
-    {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Images\\Profile\\profile.jpg",
-      "PackagePath": "staticwebassets\\Images\\Profile\\profile.jpg"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Lib\\bootstrap\\css\\bootstrap.min.css",

@@ -257,7 +257,7 @@ namespace Course.Repository.Repositories {
                 LinkedIn = b.LinkedIn,
                 Instagram = b.Instagram,
                 Twitter = b.Twitter,
-                img = (String.IsNullOrEmpty(b.Logo)) ? "Profile.png" : b.Logo
+                img = (String.IsNullOrEmpty(b.Logo)) ? "../Images/Profile/Profile.png" : "../Images/Profile/"+b.Logo
             }).ToList();
             return professorInfos;
         }
