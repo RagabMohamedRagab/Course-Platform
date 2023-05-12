@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QfsyZ+/ccTrfwHpVr8i14rfDDurOe/SY/Jf9gJVEKqU=",
+  "Hash": "24a/umAwqAKOmD60ZDzVbjbfXApx3B5r6ZODADMNvdM=",
   "Source": "Course.dashboard",
   "BasePath": "_content/Course.dashboard",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "Course.dashboard\\wwwroot",
       "Source": "Course.dashboard",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "Pattern": "**"
     }
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "C:\\Users\\pc\\.nuget\\packages\\ntoastnotify\\7.0.0\\staticwebassets\\toastr.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\accordions.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\accordions.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/accordions.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\accordions.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\alerts.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\alerts.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/alerts.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\alerts.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\animate.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\animate.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/animate.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\animate.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\bootstrap.min.css.map",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\buttons.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\buttons.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/buttons.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\buttons.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\c3\\c3.min.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\c3\\c3.min.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/c3/c3.min.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\c3\\c3.min.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\calendar\\fullcalendar.min.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\calendar\\fullcalendar.min.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/calendar/fullcalendar.min.css",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\calendar\\fullcalendar.min.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\calendar\\fullcalendar.print.min.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\calendar\\fullcalendar.print.min.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/calendar/fullcalendar.print.min.css",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\calendar\\fullcalendar.print.min.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\chosen\\bootstrap-chosen.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\chosen\\bootstrap-chosen.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/chosen/bootstrap-chosen.css",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\chosen\\bootstrap-chosen.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\chosen\\chosen-sprite.png",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\chosen\\chosen-sprite.png",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/chosen/chosen-sprite.png",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\chosen\\chosen-sprite.png"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\code-editor\\ambiance.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\code-editor\\ambiance.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/code-editor/ambiance.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\code-editor\\ambiance.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\code-editor\\codemirror.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\code-editor\\codemirror.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/code-editor/codemirror.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\css\\code-editor\\codemirror.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\colorpicker\\colorpicker.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\colorpicker\\colorpicker.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/colorpicker/colorpicker.css",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\css\\colorpicker\\colorpicker.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\cropper\\cropper.min.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\cropper\\cropper.min.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/cropper/cropper.min.css",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\css\\cropper\\cropper.min.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\Dashboard.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\Dashboard.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/Dashboard.css",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Dashboard.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\datapicker\\colorpicker.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\datapicker\\colorpicker.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/datapicker/colorpicker.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\css\\datapicker\\colorpicker.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\datapicker\\datepicker3.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\datapicker\\datepicker3.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/datapicker/datepicker3.css",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\css\\datapicker\\datepicker3.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\data-table\\bootstrap-editable.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\data-table\\bootstrap-editable.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/data-table/bootstrap-editable.css",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\css\\data-table\\bootstrap-editable.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\data-table\\bootstrap-table.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\data-table\\bootstrap-table.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/data-table/bootstrap-table.css",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\css\\data-table\\bootstrap-table.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\dropzone\\dropzone.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\dropzone\\dropzone.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/dropzone/dropzone.css",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\css\\dropzone\\dropzone.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\duallistbox\\bootstrap-duallistbox.min.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\duallistbox\\bootstrap-duallistbox.min.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/duallistbox/bootstrap-duallistbox.min.css",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\css\\duallistbox\\bootstrap-duallistbox.min.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\editor\\bootstrap-editable.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\editor\\bootstrap-editable.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/editor/bootstrap-editable.css",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\css\\editor\\bootstrap-editable.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\editor\\datetimepicker.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\editor\\datetimepicker.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/editor/datetimepicker.css",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\css\\editor\\datetimepicker.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\editor\\select2.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\editor\\select2.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/editor/select2.css",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\css\\editor\\select2.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\editor\\x-editor-style.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\editor\\x-editor-style.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/editor/x-editor-style.css",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\css\\editor\\x-editor-style.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\educate-custon-icon.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\educate-custon-icon.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/educate-custon-icon.css",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\css\\educate-custon-icon.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\font-awesome.min.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\font-awesome.min.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/font-awesome.min.css",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\css\\font-awesome.min.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\form.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\form.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/form.css",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\css\\form.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\form\\all-type-forms.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\form\\all-type-forms.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/form/all-type-forms.css",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\css\\form\\all-type-forms.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\form\\themesaller-forms.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\form\\themesaller-forms.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/form/themesaller-forms.css",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\css\\form\\themesaller-forms.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\ionRangeSlider\\ion.rangeSlider.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\ionRangeSlider\\ion.rangeSlider.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/ionRangeSlider/ion.rangeSlider.css",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\css\\ionRangeSlider\\ion.rangeSlider.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\ionRangeSlider\\ion.rangeSlider.skinFlat.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\ionRangeSlider\\ion.rangeSlider.skinFlat.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/ionRangeSlider/ion.rangeSlider.skinFlat.css",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\css\\ionRangeSlider\\ion.rangeSlider.skinFlat.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\ionRangeSlider\\sprite-skin-flat.png",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\ionRangeSlider\\sprite-skin-flat.png",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/ionRangeSlider/sprite-skin-flat.png",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\css\\ionRangeSlider\\sprite-skin-flat.png"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\main.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\main.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/main.css",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\css\\main.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\meanmenu.min.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\meanmenu.min.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/meanmenu.min.css",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\css\\meanmenu.min.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\metisMenu\\metisMenu.min.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\metisMenu\\metisMenu.min.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/metisMenu/metisMenu.min.css",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\css\\metisMenu\\metisMenu.min.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\metisMenu\\metisMenu.min.css.map",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\metisMenu\\metisMenu.min.css.map",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/metisMenu/metisMenu.min.css.map",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\css\\metisMenu\\metisMenu.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\metisMenu\\metisMenu-vertical.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\metisMenu\\metisMenu-vertical.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/metisMenu/metisMenu-vertical.css",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\css\\metisMenu\\metisMenu-vertical.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\modals.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\modals.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/modals.css",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\css\\modals.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\morrisjs\\morris.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\morrisjs\\morris.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/morrisjs/morris.css",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\css\\morrisjs\\morris.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\normalize.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\normalize.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/normalize.css",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\css\\normalize.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\notifications\\Lobibox.min.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\notifications\\Lobibox.min.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/notifications/Lobibox.min.css",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\css\\notifications\\Lobibox.min.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\notifications\\notifications.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\notifications\\notifications.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/notifications/notifications.css",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\css\\notifications\\notifications.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\originalt.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\originalt.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/originalt.css",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\css\\originalt.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\owl.carousel.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\owl.carousel.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/owl.carousel.css",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\css\\owl.carousel.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\owl.theme.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\owl.theme.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/owl.theme.css",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\css\\owl.theme.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\owl.transitions.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\owl.transitions.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/owl.transitions.css",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\css\\owl.transitions.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\preloader\\preloader-style.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\preloader\\preloader-style.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/preloader/preloader-style.css",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\css\\preloader\\preloader-style.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\responsive.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\responsive.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/responsive.css",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\css\\responsive.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\scrollbar\\jquery.mCustomScrollbar.min.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\scrollbar\\jquery.mCustomScrollbar.min.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/scrollbar/jquery.mCustomScrollbar.min.css",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\css\\scrollbar\\jquery.mCustomScrollbar.min.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\select2\\select2.min.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\select2\\select2.min.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/select2/select2.min.css",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\css\\select2\\select2.min.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\style.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\summernote\\fonts\\summernote.eot",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\summernote\\fonts\\summernote.eot",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/summernote/fonts/summernote.eot",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\css\\summernote\\fonts\\summernote.eot"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\summernote\\fonts\\summernote.ttf",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\summernote\\fonts\\summernote.ttf",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/summernote/fonts/summernote.ttf",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\css\\summernote\\fonts\\summernote.ttf"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\summernote\\fonts\\summernote.woff",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\summernote\\fonts\\summernote.woff",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/summernote/fonts/summernote.woff",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\css\\summernote\\fonts\\summernote.woff"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\summernote\\summernote.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\summernote\\summernote.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/summernote/summernote.css",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\css\\summernote\\summernote.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\tabs.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\tabs.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/tabs.css",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\css\\tabs.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\touchspin\\jquery.bootstrap-touchspin.min.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\touchspin\\jquery.bootstrap-touchspin.min.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/touchspin/jquery.bootstrap-touchspin.min.css",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\css\\touchspin\\jquery.bootstrap-touchspin.min.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\tree-viewer\\32px.png",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\tree-viewer\\32px.png",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/tree-viewer/32px.png",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\css\\tree-viewer\\32px.png"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\tree-viewer\\throbber.gif",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\tree-viewer\\throbber.gif",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/tree-viewer/throbber.gif",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\css\\tree-viewer\\throbber.gif"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\tree-viewer\\tree-viewer.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\tree-viewer\\tree-viewer.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "css/tree-viewer/tree-viewer.css",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\css\\tree-viewer\\tree-viewer.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\educate-icon.svg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\educate-icon.svg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "fonts/educate-icon.svg",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\educate-icon.svg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\educate-icon.ttf",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\educate-icon.ttf",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "fonts/educate-icon.ttf",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\educate-icon.ttf"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\educate-icon.woff",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\educate-icon.woff",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "fonts/educate-icon.woff",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\educate-icon.woff"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\FontAwesome.otf",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\FontAwesome.otf",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "fonts/FontAwesome.otf",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\FontAwesome.otf"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\fontawesome-webfont.eot",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "fonts/fontawesome-webfont.eot",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\fontawesome-webfont.svg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "fonts/fontawesome-webfont.svg",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\fontawesome-webfont.ttf",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "fonts/fontawesome-webfont.ttf",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\fontawesome-webfont.woff",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "fonts/fontawesome-webfont.woff",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\fontawesome-webfont.woff2",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "fonts/fontawesome-webfont.woff2",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "fonts/glyphicons-halflings-regular.eot",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.eot"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "fonts/glyphicons-halflings-regular.svg",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.svg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "fonts/glyphicons-halflings-regular.ttf",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.ttf"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "fonts/glyphicons-halflings-regular.woff",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.woff"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "fonts/glyphicons-halflings-regular.woff2",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.woff2"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Images\\Profile\\4.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Profile\\4.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "Images/Profile/4.jpg",
       "AssetKind": "All",
@@ -1360,10 +1360,44 @@
       "OriginalItemSpec": "wwwroot\\Images\\Profile\\4.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Images\\Profile\\Profile.png",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Profile\\6.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
+      "BasePath": "_content/Course.dashboard",
+      "RelativePath": "Images/Profile/6.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Profile\\6.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Profile\\8.jpg",
+      "SourceId": "Course.dashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
+      "BasePath": "_content/Course.dashboard",
+      "RelativePath": "Images/Profile/8.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Profile\\8.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Profile\\Profile.png",
+      "SourceId": "Course.dashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "Images/Profile/Profile.png",
       "AssetKind": "All",
@@ -1377,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Profile\\Profile.png"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\blog-details\\1.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\blog-details\\1.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/blog-details/1.jpg",
       "AssetKind": "All",
@@ -1394,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blog-details\\1.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\clear.png",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\clear.png",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/clear.png",
       "AssetKind": "All",
@@ -1411,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\img\\clear.png"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\contact\\1.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\contact\\1.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/contact/1.jpg",
       "AssetKind": "All",
@@ -1428,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\img\\contact\\1.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\contact\\2.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\contact\\2.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/contact/2.jpg",
       "AssetKind": "All",
@@ -1445,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\img\\contact\\2.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\contact\\3.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\contact\\3.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/contact/3.jpg",
       "AssetKind": "All",
@@ -1462,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\img\\contact\\3.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\contact\\4.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\contact\\4.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/contact/4.jpg",
       "AssetKind": "All",
@@ -1479,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\img\\contact\\4.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\courses\\1.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\courses\\1.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/courses/1.jpg",
       "AssetKind": "All",
@@ -1496,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\img\\courses\\1.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\courses\\2.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\courses\\2.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/courses/2.jpg",
       "AssetKind": "All",
@@ -1513,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\img\\courses\\2.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\courses\\3.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\courses\\3.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/courses/3.jpg",
       "AssetKind": "All",
@@ -1530,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\img\\courses\\3.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\cropper\\1.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\cropper\\1.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/cropper/1.jpg",
       "AssetKind": "All",
@@ -1547,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\img\\cropper\\1.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\favicon.ico",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\favicon.ico",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/favicon.ico",
       "AssetKind": "All",
@@ -1564,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\img\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\green1.png",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\green1.png",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/green1.png",
       "AssetKind": "All",
@@ -1581,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\img\\green1.png"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\loading.gif",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\loading.gif",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/loading.gif",
       "AssetKind": "All",
@@ -1598,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\img\\loading.gif"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\logo\\logo.png",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\logo\\logo.png",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/logo/logo.png",
       "AssetKind": "All",
@@ -1615,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\logo\\logosn.png",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\logo\\logosn.png",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/logo/logosn.png",
       "AssetKind": "All",
@@ -1632,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo\\logosn.png"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\logo\\profile.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\logo\\profile.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/logo/profile.jpg",
       "AssetKind": "All",
@@ -1649,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo\\profile.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\notification\\1.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\notification\\1.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/notification/1.jpg",
       "AssetKind": "All",
@@ -1666,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\img\\notification\\1.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\notification\\2.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\notification\\2.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/notification/2.jpg",
       "AssetKind": "All",
@@ -1683,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\img\\notification\\2.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\notification\\3.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\notification\\3.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/notification/3.jpg",
       "AssetKind": "All",
@@ -1700,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\img\\notification\\3.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\notification\\4.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\notification\\4.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/notification/4.jpg",
       "AssetKind": "All",
@@ -1717,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\img\\notification\\4.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\notification\\5.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\notification\\5.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/notification/5.jpg",
       "AssetKind": "All",
@@ -1734,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\img\\notification\\5.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\notification\\6.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\notification\\6.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/notification/6.jpg",
       "AssetKind": "All",
@@ -1751,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\img\\notification\\6.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\product\\book-1.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\product\\book-1.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/product/book-1.jpg",
       "AssetKind": "All",
@@ -1768,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\book-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\product\\book-2.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\product\\book-2.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/product/book-2.jpg",
       "AssetKind": "All",
@@ -1785,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\book-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\product\\book-3.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\product\\book-3.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/product/book-3.jpg",
       "AssetKind": "All",
@@ -1802,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\book-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\product\\book-4.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\product\\book-4.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/product/book-4.jpg",
       "AssetKind": "All",
@@ -1819,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\book-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\product\\pro4.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\product\\pro4.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/product/pro4.jpg",
       "AssetKind": "All",
@@ -1836,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\pro4.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\product\\profile-bg.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\product\\profile-bg.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/product/profile-bg.jpg",
       "AssetKind": "All",
@@ -1853,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\profile-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\profile\\1.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\profile\\1.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/profile/1.jpg",
       "AssetKind": "All",
@@ -1870,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\img\\profile\\1.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\student\\1.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\student\\1.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/student/1.jpg",
       "AssetKind": "All",
@@ -1887,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\img\\student\\1.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\student\\2.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\student\\2.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/student/2.jpg",
       "AssetKind": "All",
@@ -1904,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\img\\student\\2.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\student\\3.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\student\\3.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/student/3.jpg",
       "AssetKind": "All",
@@ -1921,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\img\\student\\3.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\student\\4.jpg",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\student\\4.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "img/student/4.jpg",
       "AssetKind": "All",
@@ -1938,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\img\\student\\4.jpg"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\bootstrap.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1955,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\c3-charts\\c3.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\c3-charts\\c3.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/c3-charts/c3.min.js",
       "AssetKind": "All",
@@ -1972,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\js\\c3-charts\\c3.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\c3-charts\\c3-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\c3-charts\\c3-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/c3-charts/c3-active.js",
       "AssetKind": "All",
@@ -1989,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\js\\c3-charts\\c3-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\c3-charts\\d3.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\c3-charts\\d3.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/c3-charts/d3.min.js",
       "AssetKind": "All",
@@ -2006,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\js\\c3-charts\\d3.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\calendar\\fullcalendar.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\calendar\\fullcalendar.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/calendar/fullcalendar.min.js",
       "AssetKind": "All",
@@ -2023,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\js\\calendar\\fullcalendar.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\calendar\\fullcalendar-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\calendar\\fullcalendar-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/calendar/fullcalendar-active.js",
       "AssetKind": "All",
@@ -2040,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\js\\calendar\\fullcalendar-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\calendar\\moment.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\calendar\\moment.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/calendar/moment.min.js",
       "AssetKind": "All",
@@ -2057,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\js\\calendar\\moment.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\card.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\card.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/card.js",
       "AssetKind": "All",
@@ -2074,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\js\\card.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\chart\\jquery.peity.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\chart\\jquery.peity.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/chart/jquery.peity.min.js",
       "AssetKind": "All",
@@ -2091,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\js\\chart\\jquery.peity.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\chart\\peity-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\chart\\peity-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/chart/peity-active.js",
       "AssetKind": "All",
@@ -2108,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\js\\chart\\peity-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\charts\\area-chart.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\charts\\area-chart.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/charts/area-chart.js",
       "AssetKind": "All",
@@ -2125,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\js\\charts\\area-chart.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\charts\\bar-chart.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\charts\\bar-chart.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/charts/bar-chart.js",
       "AssetKind": "All",
@@ -2142,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\js\\charts\\bar-chart.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\charts\\Chart.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\charts\\Chart.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/charts/Chart.js",
       "AssetKind": "All",
@@ -2159,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\js\\charts\\Chart.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\charts\\line-chart.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\charts\\line-chart.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/charts/line-chart.js",
       "AssetKind": "All",
@@ -2176,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\js\\charts\\line-chart.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\charts\\rounded-chart.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\charts\\rounded-chart.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/charts/rounded-chart.js",
       "AssetKind": "All",
@@ -2193,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\js\\charts\\rounded-chart.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\chosen\\chosen.jquery.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\chosen\\chosen.jquery.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/chosen/chosen.jquery.js",
       "AssetKind": "All",
@@ -2210,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\js\\chosen\\chosen.jquery.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\chosen\\chosen.jquery.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\chosen\\chosen.jquery.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/chosen/chosen.jquery.min.js",
       "AssetKind": "All",
@@ -2227,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\js\\chosen\\chosen.jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\chosen\\chosen-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\chosen\\chosen-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/chosen/chosen-active.js",
       "AssetKind": "All",
@@ -2244,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\js\\chosen\\chosen-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\code-editor\\code-editor.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\code-editor\\code-editor.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/code-editor/code-editor.js",
       "AssetKind": "All",
@@ -2261,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\js\\code-editor\\code-editor.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\code-editor\\code-editor-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\code-editor\\code-editor-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/code-editor/code-editor-active.js",
       "AssetKind": "All",
@@ -2278,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\js\\code-editor\\code-editor-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\code-editor\\codemirror.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\code-editor\\codemirror.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/code-editor/codemirror.js",
       "AssetKind": "All",
@@ -2295,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\js\\code-editor\\codemirror.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\colorpicker\\color-picker-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\colorpicker\\color-picker-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/colorpicker/color-picker-active.js",
       "AssetKind": "All",
@@ -2312,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\js\\colorpicker\\color-picker-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\colorpicker\\jquery.spectrum.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\colorpicker\\jquery.spectrum.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/colorpicker/jquery.spectrum.min.js",
       "AssetKind": "All",
@@ -2329,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\js\\colorpicker\\jquery.spectrum.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\counterup\\counterup-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\counterup\\counterup-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/counterup/counterup-active.js",
       "AssetKind": "All",
@@ -2346,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\js\\counterup\\counterup-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\counterup\\jquery.counterup.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\counterup\\jquery.counterup.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/counterup/jquery.counterup.min.js",
       "AssetKind": "All",
@@ -2363,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\js\\counterup\\jquery.counterup.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\counterup\\waypoints.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\counterup\\waypoints.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/counterup/waypoints.min.js",
       "AssetKind": "All",
@@ -2380,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\js\\counterup\\waypoints.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\cropper\\cropper.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\cropper\\cropper.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/cropper/cropper.min.js",
       "AssetKind": "All",
@@ -2397,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\js\\cropper\\cropper.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\cropper\\cropper-actice.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\cropper\\cropper-actice.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/cropper/cropper-actice.js",
       "AssetKind": "All",
@@ -2414,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\js\\cropper\\cropper-actice.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\data-map\\d3.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\data-map\\d3.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/data-map/d3.min.js",
       "AssetKind": "All",
@@ -2431,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\js\\data-map\\d3.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\data-map\\datamaps.all.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\data-map\\datamaps.all.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/data-map/datamaps.all.min.js",
       "AssetKind": "All",
@@ -2448,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\js\\data-map\\datamaps.all.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\data-map\\data-maps-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\data-map\\data-maps-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/data-map/data-maps-active.js",
       "AssetKind": "All",
@@ -2465,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\js\\data-map\\data-maps-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\data-map\\topojson.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\data-map\\topojson.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/data-map/topojson.js",
       "AssetKind": "All",
@@ -2482,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\js\\data-map\\topojson.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\datapicker\\bootstrap-datepicker.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\datapicker\\bootstrap-datepicker.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/datapicker/bootstrap-datepicker.js",
       "AssetKind": "All",
@@ -2499,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\js\\datapicker\\bootstrap-datepicker.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\datapicker\\bootstrap-datepicker.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\datapicker\\bootstrap-datepicker.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/datapicker/bootstrap-datepicker.min.js",
       "AssetKind": "All",
@@ -2516,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\js\\datapicker\\bootstrap-datepicker.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\datapicker\\datepicker-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\datapicker\\datepicker-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/datapicker/datepicker-active.js",
       "AssetKind": "All",
@@ -2533,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\js\\datapicker\\datepicker-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\data-table\\bootstrap-editable.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\data-table\\bootstrap-editable.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/data-table/bootstrap-editable.js",
       "AssetKind": "All",
@@ -2550,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\js\\data-table\\bootstrap-editable.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\data-table\\bootstrap-table.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\data-table\\bootstrap-table.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/data-table/bootstrap-table.js",
       "AssetKind": "All",
@@ -2567,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\js\\data-table\\bootstrap-table.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\data-table\\bootstrap-table-editable.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\data-table\\bootstrap-table-editable.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/data-table/bootstrap-table-editable.js",
       "AssetKind": "All",
@@ -2584,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\js\\data-table\\bootstrap-table-editable.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\data-table\\bootstrap-table-export.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\data-table\\bootstrap-table-export.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/data-table/bootstrap-table-export.js",
       "AssetKind": "All",
@@ -2601,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\js\\data-table\\bootstrap-table-export.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\data-table\\bootstrap-table-resizable.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\data-table\\bootstrap-table-resizable.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/data-table/bootstrap-table-resizable.js",
       "AssetKind": "All",
@@ -2618,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\js\\data-table\\bootstrap-table-resizable.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\data-table\\colResizable-1.5.source.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\data-table\\colResizable-1.5.source.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/data-table/colResizable-1.5.source.js",
       "AssetKind": "All",
@@ -2635,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\js\\data-table\\colResizable-1.5.source.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\data-table\\data-table-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\data-table\\data-table-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/data-table/data-table-active.js",
       "AssetKind": "All",
@@ -2652,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\js\\data-table\\data-table-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\data-table\\tableExport.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\data-table\\tableExport.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/data-table/tableExport.js",
       "AssetKind": "All",
@@ -2669,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\js\\data-table\\tableExport.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\datepicker\\datepicker-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\datepicker\\datepicker-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/datepicker/datepicker-active.js",
       "AssetKind": "All",
@@ -2686,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\js\\datepicker\\datepicker-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\datepicker\\jquery-ui.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\datepicker\\jquery-ui.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/datepicker/jquery-ui.min.js",
       "AssetKind": "All",
@@ -2703,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\js\\datepicker\\jquery-ui.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\dropzone\\dropzone.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\dropzone\\dropzone.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/dropzone/dropzone.js",
       "AssetKind": "All",
@@ -2720,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dropzone\\dropzone.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\duallistbox\\duallistbox.active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\duallistbox\\duallistbox.active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/duallistbox/duallistbox.active.js",
       "AssetKind": "All",
@@ -2737,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\js\\duallistbox\\duallistbox.active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\duallistbox\\jquery.bootstrap-duallistbox.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\duallistbox\\jquery.bootstrap-duallistbox.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/duallistbox/jquery.bootstrap-duallistbox.js",
       "AssetKind": "All",
@@ -2754,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\js\\duallistbox\\jquery.bootstrap-duallistbox.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\editable\\bootstrap-datetimepicker.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\editable\\bootstrap-datetimepicker.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/editable/bootstrap-datetimepicker.js",
       "AssetKind": "All",
@@ -2771,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\js\\editable\\bootstrap-datetimepicker.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\editable\\bootstrap-editable.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\editable\\bootstrap-editable.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/editable/bootstrap-editable.js",
       "AssetKind": "All",
@@ -2788,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\js\\editable\\bootstrap-editable.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\editable\\jquery.mockjax.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\editable\\jquery.mockjax.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/editable/jquery.mockjax.js",
       "AssetKind": "All",
@@ -2805,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\js\\editable\\jquery.mockjax.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\editable\\mock-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\editable\\mock-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/editable/mock-active.js",
       "AssetKind": "All",
@@ -2822,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\js\\editable\\mock-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\editable\\moment.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\editable\\moment.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/editable/moment.min.js",
       "AssetKind": "All",
@@ -2839,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\js\\editable\\moment.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\editable\\select2.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\editable\\select2.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/editable/select2.js",
       "AssetKind": "All",
@@ -2856,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\js\\editable\\select2.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\editable\\xediable-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\editable\\xediable-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/editable/xediable-active.js",
       "AssetKind": "All",
@@ -2873,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\js\\editable\\xediable-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\e-payment.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\e-payment.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/e-payment.js",
       "AssetKind": "All",
@@ -2890,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\js\\e-payment.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\form-validation\\form-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\form-validation\\form-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/form-validation/form-active.js",
       "AssetKind": "All",
@@ -2907,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\js\\form-validation\\form-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\form-validation\\jquery.form.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\form-validation\\jquery.form.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/form-validation/jquery.form.min.js",
       "AssetKind": "All",
@@ -2924,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\js\\form-validation\\jquery.form.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\form-validation\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\form-validation\\jquery.validate.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/form-validation/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2941,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\js\\form-validation\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\google.maps\\google.maps-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\google.maps\\google.maps-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/google.maps/google.maps-active.js",
       "AssetKind": "All",
@@ -2958,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\js\\google.maps\\google.maps-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\icheck\\icheck.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\icheck\\icheck.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/icheck/icheck.min.js",
       "AssetKind": "All",
@@ -2975,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\js\\icheck\\icheck.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\icheck\\icheck-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\icheck\\icheck-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/icheck/icheck-active.js",
       "AssetKind": "All",
@@ -2992,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\js\\icheck\\icheck-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\input-mask\\jasny-bootstrap.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\input-mask\\jasny-bootstrap.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/input-mask/jasny-bootstrap.min.js",
       "AssetKind": "All",
@@ -3009,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\js\\input-mask\\jasny-bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\ionRangeSlider\\ion.rangeSlider.active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\ionRangeSlider\\ion.rangeSlider.active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/ionRangeSlider/ion.rangeSlider.active.js",
       "AssetKind": "All",
@@ -3026,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\js\\ionRangeSlider\\ion.rangeSlider.active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\ionRangeSlider\\ion.rangeSlider.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\ionRangeSlider\\ion.rangeSlider.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/ionRangeSlider/ion.rangeSlider.min.js",
       "AssetKind": "All",
@@ -3043,10 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\js\\ionRangeSlider\\ion.rangeSlider.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\jquery.maskedinput.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\jquery.maskedinput.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/jquery.maskedinput.min.js",
       "AssetKind": "All",
@@ -3060,10 +3094,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.maskedinput.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\jquery.meanmenu.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\jquery.meanmenu.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/jquery.meanmenu.js",
       "AssetKind": "All",
@@ -3077,10 +3111,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.meanmenu.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\jquery.payform.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\jquery.payform.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/jquery.payform.min.js",
       "AssetKind": "All",
@@ -3094,10 +3128,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.payform.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\jquery.scrollUp.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\jquery.scrollUp.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/jquery.scrollUp.min.js",
       "AssetKind": "All",
@@ -3111,10 +3145,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.scrollUp.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\jquery.sticky.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\jquery.sticky.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/jquery.sticky.js",
       "AssetKind": "All",
@@ -3128,10 +3162,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.sticky.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\jquery-price-slider.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\jquery-price-slider.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/jquery-price-slider.js",
       "AssetKind": "All",
@@ -3145,10 +3179,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery-price-slider.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\knob\\jquery.knob.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\knob\\jquery.knob.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/knob/jquery.knob.js",
       "AssetKind": "All",
@@ -3162,10 +3196,10 @@
       "OriginalItemSpec": "wwwroot\\js\\knob\\jquery.knob.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\knob\\knob-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\knob\\knob-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/knob/knob-active.js",
       "AssetKind": "All",
@@ -3179,10 +3213,10 @@
       "OriginalItemSpec": "wwwroot\\js\\knob\\knob-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\main.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\main.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/main.js",
       "AssetKind": "All",
@@ -3196,10 +3230,10 @@
       "OriginalItemSpec": "wwwroot\\js\\main.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\masking-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\masking-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/masking-active.js",
       "AssetKind": "All",
@@ -3213,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\js\\masking-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\metisMenu\\metisMenu.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\metisMenu\\metisMenu.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/metisMenu/metisMenu.min.js",
       "AssetKind": "All",
@@ -3230,10 +3264,10 @@
       "OriginalItemSpec": "wwwroot\\js\\metisMenu\\metisMenu.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\metisMenu\\metisMenu.min.js.map",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\metisMenu\\metisMenu.min.js.map",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/metisMenu/metisMenu.min.js.map",
       "AssetKind": "All",
@@ -3247,10 +3281,10 @@
       "OriginalItemSpec": "wwwroot\\js\\metisMenu\\metisMenu.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\metisMenu\\metisMenu-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\metisMenu\\metisMenu-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/metisMenu/metisMenu-active.js",
       "AssetKind": "All",
@@ -3264,10 +3298,10 @@
       "OriginalItemSpec": "wwwroot\\js\\metisMenu\\metisMenu-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\morrisjs\\home3-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\morrisjs\\home3-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/morrisjs/home3-active.js",
       "AssetKind": "All",
@@ -3281,10 +3315,10 @@
       "OriginalItemSpec": "wwwroot\\js\\morrisjs\\home3-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\morrisjs\\morris.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\morrisjs\\morris.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/morrisjs/morris.js",
       "AssetKind": "All",
@@ -3298,10 +3332,10 @@
       "OriginalItemSpec": "wwwroot\\js\\morrisjs\\morris.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\morrisjs\\morris-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\morrisjs\\morris-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/morrisjs/morris-active.js",
       "AssetKind": "All",
@@ -3315,10 +3349,10 @@
       "OriginalItemSpec": "wwwroot\\js\\morrisjs\\morris-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\morrisjs\\morris-active-pro.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\morrisjs\\morris-active-pro.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/morrisjs/morris-active-pro.js",
       "AssetKind": "All",
@@ -3332,10 +3366,10 @@
       "OriginalItemSpec": "wwwroot\\js\\morrisjs\\morris-active-pro.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\morrisjs\\raphael-min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\morrisjs\\raphael-min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/morrisjs/raphael-min.js",
       "AssetKind": "All",
@@ -3349,10 +3383,10 @@
       "OriginalItemSpec": "wwwroot\\js\\morrisjs\\raphael-min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\multiple-email\\multiple-email-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\multiple-email\\multiple-email-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/multiple-email/multiple-email-active.js",
       "AssetKind": "All",
@@ -3366,10 +3400,10 @@
       "OriginalItemSpec": "wwwroot\\js\\multiple-email\\multiple-email-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\notifications\\Lobibox.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\notifications\\Lobibox.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/notifications/Lobibox.js",
       "AssetKind": "All",
@@ -3383,10 +3417,10 @@
       "OriginalItemSpec": "wwwroot\\js\\notifications\\Lobibox.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\notifications\\notification-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\notifications\\notification-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/notifications/notification-active.js",
       "AssetKind": "All",
@@ -3400,10 +3434,10 @@
       "OriginalItemSpec": "wwwroot\\js\\notifications\\notification-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\owl.carousel.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\owl.carousel.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/owl.carousel.min.js",
       "AssetKind": "All",
@@ -3417,10 +3451,10 @@
       "OriginalItemSpec": "wwwroot\\js\\owl.carousel.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\password-meter\\password-meter-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\password-meter\\password-meter-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/password-meter/password-meter-active.js",
       "AssetKind": "All",
@@ -3434,10 +3468,10 @@
       "OriginalItemSpec": "wwwroot\\js\\password-meter\\password-meter-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\password-meter\\pwstrength-bootstrap.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\password-meter\\pwstrength-bootstrap.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/password-meter/pwstrength-bootstrap.min.js",
       "AssetKind": "All",
@@ -3451,10 +3485,10 @@
       "OriginalItemSpec": "wwwroot\\js\\password-meter\\pwstrength-bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\password-meter\\zxcvbn.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\password-meter\\zxcvbn.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/password-meter/zxcvbn.js",
       "AssetKind": "All",
@@ -3468,10 +3502,10 @@
       "OriginalItemSpec": "wwwroot\\js\\password-meter\\zxcvbn.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\pdf\\jquery.media.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\pdf\\jquery.media.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/pdf/jquery.media.js",
       "AssetKind": "All",
@@ -3485,10 +3519,10 @@
       "OriginalItemSpec": "wwwroot\\js\\pdf\\jquery.media.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\pdf\\pdf-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\pdf\\pdf-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/pdf/pdf-active.js",
       "AssetKind": "All",
@@ -3502,10 +3536,10 @@
       "OriginalItemSpec": "wwwroot\\js\\pdf\\pdf-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\peity\\jquery.peity.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\peity\\jquery.peity.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/peity/jquery.peity.min.js",
       "AssetKind": "All",
@@ -3519,10 +3553,10 @@
       "OriginalItemSpec": "wwwroot\\js\\peity\\jquery.peity.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\peity\\peity-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\peity\\peity-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/peity/peity-active.js",
       "AssetKind": "All",
@@ -3536,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\js\\peity\\peity-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\plugins.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\plugins.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/plugins.js",
       "AssetKind": "All",
@@ -3553,10 +3587,10 @@
       "OriginalItemSpec": "wwwroot\\js\\plugins.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\rangle-slider\\jquery-ui-1.10.4.custom.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\rangle-slider\\jquery-ui-1.10.4.custom.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/rangle-slider/jquery-ui-1.10.4.custom.min.js",
       "AssetKind": "All",
@@ -3570,10 +3604,10 @@
       "OriginalItemSpec": "wwwroot\\js\\rangle-slider\\jquery-ui-1.10.4.custom.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\rangle-slider\\jquery-ui-touch-punch.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\rangle-slider\\jquery-ui-touch-punch.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/rangle-slider/jquery-ui-touch-punch.min.js",
       "AssetKind": "All",
@@ -3587,10 +3621,10 @@
       "OriginalItemSpec": "wwwroot\\js\\rangle-slider\\jquery-ui-touch-punch.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\rangle-slider\\rangle-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\rangle-slider\\rangle-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/rangle-slider/rangle-active.js",
       "AssetKind": "All",
@@ -3604,10 +3638,10 @@
       "OriginalItemSpec": "wwwroot\\js\\rangle-slider\\rangle-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\scrollbar\\jquery.mCustomScrollbar.concat.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\scrollbar\\jquery.mCustomScrollbar.concat.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/scrollbar/jquery.mCustomScrollbar.concat.min.js",
       "AssetKind": "All",
@@ -3621,10 +3655,10 @@
       "OriginalItemSpec": "wwwroot\\js\\scrollbar\\jquery.mCustomScrollbar.concat.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\scrollbar\\mCustomScrollbar-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\scrollbar\\mCustomScrollbar-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/scrollbar/mCustomScrollbar-active.js",
       "AssetKind": "All",
@@ -3638,10 +3672,10 @@
       "OriginalItemSpec": "wwwroot\\js\\scrollbar\\mCustomScrollbar-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\select2\\select2.full.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\select2\\select2.full.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/select2/select2.full.min.js",
       "AssetKind": "All",
@@ -3655,10 +3689,10 @@
       "OriginalItemSpec": "wwwroot\\js\\select2\\select2.full.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\select2\\select2-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\select2\\select2-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/select2/select2-active.js",
       "AssetKind": "All",
@@ -3672,10 +3706,10 @@
       "OriginalItemSpec": "wwwroot\\js\\select2\\select2-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\sparkline\\jquery.charts-sparkline.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\sparkline\\jquery.charts-sparkline.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/sparkline/jquery.charts-sparkline.js",
       "AssetKind": "All",
@@ -3689,10 +3723,10 @@
       "OriginalItemSpec": "wwwroot\\js\\sparkline\\jquery.charts-sparkline.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\sparkline\\jquery.sparkline.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\sparkline\\jquery.sparkline.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/sparkline/jquery.sparkline.min.js",
       "AssetKind": "All",
@@ -3706,10 +3740,10 @@
       "OriginalItemSpec": "wwwroot\\js\\sparkline\\jquery.sparkline.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\sparkline\\sparkline-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\sparkline\\sparkline-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/sparkline/sparkline-active.js",
       "AssetKind": "All",
@@ -3723,10 +3757,10 @@
       "OriginalItemSpec": "wwwroot\\js\\sparkline\\sparkline-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\summernote\\summernote.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\summernote\\summernote.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/summernote/summernote.min.js",
       "AssetKind": "All",
@@ -3740,10 +3774,10 @@
       "OriginalItemSpec": "wwwroot\\js\\summernote\\summernote.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\summernote\\summernote-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\summernote\\summernote-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/summernote/summernote-active.js",
       "AssetKind": "All",
@@ -3757,10 +3791,10 @@
       "OriginalItemSpec": "wwwroot\\js\\summernote\\summernote-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\tab.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\tab.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/tab.js",
       "AssetKind": "All",
@@ -3774,10 +3808,10 @@
       "OriginalItemSpec": "wwwroot\\js\\tab.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\tawk-chat.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\tawk-chat.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/tawk-chat.js",
       "AssetKind": "All",
@@ -3791,10 +3825,10 @@
       "OriginalItemSpec": "wwwroot\\js\\tawk-chat.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\touchspin\\jquery.bootstrap-touchspin.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\touchspin\\jquery.bootstrap-touchspin.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/touchspin/jquery.bootstrap-touchspin.min.js",
       "AssetKind": "All",
@@ -3808,10 +3842,10 @@
       "OriginalItemSpec": "wwwroot\\js\\touchspin\\jquery.bootstrap-touchspin.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\touchspin\\touchspin-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\touchspin\\touchspin-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/touchspin/touchspin-active.js",
       "AssetKind": "All",
@@ -3825,10 +3859,10 @@
       "OriginalItemSpec": "wwwroot\\js\\touchspin\\touchspin-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\tree-line\\jstree.active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\tree-line\\jstree.active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/tree-line/jstree.active.js",
       "AssetKind": "All",
@@ -3842,10 +3876,10 @@
       "OriginalItemSpec": "wwwroot\\js\\tree-line\\jstree.active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\tree-line\\jstree.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\tree-line\\jstree.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/tree-line/jstree.min.js",
       "AssetKind": "All",
@@ -3859,10 +3893,10 @@
       "OriginalItemSpec": "wwwroot\\js\\tree-line\\jstree.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\vendor\\jquery-1.12.4.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\vendor\\jquery-1.12.4.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/vendor/jquery-1.12.4.min.js",
       "AssetKind": "All",
@@ -3876,10 +3910,10 @@
       "OriginalItemSpec": "wwwroot\\js\\vendor\\jquery-1.12.4.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\vendor\\modernizr-2.8.3.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\vendor\\modernizr-2.8.3.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/vendor/modernizr-2.8.3.min.js",
       "AssetKind": "All",
@@ -3893,10 +3927,10 @@
       "OriginalItemSpec": "wwwroot\\js\\vendor\\modernizr-2.8.3.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\vendor\\modernizr-custom.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\vendor\\modernizr-custom.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/vendor/modernizr-custom.js",
       "AssetKind": "All",
@@ -3910,10 +3944,10 @@
       "OriginalItemSpec": "wwwroot\\js\\vendor\\modernizr-custom.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\wizard\\jquery.steps.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\wizard\\jquery.steps.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/wizard/jquery.steps.js",
       "AssetKind": "All",
@@ -3927,10 +3961,10 @@
       "OriginalItemSpec": "wwwroot\\js\\wizard\\jquery.steps.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\wizard\\steps-active.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\wizard\\steps-active.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/wizard/steps-active.js",
       "AssetKind": "All",
@@ -3944,10 +3978,10 @@
       "OriginalItemSpec": "wwwroot\\js\\wizard\\steps-active.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\wow.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\wow.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "js/wow.min.js",
       "AssetKind": "All",
@@ -3961,10 +3995,10 @@
       "OriginalItemSpec": "wwwroot\\js\\wow.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Lib\\bootstrap\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\bootstrap\\css\\bootstrap.min.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "Lib/bootstrap/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -3978,10 +4012,10 @@
       "OriginalItemSpec": "wwwroot\\Lib\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Lib\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\bootstrap\\js\\bootstrap.bundle.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "Lib/bootstrap/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -3995,10 +4029,10 @@
       "OriginalItemSpec": "wwwroot\\Lib\\bootstrap\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Lib\\bootstrap\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\bootstrap\\js\\bootstrap.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "Lib/bootstrap/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -4012,10 +4046,10 @@
       "OriginalItemSpec": "wwwroot\\Lib\\bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Lib\\jquery-validate\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\jquery-validate\\jquery.validate.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "Lib/jquery-validate/jquery.validate.min.js",
       "AssetKind": "All",
@@ -4029,10 +4063,10 @@
       "OriginalItemSpec": "wwwroot\\Lib\\jquery-validate\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "Lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -4046,10 +4080,10 @@
       "OriginalItemSpec": "wwwroot\\Lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Lib\\toastr\\grid.min.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\toastr\\grid.min.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "Lib/toastr/grid.min.css",
       "AssetKind": "All",
@@ -4063,10 +4097,10 @@
       "OriginalItemSpec": "wwwroot\\Lib\\toastr\\grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Lib\\toastr\\toastr.min.css",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\toastr\\toastr.min.css",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "Lib/toastr/toastr.min.css",
       "AssetKind": "All",
@@ -4080,10 +4114,10 @@
       "OriginalItemSpec": "wwwroot\\Lib\\toastr\\toastr.min.css"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Lib\\toastr\\toastr.min.js",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\toastr\\toastr.min.js",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
       "RelativePath": "Lib/toastr/toastr.min.js",
       "AssetKind": "All",

@@ -51,6 +51,7 @@ builder.Services.AddMvc(option =>
      CloseButton = true,
      ShowDuration = 10
  });
+builder.Services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
 builder.Services.AddScoped<IAccountRepository, AccountRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IAccountService, AccountService>();

@@ -9420,11 +9420,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\Course.dashboard.csproj",
+      "projectUniqueName": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\Course.dashboard.csproj",
       "projectName": "Course.dashboard",
-      "projectPath": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\Course.dashboard.csproj",
+      "projectPath": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\Course.dashboard.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\obj\\",
+      "outputPath": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9446,11 +9446,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\pc\\Desktop\\Cout\\Course.Service\\Course.Service.csproj": {
-              "projectPath": "C:\\Users\\pc\\Desktop\\Cout\\Course.Service\\Course.Service.csproj"
+            "C:\\Users\\pc\\Desktop\\Course\\Course.Service\\Course.Service.csproj": {
+              "projectPath": "C:\\Users\\pc\\Desktop\\Course\\Course.Service\\Course.Service.csproj"
             },
-            "C:\\Users\\pc\\Desktop\\Cout\\Course.UnitOfWork\\Course.UnitOfWork.csproj": {
-              "projectPath": "C:\\Users\\pc\\Desktop\\Cout\\Course.UnitOfWork\\Course.UnitOfWork.csproj"
+            "C:\\Users\\pc\\Desktop\\Course\\Course.UnitOfWork\\Course.UnitOfWork.csproj": {
+              "projectPath": "C:\\Users\\pc\\Desktop\\Course\\Course.UnitOfWork\\Course.UnitOfWork.csproj"
             }
           }
         }

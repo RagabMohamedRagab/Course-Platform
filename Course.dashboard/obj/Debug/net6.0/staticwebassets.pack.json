@@ -1,955 +1,963 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Images\\Profile\\4.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Profile\\4.jpg",
       "PackagePath": "staticwebassets\\Images\\Profile\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Images\\Profile\\Profile.png",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Profile\\6.jpg",
+      "PackagePath": "staticwebassets\\Images\\Profile\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Profile\\8.jpg",
+      "PackagePath": "staticwebassets\\Images\\Profile\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Profile\\Profile.png",
       "PackagePath": "staticwebassets\\Images\\Profile\\Profile.png"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Lib\\bootstrap\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\bootstrap\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\Lib\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Lib\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\bootstrap\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\Lib\\bootstrap\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Lib\\bootstrap\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\bootstrap\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\Lib\\bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Lib\\jquery-validate\\jquery.validate.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\jquery-validate\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\Lib\\jquery-validate\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\Lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Lib\\toastr\\grid.min.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\toastr\\grid.min.css",
       "PackagePath": "staticwebassets\\Lib\\toastr\\grid.min.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Lib\\toastr\\toastr.min.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\toastr\\toastr.min.css",
       "PackagePath": "staticwebassets\\Lib\\toastr\\toastr.min.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\Lib\\toastr\\toastr.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\toastr\\toastr.min.js",
       "PackagePath": "staticwebassets\\Lib\\toastr\\toastr.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\Dashboard.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\Dashboard.css",
       "PackagePath": "staticwebassets\\css\\Dashboard.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\accordions.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\accordions.css",
       "PackagePath": "staticwebassets\\css\\accordions.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\alerts.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\alerts.css",
       "PackagePath": "staticwebassets\\css\\alerts.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\animate.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\animate.css",
       "PackagePath": "staticwebassets\\css\\animate.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\buttons.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\buttons.css",
       "PackagePath": "staticwebassets\\css\\buttons.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\c3\\c3.min.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\c3\\c3.min.css",
       "PackagePath": "staticwebassets\\css\\c3\\c3.min.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\calendar\\fullcalendar.min.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\calendar\\fullcalendar.min.css",
       "PackagePath": "staticwebassets\\css\\calendar\\fullcalendar.min.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\calendar\\fullcalendar.print.min.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\calendar\\fullcalendar.print.min.css",
       "PackagePath": "staticwebassets\\css\\calendar\\fullcalendar.print.min.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\chosen\\bootstrap-chosen.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\chosen\\bootstrap-chosen.css",
       "PackagePath": "staticwebassets\\css\\chosen\\bootstrap-chosen.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\chosen\\chosen-sprite.png",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\chosen\\chosen-sprite.png",
       "PackagePath": "staticwebassets\\css\\chosen\\chosen-sprite.png"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\code-editor\\ambiance.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\code-editor\\ambiance.css",
       "PackagePath": "staticwebassets\\css\\code-editor\\ambiance.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\code-editor\\codemirror.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\code-editor\\codemirror.css",
       "PackagePath": "staticwebassets\\css\\code-editor\\codemirror.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\colorpicker\\colorpicker.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\colorpicker\\colorpicker.css",
       "PackagePath": "staticwebassets\\css\\colorpicker\\colorpicker.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\cropper\\cropper.min.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\cropper\\cropper.min.css",
       "PackagePath": "staticwebassets\\css\\cropper\\cropper.min.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\data-table\\bootstrap-editable.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\data-table\\bootstrap-editable.css",
       "PackagePath": "staticwebassets\\css\\data-table\\bootstrap-editable.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\data-table\\bootstrap-table.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\data-table\\bootstrap-table.css",
       "PackagePath": "staticwebassets\\css\\data-table\\bootstrap-table.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\datapicker\\colorpicker.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\datapicker\\colorpicker.css",
       "PackagePath": "staticwebassets\\css\\datapicker\\colorpicker.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\datapicker\\datepicker3.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\datapicker\\datepicker3.css",
       "PackagePath": "staticwebassets\\css\\datapicker\\datepicker3.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\dropzone\\dropzone.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\dropzone\\dropzone.css",
       "PackagePath": "staticwebassets\\css\\dropzone\\dropzone.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\duallistbox\\bootstrap-duallistbox.min.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\duallistbox\\bootstrap-duallistbox.min.css",
       "PackagePath": "staticwebassets\\css\\duallistbox\\bootstrap-duallistbox.min.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\editor\\bootstrap-editable.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\editor\\bootstrap-editable.css",
       "PackagePath": "staticwebassets\\css\\editor\\bootstrap-editable.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\editor\\datetimepicker.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\editor\\datetimepicker.css",
       "PackagePath": "staticwebassets\\css\\editor\\datetimepicker.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\editor\\select2.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\editor\\select2.css",
       "PackagePath": "staticwebassets\\css\\editor\\select2.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\editor\\x-editor-style.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\editor\\x-editor-style.css",
       "PackagePath": "staticwebassets\\css\\editor\\x-editor-style.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\educate-custon-icon.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\educate-custon-icon.css",
       "PackagePath": "staticwebassets\\css\\educate-custon-icon.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\font-awesome.min.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\form.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\form.css",
       "PackagePath": "staticwebassets\\css\\form.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\form\\all-type-forms.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\form\\all-type-forms.css",
       "PackagePath": "staticwebassets\\css\\form\\all-type-forms.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\form\\themesaller-forms.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\form\\themesaller-forms.css",
       "PackagePath": "staticwebassets\\css\\form\\themesaller-forms.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\ionRangeSlider\\ion.rangeSlider.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\ionRangeSlider\\ion.rangeSlider.css",
       "PackagePath": "staticwebassets\\css\\ionRangeSlider\\ion.rangeSlider.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\ionRangeSlider\\ion.rangeSlider.skinFlat.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\ionRangeSlider\\ion.rangeSlider.skinFlat.css",
       "PackagePath": "staticwebassets\\css\\ionRangeSlider\\ion.rangeSlider.skinFlat.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\ionRangeSlider\\sprite-skin-flat.png",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\ionRangeSlider\\sprite-skin-flat.png",
       "PackagePath": "staticwebassets\\css\\ionRangeSlider\\sprite-skin-flat.png"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\main.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\main.css",
       "PackagePath": "staticwebassets\\css\\main.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\meanmenu.min.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\meanmenu.min.css",
       "PackagePath": "staticwebassets\\css\\meanmenu.min.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\metisMenu\\metisMenu-vertical.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\metisMenu\\metisMenu-vertical.css",
       "PackagePath": "staticwebassets\\css\\metisMenu\\metisMenu-vertical.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\metisMenu\\metisMenu.min.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\metisMenu\\metisMenu.min.css",
       "PackagePath": "staticwebassets\\css\\metisMenu\\metisMenu.min.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\metisMenu\\metisMenu.min.css.map",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\metisMenu\\metisMenu.min.css.map",
       "PackagePath": "staticwebassets\\css\\metisMenu\\metisMenu.min.css.map"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\modals.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\modals.css",
       "PackagePath": "staticwebassets\\css\\modals.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\morrisjs\\morris.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\morrisjs\\morris.css",
       "PackagePath": "staticwebassets\\css\\morrisjs\\morris.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\normalize.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\normalize.css",
       "PackagePath": "staticwebassets\\css\\normalize.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\notifications\\Lobibox.min.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\notifications\\Lobibox.min.css",
       "PackagePath": "staticwebassets\\css\\notifications\\Lobibox.min.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\notifications\\notifications.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\notifications\\notifications.css",
       "PackagePath": "staticwebassets\\css\\notifications\\notifications.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\originalt.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\originalt.css",
       "PackagePath": "staticwebassets\\css\\originalt.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\owl.carousel.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\owl.carousel.css",
       "PackagePath": "staticwebassets\\css\\owl.carousel.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\owl.theme.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\owl.theme.css",
       "PackagePath": "staticwebassets\\css\\owl.theme.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\owl.transitions.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\owl.transitions.css",
       "PackagePath": "staticwebassets\\css\\owl.transitions.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\preloader\\preloader-style.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\preloader\\preloader-style.css",
       "PackagePath": "staticwebassets\\css\\preloader\\preloader-style.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\responsive.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\responsive.css",
       "PackagePath": "staticwebassets\\css\\responsive.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\scrollbar\\jquery.mCustomScrollbar.min.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\scrollbar\\jquery.mCustomScrollbar.min.css",
       "PackagePath": "staticwebassets\\css\\scrollbar\\jquery.mCustomScrollbar.min.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\select2\\select2.min.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\select2\\select2.min.css",
       "PackagePath": "staticwebassets\\css\\select2\\select2.min.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\style.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\summernote\\fonts\\summernote.eot",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\summernote\\fonts\\summernote.eot",
       "PackagePath": "staticwebassets\\css\\summernote\\fonts\\summernote.eot"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\summernote\\fonts\\summernote.ttf",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\summernote\\fonts\\summernote.ttf",
       "PackagePath": "staticwebassets\\css\\summernote\\fonts\\summernote.ttf"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\summernote\\fonts\\summernote.woff",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\summernote\\fonts\\summernote.woff",
       "PackagePath": "staticwebassets\\css\\summernote\\fonts\\summernote.woff"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\summernote\\summernote.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\summernote\\summernote.css",
       "PackagePath": "staticwebassets\\css\\summernote\\summernote.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\tabs.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\tabs.css",
       "PackagePath": "staticwebassets\\css\\tabs.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\touchspin\\jquery.bootstrap-touchspin.min.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\touchspin\\jquery.bootstrap-touchspin.min.css",
       "PackagePath": "staticwebassets\\css\\touchspin\\jquery.bootstrap-touchspin.min.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\tree-viewer\\32px.png",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\tree-viewer\\32px.png",
       "PackagePath": "staticwebassets\\css\\tree-viewer\\32px.png"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\tree-viewer\\throbber.gif",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\tree-viewer\\throbber.gif",
       "PackagePath": "staticwebassets\\css\\tree-viewer\\throbber.gif"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\css\\tree-viewer\\tree-viewer.css",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\tree-viewer\\tree-viewer.css",
       "PackagePath": "staticwebassets\\css\\tree-viewer\\tree-viewer.css"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\FontAwesome.otf",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\educate-icon.svg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\educate-icon.svg",
       "PackagePath": "staticwebassets\\fonts\\educate-icon.svg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\educate-icon.ttf",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\educate-icon.ttf",
       "PackagePath": "staticwebassets\\fonts\\educate-icon.ttf"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\educate-icon.woff",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\educate-icon.woff",
       "PackagePath": "staticwebassets\\fonts\\educate-icon.woff"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.eot"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.svg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.ttf"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff2"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\blog-details\\1.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\blog-details\\1.jpg",
       "PackagePath": "staticwebassets\\img\\blog-details\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\clear.png",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\clear.png",
       "PackagePath": "staticwebassets\\img\\clear.png"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\contact\\1.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\contact\\1.jpg",
       "PackagePath": "staticwebassets\\img\\contact\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\contact\\2.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\contact\\2.jpg",
       "PackagePath": "staticwebassets\\img\\contact\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\contact\\3.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\contact\\3.jpg",
       "PackagePath": "staticwebassets\\img\\contact\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\contact\\4.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\contact\\4.jpg",
       "PackagePath": "staticwebassets\\img\\contact\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\courses\\1.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\courses\\1.jpg",
       "PackagePath": "staticwebassets\\img\\courses\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\courses\\2.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\courses\\2.jpg",
       "PackagePath": "staticwebassets\\img\\courses\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\courses\\3.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\courses\\3.jpg",
       "PackagePath": "staticwebassets\\img\\courses\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\cropper\\1.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\cropper\\1.jpg",
       "PackagePath": "staticwebassets\\img\\cropper\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\favicon.ico",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\favicon.ico",
       "PackagePath": "staticwebassets\\img\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\green1.png",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\green1.png",
       "PackagePath": "staticwebassets\\img\\green1.png"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\loading.gif",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\loading.gif",
       "PackagePath": "staticwebassets\\img\\loading.gif"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\logo\\logo.png",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\logo\\logo.png",
       "PackagePath": "staticwebassets\\img\\logo\\logo.png"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\logo\\logosn.png",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\logo\\logosn.png",
       "PackagePath": "staticwebassets\\img\\logo\\logosn.png"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\logo\\profile.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\logo\\profile.jpg",
       "PackagePath": "staticwebassets\\img\\logo\\profile.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\notification\\1.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\notification\\1.jpg",
       "PackagePath": "staticwebassets\\img\\notification\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\notification\\2.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\notification\\2.jpg",
       "PackagePath": "staticwebassets\\img\\notification\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\notification\\3.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\notification\\3.jpg",
       "PackagePath": "staticwebassets\\img\\notification\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\notification\\4.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\notification\\4.jpg",
       "PackagePath": "staticwebassets\\img\\notification\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\notification\\5.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\notification\\5.jpg",
       "PackagePath": "staticwebassets\\img\\notification\\5.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\notification\\6.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\notification\\6.jpg",
       "PackagePath": "staticwebassets\\img\\notification\\6.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\product\\book-1.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\product\\book-1.jpg",
       "PackagePath": "staticwebassets\\img\\product\\book-1.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\product\\book-2.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\product\\book-2.jpg",
       "PackagePath": "staticwebassets\\img\\product\\book-2.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\product\\book-3.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\product\\book-3.jpg",
       "PackagePath": "staticwebassets\\img\\product\\book-3.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\product\\book-4.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\product\\book-4.jpg",
       "PackagePath": "staticwebassets\\img\\product\\book-4.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\product\\pro4.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\product\\pro4.jpg",
       "PackagePath": "staticwebassets\\img\\product\\pro4.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\product\\profile-bg.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\product\\profile-bg.jpg",
       "PackagePath": "staticwebassets\\img\\product\\profile-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\profile\\1.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\profile\\1.jpg",
       "PackagePath": "staticwebassets\\img\\profile\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\student\\1.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\student\\1.jpg",
       "PackagePath": "staticwebassets\\img\\student\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\student\\2.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\student\\2.jpg",
       "PackagePath": "staticwebassets\\img\\student\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\student\\3.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\student\\3.jpg",
       "PackagePath": "staticwebassets\\img\\student\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\img\\student\\4.jpg",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\student\\4.jpg",
       "PackagePath": "staticwebassets\\img\\student\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\c3-charts\\c3-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\c3-charts\\c3-active.js",
       "PackagePath": "staticwebassets\\js\\c3-charts\\c3-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\c3-charts\\c3.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\c3-charts\\c3.min.js",
       "PackagePath": "staticwebassets\\js\\c3-charts\\c3.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\c3-charts\\d3.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\c3-charts\\d3.min.js",
       "PackagePath": "staticwebassets\\js\\c3-charts\\d3.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\calendar\\fullcalendar-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\calendar\\fullcalendar-active.js",
       "PackagePath": "staticwebassets\\js\\calendar\\fullcalendar-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\calendar\\fullcalendar.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\calendar\\fullcalendar.min.js",
       "PackagePath": "staticwebassets\\js\\calendar\\fullcalendar.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\calendar\\moment.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\calendar\\moment.min.js",
       "PackagePath": "staticwebassets\\js\\calendar\\moment.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\card.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\card.js",
       "PackagePath": "staticwebassets\\js\\card.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\chart\\jquery.peity.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\chart\\jquery.peity.min.js",
       "PackagePath": "staticwebassets\\js\\chart\\jquery.peity.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\chart\\peity-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\chart\\peity-active.js",
       "PackagePath": "staticwebassets\\js\\chart\\peity-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\charts\\Chart.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\charts\\Chart.js",
       "PackagePath": "staticwebassets\\js\\charts\\Chart.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\charts\\area-chart.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\charts\\area-chart.js",
       "PackagePath": "staticwebassets\\js\\charts\\area-chart.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\charts\\bar-chart.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\charts\\bar-chart.js",
       "PackagePath": "staticwebassets\\js\\charts\\bar-chart.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\charts\\line-chart.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\charts\\line-chart.js",
       "PackagePath": "staticwebassets\\js\\charts\\line-chart.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\charts\\rounded-chart.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\charts\\rounded-chart.js",
       "PackagePath": "staticwebassets\\js\\charts\\rounded-chart.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\chosen\\chosen-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\chosen\\chosen-active.js",
       "PackagePath": "staticwebassets\\js\\chosen\\chosen-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\chosen\\chosen.jquery.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\chosen\\chosen.jquery.js",
       "PackagePath": "staticwebassets\\js\\chosen\\chosen.jquery.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\chosen\\chosen.jquery.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\chosen\\chosen.jquery.min.js",
       "PackagePath": "staticwebassets\\js\\chosen\\chosen.jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\code-editor\\code-editor-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\code-editor\\code-editor-active.js",
       "PackagePath": "staticwebassets\\js\\code-editor\\code-editor-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\code-editor\\code-editor.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\code-editor\\code-editor.js",
       "PackagePath": "staticwebassets\\js\\code-editor\\code-editor.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\code-editor\\codemirror.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\code-editor\\codemirror.js",
       "PackagePath": "staticwebassets\\js\\code-editor\\codemirror.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\colorpicker\\color-picker-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\colorpicker\\color-picker-active.js",
       "PackagePath": "staticwebassets\\js\\colorpicker\\color-picker-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\colorpicker\\jquery.spectrum.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\colorpicker\\jquery.spectrum.min.js",
       "PackagePath": "staticwebassets\\js\\colorpicker\\jquery.spectrum.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\counterup\\counterup-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\counterup\\counterup-active.js",
       "PackagePath": "staticwebassets\\js\\counterup\\counterup-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\counterup\\jquery.counterup.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\counterup\\jquery.counterup.min.js",
       "PackagePath": "staticwebassets\\js\\counterup\\jquery.counterup.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\counterup\\waypoints.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\counterup\\waypoints.min.js",
       "PackagePath": "staticwebassets\\js\\counterup\\waypoints.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\cropper\\cropper-actice.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\cropper\\cropper-actice.js",
       "PackagePath": "staticwebassets\\js\\cropper\\cropper-actice.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\cropper\\cropper.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\cropper\\cropper.min.js",
       "PackagePath": "staticwebassets\\js\\cropper\\cropper.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\data-map\\d3.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\data-map\\d3.min.js",
       "PackagePath": "staticwebassets\\js\\data-map\\d3.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\data-map\\data-maps-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\data-map\\data-maps-active.js",
       "PackagePath": "staticwebassets\\js\\data-map\\data-maps-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\data-map\\datamaps.all.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\data-map\\datamaps.all.min.js",
       "PackagePath": "staticwebassets\\js\\data-map\\datamaps.all.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\data-map\\topojson.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\data-map\\topojson.js",
       "PackagePath": "staticwebassets\\js\\data-map\\topojson.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\data-table\\bootstrap-editable.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\data-table\\bootstrap-editable.js",
       "PackagePath": "staticwebassets\\js\\data-table\\bootstrap-editable.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\data-table\\bootstrap-table-editable.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\data-table\\bootstrap-table-editable.js",
       "PackagePath": "staticwebassets\\js\\data-table\\bootstrap-table-editable.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\data-table\\bootstrap-table-export.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\data-table\\bootstrap-table-export.js",
       "PackagePath": "staticwebassets\\js\\data-table\\bootstrap-table-export.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\data-table\\bootstrap-table-resizable.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\data-table\\bootstrap-table-resizable.js",
       "PackagePath": "staticwebassets\\js\\data-table\\bootstrap-table-resizable.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\data-table\\bootstrap-table.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\data-table\\bootstrap-table.js",
       "PackagePath": "staticwebassets\\js\\data-table\\bootstrap-table.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\data-table\\colResizable-1.5.source.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\data-table\\colResizable-1.5.source.js",
       "PackagePath": "staticwebassets\\js\\data-table\\colResizable-1.5.source.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\data-table\\data-table-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\data-table\\data-table-active.js",
       "PackagePath": "staticwebassets\\js\\data-table\\data-table-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\data-table\\tableExport.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\data-table\\tableExport.js",
       "PackagePath": "staticwebassets\\js\\data-table\\tableExport.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\datapicker\\bootstrap-datepicker.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\datapicker\\bootstrap-datepicker.js",
       "PackagePath": "staticwebassets\\js\\datapicker\\bootstrap-datepicker.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\datapicker\\bootstrap-datepicker.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\datapicker\\bootstrap-datepicker.min.js",
       "PackagePath": "staticwebassets\\js\\datapicker\\bootstrap-datepicker.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\datapicker\\datepicker-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\datapicker\\datepicker-active.js",
       "PackagePath": "staticwebassets\\js\\datapicker\\datepicker-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\datepicker\\datepicker-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\datepicker\\datepicker-active.js",
       "PackagePath": "staticwebassets\\js\\datepicker\\datepicker-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\datepicker\\jquery-ui.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\datepicker\\jquery-ui.min.js",
       "PackagePath": "staticwebassets\\js\\datepicker\\jquery-ui.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\dropzone\\dropzone.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\dropzone\\dropzone.js",
       "PackagePath": "staticwebassets\\js\\dropzone\\dropzone.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\duallistbox\\duallistbox.active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\duallistbox\\duallistbox.active.js",
       "PackagePath": "staticwebassets\\js\\duallistbox\\duallistbox.active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\duallistbox\\jquery.bootstrap-duallistbox.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\duallistbox\\jquery.bootstrap-duallistbox.js",
       "PackagePath": "staticwebassets\\js\\duallistbox\\jquery.bootstrap-duallistbox.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\e-payment.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\e-payment.js",
       "PackagePath": "staticwebassets\\js\\e-payment.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\editable\\bootstrap-datetimepicker.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\editable\\bootstrap-datetimepicker.js",
       "PackagePath": "staticwebassets\\js\\editable\\bootstrap-datetimepicker.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\editable\\bootstrap-editable.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\editable\\bootstrap-editable.js",
       "PackagePath": "staticwebassets\\js\\editable\\bootstrap-editable.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\editable\\jquery.mockjax.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\editable\\jquery.mockjax.js",
       "PackagePath": "staticwebassets\\js\\editable\\jquery.mockjax.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\editable\\mock-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\editable\\mock-active.js",
       "PackagePath": "staticwebassets\\js\\editable\\mock-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\editable\\moment.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\editable\\moment.min.js",
       "PackagePath": "staticwebassets\\js\\editable\\moment.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\editable\\select2.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\editable\\select2.js",
       "PackagePath": "staticwebassets\\js\\editable\\select2.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\editable\\xediable-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\editable\\xediable-active.js",
       "PackagePath": "staticwebassets\\js\\editable\\xediable-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\form-validation\\form-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\form-validation\\form-active.js",
       "PackagePath": "staticwebassets\\js\\form-validation\\form-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\form-validation\\jquery.form.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\form-validation\\jquery.form.min.js",
       "PackagePath": "staticwebassets\\js\\form-validation\\jquery.form.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\form-validation\\jquery.validate.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\form-validation\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\js\\form-validation\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\google.maps\\google.maps-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\google.maps\\google.maps-active.js",
       "PackagePath": "staticwebassets\\js\\google.maps\\google.maps-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\icheck\\icheck-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\icheck\\icheck-active.js",
       "PackagePath": "staticwebassets\\js\\icheck\\icheck-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\icheck\\icheck.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\icheck\\icheck.min.js",
       "PackagePath": "staticwebassets\\js\\icheck\\icheck.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\input-mask\\jasny-bootstrap.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\input-mask\\jasny-bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\input-mask\\jasny-bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\ionRangeSlider\\ion.rangeSlider.active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\ionRangeSlider\\ion.rangeSlider.active.js",
       "PackagePath": "staticwebassets\\js\\ionRangeSlider\\ion.rangeSlider.active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\ionRangeSlider\\ion.rangeSlider.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\ionRangeSlider\\ion.rangeSlider.min.js",
       "PackagePath": "staticwebassets\\js\\ionRangeSlider\\ion.rangeSlider.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\jquery-price-slider.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\jquery-price-slider.js",
       "PackagePath": "staticwebassets\\js\\jquery-price-slider.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\jquery.maskedinput.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\jquery.maskedinput.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.maskedinput.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\jquery.meanmenu.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\jquery.meanmenu.js",
       "PackagePath": "staticwebassets\\js\\jquery.meanmenu.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\jquery.payform.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\jquery.payform.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.payform.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\jquery.scrollUp.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\jquery.scrollUp.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.scrollUp.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\jquery.sticky.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\jquery.sticky.js",
       "PackagePath": "staticwebassets\\js\\jquery.sticky.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\knob\\jquery.knob.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\knob\\jquery.knob.js",
       "PackagePath": "staticwebassets\\js\\knob\\jquery.knob.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\knob\\knob-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\knob\\knob-active.js",
       "PackagePath": "staticwebassets\\js\\knob\\knob-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\main.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\masking-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\masking-active.js",
       "PackagePath": "staticwebassets\\js\\masking-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\metisMenu\\metisMenu-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\metisMenu\\metisMenu-active.js",
       "PackagePath": "staticwebassets\\js\\metisMenu\\metisMenu-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\metisMenu\\metisMenu.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\metisMenu\\metisMenu.min.js",
       "PackagePath": "staticwebassets\\js\\metisMenu\\metisMenu.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\metisMenu\\metisMenu.min.js.map",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\metisMenu\\metisMenu.min.js.map",
       "PackagePath": "staticwebassets\\js\\metisMenu\\metisMenu.min.js.map"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\morrisjs\\home3-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\morrisjs\\home3-active.js",
       "PackagePath": "staticwebassets\\js\\morrisjs\\home3-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\morrisjs\\morris-active-pro.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\morrisjs\\morris-active-pro.js",
       "PackagePath": "staticwebassets\\js\\morrisjs\\morris-active-pro.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\morrisjs\\morris-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\morrisjs\\morris-active.js",
       "PackagePath": "staticwebassets\\js\\morrisjs\\morris-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\morrisjs\\morris.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\morrisjs\\morris.js",
       "PackagePath": "staticwebassets\\js\\morrisjs\\morris.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\morrisjs\\raphael-min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\morrisjs\\raphael-min.js",
       "PackagePath": "staticwebassets\\js\\morrisjs\\raphael-min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\multiple-email\\multiple-email-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\multiple-email\\multiple-email-active.js",
       "PackagePath": "staticwebassets\\js\\multiple-email\\multiple-email-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\notifications\\Lobibox.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\notifications\\Lobibox.js",
       "PackagePath": "staticwebassets\\js\\notifications\\Lobibox.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\notifications\\notification-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\notifications\\notification-active.js",
       "PackagePath": "staticwebassets\\js\\notifications\\notification-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\owl.carousel.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\password-meter\\password-meter-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\password-meter\\password-meter-active.js",
       "PackagePath": "staticwebassets\\js\\password-meter\\password-meter-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\password-meter\\pwstrength-bootstrap.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\password-meter\\pwstrength-bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\password-meter\\pwstrength-bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\password-meter\\zxcvbn.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\password-meter\\zxcvbn.js",
       "PackagePath": "staticwebassets\\js\\password-meter\\zxcvbn.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\pdf\\jquery.media.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\pdf\\jquery.media.js",
       "PackagePath": "staticwebassets\\js\\pdf\\jquery.media.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\pdf\\pdf-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\pdf\\pdf-active.js",
       "PackagePath": "staticwebassets\\js\\pdf\\pdf-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\peity\\jquery.peity.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\peity\\jquery.peity.min.js",
       "PackagePath": "staticwebassets\\js\\peity\\jquery.peity.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\peity\\peity-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\peity\\peity-active.js",
       "PackagePath": "staticwebassets\\js\\peity\\peity-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\plugins.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\plugins.js",
       "PackagePath": "staticwebassets\\js\\plugins.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\rangle-slider\\jquery-ui-1.10.4.custom.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\rangle-slider\\jquery-ui-1.10.4.custom.min.js",
       "PackagePath": "staticwebassets\\js\\rangle-slider\\jquery-ui-1.10.4.custom.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\rangle-slider\\jquery-ui-touch-punch.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\rangle-slider\\jquery-ui-touch-punch.min.js",
       "PackagePath": "staticwebassets\\js\\rangle-slider\\jquery-ui-touch-punch.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\rangle-slider\\rangle-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\rangle-slider\\rangle-active.js",
       "PackagePath": "staticwebassets\\js\\rangle-slider\\rangle-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\scrollbar\\jquery.mCustomScrollbar.concat.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\scrollbar\\jquery.mCustomScrollbar.concat.min.js",
       "PackagePath": "staticwebassets\\js\\scrollbar\\jquery.mCustomScrollbar.concat.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\scrollbar\\mCustomScrollbar-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\scrollbar\\mCustomScrollbar-active.js",
       "PackagePath": "staticwebassets\\js\\scrollbar\\mCustomScrollbar-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\select2\\select2-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\select2\\select2-active.js",
       "PackagePath": "staticwebassets\\js\\select2\\select2-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\select2\\select2.full.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\select2\\select2.full.min.js",
       "PackagePath": "staticwebassets\\js\\select2\\select2.full.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\sparkline\\jquery.charts-sparkline.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\sparkline\\jquery.charts-sparkline.js",
       "PackagePath": "staticwebassets\\js\\sparkline\\jquery.charts-sparkline.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\sparkline\\jquery.sparkline.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\sparkline\\jquery.sparkline.min.js",
       "PackagePath": "staticwebassets\\js\\sparkline\\jquery.sparkline.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\sparkline\\sparkline-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\sparkline\\sparkline-active.js",
       "PackagePath": "staticwebassets\\js\\sparkline\\sparkline-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\summernote\\summernote-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\summernote\\summernote-active.js",
       "PackagePath": "staticwebassets\\js\\summernote\\summernote-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\summernote\\summernote.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\summernote\\summernote.min.js",
       "PackagePath": "staticwebassets\\js\\summernote\\summernote.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\tab.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\tab.js",
       "PackagePath": "staticwebassets\\js\\tab.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\tawk-chat.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\tawk-chat.js",
       "PackagePath": "staticwebassets\\js\\tawk-chat.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\touchspin\\jquery.bootstrap-touchspin.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\touchspin\\jquery.bootstrap-touchspin.min.js",
       "PackagePath": "staticwebassets\\js\\touchspin\\jquery.bootstrap-touchspin.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\touchspin\\touchspin-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\touchspin\\touchspin-active.js",
       "PackagePath": "staticwebassets\\js\\touchspin\\touchspin-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\tree-line\\jstree.active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\tree-line\\jstree.active.js",
       "PackagePath": "staticwebassets\\js\\tree-line\\jstree.active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\tree-line\\jstree.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\tree-line\\jstree.min.js",
       "PackagePath": "staticwebassets\\js\\tree-line\\jstree.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\vendor\\jquery-1.12.4.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\vendor\\jquery-1.12.4.min.js",
       "PackagePath": "staticwebassets\\js\\vendor\\jquery-1.12.4.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\vendor\\modernizr-2.8.3.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\vendor\\modernizr-2.8.3.min.js",
       "PackagePath": "staticwebassets\\js\\vendor\\modernizr-2.8.3.min.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\vendor\\modernizr-custom.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\vendor\\modernizr-custom.js",
       "PackagePath": "staticwebassets\\js\\vendor\\modernizr-custom.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\wizard\\jquery.steps.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\wizard\\jquery.steps.js",
       "PackagePath": "staticwebassets\\js\\wizard\\jquery.steps.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\wizard\\steps-active.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\wizard\\steps-active.js",
       "PackagePath": "staticwebassets\\js\\wizard\\steps-active.js"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Cout\\Course.dashboard\\wwwroot\\js\\wow.min.js",
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\js\\wow.min.js",
       "PackagePath": "staticwebassets\\js\\wow.min.js"
     },
     {
