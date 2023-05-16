@@ -37,9 +37,6 @@ namespace Course.Repository.Repositories {
             return await _dbSet.ToListAsync();
         }
 
-        public  async Task Update(T entity)
-        {
-            _dbSet.Update(entity);
-        }
+    
     }
 }

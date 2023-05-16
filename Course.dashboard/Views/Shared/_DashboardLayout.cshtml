@@ -154,34 +154,19 @@
                         </li>
                         }
                         <li>
-                            <a class="has-arrow" href="all-courses.html" aria-expanded="false">
+                            <a class="has-arrow" asp-controller="Course" asp-action="Index" aria-expanded="false">
                                 <i class="bi bi-folder-fill" style="font-size:1.3rem"></i>
                                 <span class="mini-click-non">Courses</span>
                             </a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li>
-                                    <a title="All Courses" href="all-courses.html">
-                                        <span class="mini-sub-pro">All Courses</span>
-                                    </a>
-                                </li>
                                 <li>
                                     <a title="Add Courses" href="add-course.html">
                                         <span class="mini-sub-pro">Add Course</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a title="Edit Courses" href="edit-course.html">
-                                        <span class="mini-sub-pro">Edit Course</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="Courses Profile" href="course-info.html">
-                                        <span class="mini-sub-pro">Courses Info</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="Product Payment" href="course-payment.html">
-                                        <span class="mini-sub-pro">Courses Payment</span>
+                                    <a title="All Courses" asp-controller="Course" asp-action="Index">
+                                        <span class="mini-sub-pro">All Courses</span>
                                     </a>
                                 </li>
                             </ul>
@@ -337,22 +322,13 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a data-toggle="collapse" data-target="#democrou" href="#">Courses <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <a data-toggle="collapse" data-target="#democrou" asp-controller="Course" asp-action="Index">Courses <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                             <ul id="democrou" class="collapse dropdown-header-top">
-                                                <li>
-                                                    <a href="all-courses.html">All Courses</a>
-                                                </li>
-                                                <li>
+                                                  <li>
                                                     <a href="add-course.html">Add Course</a>
                                                 </li>
                                                 <li>
-                                                    <a href="edit-course.html">Edit Course</a>
-                                                </li>
-                                                <li>
-                                                    <a href="course-profile.html">Courses Info</a>
-                                                </li>
-                                                <li>
-                                                    <a href="course-payment.html">Courses Payment</a>
+                                                    <a href="all-courses.html">All Courses</a>
                                                 </li>
                                             </ul>
                                         </li>

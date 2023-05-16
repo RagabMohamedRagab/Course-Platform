@@ -1,4 +1,7 @@
-﻿namespace Course.Repository.IRepositories {
-    public class ICourseRepository {
+﻿using Course.Domain.Domains;
+
+namespace Course.Repository.IRepositories {
+    public interface ICourseRepository:IBaseRepository<Course.Domain.Domains.Course> {
+
     }
 }
