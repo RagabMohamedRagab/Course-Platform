@@ -1243,3 +1243,5 @@ C:\Users\pc\Desktop\Cout\Course.dashboard\obj\Debug\net6.0\refint\Course.dashboa
 C:\Users\pc\Desktop\Cout\Course.dashboard\obj\Debug\net6.0\Course.dashboard.pdb
 C:\Users\pc\Desktop\Cout\Course.dashboard\obj\Debug\net6.0\Course.dashboard.genruntimeconfig.cache
 C:\Users\pc\Desktop\Cout\Course.dashboard\obj\Debug\net6.0\ref\Course.dashboard.dll
+C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

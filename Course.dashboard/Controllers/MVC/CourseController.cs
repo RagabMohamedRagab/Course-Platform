@@ -7,5 +7,10 @@ namespace Course.dashboard.Controllers.MVC {
         {
             return View();
         }
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
     }
 }

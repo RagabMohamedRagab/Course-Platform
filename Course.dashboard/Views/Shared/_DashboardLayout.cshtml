@@ -159,11 +159,14 @@
                                 <span class="mini-click-non">Courses</span>
                             </a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li>
-                                    <a title="Add Courses" href="add-course.html">
-                                        <span class="mini-sub-pro">Add Course</span>
-                                    </a>
-                                </li>
+                                @if (!User.IsInRole("Admin"))
+                                {
+                                    <li>
+                                        <a title="Add Courses" asp-controller="Course" asp-action="Create">
+                                            <span class="mini-sub-pro">Add Course</span>
+                                        </a>
+                                    </li>
+                                }
                                 <li>
                                     <a title="All Courses" asp-controller="Course" asp-action="Index">
                                         <span class="mini-sub-pro">All Courses</span>
