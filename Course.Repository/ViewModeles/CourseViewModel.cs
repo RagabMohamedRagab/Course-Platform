@@ -4,7 +4,8 @@
         {
             Titles= new List<string>();
         }
-        public CourseViewModel course { get; set; }
+        public CourseFormViewModel course { get; set; }
+        public TitleFormViewModel Title { get; set; }
         public IList<string> Titles { get; set; }
     }
 }

@@ -104,7 +104,7 @@ namespace Course.Service.Services {
         {
             if (!(String.IsNullOrEmpty(Username) && String.IsNullOrEmpty(email)))
             {
-                if (await _fileService.UploadFile(file, "Images\\Profile"))
+                if (await _fileService.UploadFile(file, Utitity.Profile))
                 {
                     if (await _accountRepository.UpdateUserInfo(file.FileName, Username, email))
                         return true;

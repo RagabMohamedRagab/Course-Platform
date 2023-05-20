@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Profile\\3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Profile\\3.jpg"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Profile\\4.jpg",
       "PackagePath": "staticwebassets\\Images\\Profile\\4.jpg"
     },

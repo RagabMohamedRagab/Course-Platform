@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "AtBeclgn3jKbR5VETYwlciCxcp2H7gROKQAQta35gBLK6iKRcYZyHCs5bWOQEqHaUit8y5mwqNRL3RxluS6jhw==",
+  "dgSpecHash": "TaIaCcYoiW8fXV76fmiX19G38iMERsasAXJhyB/rEvhJinoF/bVTNoESj68Yk9g0WpjzxUgNnCzKwxTd65ryUg==",
   "success": true,
   "projectFilePath": "C:\\Users\\pc\\Desktop\\Course\\Course.Service\\Course.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pc\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\mailkit\\3.6.0\\mailkit.3.6.0.nupkg.sha512",
