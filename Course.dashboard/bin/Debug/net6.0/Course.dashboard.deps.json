@@ -2356,6 +2356,7 @@
       },
       "Course.Service/1.0.0": {
         "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "Course.Repository": "1.0.0",
           "Course.UnitOfWork": "1.0.0",
           "MailKit": "3.6.0"
