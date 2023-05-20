@@ -10,9 +10,9 @@ namespace Course.UnitOfWork {
             _context = context;
         }
 
-        public async Task<int> SaveChanges()
+        public async Task<int> SaveChangesAsync()
         {
-           return await _context.SaveChangesAsync();
+           return await  _context.SaveChangesAsync();
         } 
         
         

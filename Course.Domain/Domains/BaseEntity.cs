@@ -12,10 +12,6 @@ namespace Course.Domain.Domains {
         public DateTime CreateOn { get; set; }
         [Column(TypeName = "date")]
         public DateTime ModifiedOn { get; set; }
-        [StringLength(maximumLength: 150)]
-        public string CreatedBy { get; set; }
-        [StringLength(maximumLength: 150)]
-        public string ModifiedBy { get; set; }
         public bool IsDeleted { get; set; }
     }
 }

@@ -31,18 +31,21 @@
                                         else
                                         {
                                             <form method="post" asp-area="" asp-controller="Course" asp-action="Title" asp-antiforgery="true" enctype="multipart/form-data">
+                                               <div asp-validation-summary="ModelOnly"></div>
                                                 <div class="form-group">
                                                     <input asp-for="@Model.Title.Name" class="form-control" placeholder="Title">
+                                                    <span asp-validation-for="@Model.Title.Name" class="text-danger error"></span>
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="file" id="upload" accept=".png,.jpg" style="display:none" asp-for="@Model.Title.Img" />
+                                                    <span asp-validation-for="@Model.Title.Img" class="text-danger error"></span>
                                                     <label for="upload" class="uploadlabel" asp-for="@Model.Title.Img">
                                                         <span><i class="bi bi-cloud-plus-fill"></i></span>
                                                         <p>Click to Upload</p>
                                                     </label>
                                                 </div>
-                                                <div class="form-group">
-                                                    <input type="submit" class="btn btn-primary" style="background-color: #006df0" value="Next">
+                                                <div class="form-group" style="display: flex;justify-content: end;">
+                                                    <input type="submit" class="btn btn-primary" style="background-color: #006df0;" value="Next">
                                                 </div>
                                             </form>
                                         }

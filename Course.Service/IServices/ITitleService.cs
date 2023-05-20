@@ -2,6 +2,6 @@
 
 namespace Course.Service.IServices {
     public interface ITitleService {
-        void Create(TitleFormViewModel title);
+        Task<bool> Create(TitleFormViewModel title);
     }
 }

@@ -3,6 +3,6 @@
 namespace Course.Repository.ViewModeles {
     public class TitleFormViewModel {
         public string Name { get; set; }
-        public IFormFile Img { get; set; }
+        public IFormFile Logo { get; set; }
     }
 }

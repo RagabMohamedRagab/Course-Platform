@@ -1,5 +1,5 @@
 ﻿using Course.Repository.IRepositories;
 
 public interface IUnitOfWork : IDisposable {
-    Task<int> SaveChanges();
+    Task<int> SaveChangesAsync();
 }

@@ -33,11 +33,6 @@ namespace Course.Repository.Migrations
                     b.Property<DateTime>("CreateOn")
                         .HasColumnType("date");
 
-                    b.Property<string>("CreatedBy")
-                        .IsRequired()
-                        .HasMaxLength(150)
-                        .HasColumnType("nvarchar(150)");
-
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -48,11 +43,6 @@ namespace Course.Repository.Migrations
                     b.Property<string>("Logo")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ModifiedBy")
-                        .IsRequired()
-                        .HasMaxLength(150)
-                        .HasColumnType("nvarchar(150)");
 
                     b.Property<DateTime>("ModifiedOn")
                         .HasColumnType("date");
@@ -86,21 +76,11 @@ namespace Course.Repository.Migrations
                     b.Property<DateTime>("CreateOn")
                         .HasColumnType("date");
 
-                    b.Property<string>("CreatedBy")
-                        .IsRequired()
-                        .HasMaxLength(150)
-                        .HasColumnType("nvarchar(150)");
-
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
                     b.Property<string>("Logo")
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ModifiedBy")
-                        .IsRequired()
-                        .HasMaxLength(150)
-                        .HasColumnType("nvarchar(150)");
 
                     b.Property<DateTime>("ModifiedOn")
                         .HasColumnType("date");
@@ -144,7 +124,7 @@ namespace Course.Repository.Migrations
                         new
                         {
                             Id = "2c5e174e-3b0e-446f-86af-483d56fd7210",
-                            ConcurrencyStamp = "f4275eca-255d-460d-a146-edb8ac28068e",
+                            ConcurrencyStamp = "25bb28d1-f40e-4b3c-ab95-a87a1f7b7117",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
@@ -371,15 +351,15 @@ namespace Course.Repository.Migrations
                         {
                             Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "142c3d05-018f-432e-b477-cbbc82494b56",
+                            ConcurrencyStamp = "e7e959ff-0f77-45d1-9dd9-014b72a3d443",
                             Email = "Admin123@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ADMIN123@GMAIL.COM",
                             NormalizedUserName = "ADMIN123@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEK/yfUzGVImhAErCtjmgaNTpfbdulMcUZ7UeVzHUDqHNIEaRbjU0SuQZHVEXSKXiiA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEFvNXzpxMFxR4wa1/RUbfkbVQzuDU9O1Id0FVpeuYAeyL5BO3E7NJle7xoA9i595Fg==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "cc054f47-4a01-4025-b4d8-de0b6ba033e6",
+                            SecurityStamp = "62c821f6-2780-4317-8304-862a01165bfc",
                             TwoFactorEnabled = false,
                             UserName = "Admin123@gmail.com",
                             IsActive = false

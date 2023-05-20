@@ -1,19 +1,44 @@
-﻿
+﻿using AutoMapper;
+using Course.Domain.Domains;
 using Course.Repository.IRepositories;
 using Course.Repository.ViewModeles;
+using Course.Service.Utilities;
 
 namespace Course.Service.Services {
-    public class TitleService: ITitleService {
+    public class TitleService : ITitleService {
         private readonly ITitleRepository _titleRepository;
+        private readonly IMapper _mapper;
+        private readonly IUnitOfWork _unitOfWork;
+        private readonly IFileService _fileService;
 
-        public TitleService(ITitleRepository titleRepository)
+        public TitleService(ITitleRepository titleRepository, IMapper mapper, IUnitOfWork unitOfWork, IFileService fileService)
         {
             _titleRepository = titleRepository;
+            _mapper = mapper;
+            _unitOfWork = unitOfWork;
+            _fileService = fileService;
         }
 
-        public void Create(TitleFormViewModel title)
+        public async Task<bool> Create(TitleFormViewModel model)
         {
-          
+            try
+            {
+                var title = _mapper.Map<Title>(model);
+                if (await _fileService.UploadFile(model.Logo, Utitity.Title))
+                {
+                    title.Logo = model.Logo.FileName;
+                    await _titleRepository.Add(title);
+                    if (await _unitOfWork.SaveChangesAsync() > 0)
+                        return true;
+                }
+                return false;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+
+
         }
     }
 }
