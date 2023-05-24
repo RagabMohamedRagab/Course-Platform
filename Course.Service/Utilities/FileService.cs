@@ -1,5 +1,4 @@
-﻿
-using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 
 namespace Course.Service.Utilities {
@@ -25,7 +24,6 @@ namespace Course.Service.Utilities {
                     stream.Close();
                     return true;
                 };
-
             }
             return false;
         }

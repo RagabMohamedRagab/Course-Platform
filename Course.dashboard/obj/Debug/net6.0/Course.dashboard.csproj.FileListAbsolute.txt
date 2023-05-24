@@ -833,7 +833,6 @@ C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.Ge
 C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.AssemblyInfoInputs.cache
 C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.AssemblyInfo.cs
 C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.csproj.CoreCompileInputs.cache
-C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.RazorAssemblyInfo.cache
 C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.RazorAssemblyInfo.cs
@@ -1249,3 +1248,4 @@ C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\refint\Course.dashb
 C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.pdb
 C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.genruntimeconfig.cache
 C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\ref\Course.dashboard.dll
+C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.MvcApplicationPartsAssemblyInfo.cs

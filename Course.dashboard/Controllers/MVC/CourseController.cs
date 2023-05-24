@@ -26,8 +26,8 @@ namespace Course.dashboard.Controllers.MVC {
             var Course = new CourseViewModel()
             {
                 course = new CourseFormViewModel(),
-                Title=new TitleFormViewModel(),
-                Titles = new List<string>() {}
+                Title = new TitleFormViewModel(),
+                Titles = _titleService.GetAll().Result
             };
             return View(Course);
         }

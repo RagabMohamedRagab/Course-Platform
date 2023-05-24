@@ -21,6 +21,18 @@
       "PackagePath": "staticwebassets\\Images\\Profile\\Profile.png"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\Capture1.PNG",
+      "PackagePath": "staticwebassets\\Images\\Title\\Capture1.PNG"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\Profile.png",
+      "PackagePath": "staticwebassets\\Images\\Title\\Profile.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\axios.png",
+      "PackagePath": "staticwebassets\\Images\\Title\\axios.png"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\bootstrap\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\Lib\\bootstrap\\css\\bootstrap.min.css"
     },

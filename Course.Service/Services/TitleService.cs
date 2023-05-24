@@ -38,7 +38,12 @@ namespace Course.Service.Services {
                 return false;
             }
 
+        }
 
+        public async Task<List<TitleDropDownListViewModel>> GetAll()
+        {
+            var Titles = await _titleRepository.GetAll();
+            return _mapper.Map<List<TitleDropDownListViewModel>>(Titles);
         }
     }
 }

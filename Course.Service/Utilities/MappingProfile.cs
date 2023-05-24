@@ -6,6 +6,7 @@ namespace Course.Service.Utilities {
         public MappingProfile()
         {
             CreateMap<Title, TitleFormViewModel>().ReverseMap();
+            CreateMap<Title, TitleDropDownListViewModel>().ReverseMap();
         }
     }
 }

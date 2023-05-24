@@ -19,13 +19,20 @@
 
                                         @if (Model.Titles.Any())
                                         {
-                                            <form>
-                                                <div>
-                                                    <select>
-                                                        <option></option>
-                                                    </select>
+                                            <div class="row">
+                                                <div class="col-md-10">
+                                                    <form>
+                                                        <div>
+                                                            <select asp-for="@Model.TitleId" asp-items="@(new SelectList(Model.Titles,"Id","Name"))" class="form-control">
+                                                            </select>
+                                                        </div>
+                                                    </form>
                                                 </div>
-                                            </form>
+                                                <div class="col-md-2">
+                                                    <a asp-area="" asp-controller="Course" asp-action="Title" class="btn btn-primary" style="background-color: #006df0;">Add Title</a>
+                                                </div>
+                                            </div>
+                                           
 
                                         }
                                         else
