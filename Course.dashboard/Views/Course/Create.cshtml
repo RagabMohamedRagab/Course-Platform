@@ -6,7 +6,7 @@
     <div class="product-payment-inner-st">
         <ul id="myTabedu1" class="tab-review-design">
             <li class="active"><a href="#reviews">Add Title  </a></li>
-            <li class=""><a href="#description">Add Courses  </a></li>
+            <li class=""><a href="#description" id="go">Add Courses  </a></li>
         </ul>
         <div id="myTabContent" class="tab-content custom-product-edit">
             <div class="product-tab-list tab-pane fade active in" id="reviews">
@@ -23,38 +23,41 @@
                                                 <div class="col-md-10">
                                                     <form>
                                                         <div>
-                                                            <select asp-for="@Model.TitleId" asp-items="@(new SelectList(Model.Titles,"Id","Name"))" class="form-control">
+                                                            <select class="form-control" asp-for="@Model.TitleId" asp-items="@(new SelectList(Model.Titles,"Id","Name"))">
+                                                                <option disabled selected>Select Title</option>
                                                             </select>
                                                         </div>
                                                     </form>
                                                 </div>
                                                 <div class="col-md-2">
-                                                    <a asp-area="" asp-controller="Course" asp-action="Title" class="btn btn-primary" style="background-color: #006df0;">Add Title</a>
+                                                    <button data-toggle="modal" data-target="#myModal" class="btn btn-primary" style="background-color: #006df0;">Add Title</button>
+                                                    <button  type="button" onclick="Fun()" class="btn btn-primary" style="background-color: #006df0;">Next</button>
                                                 </div>
-                                            </div>
-                                           
 
+                                            </div>
                                         }
                                         else
                                         {
-                                            <form method="post" asp-area="" asp-controller="Course" asp-action="Title" asp-antiforgery="true" enctype="multipart/form-data">
-                                               <div asp-validation-summary="ModelOnly"></div>
-                                                <div class="form-group">
-                                                    <input asp-for="@Model.Title.Name" class="form-control" placeholder="Title">
-                                                    <span asp-validation-for="@Model.Title.Name" class="text-danger error"></span>
-                                                </div>
-                                                <div class="form-group">
-                                                    <input type="file" id="upload" accept=".png,.jpg" style="display:none" asp-for="@Model.Title.Logo" />
-                                                    <span asp-validation-for="@Model.Title.Logo" class="text-danger error"></span>
-                                                    <label for="upload" class="uploadlabel" asp-for="@Model.Title.Logo">
-                                                        <span><i class="bi bi-cloud-plus-fill"></i></span>
-                                                        <p>Click to Upload</p>
-                                                    </label>
-                                                </div>
-                                                <div class="form-group" style="display: flex;justify-content: end;">
-                                                    <input type="submit" class="btn btn-primary" style="background-color: #006df0;" value="Next">
-                                                </div>
-                                            </form>
+                                                <form method="post" asp-area="" asp-controller="Course" asp-action="Title" asp-antiforgery="true" enctype="multipart/form-data">
+                                                    <div asp-validation-summary="ModelOnly"></div>
+                                                    <div class="form-group">
+                                                        <input asp-for="@Model.Title.Name" class="form-control" placeholder="Title">
+                                                        <span asp-validation-for="@Model.Title.Name" class="text-danger error"></span>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input type="file" id="upload" accept=".png,.jpg" style="display:none" asp-for="@Model.Title.Logo" />
+                                                        <span asp-validation-for="@Model.Title.Logo" class="text-danger error"></span>
+                                                        <label for="upload" class="uploadlabel" asp-for="@Model.Title.Logo">
+                                                            <span><i class="bi bi-cloud-plus-fill"></i></span>
+                                                            <p>Click to Upload</p>
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-group" style="display: flex;justify-content: end;">
+                                                        <input type="submit" class="btn btn-primary" style="background-color: #006df0;" value="Next">
+                                                    </div>
+                                                </form>
+                                            
+                                      
                                         }
                                     </div>
                                 </div>
@@ -128,3 +131,35 @@
         </div>
     </div>
 </div>
+<!--Popup-->
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+        <form class="modal-content" method="post" asp-area="" asp-controller="Course" asp-action="Title" asp-antiforgery="true" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly"></div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <input asp-for="@Model.Title.Name" class="form-control" placeholder="Title">
+                    <span asp-validation-for="@Model.Title.Name" class="text-danger error"></span>
+                </div>
+                <div class="form-group">
+                    <input asp-for="@Model.Title.Logo" class="form-control" />
+                </div>
+            </div>
+            
+            <div class="form-group modal-footer" style="display: flex;justify-content: end;">
+                <input type="submit" class="btn btn-primary" style="background-color: #006df0;" value="Next">
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+  
+        function Fun() {
+                $("#go").click();
+
+            }
+
+    </script>
+}
