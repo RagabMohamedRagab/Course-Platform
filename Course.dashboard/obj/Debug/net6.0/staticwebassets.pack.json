@@ -29,12 +29,24 @@
       "PackagePath": "staticwebassets\\Images\\Title\\Capture3.PNG"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\Folder.png",
+      "PackagePath": "staticwebassets\\Images\\Title\\Folder.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\Module.png",
+      "PackagePath": "staticwebassets\\Images\\Title\\Module.png"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\Profile.png",
       "PackagePath": "staticwebassets\\Images\\Title\\Profile.png"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\axios.png",
       "PackagePath": "staticwebassets\\Images\\Title\\axios.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\profile.jpg",
+      "PackagePath": "staticwebassets\\Images\\Title\\profile.jpg"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\bootstrap\\css\\bootstrap.min.css",
