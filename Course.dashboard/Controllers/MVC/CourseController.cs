@@ -33,6 +33,14 @@ namespace Course.dashboard.Controllers.MVC {
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
+        public IActionResult Create(CourseViewModel model)
+        {
+            return View();
+        }
+
+
+            [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Title(TitleFormViewModel title)
         {
             if(ModelState.IsValid)
