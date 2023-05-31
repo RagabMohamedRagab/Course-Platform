@@ -2297,6 +2297,7 @@ ul.two-part-sp li{
 	margin-bottom:30px;
 }
 .credit-card-custom a, .waves-light{
+    width:100%;
 	background:#006DF0;
 	border-color: #006DF0;
 }
