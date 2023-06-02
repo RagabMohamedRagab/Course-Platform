@@ -1274,9 +1274,10 @@ ul.breadcome-menu li a:hover{
         font-size: 13px;
         color: #fff;
     }
-.product-payment-inner-st{
-	padding:20px;
-	background:#fff;
+.product-payment-inner-st {
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
 }
 #myTab3.tab-review-design, #myTabedu1.tab-review-design{
 	padding: 0px 0px 20px 0px;

@@ -828,14 +828,6 @@ C:\Users\pc\Desktop\Cout\Course.dashboard\obj\Debug\net6.0\refint\Course.dashboa
 C:\Users\pc\Desktop\Cout\Course.dashboard\obj\Debug\net6.0\Course.dashboard.pdb
 C:\Users\pc\Desktop\Cout\Course.dashboard\obj\Debug\net6.0\Course.dashboard.genruntimeconfig.cache
 C:\Users\pc\Desktop\Cout\Course.dashboard\obj\Debug\net6.0\ref\Course.dashboard.dll
-C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.csproj.AssemblyReference.cache
-C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.AssemblyInfoInputs.cache
-C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.AssemblyInfo.cs
-C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.csproj.CoreCompileInputs.cache
-C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.RazorAssemblyInfo.cache
-C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.RazorAssemblyInfo.cs
 C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\appsettings.json
 C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\libman.json
@@ -1234,6 +1226,15 @@ C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\Course.Service.pdb
 C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\Course.UnitOfWork.pdb
 C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\Course.Domain.pdb
 C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\Course.Repository.pdb
+C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.AssemblyInfo.cs
+C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.RazorAssemblyInfo.cache
+C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.RazorAssemblyInfo.cs
 C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\staticwebassets\msbuild.Course.dashboard.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\staticwebassets\msbuild.build.Course.dashboard.props
 C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Course.dashboard.props
@@ -1248,4 +1249,3 @@ C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\refint\Course.dashb
 C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.pdb
 C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.genruntimeconfig.cache
 C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\ref\Course.dashboard.dll
-C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.MvcApplicationPartsAssemblyInfo.cs

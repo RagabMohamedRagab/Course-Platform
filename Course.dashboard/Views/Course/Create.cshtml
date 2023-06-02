@@ -2,91 +2,43 @@
 @{
     ViewData["Title"] = "Add Course";
 }
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="
+                         margin-top: 2rem;">
     <div class="product-payment-inner-st">
-        <ul id="myTabedu1" class="tab-review-design">
-            <li class="active"><a href="#reviews">Add Title  </a></li>
-            <li class=""><a href="#description" id="go">Add Courses  </a></li>
-        </ul>
         <div id="myTabContent" class="tab-content custom-product-edit">
-            <div class="product-tab-list tab-pane fade active in" id="reviews">
+            <div>
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="review-content-section">
-                            <div class="row">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <div class="devit-card-custom">
-
-                                        @if (Model.Titles.Any())
-                                        {
-                                            <div class="row">
-                                                <div class="col-md-10">
-                                                    <form>
-                                                        <div>
-                                                            <select class="form-control" asp-for="@Model.TitleId" asp-items="@(new SelectList(Model.Titles,"Id","Name"))">
-                                                                <option disabled selected>Select Title</option>
-                                                            </select>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <button data-toggle="modal" data-target="#myModal" class="btn btn-primary" style="background-color: #006df0;">Add Title</button>
-                                                    <button  type="button" onclick="Fun()" class="btn btn-primary" style="background-color: #006df0;">Next</button>
-                                                </div>
-
-                                            </div>
-                                        }
-                                        else
-                                        {
-                                                <form method="post" asp-area="" asp-controller="Course" asp-action="Title" asp-antiforgery="true" enctype="multipart/form-data">
-                                                    <div asp-validation-summary="ModelOnly"></div>
-                                                    <div class="form-group">
-                                                        <input asp-for="@Model.Title.Name" class="form-control" placeholder="Title">
-                                                        <span asp-validation-for="@Model.Title.Name" class="text-danger error"></span>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="file" id="upload" accept=".png,.jpg" style="display:none" asp-for="@Model.Title.Logo" />
-                                                        <span asp-validation-for="@Model.Title.Logo" class="text-danger error"></span>
-                                                        <label for="upload" class="uploadlabel" asp-for="@Model.Title.Logo">
-                                                            <span><i class="bi bi-cloud-plus-fill"></i></span>
-                                                            <p>Click to Upload</p>
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-group" style="display: flex;justify-content: end;">
-                                                        <input type="submit" class="btn btn-primary" style="background-color: #006df0;" value="Next">
-                                                    </div>
-                                                </form>
-                                            
-                                      
-                                        }
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="product-tab-list tab-pane fade " id="description">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
                         <div class="review-content-section">
                             <div id="dropzone1" class="pro-ad addcoursepro">
-                                <form asp-controller="Course" asp-action="Create" asp-antiforgery="true" enctype="multipart/form-data" class="dropzone dropzone-custom needsclick addcourse dz-clickable" id="demo1-upload" novalidate="novalidate">
+                                <form asp-controller="Course" asp-action="Create" asp-antiforgery="true" asp-route-UserId="@(User.Identity?.Name)" enctype="multipart/form-data" class="dropzone dropzone-custom needsclick addcourse dz-clickable" id="demo1-upload" novalidate="novalidate">
+                                    <div asp-validation-summary="ModelOnly"></div>
                                     <div class="row">
+                                        <div class="col-md-10">
+                                                <div>
+                                                    <select class="form-control" asp-for="@Model.course.TitleId" asp-items="@(new SelectList(Model?.Titles,"Id","Name"))">
+                                                        <option disabled selected>Select Title</option>
+                                                    </select>
+                                                </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-primary" style="background-color: #006df0;outline: none;">Add Title</button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+
                                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                             <div class="form-group">
-                                                <input asp-for="@Model.course.Name" type="text" class="form-control" placeholder="Course Name">
+                                                <input asp-for="@Model.course.Name" type="text" class="form-control" placeholder="Video Name">
                                             </div>
-                                            <div class="form-group">
-                                                <input   asp-for="@Model.course.Price" class="form-control" placeholder="Course Price">
-                                            </div>
+                                           
                                             <div class="form-group alert-up-pd">
-                                                <div class="dz-message needsclick download-custom" style="cursor:pointer">
+                                                <div class="dz-message needsclick download-custom" style="cursor:pointer;border: 1px solid #ddd;padding: 2rem;">
                                                     <label for="upload" class="form-label">
                                                         <i class="fa fa-download edudropnone" aria-hidden="true"></i>
                                                         <h2 class="edudropnone">Drop Video here or click to upload.</h2>
                                                         <p class="edudropnone">
-                                                            <span class="note needsclick">(This is just a demo dropzone. Selected image is <strong>not</strong> actually uploaded.)</span>
+                                                            <span class="note needsclick">(This is just a demo dropzone. Selected Video is <strong>not</strong> actually uploaded.)</span>
                                                         </p>
                                                     </label>
                                                     <input asp-for="@Model.course.Logo" class="hd-pro-img" type="file" id="upload" class="form-control">
@@ -97,9 +49,9 @@
                                             <div class="form-group">
                                                 <textarea asp-for="@Model.course.Description" placeholder="Description"></textarea>
                                             </div>
-                                            <div class="form-group">
-                                                <button type="submit" class="btn btn-primary waves-effect waves-light">Save</button>
-                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="submit" class="btn btn-primary waves-effect waves-light">Save</button>
                                         </div>
                                     </div>
                                 </form>
@@ -123,10 +75,13 @@
                     <span asp-validation-for="@Model.Title.Name" class="text-danger error"></span>
                 </div>
                 <div class="form-group">
+                    <input asp-for="@Model.Title.Price" class="form-control" placeholder="Video Price" value="">
+                    <span asp-validation-for="@Model.Title.Price" class="text-danger error"></span>
+                </div>
+                <div class="form-group">
                     <input asp-for="@Model.Title.Logo" class="form-control" />
                 </div>
-            </div>
-            
+            </div> 
             <div class="form-group modal-footer" style="display: flex;justify-content: end;">
                 <input type="submit" class="btn btn-primary" style="background-color: #006df0;" value="Next">
             </div>
@@ -139,7 +94,6 @@
   
         function Fun() {
                 $("#go").click();
-
             }
 
     </script>

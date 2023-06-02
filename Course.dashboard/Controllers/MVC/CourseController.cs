@@ -7,12 +7,15 @@ using NToastNotify;
 namespace Course.dashboard.Controllers.MVC {
     public class CourseController : Controller {
         private readonly ITitleService _titleService;
+        private readonly ICourseService _courseService;
+
         private readonly IToastNotification _toast;
 
-        public CourseController(ITitleService titleService, IToastNotification toast)
+        public CourseController(ITitleService titleService, IToastNotification toast, ICourseService courseService)
         {
             _titleService = titleService;
             _toast = toast;
+            _courseService = courseService;
         }
 
         [HttpGet]
@@ -33,8 +36,9 @@ namespace Course.dashboard.Controllers.MVC {
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(CourseViewModel model)
+        public IActionResult Create(CourseViewModel model,string UserId)
         {
+            var result = _courseService.AddCourse(model).Result;
             return View();
         }
 
@@ -51,6 +55,7 @@ namespace Course.dashboard.Controllers.MVC {
                     return RedirectToAction(nameof(Create));
                 }       
             }
+            ModelState.AddModelError(string.Empty, "Incoorect Data");
             _toast.AddErrorToastMessage("Enter or Incorrect Data..");
             return RedirectToAction(nameof(Create));
         }

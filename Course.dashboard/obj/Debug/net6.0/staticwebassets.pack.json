@@ -29,8 +29,16 @@
       "PackagePath": "staticwebassets\\Images\\Title\\Capture1.PNG"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\Capture111.PNG",
+      "PackagePath": "staticwebassets\\Images\\Title\\Capture111.PNG"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\Capture3.PNG",
       "PackagePath": "staticwebassets\\Images\\Title\\Capture3.PNG"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\Capture55.PNG",
+      "PackagePath": "staticwebassets\\Images\\Title\\Capture55.PNG"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\Folder.png",
@@ -51,6 +59,14 @@
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\profile.jpg",
       "PackagePath": "staticwebassets\\Images\\Title\\profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\Breadth First Search Algorithm.mp4",
+      "PackagePath": "staticwebassets\\Images\\Videos\\Breadth First Search Algorithm.mp4"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\English_evaluation.mp4",
+      "PackagePath": "staticwebassets\\Images\\Videos\\English_evaluation.mp4"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\bootstrap\\css\\bootstrap.min.css",

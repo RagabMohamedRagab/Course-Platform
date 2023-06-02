@@ -52,9 +52,6 @@ namespace Course.Repository.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
-
                     b.Property<int?>("TitleId")
                         .HasColumnType("int");
 
@@ -89,9 +86,36 @@ namespace Course.Repository.Migrations
                         .HasMaxLength(120)
                         .HasColumnType("nvarchar(120)");
 
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,0)");
+
                     b.HasKey("Id");
 
                     b.ToTable("Titles");
+                });
+
+            modelBuilder.Entity("Course.Domain.Domains.UserCourse", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int?>("CourseId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CourseId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("UserCourses");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -124,7 +148,7 @@ namespace Course.Repository.Migrations
                         new
                         {
                             Id = "2c5e174e-3b0e-446f-86af-483d56fd7210",
-                            ConcurrencyStamp = "25bb28d1-f40e-4b3c-ab95-a87a1f7b7117",
+                            ConcurrencyStamp = "c3f4dec1-536e-4d25-9500-781a08e4cbd8",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
@@ -351,15 +375,15 @@ namespace Course.Repository.Migrations
                         {
                             Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "e7e959ff-0f77-45d1-9dd9-014b72a3d443",
+                            ConcurrencyStamp = "27c366aa-c682-49a7-8036-57dc43802598",
                             Email = "Admin123@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ADMIN123@GMAIL.COM",
                             NormalizedUserName = "ADMIN123@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEFvNXzpxMFxR4wa1/RUbfkbVQzuDU9O1Id0FVpeuYAeyL5BO3E7NJle7xoA9i595Fg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAELZsDdcIySHgmd8E7NmVtkl8x638WZ9sd6Z/nmclwiIdZkj+zxgLI4zOO7mbdZ2bdQ==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "62c821f6-2780-4317-8304-862a01165bfc",
+                            SecurityStamp = "f429d150-e063-4980-b42f-992a3964440e",
                             TwoFactorEnabled = false,
                             UserName = "Admin123@gmail.com",
                             IsActive = false
@@ -373,6 +397,23 @@ namespace Course.Repository.Migrations
                         .HasForeignKey("TitleId");
 
                     b.Navigation("Title");
+                });
+
+            modelBuilder.Entity("Course.Domain.Domains.UserCourse", b =>
+                {
+                    b.HasOne("Course.Domain.Domains.Course", "Course")
+                        .WithMany()
+                        .HasForeignKey("CourseId");
+
+                    b.HasOne("Course.Domain.Domains.AppUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Course");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

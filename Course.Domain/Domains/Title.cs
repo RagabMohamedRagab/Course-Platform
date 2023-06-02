@@ -10,6 +10,8 @@ namespace Course.Domain.Domains {
         [MaxLength(120)]
         public string? Name { get; set; }
         public string? Logo { get; set; }
+        [Column(TypeName ="decimal(18,0)")]
+        public decimal Price { get; set; }
         public virtual ICollection<Course> Courses { get; set; }
     }
 }
