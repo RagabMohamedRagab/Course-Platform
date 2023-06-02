@@ -5,6 +5,6 @@ namespace Course.Repository.ViewModeles {
         public CourseFormViewModel course { get; set; }
         public TitleFormViewModel Title { get; set; }
         public List<TitleDropDownListViewModel> Titles { get; set; }
-        
+        public string UserName{ get; set; }
     }
 }

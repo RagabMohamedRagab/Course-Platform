@@ -36,7 +36,7 @@ namespace Course.dashboard.Controllers.MVC {
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(CourseViewModel model,string UserId)
+        public IActionResult Create(CourseViewModel model)
         {
             var result = _courseService.AddCourse(model).Result;
             return View();

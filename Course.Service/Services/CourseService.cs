@@ -32,6 +32,7 @@ namespace Course.Service.Services {
                 await _course.Add(courseDb);
                 if (!(await _fileService.UploadFile(courseModel.Logo, Utitity.Course) && await _unitOfWork.SaveChangesAsync() > 0)) // Saving In Db
                     return false;
+                // Adding CourseId And UserId in UserCourse Table
                 return false;
             }
             catch (Exception)
