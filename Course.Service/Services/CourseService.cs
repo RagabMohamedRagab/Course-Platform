@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Course.Domain.Domains;
 using Course.Repository.IRepositories;
 using Course.Repository.ViewModeles;
 using Course.Service.Utilities;
@@ -32,7 +33,18 @@ namespace Course.Service.Services {
                 await _course.Add(courseDb);
                 if (!(await _fileService.UploadFile(courseModel.Logo, Utitity.Course) && await _unitOfWork.SaveChangesAsync() > 0)) // Saving In Db
                     return false;
-                // Adding CourseId And UserId in UserCourse Table
+                // Test Case 3 User is Exists or Not
+                var userId =await _course.GetUserByName(model.UserName);
+                if (string.IsNullOrEmpty(userId))
+                    return false;
+                // Create UserCourseViewModel
+                var userCourseVm = new UserCourseViewModel()
+                {
+                    UserId = userId,
+                    CourseId = courseDb.Id
+                };
+                // Mapper
+                var userCourse = _mapper.Map<UserCourse>(userCourseVm);
                 return false;
             }
             catch (Exception)
