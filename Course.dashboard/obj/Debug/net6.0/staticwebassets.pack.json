@@ -61,6 +61,10 @@
       "PackagePath": "staticwebassets\\Images\\Title\\profile.jpg"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\B.PNG",
+      "PackagePath": "staticwebassets\\Images\\Videos\\B.PNG"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\Breadth First Search Algorithm.mp4",
       "PackagePath": "staticwebassets\\Images\\Videos\\Breadth First Search Algorithm.mp4"
     },
