@@ -29,9 +29,22 @@ namespace Course.dashboard.Controllers.API {
         }
         [HttpPost]
         [AllowAnonymous]
-        public async Task<IActionResult> Create([FromBody] CourseViewModel model)
+        public async Task<IActionResult> Create([FromBody] CourseFormModelAPI course,string UserName)
         {
-            return await _courseService.AddCourse(model) ? Ok() : NotFound(new { Message = "Data Not Found" });
+            if (!ModelState.IsValid)
+                return BadRequest(new { Message="Data Not Found" });
+            //CourseFormViewModel viewModel = new CourseFormViewModel()
+            //{
+            //     Name=
+            //}
+            //CourseViewModel model = new CourseViewModel()
+            //{
+            //    course = course,
+            //    UserName = UserName
+            //};
+
+            //return await _courseService.AddCourse(course); 
+            return Ok(); 
         }
     }
 }
