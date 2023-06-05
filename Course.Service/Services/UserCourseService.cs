@@ -29,5 +29,10 @@ namespace Course.Service.Services {
 
             }
         }
+
+        public Task GetAllUserById(string id, int PageNumber, int PageSize)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

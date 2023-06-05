@@ -9,14 +9,15 @@ namespace Course.dashboard.Controllers.API {
     [ApiController]
     public class CoursesController : ControllerBase {
         private readonly ITitleService _titleService;
-
-        public CoursesController(ITitleService titleService)
+        private readonly ICourseService _courseService;
+        public CoursesController(ITitleService titleService, ICourseService courseService)
         {
             _titleService = titleService;
+            _courseService = courseService;
         }
         [HttpPost]
         [AllowAnonymous]
-        public async Task<IActionResult> Title([FromForm]TitleFormViewModel title)
+        public async Task<IActionResult> Title([FromForm] TitleFormViewModel title)
         {
             if (!ModelState.IsValid)
                 return BadRequest("Incorrect Data");
@@ -25,6 +26,12 @@ namespace Course.dashboard.Controllers.API {
 
             return Ok("Sucess");
 
+        }
+        [HttpPost]
+        [AllowAnonymous]
+        public async Task<IActionResult> Create([FromBody] CourseViewModel model)
+        {
+            return await _courseService.AddCourse(model) ? Ok() : NotFound(new { Message = "Data Not Found" });
         }
     }
 }
