@@ -41,9 +41,7 @@ namespace Course.dashboard.Controllers.MVC {
             var result = _courseService.AddCourse(model).Result;
             return View();
         }
-
-
-            [HttpPost]
+       [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Title(TitleFormViewModel title)
         {

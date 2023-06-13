@@ -24,9 +24,11 @@ namespace Course.Service.Services {
             try
             {
                 var title = _mapper.Map<Title>(model);
-                if (await _fileService.UploadFile(model.Logo, Utitity.Title))
+                var userId = await _titleRepository.GetUserByName(model.AppUserId);
+                if (userId is not null &&await _fileService.UploadFile(model.Logo, Utitity.Title))
                 {
                     title.Logo = model.Logo.FileName;
+                    title.AppUserId=userId;
                     await _titleRepository.Add(title);
                     if (await _unitOfWork.SaveChangesAsync() > 0)
                         return true;

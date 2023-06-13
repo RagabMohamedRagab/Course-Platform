@@ -3,6 +3,6 @@
 namespace Course.Service.IServices {
     public interface IUserCourseService {
         Task<bool> Add(UserCourse userCourse);
-        Task GetCourseUserByUserId(string id, int PageNumber, int PageSize);
+        //Task GetCourseUserByUserId(string id, int PageNumber, int PageSize);
     }
 }

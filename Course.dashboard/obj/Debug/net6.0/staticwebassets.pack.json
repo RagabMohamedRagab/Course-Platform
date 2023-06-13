@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\Images\\Title\\Profile.png"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\Used.PNG",
+      "PackagePath": "staticwebassets\\Images\\Title\\Used.PNG"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\axios.png",
       "PackagePath": "staticwebassets\\Images\\Title\\axios.png"
     },
@@ -67,6 +71,10 @@
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\Breadth First Search Algorithm.mp4",
       "PackagePath": "staticwebassets\\Images\\Videos\\Breadth First Search Algorithm.mp4"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\Depth First Search Algorithm.mp4",
+      "PackagePath": "staticwebassets\\Images\\Videos\\Depth First Search Algorithm.mp4"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\English_evaluation.mp4",

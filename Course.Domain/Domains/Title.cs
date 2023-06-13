@@ -1,5 +1,6 @@
 ﻿
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Course.Domain.Domains {
     public partial class Title:BaseEntity {
@@ -12,6 +13,9 @@ namespace Course.Domain.Domains {
         public string? Logo { get; set; }
         [Column(TypeName ="decimal(18,0)")]
         public decimal Price { get; set; }
+        [ForeignKey(nameof(AppUserId))]
+        public string? AppUserId { get; set; }
+        public AppUser AppUser { get; set; }
         public virtual ICollection<Course> Courses { get; set; }
     }
 }

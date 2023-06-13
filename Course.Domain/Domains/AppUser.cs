@@ -19,6 +19,7 @@ namespace Course.Domain.Domains {
         [Column(TypeName = "nvarchar(150)")]
         public string? LinkedIn { get; set; } 
         public bool IsActive { get; set; }
+        public virtual ICollection<Title> Titles { get; set; }
    
     }
 }
