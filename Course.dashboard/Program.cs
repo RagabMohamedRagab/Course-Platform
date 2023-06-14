@@ -22,7 +22,7 @@ builder.Services.AddAuthentication();
 builder.Services.AddAuthorization();
 var connection = builder.Configuration.GetConnectionString("Connection");
 builder.Services.AddDbContext<CourseDbContext>(options =>
-                                          options.UseSqlServer(connection));
+                                          options.UseLazyLoadingProxies().UseSqlServer(connection));
 builder.Services.AddIdentity<AppUser, IdentityRole>()
                           .AddEntityFrameworkStores<CourseDbContext>()
                           .AddDefaultTokenProviders();

@@ -8,6 +8,7 @@ using System.Security.Policy;
 namespace Course.Repository.Context {
     public class CourseDbContext : IdentityDbContext {
         public CourseDbContext(DbContextOptions<CourseDbContext> options) : base(options) { }
+     
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             //  To Enable Two Factory Authentcation Enter Phone or Set Manually.

@@ -71,6 +71,10 @@
               "target": "Package",
               "version": "[7.0.4, )"
             },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
             "MimeKit": {
               "target": "Package",
               "version": "[3.6.1, )"
