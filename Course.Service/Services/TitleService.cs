@@ -47,5 +47,10 @@ namespace Course.Service.Services {
             var Titles = await _titleRepository.GetAll();
             return _mapper.Map<List<TitleDropDownListViewModel>>(Titles);
         }
+
+        public Task<IEnumerable<DisplayTitlesViewModel>> GetAllTitles(string userName, string Search = "", string order = "")
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -6,6 +6,7 @@ namespace Course.Service.Utilities {
         public MappingProfile()
         {
             CreateMap<Title, TitleFormViewModel>().ReverseMap();
+            CreateMap<Title, TitlesViewModel>().ReverseMap();
             CreateMap<Title, TitleDropDownListViewModel>().ReverseMap();
             CreateMap<CourseFormViewModel, Course.Domain.Domains.Course>().ReverseMap();
             CreateMap<UserCourse, UserCourseViewModel>().ReverseMap();

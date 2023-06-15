@@ -13,6 +13,8 @@ namespace Course.Repository.Repositories {
             _userManager = userManager;
         }
 
+  
+
         public async Task<string> GetUserByName(string Name)
         {
             if (String.IsNullOrEmpty(Name))
