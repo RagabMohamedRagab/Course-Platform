@@ -7,10 +7,8 @@ namespace Course.Domain.Domains {
 
         [StringLength(maximumLength:100)]
         public string Name { get; set; }
-        public string Logo { get; set; }
+        public string? Logo { get; set; }
         public string Description { get; set; }
-        public int? TitleId { get; set; }
-      public virtual Title Title { get; set; }
     }
 }
 

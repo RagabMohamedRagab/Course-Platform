@@ -16,7 +16,7 @@
                                     <div class="row">
                                         <div class="col-md-10">
                                                 <div>
-                                                    <select class="form-control" asp-for="@Model.course.TitleId" asp-items="@(new SelectList(Model?.Titles,"Id","Name"))">
+                                                    <select class="form-control"  asp-items="@(new SelectList(Model?.Titles,"Id","Name"))">
                                                         <option disabled selected>Select Title</option>
                                                     </select>
                                                 </div>

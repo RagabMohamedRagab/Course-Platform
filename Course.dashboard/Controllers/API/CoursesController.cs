@@ -40,7 +40,6 @@ namespace Course.dashboard.Controllers.API {
                     Description = course.Description,
                     Name = course.Name,
                     Logo = course.File,
-                    TitleId = course.TitleId,
                 },
                 UserName = course.UserName
             };

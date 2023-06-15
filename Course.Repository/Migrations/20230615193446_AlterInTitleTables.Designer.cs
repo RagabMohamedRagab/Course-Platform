@@ -4,6 +4,7 @@ using Course.Repository.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Course.Repository.Migrations
 {
     [DbContext(typeof(CourseDbContext))]
-    partial class CourseDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230615193446_AlterInTitleTables")]
+    partial class AlterInTitleTables
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -44,6 +47,7 @@ namespace Course.Repository.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("Logo")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("ModifiedOn")
@@ -155,7 +159,7 @@ namespace Course.Repository.Migrations
                         new
                         {
                             Id = "2c5e174e-3b0e-446f-86af-483d56fd7210",
-                            ConcurrencyStamp = "d9c5a489-208b-4981-9157-463d8641ec8b",
+                            ConcurrencyStamp = "c155836d-46d8-43ea-a8f0-56436467d897",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
@@ -382,15 +386,15 @@ namespace Course.Repository.Migrations
                         {
                             Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d90d9f80-3b21-4861-aae1-5d7f8df85835",
+                            ConcurrencyStamp = "0e9213d6-6b38-4b2f-b40c-071ac17d4dcb",
                             Email = "Admin123@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ADMIN123@GMAIL.COM",
                             NormalizedUserName = "ADMIN123@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEI9mhrGo2pWzQXQeyjBwQcGiKb6jdONHDWDtKtf/yNYO6652NBbrI4cJD2QnhbMXzw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEOsjA8vLzTnmNaMLxa1yq50k5KiXzjdl8b7EC2MSSe3L6hYalPeexldirXWxoUXiEQ==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "9142cdf6-8bfd-45f7-afd0-b5d9b6210f39",
+                            SecurityStamp = "641e81df-c498-4a0a-8474-a54297a0d698",
                             TwoFactorEnabled = false,
                             UserName = "Admin123@gmail.com",
                             IsActive = false
