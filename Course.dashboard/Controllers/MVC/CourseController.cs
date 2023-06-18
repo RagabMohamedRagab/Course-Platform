@@ -52,7 +52,7 @@ namespace Course.dashboard.Controllers.MVC {
             return RedirectToAction(nameof(Create));
         }
         [HttpGet]
-        public async Task<IActionResult> Coures(string userName="Test123@gmail.com",string Search="",string orderby="", int currentPage = 1)
+        public async Task<IActionResult> Coures(string userName,string Search="",string orderby="", int currentPage = 1)
         {
             var result =await  _titleService.GetAllTitles(currentPage,userName, Search, orderby);
             return View(result);
