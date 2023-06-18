@@ -42,7 +42,6 @@ namespace Course.Service.Services {
             }
 
         }
-
         public async Task<List<TitleDropDownListViewModel>> GetAll()
         {
             var Titles = await _titleRepository.GetAll();
@@ -87,7 +86,7 @@ namespace Course.Service.Services {
             int totalPage = (int)Math.Ceiling(totalRecords / (double)pageSize);
             getTitles = getTitles.Skip((currentPage - 1) * pageSize).Take(pageSize);
               // Get all Titles
-            displayTitles.Titles = _mapper.Map<IEnumerable<TitlesViewModel>>(getTitles);
+            displayTitles.Titles = _mapper.Map<List<TitlesViewModel>>(getTitles);
             displayTitles.PageSize=pageSize;
             displayTitles.CurrentPage = currentPage;
             displayTitles.TotalPages = totalPage;

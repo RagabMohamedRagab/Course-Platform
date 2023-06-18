@@ -168,7 +168,7 @@
                                     </li>
                                 }
                                 <li>
-                                    <a title="All Courses" asp-controller="Course" asp-action="Index">
+                                    <a title="All Courses" asp-controller="Course" asp-action="Coures">
                                         <span class="mini-sub-pro">All Courses</span>
                                     </a>
                                 </li>
@@ -325,13 +325,13 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a data-toggle="collapse" data-target="#democrou" asp-controller="Course" asp-action="Index">Courses <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <a data-toggle="collapse" data-target="#democrou">Courses <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                             <ul id="democrou" class="collapse dropdown-header-top">
                                                   <li>
-                                                    <a href="add-course.html">Add Course</a>
+                                                    <a asp-controller="Course" asp-action="Create">Add Course</a>
                                                 </li>
                                                 <li>
-                                                    <a href="all-courses.html">All Courses</a>
+                                                    <a asp-controller="Course" asp-action="Coures">All Courses</a>
                                                 </li>
                                             </ul>
                                         </li>

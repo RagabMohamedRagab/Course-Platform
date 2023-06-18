@@ -1,6 +1,6 @@
 ﻿namespace Course.Repository.ViewModeles {
     public class DisplayTitlesViewModel {
-        public IEnumerable<TitlesViewModel> Titles { get; set; }
+        public List<TitlesViewModel> Titles { get; set; }
         public string Orderby { get; set; } = "ASC";
         public string SearchBy { get; set; }
         public int TotalPages { get; set; }

@@ -1118,6 +1118,7 @@ C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\Azure.Core.dll
 C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\Castle.Core.dll
 C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\Humanizer.dll
 C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\MailKit.dll
 C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
@@ -1135,6 +1136,7 @@ C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\Microsoft.Data.SqlC
 C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
 C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
@@ -1249,5 +1251,3 @@ C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\refint\Course.dashb
 C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.pdb
 C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.genruntimeconfig.cache
 C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\ref\Course.dashboard.dll
-C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\Castle.Core.dll
-C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll

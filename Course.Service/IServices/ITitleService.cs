@@ -5,6 +5,6 @@ namespace Course.Service.IServices {
     public interface ITitleService {
         Task<bool> Create(TitleFormViewModel title);
         Task<List<TitleDropDownListViewModel>> GetAll();
-        Task<DisplayTitlesViewModel> GetAllTitles(int currentPage,string userName, string Search = "", string order = "");
+        Task<DisplayTitlesViewModel> GetAllTitles(int CurrentPage,string userName, string Search = "", string order = "");
     }
 }

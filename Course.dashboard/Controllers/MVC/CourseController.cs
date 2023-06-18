@@ -17,12 +17,6 @@ namespace Course.dashboard.Controllers.MVC {
             _toast = toast;
             _courseService = courseService;
         }
-
-        [HttpGet]
-        public IActionResult Index()
-        {
-            return View();
-        }
         [HttpGet]
         public IActionResult Create()
         {
@@ -39,7 +33,7 @@ namespace Course.dashboard.Controllers.MVC {
         public IActionResult Create(CourseViewModel model)
         {
             var result = _courseService.AddCourse(model).Result;
-            return View();
+            return RedirectToAction(nameof(Coures), new { userName = model.UserName, Search = "", orderby = "", currentPage = 1 });
         }
        [HttpPost]
         [ValidateAntiForgeryToken]
@@ -56,6 +50,12 @@ namespace Course.dashboard.Controllers.MVC {
             ModelState.AddModelError(string.Empty, "Incoorect Data");
             _toast.AddErrorToastMessage("Enter or Incorrect Data..");
             return RedirectToAction(nameof(Create));
+        }
+        [HttpGet]
+        public async Task<IActionResult> Coures(string userName="Test123@gmail.com",string Search="",string orderby="", int currentPage = 1)
+        {
+            var result =await  _titleService.GetAllTitles(currentPage,userName, Search, orderby);
+            return View(result);
         }
     }
 }

@@ -1,0 +1,43 @@
+﻿@model DisplayTitlesViewModel;
+@{
+    ViewData["Title"] = "All Coures";
+}
+<style>
+    .card-img-top {
+        width: 22rem;
+        height: 12rem;
+    }
+
+    .card{
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+</style>
+
+<section>
+    <div class="roles" style="height: 35rem;">
+        @if (Model.IsCompleted)
+        {
+
+            @for (int i = 0; i < Model.Titles.Count(); i++)
+            {
+                <div class="col-md-4 col-sm-6 col-xs-12  borderCard">
+                    <div class="card">
+                        <img src="~/Images/Title/@(Model.Titles[i].Logo)" class="card-img-top img-fluid img-thumbnail" alt="Title Image">
+                        <div class="card-body" style="padding: 12px;">
+                            <h5 class="card-title">@Model.Titles[i].Name</h5>
+                            <p class="card-text">@Model.Titles[i].Price $</p>
+                            <a href="#" class="btn btn-primary" style="background-color: #006df0;"><i class="bi bi-eye-fill"></i></a>
+                            <a href="#" class="btn btn-primary" style="background-color: #006df0;"><i class="bi bi-pencil-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            }
+
+        }
+    </div>
+
+
+
+</section>
+
