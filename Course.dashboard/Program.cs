@@ -76,6 +76,7 @@ if (app.Environment.IsDevelopment())
     app.UseHsts();
 }
 app.UseHttpsRedirection();
+app.UseCors(c => c.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 app.UseRouting();
 app.UseStaticFiles();
 app.UseAuthentication();

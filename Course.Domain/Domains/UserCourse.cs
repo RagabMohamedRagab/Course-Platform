@@ -8,5 +8,8 @@ namespace Course.Domain.Domains {
         [ForeignKey(nameof(User))]
         public string? UserId { get; set; }
         public virtual AppUser User { get; set; }
+        [ForeignKey(nameof(Title))]
+        public int TitleId { get; set; }
+        public virtual Title Title { get; set; }
     }
 }

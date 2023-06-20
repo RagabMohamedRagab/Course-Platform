@@ -168,7 +168,7 @@
                                     </li>
                                 }
                                 <li>
-                                    <a title="All Courses" asp-controller="Course" asp-action="Coures">
+                                    <a title="All Courses" asp-controller="Course" asp-action="Coures" asp-route-userName="@(User.Identity.Name??null)">
                                         <span class="mini-sub-pro">All Courses</span>
                                     </a>
                                 </li>
