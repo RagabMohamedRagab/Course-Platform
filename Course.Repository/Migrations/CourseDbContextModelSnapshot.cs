@@ -55,13 +55,14 @@ namespace Course.Repository.Migrations
                         .HasColumnType("nvarchar(100)");
 
                     b.Property<int?>("TitleId")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.HasIndex("TitleId");
 
-                    b.ToTable("Courses");
+                    b.ToTable("Courses", (string)null);
                 });
 
             modelBuilder.Entity("Course.Domain.Domains.Title", b =>
@@ -98,36 +99,7 @@ namespace Course.Repository.Migrations
 
                     b.HasIndex("AppUserId");
 
-                    b.ToTable("Titles");
-                });
-
-            modelBuilder.Entity("Course.Domain.Domains.UserCourse", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int?>("CourseId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("TitleId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("CourseId");
-
-                    b.HasIndex("TitleId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("UserCourses");
+                    b.ToTable("Titles", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -160,7 +132,7 @@ namespace Course.Repository.Migrations
                         new
                         {
                             Id = "2c5e174e-3b0e-446f-86af-483d56fd7210",
-                            ConcurrencyStamp = "c025c8a2-a69b-41ed-a810-66bded55ba55",
+                            ConcurrencyStamp = "7da5d7b5-f8a9-4205-a4c7-b3d6226f6d75",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
@@ -387,15 +359,15 @@ namespace Course.Repository.Migrations
                         {
                             Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "986769a3-27cd-4593-8bfa-81d5da2521ea",
+                            ConcurrencyStamp = "476805a2-b197-4195-8dd6-839602ad9f5f",
                             Email = "Admin123@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ADMIN123@GMAIL.COM",
                             NormalizedUserName = "ADMIN123@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEElGvwhSimkLf9X69ShZyPMfq6MXrj25h4awepoCpKe2u50A6YEg29K5h2+wz3Qi/w==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEADoOhnNp96L0960KY4hEWsmDsH30dxXBUYX1Vxtc6OIjhde/cTjsjSpBIMKIraIRg==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "334d8b50-5829-438c-a699-87095d23e82b",
+                            SecurityStamp = "157b8de9-6d85-4b96-bd2a-568cf81085a8",
                             TwoFactorEnabled = false,
                             UserName = "Admin123@gmail.com",
                             IsActive = false
@@ -404,9 +376,13 @@ namespace Course.Repository.Migrations
 
             modelBuilder.Entity("Course.Domain.Domains.Course", b =>
                 {
-                    b.HasOne("Course.Domain.Domains.Title", null)
+                    b.HasOne("Course.Domain.Domains.Title", "Title")
                         .WithMany("Courses")
-                        .HasForeignKey("TitleId");
+                        .HasForeignKey("TitleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Title");
                 });
 
             modelBuilder.Entity("Course.Domain.Domains.Title", b =>
@@ -416,31 +392,6 @@ namespace Course.Repository.Migrations
                         .HasForeignKey("AppUserId");
 
                     b.Navigation("AppUser");
-                });
-
-            modelBuilder.Entity("Course.Domain.Domains.UserCourse", b =>
-                {
-                    b.HasOne("Course.Domain.Domains.Course", "Course")
-                        .WithMany()
-                        .HasForeignKey("CourseId");
-
-                    b.HasOne("Course.Domain.Domains.Title", "Title")
-                        .WithMany()
-                        .HasForeignKey("TitleId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Course.Domain.Domains.AppUser", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Course");
-
-                    b.Navigation("Title");
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

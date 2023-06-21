@@ -9,6 +9,10 @@ namespace Course.Domain.Domains {
         public string Name { get; set; }
         public string? Logo { get; set; }
         public string Description { get; set; }
+        [ForeignKey(nameof(Title))]
+        public int? TitleId { get; set; }
+        public virtual Title Title { get; set; }
+
     }
 }
 

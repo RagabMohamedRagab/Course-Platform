@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Course.Repository.Migrations
 {
     /// <inheritdoc />
-    public partial class CreateIdentityTablesAndCourseAndTitle : Migration
+    public partial class InitialMigrationForDB : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -57,25 +57,6 @@ namespace Course.Repository.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_AspNetUsers", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Titles",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Logo = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    CreateOn = table.Column<DateTime>(type: "date", nullable: false),
-                    ModifiedOn = table.Column<DateTime>(type: "date", nullable: false),
-                    CreatedBy = table.Column<string>(type: "nvarchar(150)", maxLength: 150, nullable: false),
-                    ModifiedBy = table.Column<string>(type: "nvarchar(150)", maxLength: 150, nullable: false),
-                    IsDeleted = table.Column<bool>(type: "bit", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Titles", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -185,19 +166,41 @@ namespace Course.Repository.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Titles",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(120)", maxLength: 120, nullable: true),
+                    Logo = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Price = table.Column<decimal>(type: "decimal(18,0)", nullable: false),
+                    AppUserId = table.Column<string>(type: "nvarchar(450)", nullable: true),
+                    CreateOn = table.Column<DateTime>(type: "date", nullable: false),
+                    ModifiedOn = table.Column<DateTime>(type: "date", nullable: false),
+                    IsDeleted = table.Column<bool>(type: "bit", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Titles", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Titles_AspNetUsers_AppUserId",
+                        column: x => x.AppUserId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id");
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Courses",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
-                    Logo = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    TitleId = table.Column<int>(type: "int", nullable: true),
+                    Logo = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    TitleId = table.Column<int>(type: "int", nullable: false),
                     CreateOn = table.Column<DateTime>(type: "date", nullable: false),
                     ModifiedOn = table.Column<DateTime>(type: "date", nullable: false),
-                    CreatedBy = table.Column<string>(type: "nvarchar(150)", maxLength: 150, nullable: false),
-                    ModifiedBy = table.Column<string>(type: "nvarchar(150)", maxLength: 150, nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
@@ -208,18 +211,18 @@ namespace Course.Repository.Migrations
                         column: x => x.TitleId,
                         principalTable: "Titles",
                         principalColumn: "Id",
-                        onDelete:ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[] { "2c5e174e-3b0e-446f-86af-483d56fd7210", "8693596f-eeda-4b51-aa16-1f16ee0c8a29", "Admin", "ADMIN" });
+                values: new object[] { "2c5e174e-3b0e-446f-86af-483d56fd7210", "7da5d7b5-f8a9-4205-a4c7-b3d6226f6d75", "Admin", "ADMIN" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "About", "AccessFailedCount", "ConcurrencyStamp", "Discriminator", "Email", "EmailConfirmed", "Facebook", "Instagram", "IsActive", "LinkedIn", "LockoutEnabled", "LockoutEnd", "Logo", "Name", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "Twitter", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "8e445865-a24d-4543-a6c6-9443d048cdb9", null, 0, "de565022-ca98-4e9b-8492-d22f9eac77de", "AppUser", "Admin123@gmail.com", true, null, null, false, null, true, null, null, null, "ADMIN123@GMAIL.COM", "ADMIN123@GMAIL.COM", "AQAAAAEAACcQAAAAEIH9zUZWBImq8BbAaieamPoGZ/hKmXwah9l+SbjL/v1izE/9e4SXUGhvaOLtYQB8rQ==", null, true, "faaf47b1-8f7e-4d44-8d5d-866922c6d366", null, false, "Admin123@gmail.com" });
+                values: new object[] { "8e445865-a24d-4543-a6c6-9443d048cdb9", null, 0, "476805a2-b197-4195-8dd6-839602ad9f5f", "AppUser", "Admin123@gmail.com", true, null, null, false, null, true, null, null, null, "ADMIN123@GMAIL.COM", "ADMIN123@GMAIL.COM", "AQAAAAEAACcQAAAAEADoOhnNp96L0960KY4hEWsmDsH30dxXBUYX1Vxtc6OIjhde/cTjsjSpBIMKIraIRg==", null, true, "157b8de9-6d85-4b96-bd2a-568cf81085a8", null, false, "Admin123@gmail.com" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",
@@ -269,6 +272,11 @@ namespace Course.Repository.Migrations
                 name: "IX_Courses_TitleId",
                 table: "Courses",
                 column: "TitleId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Titles_AppUserId",
+                table: "Titles",
+                column: "AppUserId");
         }
 
         /// <inheritdoc />
@@ -296,10 +304,10 @@ namespace Course.Repository.Migrations
                 name: "AspNetRoles");
 
             migrationBuilder.DropTable(
-                name: "AspNetUsers");
+                name: "Titles");
 
             migrationBuilder.DropTable(
-                name: "Titles");
+                name: "AspNetUsers");
         }
     }
 }

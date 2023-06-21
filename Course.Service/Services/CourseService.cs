@@ -7,18 +7,18 @@ using Course.Service.Utilities;
 namespace Course.Service.Services {
     public class CourseService : ICourseService {
         private readonly ICourseRepository _course;
-        private readonly IUserCourseService _userCourseService;
+      
 
         private readonly IFileService _fileService;
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
-        public CourseService(ICourseRepository course, IMapper mapper, IFileService fileService, IUnitOfWork unitOfWork, IUserCourseService userCourseService)
+        public CourseService(ICourseRepository course, IMapper mapper, IFileService fileService, IUnitOfWork unitOfWork)
         {
             _course = course;
             _mapper = mapper;
             _fileService = fileService;
             _unitOfWork = unitOfWork;
-            _userCourseService = userCourseService;
+        
         }
 
         public async Task<bool> AddCourse(CourseViewModel model)
@@ -39,20 +39,7 @@ namespace Course.Service.Services {
                 if (!(await _unitOfWork.SaveChangesAsync() > 0)) // Saving In Db
                     return false;
                 // Test Case 3 User is Exists or Not
-                var userId = await _course.GetUserByName(model.UserName);
-                if (string.IsNullOrEmpty(userId))
-                    return false;
-                // Create UserCourseViewModel
-                var userCourseVm = new UserCourseViewModel()
-                {
-                    UserId = userId,
-                    CourseId = courseDb.Id
-                };
-                // Mapper
-                var userCourse = _mapper.Map<UserCourse>(userCourseVm);
-                if (await _userCourseService.Add(userCourse))
-                    return true;
-                return false;
+                return true;
             }
             catch (Exception)
             {

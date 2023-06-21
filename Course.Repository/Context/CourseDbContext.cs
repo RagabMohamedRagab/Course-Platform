@@ -17,7 +17,6 @@ namespace Course.Repository.Context {
         }
         public virtual DbSet<Course.Domain.Domains.Course> Courses { get; set; }
         public virtual DbSet<Course.Domain.Domains.Title> Titles { get; set; }
-        public virtual DbSet<Course.Domain.Domains.UserCourse> UserCourses { get; set; }
 
     }
 }
