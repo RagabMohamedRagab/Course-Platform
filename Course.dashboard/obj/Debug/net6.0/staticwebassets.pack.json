@@ -49,6 +49,38 @@
       "PackagePath": "staticwebassets\\Images\\Videos\\Video_2023-06-12_122928.wmv"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\bootstrap-icons\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\Lib\\bootstrap-icons\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\bootstrap-icons\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\Lib\\bootstrap-icons\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\bootstrap-icons\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Lib\\bootstrap-icons\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\bootstrap-icons\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\Lib\\bootstrap-icons\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\bootstrap-icons\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Lib\\bootstrap-icons\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\bootstrap-icons\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\Lib\\bootstrap-icons\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\bootstrap-icons\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\Lib\\bootstrap-icons\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\bootstrap-icons\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Lib\\bootstrap-icons\\bootstrap.rtl.min.css.map"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\bootstrap\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\Lib\\bootstrap\\css\\bootstrap.min.css"
     },
