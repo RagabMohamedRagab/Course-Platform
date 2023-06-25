@@ -34,9 +34,7 @@ namespace Course.Service.Services {
                 courseDb.Logo = courseModel.Logo.FileName;
                 // Create Instance In Memmory 
                 await _course.Add(courseDb);
-                if (!(await _fileService.UploadFile(courseModel.Logo, Utitity.Course)))
-                      return false;
-                if (!(await _unitOfWork.SaveChangesAsync() > 0)) // Saving In Db
+                if (!(await _unitOfWork.SaveChangesAsync() > 0)&& !(await _fileService.UploadFile(courseModel.Logo, Utitity.Course))) // Saving In Db
                     return false;
                 // Test Case 3 User is Exists or Not
                 return true;

@@ -8,20 +8,21 @@
         height: 12rem;
     }
 
-    .card{
+    .card {
         border: 1px solid #ddd;
         text-align: center;
     }
 </style>
 
 <section>
-    <div class="roles" style="height: 35rem;">
-        @if (Model.IsCompleted)
-        {
+
+    @if (Model.IsCompleted)
+    {
+        <div class="roles" style="height:50rem;">
 
             @for (int i = 0; i < Model.Titles.Count(); i++)
             {
-                <div class="col-md-4 col-sm-6 col-xs-12  borderCard">
+                <div class="col-md-4 col-sm-6 col-xs-12  borderCard" style="margin-bottom: 24px;">
                     <div class="card">
                         <img src="~/Images/Title/@(Model.Titles[i].Logo)" class="card-img-top img-fluid img-thumbnail" alt="Title Image">
                         <div class="card-body" style="padding: 12px;">
@@ -33,11 +34,28 @@
                     </div>
                 </div>
             }
+            <div class="row" style="display: flex;justify-content: center;">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <nav aria-label="...">
+                        <ul class="pagination" style="font-size: 1.1rem;">
+                            <li class="page-item disabled">
+                                <a class="page-link">Previous</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item active" aria-current="page">
+                                <a class="page-link" href="#">2</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
 
-        }
-    </div>
+                </div>
 
-
-
+            </div>
+        </div>
+    }
 </section>
 

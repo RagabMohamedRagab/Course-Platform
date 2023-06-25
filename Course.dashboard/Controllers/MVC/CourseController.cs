@@ -33,7 +33,13 @@ namespace Course.dashboard.Controllers.MVC {
         public IActionResult Create(CourseViewModel model)
         {
             var result = _courseService.AddCourse(model).Result;
-            return RedirectToAction(nameof(Coures), new { userName = model.UserName, Search = "", orderby = "", currentPage = 1 });
+            if (result)
+            {
+                _toast.AddSuccessToastMessage("Done");
+                return RedirectToAction(nameof(Coures), new { userName = model.UserName, Search = "", orderby = "", currentPage = 1 });
+            }
+                _toast.AddErrorToastMessage("Enter or Incorrect Data..");
+            return RedirectToAction(nameof(Coures));
         }
        [HttpPost]
         [ValidateAntiForgeryToken]
