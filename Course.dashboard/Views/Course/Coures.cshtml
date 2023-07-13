@@ -34,26 +34,30 @@
                     </div>
                 </div>
             }
+            <br/>
             <div class="row" style="display: flex;justify-content: center;">
                 <div class="col-md-4 col-sm-6 col-xs-12">
-                    <nav aria-label="...">
+                    <nav aria-label="..." style="display:flex;justify-content: center;">
                         <ul class="pagination" style="font-size: 1.1rem;">
                             <li class="page-item disabled">
                                 <a class="page-link">Previous</a>
                             </li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" asp-controller="Course" asp-action="Coures" 
+                                asp-route-userName="@User.Identity.Name" asp-route-Search="" asp-route-orderby="" asp-route-currentPage ="1" >1</a></li>
                             <li class="page-item active" aria-current="page">
-                                <a class="page-link" href="#">2</a>
+                                <a class="page-link" asp-controller="Course" asp-action="Coures"
+                                   asp-route-userName="@User.Identity.Name" asp-route-Search="" asp-route-orderby="" asp-route-currentPage="2">2</a>
                             </li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" asp-controller="Course" asp-action="Coures"
+                                   asp-route-userName="@User.Identity.Name" asp-route-Search="" asp-route-orderby="" asp-route-currentPage="3">3</a>
+                            </li>
                             <li class="page-item">
                                 <a class="page-link" href="#">Next</a>
                             </li>
                         </ul>
                     </nav>
-
                 </div>
-
             </div>
         </div>
     }
