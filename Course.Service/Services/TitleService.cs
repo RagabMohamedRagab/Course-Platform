@@ -82,7 +82,7 @@ namespace Course.Service.Services {
                 getTitles = getTitles.Where(s => s.Name == searchBy);
             // GetAll by PageSize And PageNumber
             int totalRecords = getTitles.Count();
-            int pageSize = 3;
+            int pageSize = 2;
             int totalPage = (int)Math.Ceiling(totalRecords / (double)pageSize);
             getTitles = getTitles.Skip((currentPage - 1) * pageSize).Take(pageSize);
               // Get all Titles

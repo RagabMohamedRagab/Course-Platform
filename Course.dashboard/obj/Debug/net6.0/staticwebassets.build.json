@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/EpNVvZ9XvX/AMg18YCNsxbWPjVbLXywq5NirmJLrT4=",
+  "Hash": "hK9ojujt+J4SNTYblrsVl10UEY7376ZkZcP+RoXeumo=",
   "Source": "Course.dashboard",
   "BasePath": "_content/Course.dashboard",
   "Mode": "Default",
@@ -1443,6 +1443,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Profile\\thumb-sasuke-uchiha-minimalism-naruto-characters-artwork-fan-art.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\image_large (1).png",
+      "SourceId": "Course.dashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
+      "BasePath": "_content/Course.dashboard",
+      "RelativePath": "Images/Title/image_large (1).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Title\\image_large (1).png"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\IMG20220510175349.jpg",
