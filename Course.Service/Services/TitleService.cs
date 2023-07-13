@@ -79,7 +79,7 @@ namespace Course.Service.Services {
             // Search By
             var searchBy = Search ?? null;
             if (!String.IsNullOrEmpty(searchBy))
-                getTitles = getTitles.Where(s => s.Name == searchBy);
+                getTitles = getTitles.Where(s => s.Name == searchBy || s.Name.Contains(searchBy));
             // GetAll by PageSize And PageNumber
             int totalRecords = getTitles.Count();
             int pageSize = 2;

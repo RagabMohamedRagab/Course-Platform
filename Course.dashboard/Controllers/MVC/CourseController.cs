@@ -57,11 +57,12 @@ namespace Course.dashboard.Controllers.MVC {
             _toast.AddErrorToastMessage("Enter or Incorrect Data..");
             return RedirectToAction(nameof(Create));
         }
-        [HttpGet]
+
         public async Task<IActionResult> Coures(string userName,string Search="",string orderby="", int currentPage = 1)
         {
             var result =await  _titleService.GetAllTitles(currentPage,userName, Search, orderby);
             return View(result);
         }
+      
     }
 }
