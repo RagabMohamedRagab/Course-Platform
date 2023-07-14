@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hK9ojujt+J4SNTYblrsVl10UEY7376ZkZcP+RoXeumo=",
+  "Hash": "DU6rqNv0vJbrqnxXs596Xcq2XAAFkFNJ3Z1YAZyhLuQ=",
   "Source": "Course.dashboard",
   "BasePath": "_content/Course.dashboard",
   "Mode": "Default",
@@ -1477,6 +1477,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Title\\IMG20220510175349.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\NotFound.svg",
+      "SourceId": "Course.dashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
+      "BasePath": "_content/Course.dashboard",
+      "RelativePath": "Images/Title/NotFound.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Title\\NotFound.svg"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\Rabbb.PNG",

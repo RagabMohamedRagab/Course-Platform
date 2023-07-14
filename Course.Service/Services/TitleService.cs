@@ -79,10 +79,17 @@ namespace Course.Service.Services {
             // Search By
             var searchBy = Search ?? null;
             if (!String.IsNullOrEmpty(searchBy))
-                getTitles = getTitles.Where(s => s.Name == searchBy || s.Name.Contains(searchBy));
+                getTitles = getTitles.Where(s => s.Name == searchBy || s.Name.ToLower().Contains(searchBy.ToLower()));
+            if (!getTitles.Any())
+            {
+                 displayTitles.IsCompleted=false;
+                displayTitles.Orderby = orderBy;
+                displayTitles.SearchBy = searchBy;
+                return displayTitles;
+            }
             // GetAll by PageSize And PageNumber
             int totalRecords = getTitles.Count();
-            int pageSize = 2;
+            int pageSize = 6;
             int totalPage = (int)Math.Ceiling(totalRecords / (double)pageSize);
             getTitles = getTitles.Skip((currentPage - 1) * pageSize).Take(pageSize);
               // Get all Titles
