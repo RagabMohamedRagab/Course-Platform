@@ -1,0 +1,41 @@
+﻿@model UpdateTitleViewModel;
+@{
+    ViewData["Title"] = "Edit Title";
+}
+
+<section>
+    <div class="roles row d-flex justify-content-center">
+        <form class="offset-md-3 col-md-6 col-sm-12" method="post" asp-controller="Course" asp-action="UpdateTitle" asp-antiforgery="true" enctype="multipart/form-data">
+              <div asp-validation-summary="ModelOnly" class="text-danager"></div>
+              <div class="form-group" hidden>
+                <label asp-for="Id" class="form-label"></label>
+                <input asp-for="Id" class="form-control" />
+              </div>
+            <div class="form-group " hidden>
+                <input type="text" class="form-control w-100" name="userName" value="@User.Identity.Name">
+            </div>
+              <div class="form-group">
+                   <label asp-for="Name" class="form-label"></label>
+                   <input asp-for="Name" class="form-control"/>
+              </div>
+            <div class="form-group">
+                <label asp-for="Price" class="form-label"></label>
+                <input asp-for="Price" class="form-control" />
+            </div>
+              <div class="form-group m-5">
+                   <img src="~/Images/Title/@Model.Logo" alt="Logo" class="img-fluid img-thumbnail" width="50%"  />
+                   <br />
+                   <input asp-for="file" class="form-control mt-4" accept="png,jpg" />
+              </div>
+              <div class="form-group m-5">
+                <input type="submit" class="btn btn-primary" style="background-color: #006df0" value="Update" />
+                <a asp-controller="Course" asp-action="Coures" asp-route-userName="@User.Identity.Name" class="btn btn-danger">Cancel</a>
+              </div>
+        </form>
+    </div>
+</section>
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

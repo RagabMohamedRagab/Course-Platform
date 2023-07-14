@@ -6,5 +6,7 @@ namespace Course.Service.Utilities {
     {
       
         Task<bool> UploadFile(IFormFile file, string fname);
+        Task<bool> RemoveFile(string name,string fname);
+
     }
 }

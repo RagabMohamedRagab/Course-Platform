@@ -38,31 +38,49 @@ namespace Course.dashboard.Controllers.MVC {
                 _toast.AddSuccessToastMessage("Done");
                 return RedirectToAction(nameof(Coures), new { userName = model.UserName, Search = "", orderby = "", currentPage = 1 });
             }
-                _toast.AddErrorToastMessage("Enter or Incorrect Data..");
+            _toast.AddErrorToastMessage("Enter or Incorrect Data..");
             return RedirectToAction(nameof(Coures));
         }
-       [HttpPost]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Title(TitleFormViewModel title)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-               if(_titleService.Create(title).Result)
+                if (_titleService.Create(title).Result)
                 {
                     _toast.AddSuccessToastMessage("Saving Data");
                     return RedirectToAction(nameof(Create));
-                }       
+                }
             }
             ModelState.AddModelError(string.Empty, "Incoorect Data");
             _toast.AddErrorToastMessage("Enter or Incorrect Data..");
             return RedirectToAction(nameof(Create));
         }
 
-        public async Task<IActionResult> Coures(string userName,string Search="",string orderby="", int currentPage = 1)
+        public async Task<IActionResult> Coures(string userName, string Search = "", string orderby = "", int currentPage = 1)
         {
-            var result =await  _titleService.GetAllTitles(currentPage,userName, Search, orderby);
+            var result = await _titleService.GetAllTitles(currentPage, userName, Search, orderby);
             return View(result);
         }
-      
+        [HttpGet]
+        public async Task<IActionResult> UpdateTitle(int Id)
+        {
+            var TitleVM =await _titleService.GetTitleById(Id);
+            return View(TitleVM);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> UpdateTitle(UpdateTitleViewModel model)
+        {
+            if(await _titleService.UpdateTitle(model))
+            {
+                _toast.AddSuccessToastMessage("Done");
+                return RedirectToAction(nameof(Coures), new { userName = Request.Form["userName"], Search = "", orderby = "", currentPage = 1 });
+            }
+            ModelState.AddModelError(string.Empty, "Data is Invalid");
+            return View();
+        }
+
     }
 }

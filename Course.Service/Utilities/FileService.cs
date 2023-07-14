@@ -9,6 +9,19 @@ namespace Course.Service.Utilities {
         {
             _hosting = hosting;
         }
+
+        public async Task<bool> RemoveFile(string name,string fname)
+        {
+            var folder = Path.Combine(_hosting.WebRootPath, fname);
+            var fullPath=Path.Combine(folder, name);
+            if (File.Exists(fullPath))
+            {
+                File.Delete(fullPath);
+                return true;
+            }
+            return false;
+        }
+
         public async Task<bool> UploadFile(IFormFile file, string fname)
         {
             if (file.Length > 0)

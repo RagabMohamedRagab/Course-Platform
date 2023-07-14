@@ -48,7 +48,7 @@
                                 <h5 class="card-title">@Model.Titles[i].Name</h5>
                                 <p class="card-text">@Model.Titles[i].Price $</p>
                                 <a href="#" class="btn btn-primary" style="background-color: #006df0;"><i class="bi bi-eye-fill"></i></a>
-                                <a href="#" class="btn btn-primary" style="background-color: #006df0;"><i class="bi bi-pencil-square"></i></a>
+                                <a asp-controller="Course" asp-action="UpdateTitle" asp-route-Id="@Model.Titles[i].Id" class="btn btn-primary" style="background-color: #006df0;"><i class="bi bi-pencil-square"></i></a>
                             </div>
                         </div>
                     </div>

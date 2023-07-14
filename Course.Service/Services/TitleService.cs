@@ -42,6 +42,35 @@ namespace Course.Service.Services {
             }
 
         }
+        public async Task<UpdateTitleViewModel> GetTitleById(int id)
+        {
+            var titleVM =await _titleRepository.Find(b => b.Id == id);
+            return _mapper.Map<UpdateTitleViewModel>(titleVM);
+        }
+        public async Task<bool> UpdateTitle(UpdateTitleViewModel model)
+        {
+            var title = await _titleRepository.Find(b => b.Id == model.Id);
+            if (title is null)
+                return false;
+            title.Name = model.Name;
+            title.Price = model.Price;
+            if (model.file is null)
+            {
+                await _unitOfWork.SaveChangesAsync();
+                return true;
+            }
+            if(await _fileService.RemoveFile(title.Logo, Utitity.Title))
+            {
+                 if(await _fileService.UploadFile(model.file, Utitity.Title))
+                {
+                    title.Logo = model.file.FileName;
+                    await _unitOfWork.SaveChangesAsync();
+                    return true;
+                }
+            }
+            return false;
+                 
+        }
         public async Task<List<TitleDropDownListViewModel>> GetAll()
         {
             var Titles = await _titleRepository.GetAll();
