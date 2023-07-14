@@ -45,6 +45,7 @@ namespace Course.Service.Services {
         public async Task<List<TitleDropDownListViewModel>> GetAll()
         {
             var Titles = await _titleRepository.GetAll();
+            
             return _mapper.Map<List<TitleDropDownListViewModel>>(Titles);
         }
 
@@ -100,6 +101,7 @@ namespace Course.Service.Services {
             displayTitles.IsCompleted=true;
             displayTitles.Orderby=orderBy;
             displayTitles.SearchBy=searchBy;
+            
             return displayTitles;
         }
     }

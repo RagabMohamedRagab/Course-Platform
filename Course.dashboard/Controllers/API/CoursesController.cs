@@ -45,5 +45,16 @@ namespace Course.dashboard.Controllers.API {
             };
             return await _courseService.AddCourse(model) ? Ok(new { Message = "Succes" }) : NotFound("Falid");
         }
+        [HttpGet]
+        [AllowAnonymous]
+        public async Task<IActionResult> Coures(string userName, string? Search = null, string? orderby = null, int currentPage = 1)
+        {
+            var result = await _titleService.GetAllTitles(currentPage, userName, Search, orderby);
+            foreach (var item in result.Titles)
+            {
+                item.Logo = $"/Images/Title/{item.Logo}";
+            }
+            return Ok(result);
+        }
     }
 }
