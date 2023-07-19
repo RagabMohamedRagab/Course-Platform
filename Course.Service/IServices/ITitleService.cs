@@ -8,5 +8,6 @@ namespace Course.Service.IServices {
         Task<DisplayTitlesViewModel> GetAllTitles(int CurrentPage,string userName, string Search = "", string order = "");
         Task<UpdateTitleViewModel> GetTitleById(int id);
         Task<bool> UpdateTitle(UpdateTitleViewModel model);
+        Task<bool> DeleteTitle(int Id);
     }
 }

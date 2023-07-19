@@ -81,6 +81,22 @@ namespace Course.dashboard.Controllers.MVC {
             ModelState.AddModelError(string.Empty, "Data is Invalid");
             return View();
         }
+        [HttpGet]
+        public async Task<IActionResult> DeleteTitle(int Id,string username)
+        {
+            if (await _titleService.DeleteTitle(Id))
+            {
+                _toast.AddSuccessToastMessage("Done");
+                return RedirectToAction(nameof(Coures), new { userName = username, Search = "", orderby = "", currentPage = 1 });
+            }
+            ModelState.AddModelError(string.Empty, "Data is Invalid");
+            return View();
+        }       
+        [HttpGet]
+        public async Task<IActionResult> GetVideosForTitle(int Id)
+        {
+            return View();
+        }
 
     }
 }

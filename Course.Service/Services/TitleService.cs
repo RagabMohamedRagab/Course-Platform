@@ -133,5 +133,22 @@ namespace Course.Service.Services {
             
             return displayTitles;
         }
+
+        public async Task<bool> DeleteTitle(int Id)
+        {
+            var title =await _titleRepository.Find(b => b.Id == Id);
+            if (title == null)
+            {
+                return false;
+            }
+          await  _titleRepository.Delete(title);
+            if (await _unitOfWork.SaveChangesAsync() > 0)
+            {
+                if ( await _fileService.RemoveFile(title.Logo,Utitity.Title))
+                    return true;
+            }
+
+            return false;
+        }
     }
 }
