@@ -1,0 +1,47 @@
+﻿@model DisplayAllVideos;
+@{
+    ViewData["Title"] = "Course ";
+}
+<!--Style-->
+<style>
+.box {
+	background: #fff;
+	
+		margin-top: 4rem;
+		margin-left: 10px;
+		padding: 14px;
+		height: 20rem;
+}
+.boxHeadlineSub{
+	text-align:center;
+	margin:10px;
+}
+	
+</style>
+<div class="row mt-4">
+	@if (Model.IsCompleted)
+	{
+		foreach (var video in Model.Courses)
+		{
+			<div class="col-lg-3 col-md-4 box col-sm-6  ">
+				<video class="video-fluid" controls autoplay loop muted style="width:100%">
+					<source src="~/Images/Videos/@video.Logo" type="video/mp4">
+				</video>
+			<div>
+					<div>	<p class="boxHeadlineSub">@video.Name</p></div>
+					<div>	<p class="boxHeadlineSub">@video.Description</p></div>
+			</div>
+               
+
+				<div style="display: flex;justify-content: space-evenly;">
+					<a title="View Videos" class="btn btn-primary" style="background-color: #006df0;"><i class='bi bi-trash3-fill'></i></a>
+					<a title="Update Title"  class="btn btn-primary" style="background-color: #006df0;"><i class="bi bi-pencil-square"></i></a>
+					</div>
+			</div>
+		}
+	}
+	else
+	{
+		
+	}
+</div>

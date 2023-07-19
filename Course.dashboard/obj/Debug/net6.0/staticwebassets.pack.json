@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\Images\\Title\\IMG20220510175349.jpg"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\Js.png",
+      "PackagePath": "staticwebassets\\Images\\Title\\Js.png"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\NotFound.svg",
       "PackagePath": "staticwebassets\\Images\\Title\\NotFound.svg"
     },
@@ -37,28 +41,12 @@
       "PackagePath": "staticwebassets\\Images\\Title\\Rabbb.PNG"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\React.png",
-      "PackagePath": "staticwebassets\\Images\\Title\\React.png"
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\1.mp4",
+      "PackagePath": "staticwebassets\\Images\\Videos\\1.mp4"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\B.PNG",
-      "PackagePath": "staticwebassets\\Images\\Videos\\B.PNG"
-    },
-    {
-      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\Breadth First Search Algorithm.mp4",
-      "PackagePath": "staticwebassets\\Images\\Videos\\Breadth First Search Algorithm.mp4"
-    },
-    {
-      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\Depth First Search Algorithm.mp4",
-      "PackagePath": "staticwebassets\\Images\\Videos\\Depth First Search Algorithm.mp4"
-    },
-    {
-      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\English_evaluation.mp4",
-      "PackagePath": "staticwebassets\\Images\\Videos\\English_evaluation.mp4"
-    },
-    {
-      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\Video_2023-06-12_122928.wmv",
-      "PackagePath": "staticwebassets\\Images\\Videos\\Video_2023-06-12_122928.wmv"
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\2.mp4",
+      "PackagePath": "staticwebassets\\Images\\Videos\\2.mp4"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\bootstrap-icons\\bootstrap-grid.min.css",

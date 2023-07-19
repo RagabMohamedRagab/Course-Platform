@@ -95,7 +95,8 @@ namespace Course.dashboard.Controllers.MVC {
         [HttpGet]
         public async Task<IActionResult> GetVideosForTitle(int Id)
         {
-            return View();
+            var result =await _courseService.GetAllVideosById(Id);
+            return View(result);
         }
 
     }

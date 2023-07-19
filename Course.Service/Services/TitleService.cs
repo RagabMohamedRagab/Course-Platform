@@ -141,11 +141,22 @@ namespace Course.Service.Services {
             {
                 return false;
             }
+            var coursesImages = title.Courses.Select(b => b.Logo);
           await  _titleRepository.Delete(title);
             if (await _unitOfWork.SaveChangesAsync() > 0)
             {
-                if ( await _fileService.RemoveFile(title.Logo,Utitity.Title))
+                if (await _fileService.RemoveFile(title.Logo, Utitity.Title))
+                {
+                    foreach (string logo in coursesImages)
+                    {
+                        if (await _fileService.RemoveFile(logo, Utitity.Course))
+                        {
+                            continue;
+                        }
+                        return false;
+                    }
                     return true;
+                }
             }
 
             return false;

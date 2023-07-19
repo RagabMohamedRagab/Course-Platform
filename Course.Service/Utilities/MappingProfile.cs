@@ -10,6 +10,7 @@ namespace Course.Service.Utilities {
             CreateMap<Title, TitleDropDownListViewModel>().ReverseMap();
             CreateMap<Title, UpdateTitleViewModel>().ReverseMap();
             CreateMap<CourseFormViewModel, Course.Domain.Domains.Course>().ReverseMap();
+            CreateMap<CoursesViewModel, Course.Domain.Domains.Course>().ReverseMap();
         }
     }
 }
