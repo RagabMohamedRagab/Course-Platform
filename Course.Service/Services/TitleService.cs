@@ -54,6 +54,7 @@ namespace Course.Service.Services {
                 return false;
             title.Name = model.Name;
             title.Price = model.Price;
+            title.ModifiedOn = DateTime.UtcNow.Date;
             if (model.file is null)
             {
                 await _unitOfWork.SaveChangesAsync();

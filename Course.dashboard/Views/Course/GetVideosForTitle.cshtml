@@ -13,8 +13,11 @@
 		height: 20rem;
 }
 .boxHeadlineSub{
-	text-align:center;
-	margin:10px;
+		text-align: center;
+		margin-top: 4%;
+		height: 27%;
+		width: 100%;
+		line-height: 17px;
 }
 	
 </style>
@@ -27,15 +30,15 @@
 				<video class="video-fluid" controls autoplay loop muted style="width:100%">
 					<source src="~/Images/Videos/@video.Logo" type="video/mp4">
 				</video>
-			<div>
-					<div>	<p class="boxHeadlineSub">@video.Name</p></div>
-					<div>	<p class="boxHeadlineSub">@video.Description</p></div>
+				<div class="boxHeadlineSub">
+						<p>@video.Name</p>
+						<p>@video.Description</p>
 			</div>
                
 
 				<div style="display: flex;justify-content: space-evenly;">
-					<a title="View Videos" class="btn btn-primary" style="background-color: #006df0;"><i class='bi bi-trash3-fill'></i></a>
-					<a title="Update Title"  class="btn btn-primary" style="background-color: #006df0;"><i class="bi bi-pencil-square"></i></a>
+					<a asp-controller="Course" asp-action="DeleteVideo" asp-route-Id="@video.Id" asp-route-TitleId="@video.TitleId" title="View Videos" class="btn btn-primary" style="background-color: #006df0;"><i class='bi bi-trash3-fill'></i></a>
+					<a asp-controller="Course" asp-action="UpdateVideo" asp-route-Id="@video.Id" asp-route-TitleId="@video.TitleId" title="Update Title" class="btn btn-primary" style="background-color: #006df0;"><i class="bi bi-pencil-square"></i></a>
 					</div>
 			</div>
 		}

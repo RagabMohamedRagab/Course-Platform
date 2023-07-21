@@ -98,6 +98,17 @@ namespace Course.dashboard.Controllers.MVC {
             var result =await _courseService.GetAllVideosById(Id);
             return View(result);
         }
+        [HttpGet]
+        public async Task<IActionResult> DeleteVideo(int Id,int? TitleId)
+        {
+            if( await _courseService.DeleteVideo(Id))
+			{
+				_toast.AddSuccessToastMessage("Done");
+                return RedirectToAction(nameof(GetVideosForTitle), new { Id = TitleId });
+			}
+			_toast.AddErrorToastMessage("Try in another Time");
+			return RedirectToAction(nameof(GetVideosForTitle), new { Id = TitleId });
+		}
 
-    }
+	}
 }
