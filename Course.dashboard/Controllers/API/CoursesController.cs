@@ -59,5 +59,45 @@ namespace Course.dashboard.Controllers.API {
             }
             return Ok(result);
         }
-    }
+		[HttpPost]
+		[AllowAnonymous]
+		public async Task<IActionResult> UpdateTitle([FromBody]UpdateTitleViewModel model)
+		{
+			if (await _titleService.UpdateTitle(model))
+			{
+                return Ok(new { Message = "Done" });
+				
+			}
+            return Ok(new { Message = "Try Again" });
+		}
+		[HttpGet]
+		[AllowAnonymous]
+		public async Task<IActionResult> DeleteTitle(int Id, string username)
+		{
+			if (await _titleService.DeleteTitle(Id))
+			{
+
+				return Ok(new { Message = "Done" });
+			}
+			return Ok(new { Message = "Try Again" });
+		}
+		[HttpGet]
+		[AllowAnonymous]
+		public async Task<IActionResult> GetVideosForTitle(int Id)
+		{
+			var result = await _courseService.GetAllVideosById(Id);
+			return Ok(new {Data=result, Message = "Done" });
+		}
+		[HttpGet]
+		[AllowAnonymous]
+		public async Task<IActionResult> DeleteVideo(int Id, int? TitleId)
+		{
+			if (await _courseService.DeleteVideo(Id))
+			{
+
+				return Ok(new { Message = "Done" });
+			}
+			return Ok(new { Message = "Try Again" });
+		}
+	}
 }

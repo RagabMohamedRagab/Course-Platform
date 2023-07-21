@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "o9AceIh4YjGiBHO1ByTSph6o7912typhtsOuJDIJrgE=",
+  "Hash": "2//Q0ordUwGpM+Rh4P+nU1YXrLz4vpduQU20N4vdej0=",
   "Source": "Course.dashboard",
   "BasePath": "_content/Course.dashboard",
   "Mode": "Default",
@@ -1528,23 +1528,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Videos\\1.mp4"
-    },
-    {
-      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\2.mp4",
-      "SourceId": "Course.dashboard",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
-      "BasePath": "_content/Course.dashboard",
-      "RelativePath": "Images/Videos/2.mp4",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Videos\\2.mp4"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\img\\blog-details\\1.jpg",

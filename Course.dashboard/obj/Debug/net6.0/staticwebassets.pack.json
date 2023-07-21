@@ -45,10 +45,6 @@
       "PackagePath": "staticwebassets\\Images\\Videos\\1.mp4"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\2.mp4",
-      "PackagePath": "staticwebassets\\Images\\Videos\\2.mp4"
-    },
-    {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\bootstrap-icons\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\Lib\\bootstrap-icons\\bootstrap-grid.min.css"
     },
