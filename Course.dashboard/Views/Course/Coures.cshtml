@@ -18,8 +18,8 @@
 <section>
     <div class="roles" style="height:54rem;">
         <form method="get" asp-controller="Course" asp-action="Coures">
-            <div class="row" style="display: flex;justify-content: center;margin-bottom: 1rem;">
-                <div class="col-md-6">
+            <div class="row" style="margin-bottom: 1rem;">
+                <div class="col-md-offset-2 col-md-6 col-sm-12">
                     <div class="form-group ">
                         <input type="text" class="form-control w-100" placeholder="Course Name" name="Search" value="@(String.IsNullOrEmpty(Model.SearchBy)?"":Model.SearchBy)">
 
@@ -29,10 +29,10 @@
                     </div>
 
                 </div>
-                <div class="col-md-2 mx-auto">
+                <div class="col-md-2 col-sm-12 mx-auto">
                     <div class="input-group-append">
                         <button class="btn btn-primary" style="background-color: #006df0;outline:none" type="submit">Search</button>
-                        <a class="btn btn-primary" style="background-color: #006df0;outline:none">Add</a>
+                        <a href="/Course/Create" class="btn btn-primary" style="background-color: #006df0;outline:none">Add Title </a>
              
                 </div>
                 </div>
