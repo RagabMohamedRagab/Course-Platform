@@ -41,8 +41,36 @@
       "PackagePath": "staticwebassets\\Images\\Title\\Rabbb.PNG"
     },
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\1.mp4",
-      "PackagePath": "staticwebassets\\Images\\Videos\\1.mp4"
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\React.png",
+      "PackagePath": "staticwebassets\\Images\\Title\\React.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\download.png",
+      "PackagePath": "staticwebassets\\Images\\Title\\download.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\2.mp4",
+      "PackagePath": "staticwebassets\\Images\\Videos\\2.mp4"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\3.mp4",
+      "PackagePath": "staticwebassets\\Images\\Videos\\3.mp4"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\5.mp4",
+      "PackagePath": "staticwebassets\\Images\\Videos\\5.mp4"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\7.mp4",
+      "PackagePath": "staticwebassets\\Images\\Videos\\7.mp4"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\8.mp4",
+      "PackagePath": "staticwebassets\\Images\\Videos\\8.mp4"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\NoVideo.svg",
+      "PackagePath": "staticwebassets\\Images\\Videos\\NoVideo.svg"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\bootstrap-icons\\bootstrap-grid.min.css",

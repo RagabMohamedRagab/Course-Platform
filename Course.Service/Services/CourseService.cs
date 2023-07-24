@@ -51,6 +51,8 @@ namespace Course.Service.Services {
 			if (id == 0)
 				return DisplayVideoes;
 			var GetAllTitles = await _course.GetAll();
+			if (!GetAllTitles.Any())
+				return DisplayVideoes;
 			var GetTitlesById = GetAllTitles.Where(b => b.TitleId == id);
 			foreach (var course in GetTitlesById)
 			{
