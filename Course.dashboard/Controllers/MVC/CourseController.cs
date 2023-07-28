@@ -1,6 +1,7 @@
 ﻿using Course.Domain.Domains;
 using Course.Repository.ViewModeles;
 using Course.Service.IServices;
+using Course.Service.Services;
 using Microsoft.AspNetCore.Mvc;
 using NToastNotify;
 
@@ -132,6 +133,11 @@ namespace Course.dashboard.Controllers.MVC {
             }
             _toast.AddSuccessToastMessage("Done");
             return RedirectToAction(nameof(GetVideosForTitle), new { Id = model.TitleId });
+        }
+        [HttpPost]
+        public async Task<JsonResult> GetVideos(int Id,int CurrentPage, int PageSize)
+        {
+            return Json(await _courseService.GetAllVideosJsonById(Id,CurrentPage,PageSize));
         }
 
     }

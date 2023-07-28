@@ -5,8 +5,7 @@
             Courses = new List<CoursesViewModel>();
             IsCompleted=false;
         }
-
-          public IList<CoursesViewModel> Courses { get; set; }
+        public IList<CoursesViewModel> Courses { get; set; }
         public bool IsCompleted { get; set; }
     }
 }

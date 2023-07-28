@@ -3,7 +3,9 @@ using Course.Domain.Domains;
 using Course.Repository.IRepositories;
 using Course.Repository.ViewModeles;
 using Course.Service.Utilities;
+using Microsoft.AspNetCore.Identity;
 using Org.BouncyCastle.Utilities;
+using System.Drawing.Printing;
 
 namespace Course.Service.Services {
     public class CourseService : ICourseService {
@@ -86,7 +88,8 @@ namespace Course.Service.Services {
         public async Task<VideoByIdViewModel> GetVideoById(int id)
         {
             VideoByIdViewModel videoByIdView = new VideoByIdViewModel();
-            if (id <= 0) {
+            if (id <= 0)
+            {
                 videoByIdView.IsCompleted = false;
                 return videoByIdView;
             }
@@ -96,25 +99,41 @@ namespace Course.Service.Services {
         }
         public async Task<bool> UpdateVideo(VideoByIdViewModel model)
         {
-            var video =await _course.UpdateVideById(model.Id);
+            var video = await _course.UpdateVideById(model.Id);
             if (video is null) return false;
-            video.Name=model.Name;
+            video.Name = model.Name;
             video.Description = model.Description;
             video.ModifiedOn = DateTime.Today;
-            if(model.File is null)
+            if (model.File is null)
             {
-               await _unitOfWork.SaveChangesAsync();
+                await _unitOfWork.SaveChangesAsync();
                 return true;
             }
-           if(await _fileService.RemoveFile(video.Logo,Utitity.Course))
+            if (await _fileService.RemoveFile(video.Logo, Utitity.Course))
             {
-                if(await _fileService.UploadFile(model.File, Utitity.Course))
+                if (await _fileService.UploadFile(model.File, Utitity.Course))
                 {
                     await _unitOfWork.SaveChangesAsync();
                     return true;
                 }
             }
             return false;
+        }
+        public async Task<IList<VideosJsonViewModel>> GetAllVideosJsonById(int id, int currentPage, int pageSize)
+        {
+            int start = ((currentPage - 1) * pageSize),
+              end = pageSize * currentPage;
+            var AllVideos = await _course.GetAll();
+            IList<VideosJsonViewModel> VideosInfos = new List<VideosJsonViewModel>();
+            VideosInfos = AllVideos.Where(b => b.Id == id).Skip(start).Take(end).Select(b => new VideosJsonViewModel()
+            {
+                Id = b.Id,
+                Description = b.Description,
+                Name = b.Name,
+                TitleId = b.TitleId,
+                Logo=(string.IsNullOrEmpty(b.Logo))? "../Images/Videos/NoVideoFound.png" : $"../Images/Videos/{b.Logo}"
+            }).ToList();
+            return VideosInfos;
         }
     }
 }
