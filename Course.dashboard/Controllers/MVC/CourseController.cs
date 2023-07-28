@@ -66,14 +66,14 @@ namespace Course.dashboard.Controllers.MVC {
         [HttpGet]
         public async Task<IActionResult> UpdateTitle(int Id)
         {
-            var TitleVM =await _titleService.GetTitleById(Id);
+            var TitleVM = await _titleService.GetTitleById(Id);
             return View(TitleVM);
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> UpdateTitle(UpdateTitleViewModel model)
         {
-            if(await _titleService.UpdateTitle(model))
+            if (await _titleService.UpdateTitle(model))
             {
                 _toast.AddSuccessToastMessage("Done");
                 return RedirectToAction(nameof(Coures), new { userName = Request.Form["userName"], Search = "", orderby = "", currentPage = 1 });
@@ -82,7 +82,7 @@ namespace Course.dashboard.Controllers.MVC {
             return View();
         }
         [HttpGet]
-        public async Task<IActionResult> DeleteTitle(int Id,string username)
+        public async Task<IActionResult> DeleteTitle(int Id, string username)
         {
             if (await _titleService.DeleteTitle(Id))
             {
@@ -91,28 +91,28 @@ namespace Course.dashboard.Controllers.MVC {
             }
             ModelState.AddModelError(string.Empty, "Data is Invalid");
             return View();
-        }       
+        }
         [HttpGet]
         public async Task<IActionResult> GetVideosForTitle(int Id)
         {
-            var result =await _courseService.GetAllVideosById(Id);
+            var result = await _courseService.GetAllVideosById(Id);
             return View(result);
         }
         [HttpGet]
-        public async Task<IActionResult> DeleteVideo(int Id,int? TitleId)
+        public async Task<IActionResult> DeleteVideo(int Id, int? TitleId)
         {
-            if( await _courseService.DeleteVideo(Id))
-			{
-				_toast.AddSuccessToastMessage("Done");
+            if (await _courseService.DeleteVideo(Id))
+            {
+                _toast.AddSuccessToastMessage("Done");
                 return RedirectToAction(nameof(GetVideosForTitle), new { Id = TitleId });
-			}
-			_toast.AddErrorToastMessage("Try in another Time");
-			return RedirectToAction(nameof(GetVideosForTitle), new { Id = TitleId });
-		}
+            }
+            _toast.AddErrorToastMessage("Try in another Time");
+            return RedirectToAction(nameof(GetVideosForTitle), new { Id = TitleId });
+        }
         [HttpGet]
         public async Task<IActionResult> UpdateVideoById(int id)
         {
-            var result=await _courseService.GetVideoById(id);
+            var result = await _courseService.GetVideoById(id);
             return View(result);
         }
         [HttpPost]
@@ -120,9 +120,19 @@ namespace Course.dashboard.Controllers.MVC {
         public async Task<IActionResult> UpdateVideoById(VideoByIdViewModel model)
         {
             if (!ModelState.IsValid)
-                return View();
-            return View();
+            {
+                _toast.AddErrorToastMessage("Try in another Time");
+                return RedirectToAction(nameof(GetVideosForTitle), new { Id = model.TitleId });
+            }
+            var result = await _courseService.UpdateVideo(model);
+            if (!result)
+            {
+                _toast.AddErrorToastMessage("Try in another Time");
+                return RedirectToAction(nameof(GetVideosForTitle), new { Id = model.TitleId });
+            }
+            _toast.AddSuccessToastMessage("Done");
+            return RedirectToAction(nameof(GetVideosForTitle), new { Id = model.TitleId });
         }
-        
+
     }
 }

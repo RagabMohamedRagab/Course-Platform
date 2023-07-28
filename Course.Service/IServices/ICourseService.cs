@@ -6,5 +6,6 @@ namespace Course.Service.IServices {
         Task<DisplayAllVideos> GetAllVideosById(int id);
         Task<bool> DeleteVideo(int id);
         Task<VideoByIdViewModel> GetVideoById(int id);
+        Task<bool> UpdateVideo(VideoByIdViewModel model);
     }
 }

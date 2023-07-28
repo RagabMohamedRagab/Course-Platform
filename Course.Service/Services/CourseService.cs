@@ -94,5 +94,27 @@ namespace Course.Service.Services {
             if (result is null) return videoByIdView;
             return _mapper.Map<VideoByIdViewModel>(result);
         }
+        public async Task<bool> UpdateVideo(VideoByIdViewModel model)
+        {
+            var video =await _course.UpdateVideById(model.Id);
+            if (video is null) return false;
+            video.Name=model.Name;
+            video.Description = model.Description;
+            video.ModifiedOn = DateTime.Today;
+            if(model.File is null)
+            {
+               await _unitOfWork.SaveChangesAsync();
+                return true;
+            }
+           if(await _fileService.RemoveFile(video.Logo,Utitity.Course))
+            {
+                if(await _fileService.UploadFile(model.File, Utitity.Course))
+                {
+                    await _unitOfWork.SaveChangesAsync();
+                    return true;
+                }
+            }
+            return false;
+        }
     }
 }
