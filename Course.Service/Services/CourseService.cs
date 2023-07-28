@@ -113,6 +113,7 @@ namespace Course.Service.Services {
             {
                 if (await _fileService.UploadFile(model.File, Utitity.Course))
                 {
+                    video.Logo = model.File.FileName;
                     await _unitOfWork.SaveChangesAsync();
                     return true;
                 }

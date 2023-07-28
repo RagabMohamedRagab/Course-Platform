@@ -32,7 +32,7 @@ namespace Course.dashboard.Controllers.API {
         public async Task<IActionResult> Create([FromForm] CourseFormModelAPI course)
         {
             if (!ModelState.IsValid)
-                return BadRequest(new { Message="Data Not Found" });
+                return BadRequest(new { Message = "Data Not Found" });
             var model = new CourseViewModel()
             {
                 course = new CourseFormViewModel()
@@ -59,45 +59,57 @@ namespace Course.dashboard.Controllers.API {
             }
             return Ok(result);
         }
-		[HttpPost]
-		[AllowAnonymous]
-		public async Task<IActionResult> UpdateTitle([FromBody]UpdateTitleViewModel model)
-		{
-			if (await _titleService.UpdateTitle(model))
-			{
+        [HttpPost]
+        [AllowAnonymous]
+        public async Task<IActionResult> UpdateTitle([FromBody] UpdateTitleViewModel model)
+        {
+            if (await _titleService.UpdateTitle(model))
+            {
                 return Ok(new { Message = "Done" });
-				
-			}
+
+            }
             return Ok(new { Message = "Try Again" });
-		}
-		[HttpGet]
-		[AllowAnonymous]
-		public async Task<IActionResult> DeleteTitle(int Id, string username)
-		{
-			if (await _titleService.DeleteTitle(Id))
-			{
+        }
+        [HttpGet]
+        [AllowAnonymous]
+        public async Task<IActionResult> DeleteTitle(int Id, string username)
+        {
+            if (await _titleService.DeleteTitle(Id))
+            {
 
-				return Ok(new { Message = "Done" });
-			}
-			return Ok(new { Message = "Try Again" });
-		}
-		[HttpGet]
-		[AllowAnonymous]
-		public async Task<IActionResult> GetVideosForTitle(int Id)
-		{
-			var result = await _courseService.GetAllVideosById(Id);
-			return Ok(new {Data=result, Message = "Done" });
-		}
-		[HttpGet]
-		[AllowAnonymous]
-		public async Task<IActionResult> DeleteVideo(int Id, int? TitleId)
-		{
-			if (await _courseService.DeleteVideo(Id))
-			{
+                return Ok(new { Message = "Done" });
+            }
+            return Ok(new { Message = "Try Again" });
+        }
+        [HttpGet]
+        [AllowAnonymous]
+        public async Task<IActionResult> GetVideosForTitle(int Id)
+        {
+            var result = await _courseService.GetAllVideosById(Id);
+            return Ok(new { Data = result, Message = "Done" });
+        }
+        [HttpGet]
+        [AllowAnonymous]
+        public async Task<IActionResult> DeleteVideo(int Id, int? TitleId)
+        {
+            if (await _courseService.DeleteVideo(Id))
+            {
 
-				return Ok(new { Message = "Done" });
-			}
-			return Ok(new { Message = "Try Again" });
-		}
-	}
+                return Ok(new { Message = "Done" });
+            }
+            return Ok(new { Message = "Try Again" });
+        }
+        [HttpPost]
+        [AllowAnonymous]
+        public async Task<IActionResult> UpdateVideoById([FromForm] VideoByIdViewModel model)
+        {
+            if (!ModelState.IsValid)
+                return Ok(new { Message = "Try Again" });
+            var result = await _courseService.UpdateVideo(model);
+            if (!result)
+                return Ok(new { Message = "Try Again" });
+
+            return Ok(new { Message = "Done" });
+        }
+    }
 }
