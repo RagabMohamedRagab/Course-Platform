@@ -73,6 +73,10 @@
       "PackagePath": "staticwebassets\\Images\\Videos\\NoVideo.svg"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\not_found.svg",
+      "PackagePath": "staticwebassets\\Images\\Videos\\not_found.svg"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\bootstrap-icons\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\Lib\\bootstrap-icons\\bootstrap-grid.min.css"
     },

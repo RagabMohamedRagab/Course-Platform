@@ -30,7 +30,7 @@
     margin-top: 14px;
 ">
     <div style="flex-basis:20%">
-        <a class="btn btn-primary" style="background-color: #006df0" href="/Course/Create">Add Video</a>
+        <a class="btn btn-primary" style="background-color: #006df0;width: 100%;" href="/Course/Create">Add Video</a>
     </div>
 </div>
 <div class="row mt-4">
@@ -51,7 +51,7 @@
                         </div>
                         <div style="display: flex;justify-content: space-evenly;">
                             <a asp-controller="Course" asp-action="DeleteVideo" asp-route-Id="@video.Id" asp-route-TitleId="@video.TitleId" title="View Videos" class="btn btn-primary" style="background-color: #006df0;font-size:10px"><i class='bi bi-trash3-fill'></i></a>
-                            <a asp-controller="Course" asp-action="UpdateVideo" asp-route-Id="@video.Id" asp-route-TitleId="@video.TitleId" title="Update Title" class="btn btn-primary" style="background-color: #006df0;font-size:10px"><i class="bi bi-pencil-square"></i></a>
+                            <a asp-controller="Course" asp-action="UpdateVideoById" asp-route-Id="@video.Id" asp-route-TitleId="@video.TitleId" title="Update Title" class="btn btn-primary" style="background-color: #006df0;font-size:10px"><i class="bi bi-pencil-square"></i></a>
                         </div>
 
                     </div>

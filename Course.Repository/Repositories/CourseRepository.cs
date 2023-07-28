@@ -23,5 +23,13 @@ namespace Course.Repository.Repositories {
                 return user.Id;
             return string.Empty;
         }
+        public async Task<Course.Domain.Domains.Course> UpdateVideById(int Id)
+        {
+             var Videos =await GetAll();
+            if (!Videos.Any()) return null;
+            var VideoById = Videos.SingleOrDefault(b => b.Id == Id);
+            if(VideoById is null) return null;
+            return VideoById ;
+        }
     }
 }

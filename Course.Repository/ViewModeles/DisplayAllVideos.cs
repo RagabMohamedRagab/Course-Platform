@@ -3,6 +3,7 @@
         public DisplayAllVideos()
         {
             Courses = new List<CoursesViewModel>();
+            IsCompleted=false;
         }
 
           public IList<CoursesViewModel> Courses { get; set; }

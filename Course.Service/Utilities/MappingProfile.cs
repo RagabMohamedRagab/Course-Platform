@@ -11,6 +11,7 @@ namespace Course.Service.Utilities {
             CreateMap<Title, UpdateTitleViewModel>().ReverseMap();
             CreateMap<CourseFormViewModel, Course.Domain.Domains.Course>().ReverseMap();
             CreateMap<CoursesViewModel, Course.Domain.Domains.Course>().ReverseMap();
+            CreateMap<VideoByIdViewModel, Course.Domain.Domains.Course>().ReverseMap();
         }
     }
 }

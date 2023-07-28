@@ -1,0 +1,49 @@
+﻿@model VideoByIdViewModel
+@{
+    ViewData["Title"] = "Edit Video";
+}
+@if (Model.IsCompleted)
+{
+    <section>
+        <div class="roles row d-flex justify-content-center">
+            <form class="offset-md-3 col-md-6 col-sm-12" method="post" asp-controller="Course" asp-action="UpdateVideoById" asp-antiforgery="true" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danager"></div>
+                <div class="form-group" hidden>
+                    <label asp-for="Id" class="form-label"></label>
+                    <input asp-for="Id" class="form-control" />
+                </div>
+                <div class="form-group " hidden>
+                    <input type="text" class="form-control w-100" name="userName" value="@User.Identity.Name">
+                </div>
+                <div class="form-group">
+                    <label asp-for="Name" class="form-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                </div>
+                <div class="form-group m-5">
+                    <video class="video-fluid video-thumbnail" controls  loop muted style="width:50%" >
+                        <source src="~/Images/Videos/@Model.Logo" type="video/mp4">
+                    </video>
+                    <br />
+                    <input asp-for="File" class="form-control mt-4"  />
+                </div>
+                <div class="form-group m-5">
+                    <input type="submit" class="btn btn-primary" style="background-color: #006df0" value="Update" />
+                    <a asp-controller="Course" asp-action="GetVideosForTitle" asp-route-Id="@Model.TitleId" class="btn btn-danger">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </section>
+}
+else
+{
+    <div style=" width: 50%;height: 50%;display: flex;justify-content: center;margin:15% auto;">
+        <img src="~/Images/Videos/not_found.svg" alt="NotFound" class="img-fluid" style="width: 50%;" />
+        <a asp-controller="Course" asp-action="GetVideosForTitle" asp-route-Id="@Model.TitleId" class="btn btn-danger">Cancel</a>
+
+    </div>
+}
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -109,6 +109,20 @@ namespace Course.dashboard.Controllers.MVC {
 			_toast.AddErrorToastMessage("Try in another Time");
 			return RedirectToAction(nameof(GetVideosForTitle), new { Id = TitleId });
 		}
-
-	}
+        [HttpGet]
+        public async Task<IActionResult> UpdateVideoById(int id)
+        {
+            var result=await _courseService.GetVideoById(id);
+            return View(result);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> UpdateVideoById(VideoByIdViewModel model)
+        {
+            if (!ModelState.IsValid)
+                return View();
+            return View();
+        }
+        
+    }
 }
