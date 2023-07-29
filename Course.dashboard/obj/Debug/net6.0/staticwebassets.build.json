@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "T3ITXy1kFrvbV7JoWC7Y8Qs3ABM/BEGWJHfO4kAWQa8=",
+  "Hash": "+ALZ6T+z/c0isQ9+HnIuK868ca1sH1xHy4uiAx2Oj0w=",
   "Source": "Course.dashboard",
   "BasePath": "_content/Course.dashboard",
   "Mode": "Default",
@@ -1394,6 +1394,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\Profile\\6.jpg"
     },
     {
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Profile\\7.jpg",
+      "SourceId": "Course.dashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
+      "BasePath": "_content/Course.dashboard",
+      "RelativePath": "Images/Profile/7.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Profile\\7.jpg"
+    },
+    {
       "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Profile\\8.jpg",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
@@ -1564,12 +1581,12 @@
       "OriginalItemSpec": "wwwroot\\Images\\Videos\\10.mp4"
     },
     {
-      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\14.mp4",
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\13.mp4",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
       "BasePath": "_content/Course.dashboard",
-      "RelativePath": "Images/Videos/14.mp4",
+      "RelativePath": "Images/Videos/13.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1578,7 +1595,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Videos\\14.mp4"
+      "OriginalItemSpec": "wwwroot\\Images\\Videos\\13.mp4"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\not_found.svg",

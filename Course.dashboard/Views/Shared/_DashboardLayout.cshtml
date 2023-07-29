@@ -12,7 +12,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="~/img/favicon.ico">
     <!-- Google Fonts
         ============================================ -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+    @*  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">*@
     <!-- Bootstrap CSS
         ============================================ -->
     <link rel="stylesheet" href="~/css/bootstrap.min.css">
@@ -54,7 +54,7 @@
         ============================================ -->
     <link rel="stylesheet" href="~/css/calendar/fullcalendar.min.css">
     <link rel="stylesheet" href="~/css/calendar/fullcalendar.print.min.css">
-    <link rel="stylesheet" href="~/css/originalt.css" /> 
+    <link rel="stylesheet" href="~/css/originalt.css" />
     <link rel="stylesheet" href="~/css/style.css">
     <!-- responsive CSS
         ============================================ -->
@@ -66,9 +66,6 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
     <!-- style CSS
     ============================================ -->
-  
-
-
 
 </head>
 <body>
@@ -99,60 +96,60 @@
                         {
                             <li>
                                 <a class="has-arrow" title="Landing Page" aria-expanded="false">
-                                <i class="bi bi-diagram-3-fill" style="font-size:1.3rem"></i>
-                                <span class="mini-click-non" title="Roles">Roles</span>
-                            </a>
-                            <ul class="submenu-angle" aria-expanded="false">
-                                <li>
+                                    <i class="bi bi-diagram-3-fill" style="font-size:1.3rem"></i>
+                                    <span class="mini-click-non" title="Roles">Roles</span>
+                                </a>
+                                <ul class="submenu-angle" aria-expanded="false">
+                                    <li>
                                         <a title="All Roles" asp-controller="Admistration" asp-action="Index">
-                                        <span class="mini-sub-pro">All Roles</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                       
-                        <li>
+                                            <span class="mini-sub-pro">All Roles</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
                                 <a class="has-arrow" asp-controller="Professor" asp-action="Index" aria-expanded="false">
                                     <i class="bi bi-person-square" style="font-size:1.3rem"></i>&nbsp;
-                                <span class="mini-click-non">Professors</span>
-                            </a>
-                            <ul class="submenu-angle" aria-expanded="false">
-                                <li>
+                                    <span class="mini-click-non">Professors</span>
+                                </a>
+                                <ul class="submenu-angle" aria-expanded="false">
+                                    <li>
                                         <a title="All Professors" asp-controller="Professor" asp-action="Index">
-                                        <span class="mini-sub-pro">All Professors</span>
-                                    </a>
-                                </li>
-                          
-                            </ul>
-                        </li>
-                        <li>
-                            <a class="has-arrow" href="all-students.html" aria-expanded="false">
-                                <i class="bi bi-emoji-smile" style="font-size:1.3rem"></i>
-                                <span class="mini-click-non">Students</span>
-                            </a>
-                            <ul class="submenu-angle" aria-expanded="false">
-                                <li>
-                                    <a title="All Students" href="all-students.html">
-                                        <span class="mini-sub-pro">All Students</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="Add Students" href="add-student.html">
-                                        <span class="mini-sub-pro">Add Student</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="Edit Students" href="edit-student.html">
-                                        <span class="mini-sub-pro">Edit Student</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="Students Profile" href="student-profile.html">
-                                        <span class="mini-sub-pro">Student Profile</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
+                                            <span class="mini-sub-pro">All Professors</span>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="has-arrow" href="all-students.html" aria-expanded="false">
+                                    <i class="bi bi-emoji-smile" style="font-size:1.3rem"></i>
+                                    <span class="mini-click-non">Students</span>
+                                </a>
+                                <ul class="submenu-angle" aria-expanded="false">
+                                    <li>
+                                        <a title="All Students" href="all-students.html">
+                                            <span class="mini-sub-pro">All Students</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a title="Add Students" href="add-student.html">
+                                            <span class="mini-sub-pro">Add Student</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a title="Edit Students" href="edit-student.html">
+                                            <span class="mini-sub-pro">Edit Student</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a title="Students Profile" href="student-profile.html">
+                                            <span class="mini-sub-pro">Student Profile</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
                         }
                         <li>
                             <a class="has-arrow" asp-controller="Course" asp-action="Index" aria-expanded="false">
@@ -176,53 +173,25 @@
                             </ul>
                         </li>
                         <li>
-                            <a class="has-arrow" href="all-courses.html" aria-expanded="false">
+                            <a class="has-arrow" href="#" aria-expanded="false">
                                 <i class="bi bi-journal-plus" style="font-size:1.3rem"></i>
-                                <span class="mini-click-non">Library</span>
+                                <span class="mini-click-non">Books</span>
                             </a>
                             <ul class="submenu-angle" aria-expanded="false">
                                 <li>
-                                    <a title="All Library" href="library-assets.html">
-                                        <span class="mini-sub-pro">Library Assets</span>
+                                    <a title="Add Book" href="library-assets.html">
+                                        <span class="mini-sub-pro">Add Book</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a title="Add Library" href="add-library-assets.html">
-                                        <span class="mini-sub-pro">Add Library Asset</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="Edit Library" href="edit-library-assets.html">
-                                        <span class="mini-sub-pro">Edit Library Asset</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a class="has-arrow" href="all-courses.html" aria-expanded="false">
-                                <i class="bi bi-patch-plus-fill" style="font-size:1.3rem"></i>
-                                <span class="mini-click-non">Departments</span>
-                            </a>
-                            <ul class="submenu-angle" aria-expanded="false">
-                                <li>
-                                    <a title="Departments List" href="departments.html">
-                                        <span class="mini-sub-pro">Departments List</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="Add Departments" href="add-department.html">
-                                        <span class="mini-sub-pro">Add Departments</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="Edit Departments" href="edit-department.html">
-                                        <span class="mini-sub-pro">Edit Departments</span>
+                                    <a title="All Books" href="add-library-assets.html">
+                                        <span class="mini-sub-pro">All Books</span>
                                     </a>
                                 </li>
                             </ul>
                         </li>
                         <li id="removable">
-                            <a  asp-controller="Account" asp-action="LogOut" aria-expanded="false">
+                            <a asp-controller="Account" asp-action="LogOut" aria-expanded="false">
                                 <i class="bi bi-save-fill" style="font-size:1.3rem"></i>
                                 <span class="mini-click-non">LogOut</span>
                             </a>
@@ -255,7 +224,7 @@
                                             <ul class="nav navbar-nav mai-top-nav header-right-menu">
                                                 <li class="nav-item dropdown">
                                                     <a asp-area="" asp-controller="ProfileUser" asp-action="Profile" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
-                                                    @*    <img src="~/Images/Profile/Profile.png" alt="Profile" />*@
+                                                        @*    <img src="~/Images/Profile/Profile.png" alt="Profile" />*@
                                                         @{
                                                             var currentUser = User.Identity.Name.Substring(0, User.Identity.Name.IndexOf('@'));
                                                         }
@@ -288,7 +257,7 @@
                                         {
                                             <li>
                                                 <a class="has-arrow" title="Landing Page" aria-expanded="false">
-                                                   
+
                                                     <span class="mini-click-non" title="Roles">Roles</span>
                                                 </a>
                                                 <ul class="submenu-angle" aria-expanded="false">
@@ -299,36 +268,37 @@
                                                     </li>
                                                 </ul>
                                             </li>
+
+                                            <li>
+                                                <a data-toggle="collapse" data-target="#demoevent" asp-controller="Professor" asp-action="Index">Professors <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                                <ul id="demoevent" class="collapse dropdown-header-top">
+                                                    <li>
+                                                        <a href="all-professors.html">All Professors</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a data-toggle="collapse" data-target="#demopro" href="#">Students <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                                <ul id="demopro" class="collapse dropdown-header-top">
+                                                    <li>
+                                                        <a href="all-students.html">All Students</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="add-student.html">Add Student</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="edit-student.html">Edit Student</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="student-profile.html">Student Profile</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
                                         }
-                                        <li>
-                                            <a data-toggle="collapse" data-target="#demoevent" asp-controller="Professor" asp-action="Index">Professors <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
-                                            <ul id="demoevent" class="collapse dropdown-header-top">
-                                                <li>
-                                                    <a href="all-professors.html">All Professors</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a data-toggle="collapse" data-target="#demopro" href="#">Students <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
-                                            <ul id="demopro" class="collapse dropdown-header-top">
-                                                <li>
-                                                    <a href="all-students.html">All Students</a>
-                                                </li>
-                                                <li>
-                                                    <a href="add-student.html">Add Student</a>
-                                                </li>
-                                                <li>
-                                                    <a href="edit-student.html">Edit Student</a>
-                                                </li>
-                                                <li>
-                                                    <a href="student-profile.html">Student Profile</a>
-                                                </li>
-                                            </ul>
-                                        </li>
                                         <li>
                                             <a data-toggle="collapse" data-target="#democrou">Courses <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                             <ul id="democrou" class="collapse dropdown-header-top">
-                                                  <li>
+                                                <li>
                                                     <a asp-controller="Course" asp-action="Create">Add Course</a>
                                                 </li>
                                                 <li>
@@ -337,42 +307,33 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a data-toggle="collapse" data-target="#demolibra" href="#">Library <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
-                                            <ul id="demolibra" class="collapse dropdown-header-top">
+                                            <a class="has-arrow" href="#" aria-expanded="false">
+                                                <i class="bi bi-journal-plus" style="font-size:1.3rem"></i>
+                                                <span class="mini-click-non">Books</span>
+                                            </a>
+                                            <ul class="submenu-angle" aria-expanded="false">
                                                 <li>
-                                                    <a href="library-assets.html">Library Assets</a>
+                                                    <a title="All Library" href="library-assets.html">
+                                                        <span class="mini-sub-pro">Add Book</span>
+                                                    </a>
                                                 </li>
                                                 <li>
-                                                    <a href="add-library-assets.html">Add Library Asset</a>
-                                                </li>
-                                                <li>
-                                                    <a href="edit-library-assets.html">Edit Library Asset</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a data-toggle="collapse" data-target="#demodepart" href="#">Departments <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
-                                            <ul id="demodepart" class="collapse dropdown-header-top">
-                                                <li>
-                                                    <a href="departments.html">Departments List</a>
-                                                </li>
-                                                <li>
-                                                    <a href="add-department.html">Add Departments</a>
-                                                </li>
-                                                <li>
-                                                    <a href="edit-department.html">Edit Departments</a>
+                                                    <a title="Add Library" href="add-library-assets.html">
+                                                        <span class="mini-sub-pro">All Books</span>
+                                                    </a>
                                                 </li>
                                             </ul>
                                         </li>
-                                          <li id="removable">
-                            <a  asp-controller="Account" asp-action="LogOut" aria-expanded="false">
-                             
-                                <span class="mini-click-non">LogOut</span>
-                            </a>
-                        </li>
+
+                                        <li id="removable">
+                                            <a asp-controller="Account" asp-action="LogOut" aria-expanded="false">
+
+                                                <span class="mini-click-non">LogOut</span>
+                                            </a>
+                                        </li>
                                     </ul>
                                 </nav>
-                               
+
                             </div>
                         </div>
                     </div>
@@ -438,15 +399,15 @@
     ============================================ -->
     <script src="~/js/plugins.js"></script>
     <!-- main JS
-    ============================================ -->   
+    ============================================ -->
     <!-- DataTable JS
     ============================================ -->
     <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
     <!-- main JS
     ============================================ -->
     <script src="~/js/main.js"></script>
-   
-  
+
+
     @RenderSection("Scripts", required: false)
     @await Component.InvokeAsync("NToastNotify")
 

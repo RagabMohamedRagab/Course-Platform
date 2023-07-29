@@ -25,6 +25,33 @@ namespace Course.Repository.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Course.Domain.Domains.Book", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("book")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Books");
+                });
+
             modelBuilder.Entity("Course.Domain.Domains.Course", b =>
                 {
                     b.Property<int>("Id")
@@ -126,7 +153,7 @@ namespace Course.Repository.Migrations
                         new
                         {
                             Id = "2c5e174e-3b0e-446f-86af-483d56fd7210",
-                            ConcurrencyStamp = "7b562210-0655-41ff-bbbd-f2fa6cbaec4a",
+                            ConcurrencyStamp = "0047cc4c-debc-4bf4-acde-c99a99b66f15",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
@@ -353,19 +380,28 @@ namespace Course.Repository.Migrations
                         {
                             Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d48f3dbc-e12d-4f59-8750-0af8cd6a2a3b",
+                            ConcurrencyStamp = "b81cd014-965a-4c60-a777-61562b49caf3",
                             Email = "Admin123@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ADMIN123@GMAIL.COM",
                             NormalizedUserName = "ADMIN123@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEGCQ6BlxCrYbc2/bhdgo4+yJNOg9oYoegmOlcepz6JHxaioZ7uxGoVQ8Pe8Hjqv5hQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEDlcUJHvLcPW0I7PnO4Y0E1OqFRTNEDjr44t/v57gzud68a3oRPMEo3AcfudRZyVyg==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "433f35fd-da76-441a-a9c8-b85c482ce001",
+                            SecurityStamp = "7b601475-302f-4158-bd4d-fb12e7466995",
                             TwoFactorEnabled = false,
                             UserName = "Admin123@gmail.com",
                             IsActive = false
                         });
+                });
+
+            modelBuilder.Entity("Course.Domain.Domains.Book", b =>
+                {
+                    b.HasOne("Course.Domain.Domains.AppUser", "user")
+                        .WithMany()
+                        .HasForeignKey("UserId");
+
+                    b.Navigation("user");
                 });
 
             modelBuilder.Entity("Course.Domain.Domains.Course", b =>

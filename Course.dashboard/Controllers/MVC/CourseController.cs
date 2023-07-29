@@ -39,8 +39,8 @@ namespace Course.dashboard.Controllers.MVC {
                 _toast.AddSuccessToastMessage("Done");
                 return RedirectToAction(nameof(Coures), new { userName = model.UserName, Search = "", orderby = "", currentPage = 1 });
             }
-            _toast.AddErrorToastMessage("Enter or Incorrect Data..");
-            return RedirectToAction(nameof(Coures));
+            _toast.AddErrorToastMessage("Enter Data or Incorrect Data..");
+            return RedirectToAction(nameof(Create));
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
