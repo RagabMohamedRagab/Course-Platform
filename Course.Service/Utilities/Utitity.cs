@@ -4,6 +4,7 @@
         public const string Profile = Folder + "\\" + "Profile";
         public const string Course = Folder + "\\" + "Videos";
         public const string Title = Folder + "\\" + "Title";
+        public const string Book = Folder + "\\" + "Book";
 
     }
 }
