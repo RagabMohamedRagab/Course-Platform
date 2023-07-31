@@ -33,5 +33,12 @@ namespace Course.Service.Services {
             await _bookRepository.Add(book);
             return await _unitOfWork.SaveChangesAsync() > 0 ? true : false;
         }
+
+        public async Task<IList<DisplayAllBooksViewModel>> GetAllAsync(int currentPage, int pageSize)
+        {
+            if (currentPage <= 0 || pageSize <= 0)
+                return null;
+            return await _bookRepository.GetAllBooks(currentPage, pageSize);
+        }
     }
 }

@@ -1,6 +1,18 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\C# 7.0 in a Nutshell_ The Definitive Reference ( PDFDrive.com ).pdf",
+      "PackagePath": "staticwebassets\\Images\\Book\\C# 7.0 in a Nutshell_ The Definitive Reference ( PDFDrive.com ).pdf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\Naruto.jpg",
+      "PackagePath": "staticwebassets\\Images\\Book\\Naruto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\NoBook.png",
+      "PackagePath": "staticwebassets\\Images\\Book\\NoBook.png"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Profile\\3.jpg",
       "PackagePath": "staticwebassets\\Images\\Profile\\3.jpg"
     },

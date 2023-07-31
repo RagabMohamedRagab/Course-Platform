@@ -12,10 +12,15 @@ namespace Course.dashboard.Controllers.MVC {
             _bookService = bookService;
             _toast = toast;
         }
-
-        public IActionResult Index()
+        [HttpGet]
+        public async Task<IActionResult> Index()
         {
             return View();
+        }
+        [HttpGet]
+        public JsonResult GetAllAsync(int CurrentPage,int PageSize)
+        {
+            return Json(_bookService.GetAllAsync(CurrentPage,PageSize).Result);
         }
         [HttpGet]
         public async Task<IActionResult> Create()

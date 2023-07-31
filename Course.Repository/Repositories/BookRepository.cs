@@ -11,7 +11,6 @@ namespace Course.Repository.Repositories {
         {
             _userManager = userManager;
         }
-
         public async Task<string> GetUserByName(string Name)
         {
             if (String.IsNullOrEmpty(Name))
@@ -20,6 +19,26 @@ namespace Course.Repository.Repositories {
             if (user is not null)
                 return user.Id;
             return string.Empty;
+        }   
+        
+        public async Task<IList<DisplayAllBooksViewModel>> GetAllBooks(int CurrentPage, int Pagesize)
+        {
+            int start = ((CurrentPage - 1) * Pagesize),
+                end = Pagesize * CurrentPage;
+
+            var books =await GetAll();
+           IList<DisplayAllBooksViewModel> booksInfo=new List<DisplayAllBooksViewModel>();
+            booksInfo = books.Skip(start).Take(end).Select(b => new DisplayAllBooksViewModel()
+            {
+                Id = b.Id,
+                Name = b.Name,
+                Description = b.Description,
+                UserId = b.UserId,
+                Cover = (String.IsNullOrEmpty(b.Cover)) ? "../Images/Book/NoBook.png" : "../Images/Book/" + b.Cover,
+                book = "../Images/Book/" + b.book
+            }).ToList();
+
+           return booksInfo;
         }
     }
 }

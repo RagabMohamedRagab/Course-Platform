@@ -17,6 +17,7 @@ namespace Course.Service.Utilities {
           // Book
 
             CreateMap<BookFormViewModel,Book>().ReverseMap();
+            CreateMap<DisplayAllBooksViewModel,Book>().ReverseMap();
         }
     }
 }
