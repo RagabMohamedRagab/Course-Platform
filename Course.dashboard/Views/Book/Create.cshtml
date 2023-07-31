@@ -1,42 +1,41 @@
-﻿
+﻿@model BookFormViewModel;
 @{
-    ViewData["Title"]="Add Book";
+    ViewData["Title"] = "Add Book";
 }
-<section>
-    <form method="post" asp-controller="Book" asp-action="Create" asp-antiforgery="true"  enctype="multipart/form-data">
+<section class="roles">
+    <form method="post" asp-controller="Book" asp-action="Create" asp-antiforgery="true" enctype="multipart/form-data">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-         <div class="form-group">
-              <label class="form-label"></label>
-              <input    class="form-control" placeholder="Book Of Name"/>
-             <span asp-validation-for=" " class="text-danger" ></span>
-          </div>
-          <div class="form-group">
-               <lable class="form-label"></lable>
-               <textarea class="form-control" cols="10" rows="10" placeholder="Description of Book"></textarea>
-               <span asp-validation-for="" class="text-danger"></span>
-          </div>
-          <div class="form-group">
-                <lable class="form-label"></lable>
-                <input type="file" class="form-control" placeholder="Cover Book"/>
-            <span asp-validation-for="" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <lable class="form-label"></lable>
-                <input type="file" class="form-control" placeholder="Book"/>
-                <span asp-validation-for="" class="text-danger"></span>
-            </div>
-             <div class="form-group" hidden>
-                <lable class="form-label"></lable>
-                <input type="text" class="form-control" placeholder="username" value="@(User.Identity.Name)"/>
-            </div>
-             <div class="form-group">
-            <input class="btn btn-primary" value="Save" style="background-color: #006df0;outline: none;" />
-             </div>
+        <div class="form-group">
+            <label asp-for="Name" class="form-label"></label>
+            <input asp-for="Name" class="form-control" placeholder="Book Of Name" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Description" class="form-label"></label>
+            <textarea asp-for="Description" class="form-control" cols="10" rows="10" placeholder="Description of Book"></textarea>
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Cover" class="form-label"></label>
+            <input asp-for="Cover" type="file" class="form-control" placeholder="Cover Book" />
+            <span asp-validation-for="Cover" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Book" class="form-label"></label>
+            <input asp-for="Book" type="file" class="form-control" placeholder="Book" />
+            <span asp-validation-for="Book" class="text-danger"></span>
+        </div>
+        <div class="form-group" hidden>
+            <lable class="form-label"></lable>
+            <input type="text" class="form-control" placeholder="UserName" name="UserName" value="@(User.Identity.Name)" />
+        </div>
+        <div class="form-group">
+            <input class="btn btn-primary" value="Save" type="submit" style="background-color: #006df0;outline: none;" />
+        </div>
     </form>
 </section>
-@{
-    await Html.RenderPartialAsync("_ValidationScriptsPartial");
-}
 @section Scripts{
-
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
