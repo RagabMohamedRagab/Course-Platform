@@ -6,5 +6,10 @@ namespace Course.dashboard.Controllers.MVC {
         {
             return View();
         }
+        [HttpGet]
+        public async Task<IActionResult> Create()
+        {
+            return View();
+        }
     }
 }
