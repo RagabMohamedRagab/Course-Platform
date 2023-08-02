@@ -39,7 +39,7 @@ namespace Course.dashboard.Controllers.MVC {
             if(await _bookService.CreateAsync(model))
             {
                 _toast.AddSuccessToastMessage("Done");
-                return View();
+                return RedirectToAction(nameof(Index));
             }
             return View(model);     
             

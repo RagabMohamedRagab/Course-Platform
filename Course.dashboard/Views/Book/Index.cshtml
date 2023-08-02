@@ -9,6 +9,9 @@
         width: 100%;
         line-height: 17px;
     }
+    #book{
+        padding-top:5%;
+    }
 </style>
 <section class="row roles" id="books">
 </section>
@@ -19,8 +22,7 @@
             var currentPage = 1;
             LoadData(currentPage)
             $(window).scroll(function () {
-                debugger
-
+              
                 if ($(window).scrollTop() == $(document).height() - $(window).height()) {
                     currentPage += 1;
                     LoadData(currentPage)
@@ -40,12 +42,14 @@
                         var $books = $("#books");
                         var html = "";
                         $.each(data, function (index, book) {
-                            html += `<div class="col-lg-3 col-md-12 " style = "margin-bottom: 24px; cursor:pointer" >`;
+                            html += `<div class="col-lg-3 col-md-12 " style = "cursor:pointer;margin-bottom: 2%;" >`;
                             html += ` <div class="card" style="text-align: center;width: 18rem;">`;
                             html += ` <img src="${book.cover}" class="card-img-top img-fluid img-thumbnail" alt="Cover Image"style="width: 183px;height: 275px; ">`;
                             html += `   <div class="card-body boxHeadlineSub" >`;
-                            html += `  <h5 class="card-title">${book.name}</h5>`;
-                       
+                            html += `  <h5 class="card-title" style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis">${book.name}</h5>`;
+                            html += `</div>`;
+                            html+=` <div style="display: flex;justify-content: space-evenly;">`;
+                            html += `  <a target="_blank" href="${book.book}" title="View book" class="btn btn-primary" style="background-color: #006df0;font-size:10px"><i style="font-size:14px" class="bi bi-eye-fill"></i></a>`;
                             html += `</div>`;
                             html += `</div>`;
                             $books.append(html);
