@@ -1,72 +1,52 @@
 ﻿@{
     ViewData["Title"] = "Books";
 }
-<section class="row roles" id="info">
-      
+<style>
+    .boxHeadlineSub {
+        text-align: center;
+        margin-top: 4%;
+        height: 27%;
+        width: 100%;
+        line-height: 17px;
+    }
+</style>
+<section class="row roles" id="books">
 </section>
 
-
-
 @section Scripts{
-    <script>
+    <script type="text/javascript">
         $(document).ready(function () {
             var currentPage = 1;
-            LoadInfo(currentPage)
-
-            $(window).scroll(function () {
-
-                if ($(window).scrollTop() == $(document).height() - $(window).height()) {
-                    currentPage += 1;
-                    LoadInfo(currentPage)
-                } else {
-                    currentPage += 1;
-                    LoadInfo(currentPage)
-                }
-            })
-            function LoadInfo(CurrentPage) {
-
+            LoadData(currentPage)
+            function LoadData(currentPage) {
                 $.ajax({
-                    url: "/Book/GetAllAsync",
-                    data: { CurrentPage: CurrentPage, PageSize: 8 },
-                    dataType: "json",
+                    url: '/Book/GetAll',
+                    method: 'post',
+                    data: { CurrentPage: currentPage, PageSize: 4 },
+                    dataType: 'json',
                     success: function (data) {
-                        console.log(data)
-                        var $professor = $("#info");
+                        console.log(data);
+                        var $books = $("#books");
                         var html = "";
-                        $.each(data, function (index, pro) {
-                            html += "<div class='col-lg-3 col-md-6 col-sm-6 col-xs-12 wow slideInLeft' >"
-                            html += "<div class='hpanel hblue contact-panel contact-panel-cs mg-t-30' style='width:100%;height :94%;'> "
-                            html += "<div class='panel-body custom-panel-jw ' style='width:100%;height:84%;'>"
-                            html += "<div>"
-                            html += "<img style='width:100%;height:100%' src=" + pro.img + ">"
-                            html += "</div>"
-                            html += "<h3>" + pro.name + "</h3>"
-                            html += "<p>" + pro.about + "</p>"
-                            html += "</div>"
-                            html += "<div class='panel-footer contact-footer'>"
-                            html += "<div class='professor-stds-int'>"
-                            html += "<a href=" + pro.facebook + ">"
-                            html += "<i class='fa fa-facebook'></i>"
-                            html += "</a>"
-                            html += "<a href=" + pro.twitter + ">"
-                            html += "<i class='fa fa-twitter'></i>"
-                            html += "</a>"
-                            html += "<a href=" + pro.instagram + ">"
-                            html += "<i class='fa fa-instagram'></i>"
-                            html += "</a>"
-                            html += "<a href=" + pro.linkedIn + ">"
-                            html += "<i class='fa fa-linkedin'></i>"
-                            html += "</a>"
-                            html += "</div>"
-                            html += "</div>"
-                            html += "</div>"
-                            html += "</div>"
-                            $professor.append(html);
+                        $.each(data, function (index, book) {
+                            html += `<div class="col-md-3 col-sm-4 col-xs-6  roles" style = "margin-bottom: 24px; cursor:pointer" >`;
+                            html += ` <div class="card" style="text-align: center;">`;
+                            html += ` <img src="${book.cover}" class="card-img-top img-fluid img-thumbnail" alt="Cover Image"style="width: 183px;height: 275px; ">`;
+                            html += `   <div class="boxHeadlineSub" style="padding: 12px;">`;
+                            html += `  <h5 class="card-title">${book.name}</h5>`;
+                     
+                            html += `</div>`;
+                            html += '<div style="display: flex;justify-content: space-evenly;">';
+                            html += `<a title="View Videos" href="/book/viewBook" class="btn btn-primary" style="background-color: #006df0;"><i class="bi bi-eye-fill"></i></a>`;
+                            html += `</div>`;
+                            $books.append(html);
                             html = "";
                         })
                     }
                 })
             }
-        });
+        })
+
     </script>
 }
+

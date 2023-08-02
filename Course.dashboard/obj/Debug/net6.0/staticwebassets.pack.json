@@ -1,8 +1,40 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\10.jpg",
+      "PackagePath": "staticwebassets\\Images\\Book\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\2. Algorithms (4th Edition) (Robert Sedgewick and Kevin Wayne).pdf",
+      "PackagePath": "staticwebassets\\Images\\Book\\2. Algorithms (4th Edition) (Robert Sedgewick and Kevin Wayne).pdf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Book\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Book\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\7.jpg",
+      "PackagePath": "staticwebassets\\Images\\Book\\7.jpg"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\C# 7.0 in a Nutshell_ The Definitive Reference ( PDFDrive.com ).pdf",
       "PackagePath": "staticwebassets\\Images\\Book\\C# 7.0 in a Nutshell_ The Definitive Reference ( PDFDrive.com ).pdf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\Clean Code.pdf",
+      "PackagePath": "staticwebassets\\Images\\Book\\Clean Code.pdf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\Data Structures and Algorithms in C by Michael McMillan (z-lib.org).pdf",
+      "PackagePath": "staticwebassets\\Images\\Book\\Data Structures and Algorithms in C by Michael McMillan (z-lib.org).pdf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\Data_Structures__Algorithms_in_Java_-_Robert_Lafore.pdf",
+      "PackagePath": "staticwebassets\\Images\\Book\\Data_Structures__Algorithms_in_Java_-_Robert_Lafore.pdf"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\Naruto.jpg",

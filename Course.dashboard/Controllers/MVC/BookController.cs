@@ -17,8 +17,8 @@ namespace Course.dashboard.Controllers.MVC {
         {
             return View();
         }
-        [HttpGet]
-        public JsonResult GetAllAsync(int CurrentPage,int PageSize)
+        [HttpPost]
+        public JsonResult GetAll(int CurrentPage,int PageSize)
         {
             return Json(_bookService.GetAllAsync(CurrentPage,PageSize).Result);
         }
