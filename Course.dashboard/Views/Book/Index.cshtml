@@ -18,15 +18,17 @@
         $(document).ready(function () {
             var currentPage = 1;
             LoadData(currentPage)
-            $(window).on('scrollDown', function () {
-                currentPage = currentPage+1;
-                LoadData(currentPage);
-            });
+            $(window).scroll(function () {
+                debugger
 
-            $(window).on('scrollUp', function () {
-                currentPage = currentPage - 1;
-                LoadData(currentPage);
-            });
+                if ($(window).scrollTop() == $(document).height() - $(window).height()) {
+                    currentPage += 1;
+                    LoadData(currentPage)
+                } else {
+                    currentPage += 1;
+                    LoadData(currentPage)
+                }
+            })
             function LoadData(currentPage) {
                 $.ajax({
                     url: '/Book/GetAll',
@@ -38,7 +40,7 @@
                         var $books = $("#books");
                         var html = "";
                         $.each(data, function (index, book) {
-                            html += `<div class="col-md-3 col-sm-4 col-xs-6 " style = "margin-bottom: 24px; cursor:pointer" >`;
+                            html += `<div class="col-lg-3 col-md-12 " style = "margin-bottom: 24px; cursor:pointer" >`;
                             html += ` <div class="card" style="text-align: center;width: 18rem;">`;
                             html += ` <img src="${book.cover}" class="card-img-top img-fluid img-thumbnail" alt="Cover Image"style="width: 183px;height: 275px; ">`;
                             html += `   <div class="card-body boxHeadlineSub" >`;
