@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Book\\1.jpg"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\10.jpg",
       "PackagePath": "staticwebassets\\Images\\Book\\10.jpg"
     },
@@ -9,12 +13,20 @@
       "PackagePath": "staticwebassets\\Images\\Book\\2. Algorithms (4th Edition) (Robert Sedgewick and Kevin Wayne).pdf"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Book\\3.jpg"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\4.jpg",
       "PackagePath": "staticwebassets\\Images\\Book\\4.jpg"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\5.jpg",
       "PackagePath": "staticwebassets\\Images\\Book\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\6.jpg",
+      "PackagePath": "staticwebassets\\Images\\Book\\6.jpg"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\7.jpg",
@@ -35,6 +47,10 @@
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\Data_Structures__Algorithms_in_Java_-_Robert_Lafore.pdf",
       "PackagePath": "staticwebassets\\Images\\Book\\Data_Structures__Algorithms_in_Java_-_Robert_Lafore.pdf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\Joel_Grus_Data_Science_from_Scratch_First_Principles_with_Python.pdf",
+      "PackagePath": "staticwebassets\\Images\\Book\\Joel_Grus_Data_Science_from_Scratch_First_Principles_with_Python.pdf"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\Naruto.jpg",

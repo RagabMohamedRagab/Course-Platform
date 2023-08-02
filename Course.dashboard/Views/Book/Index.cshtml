@@ -18,6 +18,15 @@
         $(document).ready(function () {
             var currentPage = 1;
             LoadData(currentPage)
+            $(window).on('scrollDown', function () {
+                currentPage = currentPage+1;
+                LoadData(currentPage);
+            });
+
+            $(window).on('scrollUp', function () {
+                currentPage = currentPage - 1;
+                LoadData(currentPage);
+            });
             function LoadData(currentPage) {
                 $.ajax({
                     url: '/Book/GetAll',
@@ -29,15 +38,12 @@
                         var $books = $("#books");
                         var html = "";
                         $.each(data, function (index, book) {
-                            html += `<div class="col-md-3 col-sm-4 col-xs-6  roles" style = "margin-bottom: 24px; cursor:pointer" >`;
-                            html += ` <div class="card" style="text-align: center;">`;
+                            html += `<div class="col-md-3 col-sm-4 col-xs-6 " style = "margin-bottom: 24px; cursor:pointer" >`;
+                            html += ` <div class="card" style="text-align: center;width: 18rem;">`;
                             html += ` <img src="${book.cover}" class="card-img-top img-fluid img-thumbnail" alt="Cover Image"style="width: 183px;height: 275px; ">`;
-                            html += `   <div class="boxHeadlineSub" style="padding: 12px;">`;
+                            html += `   <div class="card-body boxHeadlineSub" >`;
                             html += `  <h5 class="card-title">${book.name}</h5>`;
-                     
                             html += `</div>`;
-                            html += '<div style="display: flex;justify-content: space-evenly;">';
-                            html += `<a title="View Videos" href="/book/viewBook" class="btn btn-primary" style="background-color: #006df0;"><i class="bi bi-eye-fill"></i></a>`;
                             html += `</div>`;
                             $books.append(html);
                             html = "";
