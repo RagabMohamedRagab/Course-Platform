@@ -33,7 +33,7 @@
                 $.ajax({
                     url: '/Book/GetAll',
                     method: 'post',
-                    data: { CurrentPage: currentPage, PageSize: 4 },
+                    data: { CurrentPage: currentPage, PageSize: 9 },
                     dataType: 'json',
                     success: function (data) {
                         console.log(data);
@@ -45,6 +45,7 @@
                             html += ` <img src="${book.cover}" class="card-img-top img-fluid img-thumbnail" alt="Cover Image"style="width: 183px;height: 275px; ">`;
                             html += `   <div class="card-body boxHeadlineSub" >`;
                             html += `  <h5 class="card-title">${book.name}</h5>`;
+                       
                             html += `</div>`;
                             html += `</div>`;
                             $books.append(html);
