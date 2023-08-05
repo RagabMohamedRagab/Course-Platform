@@ -405,9 +405,10 @@
     <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
     <!-- main JS
     ============================================ -->
+    
     <script src="~/js/main.js"></script>
-
-
+  @*   <script src="~/Lib/chart/chart.min.js"></script>*@
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     @RenderSection("Scripts", required: false)
     @await Component.InvokeAsync("NToastNotify")
 

@@ -50,6 +50,13 @@
         "images/sort_desc.png",
         "images/sort_desc_disabled.png"
       ]
+    },
+    {
+      "library": "Chart.js@4.3.3",
+      "destination": "wwwroot/Lib/Chart/",
+      "files": [
+        "chart.min.js"
+      ]
     }
   ]
 }

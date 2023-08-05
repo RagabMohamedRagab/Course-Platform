@@ -1,8 +1,16 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\C# 7.0 in a Nutshell_ The Definitive Reference ( PDFDrive.com ).pdf",
-      "PackagePath": "staticwebassets\\Images\\Book\\C# 7.0 in a Nutshell_ The Definitive Reference ( PDFDrive.com ).pdf"
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\C-sharp 7.0 in a Nutshell_ The Definitive Reference ( PDFDrive.com ).pdf",
+      "PackagePath": "staticwebassets\\Images\\Book\\C-sharp 7.0 in a Nutshell_ The Definitive Reference ( PDFDrive.com ).pdf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\Capture.PNG",
+      "PackagePath": "staticwebassets\\Images\\Book\\Capture.PNG"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\Data Structures and Algorithms in C by Michael McMillan (z-lib.org).pdf",
+      "PackagePath": "staticwebassets\\Images\\Book\\Data Structures and Algorithms in C by Michael McMillan (z-lib.org).pdf"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\download.png",
@@ -81,6 +89,10 @@
       "PackagePath": "staticwebassets\\Images\\Videos\\not_found.svg"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\Chart\\chart.min.js",
+      "PackagePath": "staticwebassets\\Lib\\Chart\\chart.min.js"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\bootstrap-icons\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\Lib\\bootstrap-icons\\bootstrap-grid.min.css"
     },
@@ -123,6 +135,26 @@
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\bootstrap\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\Lib\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\datatables\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\Lib\\datatables\\images\\sort_asc.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\datatables\\images\\sort_asc_disabled.png",
+      "PackagePath": "staticwebassets\\Lib\\datatables\\images\\sort_asc_disabled.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\datatables\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\Lib\\datatables\\images\\sort_both.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\datatables\\images\\sort_desc.png",
+      "PackagePath": "staticwebassets\\Lib\\datatables\\images\\sort_desc.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\datatables\\images\\sort_desc_disabled.png",
+      "PackagePath": "staticwebassets\\Lib\\datatables\\images\\sort_desc_disabled.png"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Lib\\jquery-validate\\jquery.validate.min.js",
