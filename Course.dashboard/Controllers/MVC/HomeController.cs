@@ -1,14 +1,21 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Course.Service.IServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Course.dashboard.Controllers.MVC
 {
     public class HomeController : Controller
     {
-        [AllowAnonymous]
-        public IActionResult Index()
+        private readonly IHomeService _homeService;
+
+        public HomeController(IHomeService homeService)
         {
-            return View();
+            _homeService = homeService;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            return View(await _homeService.Index()) ;
         }
 
     }

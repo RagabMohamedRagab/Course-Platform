@@ -58,6 +58,7 @@ builder.Services.AddScoped<IAccountRepository, AccountRepository>();
 builder.Services.AddScoped<ITitleRepository, TitleRepository>();
 builder.Services.AddScoped<ICourseRepository, CourseRepository>();
 builder.Services.AddScoped<IBookRepository, BookRepository>();
+builder.Services.AddScoped<ISubscribeRepository,SubscribeRepository>();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 #endregion
@@ -67,6 +68,8 @@ builder.Services.AddScoped<IAccountService, AccountService>();
 builder.Services.AddScoped<ITitleService, TitleService>();
 builder.Services.AddScoped<ICourseService, CourseService>();
 builder.Services.AddScoped<IBookService, BookService>();
+builder.Services.AddScoped<IHomeService, HomeService>();
+builder.Services.AddScoped<ISubscribeService, SubscribeService>();
 builder.Services.AddScoped<IEmailSender,EmailSender>();
 builder.Services.AddScoped<IFileService, FileService>();
 #endregion
