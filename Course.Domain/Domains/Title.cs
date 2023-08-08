@@ -17,5 +17,6 @@ namespace Course.Domain.Domains {
         public string? AppUserId { get; set; }
         public virtual AppUser AppUser { get; set; }
         public virtual ICollection<Course> Courses { get; set; }
+        public virtual ICollection<Subscribe> Subscribes { get; set; }
     }
 }
