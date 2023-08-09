@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JTKYuigFxuC+EDiiF7KImDgDArxjmQy8xJT0NJ+1qvY=",
+  "Hash": "5KNQ/EDCZHSxnZXvD734XnCQruG28zRoh1a/OqIzKkc=",
   "Source": "Course.dashboard",
   "BasePath": "_content/Course.dashboard",
   "Mode": "Default",
@@ -1647,6 +1647,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Videos\\(29) 4 - Singleton pattern implementation - YouTube.mkv"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\(46) ASP.NET Core MVC - Creating Google Charts - YouTube.mkv",
+      "SourceId": "Course.dashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
+      "BasePath": "_content/Course.dashboard",
+      "RelativePath": "Images/Videos/(46) ASP.NET Core MVC - Creating Google Charts - YouTube.mkv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Videos\\(46) ASP.NET Core MVC - Creating Google Charts - YouTube.mkv"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Videos\\10.mp4",
