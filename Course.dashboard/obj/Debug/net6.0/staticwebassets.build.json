@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5KNQ/EDCZHSxnZXvD734XnCQruG28zRoh1a/OqIzKkc=",
+  "Hash": "7l7TTTAQBMM0Hb5VG/TEJ4o/T4xOmCa+PgGy6hfBC8o=",
   "Source": "Course.dashboard",
   "BasePath": "_content/Course.dashboard",
   "Mode": "Default",
@@ -1343,6 +1343,23 @@
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.woff2"
     },
     {
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\10.jpg",
+      "SourceId": "Course.dashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
+      "BasePath": "_content/Course.dashboard",
+      "RelativePath": "Images/Book/10.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Book\\10.jpg"
+    },
+    {
       "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\Capture.PNG",
       "SourceId": "Course.dashboard",
       "SourceType": "Discovered",
@@ -1358,6 +1375,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Book\\Capture.PNG"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\Clean Code.pdf",
+      "SourceId": "Course.dashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
+      "BasePath": "_content/Course.dashboard",
+      "RelativePath": "Images/Book/Clean Code.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Book\\Clean Code.pdf"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\C-sharp 7.0 in a Nutshell_ The Definitive Reference ( PDFDrive.com ).pdf",
@@ -1528,6 +1562,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Profile\\thumb-sasuke-uchiha-minimalism-naruto-characters-artwork-fan-art.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\8.jpg",
+      "SourceId": "Course.dashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\",
+      "BasePath": "_content/Course.dashboard",
+      "RelativePath": "Images/Title/8.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Title\\8.jpg"
     },
     {
       "Identity": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\download.png",

@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Subscribes";
+}
+
+<div class="col-md-10" style="margin-top:20px">
+    <table class="table table-hover" id="sub">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Subscribes</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            debugger;
+            $("#sub").dataTable({
+                "ajax": {
+                    "url": "/Subscribe/Get",
+                    "type": "GET",
+                    "dataSrc": "",
+                    "datatype": "json"
+                },
+               
+                "columns": [
+                    { "data": "name", "autoWidth": true },
+                    { "data": 'subscribes', "autoWidth": true }
+                ]
+            });
+        })
+    </script>
+      
+
+}
+
+
+
+
+
+

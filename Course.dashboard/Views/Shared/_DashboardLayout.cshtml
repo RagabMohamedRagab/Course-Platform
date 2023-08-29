@@ -122,34 +122,7 @@
 
                                 </ul>
                             </li>
-                            <li>
-                                <a class="has-arrow" href="all-students.html" aria-expanded="false">
-                                    <i class="bi bi-emoji-smile" style="font-size:1.3rem"></i>
-                                    <span class="mini-click-non">Students</span>
-                                </a>
-                                <ul class="submenu-angle" aria-expanded="false">
-                                    <li>
-                                        <a title="All Students" href="all-students.html">
-                                            <span class="mini-sub-pro">All Students</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a title="Add Students" href="add-student.html">
-                                            <span class="mini-sub-pro">Add Student</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a title="Edit Students" href="edit-student.html">
-                                            <span class="mini-sub-pro">Edit Student</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a title="Students Profile" href="student-profile.html">
-                                            <span class="mini-sub-pro">Student Profile</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
+                          
                         }
                         <li>
                             <a class="has-arrow" asp-controller="Course" asp-action="Index" aria-expanded="false">
@@ -178,14 +151,30 @@
                                 <span class="mini-click-non">Books</span>
                             </a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li>
-                                    <a title="Add Book" asp-area="" asp-controller="Book" asp-action="Create">
+                                 @if (!User.IsInRole("Admin"))
+                                {
+                                    <li>
+                                        <a title="Add Book" asp-area="" asp-controller="Book" asp-action="Create">
                                         <span class="mini-sub-pro">Add Book</span>
                                     </a>
-                                </li>
+                                </li>}
                                 <li>
                                     <a title="All Books" asp-area="" asp-controller="Book" asp-action="Index">
                                         <span class="mini-sub-pro">All Books</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="has-arrow" href="#" aria-expanded="false">
+                                <i class="bi bi-plus-circle" style="font-size:1.3rem"></i>
+                                <span class="mini-click-non">Subscribes</span>
+                            </a>
+                            <ul class="submenu-angle" aria-expanded="false">
+                             
+                                <li>
+                                    <a title="All Subscribe" asp-area="" asp-controller="Subscribe" asp-action="Index">
+                                        <span class="mini-sub-pro">All Subscribes</span>
                                     </a>
                                 </li>
                             </ul>
@@ -277,23 +266,7 @@
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li>
-                                                <a data-toggle="collapse" data-target="#demopro" href="#">Students <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
-                                                <ul id="demopro" class="collapse dropdown-header-top">
-                                                    <li>
-                                                        <a href="all-students.html">All Students</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="add-student.html">Add Student</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="edit-student.html">Edit Student</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="student-profile.html">Student Profile</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
+                                     
                                         }
                                         <li>
                                             <a data-toggle="collapse" data-target="#democrou">Courses <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
@@ -308,7 +281,7 @@
                                         </li>
                                         <li>
                                             <a class="has-arrow" href="#" aria-expanded="false">
-                                                <i class="bi bi-journal-plus" style="font-size:1.3rem"></i>
+                                             
                                                 <span class="mini-click-non">Books</span>
                                             </a>
                                             <ul class="submenu-angle" aria-expanded="false">
@@ -324,7 +297,11 @@
                                                 </li>
                                             </ul>
                                         </li>
-
+                                        <li>
+                                            <a title="All Subscribe" asp-area="" asp-controller="Subscribe" asp-action="Index">
+                                                <span class="mini-sub-pro">All Subscribes</span>
+                                            </a>
+                                        </li>
                                         <li id="removable">
                                             <a asp-controller="Account" asp-action="LogOut" aria-expanded="false">
 

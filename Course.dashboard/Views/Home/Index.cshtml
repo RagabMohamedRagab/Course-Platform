@@ -64,12 +64,11 @@
         <div class="row" style=" display: flex;
     justify-content: center;">
             <div class="col-md-10" style="margin-top:20px">
-                <table class="table table-hover" id="example">
+                <table class="table table-hover" id="sub">
                     <thead>
                         <tr>
-                            <th>Subscriber ID</th>
-                            <th>Subscriber Name</th>
-                            
+                            <th>Name</th>
+                            <th>Subscribes</th>
                         </tr>
                     </thead>
                 </table>
@@ -80,24 +79,21 @@
 @section Scripts{
     <script src="https://www.gstatic.com/charts/loader.js"></script>
     <script>
-        var data = [
-            [
-               
-                "5421",
-                "Tiger Nixon",
-             
-            ],
-            [
-           
-                "8422",  
-                "Garrett Winters",
-           
-            ]
-        ]
+       
         $(document).ready(function(){
-        $('#example').DataTable({
-            data: data
-        })
+            $("#sub").dataTable({
+                "ajax": {
+                    "url": "/Subscribe/Get",
+                    "type": "GET",
+                    "dataSrc": "",
+                    "datatype": "json"
+                },
+
+                "columns": [
+                    { "data": "name", "autoWidth": true },
+                    { "data": 'subscribes', "autoWidth": true }
+                ]
+            });
         });
         //google.charts.load('current', { packages: ['corechart'] });
         //google.charts.setOnLoadCallback(drawChart);

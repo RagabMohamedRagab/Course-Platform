@@ -1,12 +1,20 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\10.jpg",
+      "PackagePath": "staticwebassets\\Images\\Book\\10.jpg"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\C-sharp 7.0 in a Nutshell_ The Definitive Reference ( PDFDrive.com ).pdf",
       "PackagePath": "staticwebassets\\Images\\Book\\C-sharp 7.0 in a Nutshell_ The Definitive Reference ( PDFDrive.com ).pdf"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\Capture.PNG",
       "PackagePath": "staticwebassets\\Images\\Book\\Capture.PNG"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\Clean Code.pdf",
+      "PackagePath": "staticwebassets\\Images\\Book\\Clean Code.pdf"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\Data Structures and Algorithms in C by Michael McMillan (z-lib.org).pdf",
@@ -43,6 +51,10 @@
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Profile\\thumb-sasuke-uchiha-minimalism-naruto-characters-artwork-fan-art.jpg",
       "PackagePath": "staticwebassets\\Images\\Profile\\thumb-sasuke-uchiha-minimalism-naruto-characters-artwork-fan-art.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\8.jpg",
+      "PackagePath": "staticwebassets\\Images\\Title\\8.jpg"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Title\\IMG20220510175349.jpg",
