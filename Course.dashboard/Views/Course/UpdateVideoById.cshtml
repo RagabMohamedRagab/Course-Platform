@@ -27,7 +27,7 @@
                 </div>
                 <div class="form-group m-5">
                     <video class="video-fluid video-thumbnail" controls  loop muted style="width:50%" >
-                        <source src="~/Images/Videos/@Model.Logo" type="video/mp4">
+                        <source src="~/~/UI/images/Videos/@Model.Logo" type="video/mp4">
                     </video>
                     <br />
                     <input asp-for="File" class="form-control mt-4"  />
@@ -43,7 +43,7 @@
 else
 {
     <div style=" width: 50%;height: 50%;display: flex;justify-content: center;margin:15% auto;">
-        <img src="~/Images/Videos/not_found.svg" alt="NotFound" class="img-fluid" style="width: 50%;" />
+        <img src="~/~/UI/images/Videos/not_found.svg" alt="NotFound" class="img-fluid" style="width: 50%;" />
         <a asp-controller="Course" asp-action="GetVideosForTitle" asp-route-Id="@Model.TitleId" class="btn btn-danger">Cancel</a>
 
     </div>

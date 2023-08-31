@@ -29,7 +29,7 @@
 	14. Library
 	15. Inbox
 	16. Google Map
-	17. Images Cropper
+	17. ~/UI/images Cropper
 	18. Form Element
 	19. Mini Sidebar
 	20. Custom Scroll
@@ -2691,7 +2691,7 @@ td.text-right.mail-date {
     height: 300px;
 }
 /*----------------------------------------*/
-/*  17. Images Cropper
+/*  17. ~/UI/images Cropper
 /*----------------------------------------*/
 .img-preview-custom{
 	height: 130px;
@@ -2701,19 +2701,19 @@ td.text-right.mail-date {
 .dual-list-box-inner .other-method{
 	margin-top:15px;
 }
-.images-cropper-pro .btn-primary{
+.~/UI/images-cropper-pro .btn-primary{
 	background-color: #006DF0;
     border-color: #006DF0;
 }
-.images-cropper-pro .btn-primary:active:focus, .images-cropper-pro .btn-primary:active:hover{
+.~/UI/images-cropper-pro .btn-primary:active:focus, .~/UI/images-cropper-pro .btn-primary:active:hover{
 	background-color: #006DF0;
     border-color: #006DF0;
 }
-.images-action-pro .btn-warning{
+.~/UI/images-action-pro .btn-warning{
 	background-color: #006DF0;
     border-color: #006DF0;
 }
-.images-action-pro .btn-warning:active, .images-action-pro .btn-warning:focus, .images-action-pro .btn-warning:hover{
+.~/UI/images-action-pro .btn-warning:active, .~/UI/images-action-pro .btn-warning:focus, .~/UI/images-action-pro .btn-warning:hover{
 	background-color: #006DF0;
     border-color: #006DF0;
 }
@@ -2728,7 +2728,7 @@ td.text-right.mail-date {
 .common-pre-dz{
 	margin-left:15px;
 }
-.images-cropper-pro .btn{
+.~/UI/images-cropper-pro .btn{
 	margin:5px 0px;
 }
 /*----------------------------------------*/

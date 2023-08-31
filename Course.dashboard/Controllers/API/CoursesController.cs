@@ -54,7 +54,7 @@ namespace Course.dashboard.Controllers.API {
             {
                 foreach (var item in result.Titles)
                 {
-                    item.Logo = $"/Images/Title/{item.Logo}";
+                    item.Logo = $"/~/UI/images/Title/{item.Logo}";
                 }
             }
             return Ok(result);

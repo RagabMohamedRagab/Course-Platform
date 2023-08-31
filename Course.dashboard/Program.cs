@@ -87,10 +87,16 @@ app.UseAuthentication();
 app.UseAuthorization();
 app.UseSession();
 
+ app.MapControllerRoute(
+  name: "areas",
+  pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+);
 app.MapControllerRoute(
       name: "Dashboard",
       pattern: "{Controller=Account}/{action=login}/{id?}"
     );
+
+
 app.Run();
 
 

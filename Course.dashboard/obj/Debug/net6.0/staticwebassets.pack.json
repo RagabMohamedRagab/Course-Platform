@@ -197,6 +197,430 @@
       "PackagePath": "staticwebassets\\Lib\\toastr\\toastr.min.js"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\UI\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\UI\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\css\\skdslider.css",
+      "PackagePath": "staticwebassets\\UI\\css\\skdslider.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\css\\style.css",
+      "PackagePath": "staticwebassets\\UI\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\UI\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\UI\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\UI\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\UI\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\UI\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\UI\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\UI\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\UI\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\UI\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\1.png",
+      "PackagePath": "staticwebassets\\UI\\images\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\10.png",
+      "PackagePath": "staticwebassets\\UI\\images\\10.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\11.jpg",
+      "PackagePath": "staticwebassets\\UI\\images\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\111.jpg",
+      "PackagePath": "staticwebassets\\UI\\images\\111.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\12.png",
+      "PackagePath": "staticwebassets\\UI\\images\\12.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\13.png",
+      "PackagePath": "staticwebassets\\UI\\images\\13.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\14.png",
+      "PackagePath": "staticwebassets\\UI\\images\\14.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\15.png",
+      "PackagePath": "staticwebassets\\UI\\images\\15.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\16.png",
+      "PackagePath": "staticwebassets\\UI\\images\\16.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\17.png",
+      "PackagePath": "staticwebassets\\UI\\images\\17.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\2.png",
+      "PackagePath": "staticwebassets\\UI\\images\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\22.jpg",
+      "PackagePath": "staticwebassets\\UI\\images\\22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\3.png",
+      "PackagePath": "staticwebassets\\UI\\images\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\4.png",
+      "PackagePath": "staticwebassets\\UI\\images\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\44.jpg",
+      "PackagePath": "staticwebassets\\UI\\images\\44.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\5.png",
+      "PackagePath": "staticwebassets\\UI\\images\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\6.png",
+      "PackagePath": "staticwebassets\\UI\\images\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\7.png",
+      "PackagePath": "staticwebassets\\UI\\images\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\8.png",
+      "PackagePath": "staticwebassets\\UI\\images\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\9.png",
+      "PackagePath": "staticwebassets\\UI\\images\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\arrow.png",
+      "PackagePath": "staticwebassets\\UI\\images\\arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\b1.jpg",
+      "PackagePath": "staticwebassets\\UI\\images\\b1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\b3.jpg",
+      "PackagePath": "staticwebassets\\UI\\images\\b3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\bv1.png",
+      "PackagePath": "staticwebassets\\UI\\images\\bv1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\bv2.png",
+      "PackagePath": "staticwebassets\\UI\\images\\bv2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\bv3.png",
+      "PackagePath": "staticwebassets\\UI\\images\\bv3.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\bv4.png",
+      "PackagePath": "staticwebassets\\UI\\images\\bv4.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\bv5.png",
+      "PackagePath": "staticwebassets\\UI\\images\\bv5.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\bv6.png",
+      "PackagePath": "staticwebassets\\UI\\images\\bv6.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\bv7.png",
+      "PackagePath": "staticwebassets\\UI\\images\\bv7.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\bv8.jpg",
+      "PackagePath": "staticwebassets\\UI\\images\\bv8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\bv8.png",
+      "PackagePath": "staticwebassets\\UI\\images\\bv8.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\bv9.png",
+      "PackagePath": "staticwebassets\\UI\\images\\bv9.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\card.png",
+      "PackagePath": "staticwebassets\\UI\\images\\card.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\check.png",
+      "PackagePath": "staticwebassets\\UI\\images\\check.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\close_1.png",
+      "PackagePath": "staticwebassets\\UI\\images\\close_1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\gu1.png",
+      "PackagePath": "staticwebassets\\UI\\images\\gu1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\gu2.png",
+      "PackagePath": "staticwebassets\\UI\\images\\gu2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\gu3.png",
+      "PackagePath": "staticwebassets\\UI\\images\\gu3.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\gu4.png",
+      "PackagePath": "staticwebassets\\UI\\images\\gu4.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\gu5.png",
+      "PackagePath": "staticwebassets\\UI\\images\\gu5.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\gu6.png",
+      "PackagePath": "staticwebassets\\UI\\images\\gu6.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\gu7.png",
+      "PackagePath": "staticwebassets\\UI\\images\\gu7.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\gu8.png",
+      "PackagePath": "staticwebassets\\UI\\images\\gu8.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\gu9.png",
+      "PackagePath": "staticwebassets\\UI\\images\\gu9.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\hh1.png",
+      "PackagePath": "staticwebassets\\UI\\images\\hh1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\hh2.png",
+      "PackagePath": "staticwebassets\\UI\\images\\hh2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\hh3.png",
+      "PackagePath": "staticwebassets\\UI\\images\\hh3.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\hh4.png",
+      "PackagePath": "staticwebassets\\UI\\images\\hh4.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\hh5.png",
+      "PackagePath": "staticwebassets\\UI\\images\\hh5.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\hh6.png",
+      "PackagePath": "staticwebassets\\UI\\images\\hh6.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\hh7.png",
+      "PackagePath": "staticwebassets\\UI\\images\\hh7.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\hh8.png",
+      "PackagePath": "staticwebassets\\UI\\images\\hh8.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\hh9.png",
+      "PackagePath": "staticwebassets\\UI\\images\\hh9.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\icon1.png",
+      "PackagePath": "staticwebassets\\UI\\images\\icon1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\icon2.png",
+      "PackagePath": "staticwebassets\\UI\\images\\icon2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\offer.png",
+      "PackagePath": "staticwebassets\\UI\\images\\offer.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\p2.jpg",
+      "PackagePath": "staticwebassets\\UI\\images\\p2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\p3.jpg",
+      "PackagePath": "staticwebassets\\UI\\images\\p3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\p4.jpg",
+      "PackagePath": "staticwebassets\\UI\\images\\p4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\pc1.png",
+      "PackagePath": "staticwebassets\\UI\\images\\pc1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\pc2.png",
+      "PackagePath": "staticwebassets\\UI\\images\\pc2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\pc3.png",
+      "PackagePath": "staticwebassets\\UI\\images\\pc3.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\pc4.png",
+      "PackagePath": "staticwebassets\\UI\\images\\pc4.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\pc5.png",
+      "PackagePath": "staticwebassets\\UI\\images\\pc5.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\pc6.png",
+      "PackagePath": "staticwebassets\\UI\\images\\pc6.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\pc7.png",
+      "PackagePath": "staticwebassets\\UI\\images\\pc7.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\pc8.png",
+      "PackagePath": "staticwebassets\\UI\\images\\pc8.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\pc9.jpg",
+      "PackagePath": "staticwebassets\\UI\\images\\pc9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\pf1.png",
+      "PackagePath": "staticwebassets\\UI\\images\\pf1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\pf2.png",
+      "PackagePath": "staticwebassets\\UI\\images\\pf2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\pf3.png",
+      "PackagePath": "staticwebassets\\UI\\images\\pf3.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\pf4.png",
+      "PackagePath": "staticwebassets\\UI\\images\\pf4.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\pf5.png",
+      "PackagePath": "staticwebassets\\UI\\images\\pf5.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\pf6.png",
+      "PackagePath": "staticwebassets\\UI\\images\\pf6.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\pf7.png",
+      "PackagePath": "staticwebassets\\UI\\images\\pf7.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\pf8.png",
+      "PackagePath": "staticwebassets\\UI\\images\\pf8.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\pf9.png",
+      "PackagePath": "staticwebassets\\UI\\images\\pf9.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\si1.jpg",
+      "PackagePath": "staticwebassets\\UI\\images\\si1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\star.png",
+      "PackagePath": "staticwebassets\\UI\\images\\star.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\star1.png",
+      "PackagePath": "staticwebassets\\UI\\images\\star1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\t1.jpg",
+      "PackagePath": "staticwebassets\\UI\\images\\t1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\t2.jpg",
+      "PackagePath": "staticwebassets\\UI\\images\\t2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\t3.jpg",
+      "PackagePath": "staticwebassets\\UI\\images\\t3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\t4.jpg",
+      "PackagePath": "staticwebassets\\UI\\images\\t4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\tick.png",
+      "PackagePath": "staticwebassets\\UI\\images\\tick.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\UI\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\js\\easing.js",
+      "PackagePath": "staticwebassets\\UI\\js\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\js\\jquery-1.11.1.min.js",
+      "PackagePath": "staticwebassets\\UI\\js\\jquery-1.11.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\js\\minicart.min.js",
+      "PackagePath": "staticwebassets\\UI\\js\\minicart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\js\\move-top.js",
+      "PackagePath": "staticwebassets\\UI\\js\\move-top.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\js\\responsiveslides.min.js",
+      "PackagePath": "staticwebassets\\UI\\js\\responsiveslides.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\js\\skdslider.min.js",
+      "PackagePath": "staticwebassets\\UI\\js\\skdslider.min.js"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\css\\Dashboard.css",
       "PackagePath": "staticwebassets\\css\\Dashboard.css"
     },

@@ -107,7 +107,7 @@
 	.professor-stds {
 		width: 33.33%;
 	}
-	.images-action-pro .btn{
+	.~/UI/images-action-pro .btn{
 		margin: 5px 0px;
 	}
 	.notification-bt .btn {
@@ -283,7 +283,7 @@
 	.devit-card-custom .form-group{
 		margin:10px 0px;
 	}
-	.images-action-pro .btn{
+	.~/UI/images-action-pro .btn{
 		margin: 5px 0px;
 	}
 	.notification-bt .btn {
@@ -620,7 +620,7 @@
 	.login-horizental.lg-hz-mg{
 		margin-top:20px;
 	}
-	.images-action-pro .btn{
+	.~/UI/images-action-pro .btn{
 		margin: 5px 0px;
 	}
 	.error-page-int h4{

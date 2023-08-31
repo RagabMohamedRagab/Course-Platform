@@ -58,7 +58,7 @@
               onBeforeAutotable: null,
               onAutotableText:   null,
               onTable:           null,
-              outputImages:      true
+              output~/UI/images:      true
             }
           }
         },
@@ -995,10 +995,10 @@
               defaults.jspdf.onDocCreated(teOptions.doc);
           }
 
-          if ( teOptions.outputImages === true )
-            teOptions.images = {};
+          if ( teOptions.output~/UI/images === true )
+            teOptions.~/UI/images = {};
 
-          if ( typeof teOptions.images != 'undefined' ) {
+          if ( typeof teOptions.~/UI/images != 'undefined' ) {
             $(el).filter(function () {
               return $(this).data("tableexport-display") != 'none' &&
                 ($(this).is(':visible') ||
@@ -1019,7 +1019,7 @@
                     if ( typeof cell !== 'undefined' && cell !== null ) {
                       var kids = $(cell).children();
                       if ( typeof kids != 'undefined' && kids.length > 0 )
-                        collectImages(cell, kids, teOptions);
+                        collect~/UI/images(cell, kids, teOptions);
                     }
                   });
                 rowCount++;
@@ -1030,7 +1030,7 @@
             $rows  = [];
           }
 
-          loadImages(teOptions, function () {
+          load~/UI/images(teOptions, function () {
             $(el).filter(function () {
               return $(this).data("tableexport-display") != 'none' &&
                 ($(this).is(':visible') ||
@@ -1276,7 +1276,7 @@
 
             });
 
-            jsPdfOutput(teOptions.doc, (typeof teOptions.images != 'undefined' && jQuery.isEmptyObject(teOptions.images) === false));
+            jsPdfOutput(teOptions.doc, (typeof teOptions.~/UI/images != 'undefined' && jQuery.isEmptyObject(teOptions.~/UI/images) === false));
 
             if ( typeof teOptions.headerrows != 'undefined' )
               teOptions.headerrows.length = 0;
@@ -1408,7 +1408,7 @@
         }
       }
 
-      function jsPdfOutput (doc, hasimages) {
+      function jsPdfOutput (doc, has~/UI/images) {
         if ( defaults.consoleLog === true )
           console.log(doc.output());
 
@@ -1429,8 +1429,8 @@
         }
         catch (e) {
           downloadFile(defaults.fileName + '.pdf',
-            'data:application/pdf' + (hasimages ? '' : ';base64') + ',',
-            hasimages ? doc.output('blob') : doc.output());
+            'data:application/pdf' + (has~/UI/images ? '' : ';base64') + ',',
+            has~/UI/images ? doc.output('blob') : doc.output());
         }
       }
 
@@ -1476,27 +1476,27 @@
           return false; // cell is hidden (colspan = -1), don't draw it
       }
 
-      function collectImages (cell, elements, teOptions) {
-        if ( typeof teOptions.images != 'undefined' ) {
+      function collect~/UI/images (cell, elements, teOptions) {
+        if ( typeof teOptions.~/UI/images != 'undefined' ) {
           elements.each(function () {
             var kids = $(this).children();
 
             if ( $(this).is("img") ) {
               var hash = strHashCode(this.src);
 
-              teOptions.images[hash] = {
+              teOptions.~/UI/images[hash] = {
                 url: this.src,
                 src: this.src
               };
             }
 
             if ( typeof kids != 'undefined' && kids.length > 0 )
-              collectImages(cell, kids, teOptions);
+              collect~/UI/images(cell, kids, teOptions);
           });
         }
       }
 
-      function loadImages (teOptions, callback) {
+      function load~/UI/images (teOptions, callback) {
         var i;
         var imageCount = 0;
         var x          = 0;
@@ -1536,10 +1536,10 @@
           img.src = image.url;
         }
 
-        if ( typeof teOptions.images != 'undefined' ) {
-          for ( i in teOptions.images )
-            if ( teOptions.images.hasOwnProperty(i) )
-              loadImage(teOptions.images[i]);
+        if ( typeof teOptions.~/UI/images != 'undefined' ) {
+          for ( i in teOptions.~/UI/images )
+            if ( teOptions.~/UI/images.hasOwnProperty(i) )
+              loadImage(teOptions.~/UI/images[i]);
         }
 
         return x || done();
@@ -1567,9 +1567,9 @@
             teOptions.doc.rect(cell.x + ux, cell.y + uy, uw, uh, lwidth ? "FD" : "F");
           }
           else if ( $(this).is("img") ) {
-            if ( typeof teOptions.images != 'undefined' ) {
+            if ( typeof teOptions.~/UI/images != 'undefined' ) {
               var hash  = strHashCode(this.src);
-              var image = teOptions.images[hash];
+              var image = teOptions.~/UI/images[hash];
 
               if ( typeof image != 'undefined' ) {
 

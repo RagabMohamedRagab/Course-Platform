@@ -110,7 +110,7 @@ $('#jstree1').jstree({
                     ]
                 },
                 'Fonts',
-                'Images',
+                '~/UI/images',
                 'Scripts',
                 'Templates',
             ]
