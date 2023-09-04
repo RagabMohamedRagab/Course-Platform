@@ -28,6 +28,7 @@
   <ItemGroup>
     <Folder Include="Areas\UI\Data\" />
     <Folder Include="Areas\UI\Models\" />
+    <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
 </Project>
