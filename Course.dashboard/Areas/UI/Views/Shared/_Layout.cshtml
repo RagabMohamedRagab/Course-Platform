@@ -37,10 +37,9 @@
             </div>
             <div class="agile-login">
                 <ul>
-                    <li><a href="registered.html"> Create Account </a></li>
-                    <li><a href="login.html">Login</a></li>
-                    <li><a href="contact.html">Help</a></li>
-
+                    <li><a asp-area="UI" asp-controller="Auth" asp-action="Register"> Create Account </a></li>
+                    <li><a asp-area="UI" asp-controller="Auth" asp-action="Login">Login</a></li>
+                    <li><a asp-area="UI" asp-controller="Auth" asp-action="ContactUs">Help</a></li>
                 </ul>
             </div>
             <div class="product_list_header">
@@ -51,7 +50,6 @@
                 </form>
             </div>
             <div class="clearfix"> </div>
-           
         </div>
     </div>
     <!-- //header -->
@@ -70,13 +68,13 @@
                 </div>
                 <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html" class="act">Home</a></li>
-                        <li><a href="gourmet.html">Gourmet</a></li>
-                        <li><a href="offers.html">Offers</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                     
+                        <li class="active"><a asp-area="UI" asp-controller="Home" asp-action="Index" class="act">Home</a></li>
+                        <li><a href="gourmet.html">Courses</a></li>
+                        <li><a href="offers.html">Books</a></li>
+                      
                     </ul>
                    
+                    <div class="clearfix"> </div>
                 </div>
             </nav>
         </div>
