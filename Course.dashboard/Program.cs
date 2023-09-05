@@ -1,3 +1,4 @@
+using Course.dashboard.Areas.UI.Repositories;
 using Course.Domain.Domains;
 using Course.Repository.Context;
 using Course.Repository.IRepositories;
@@ -59,7 +60,7 @@ builder.Services.AddScoped<ITitleRepository, TitleRepository>();
 builder.Services.AddScoped<ICourseRepository, CourseRepository>();
 builder.Services.AddScoped<IBookRepository, BookRepository>();
 builder.Services.AddScoped<ISubscribeRepository,SubscribeRepository>();
-
+builder.Services.AddScoped<IAuthRepository, AuthRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 #endregion
 

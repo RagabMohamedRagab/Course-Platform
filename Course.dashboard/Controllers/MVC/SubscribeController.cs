@@ -17,7 +17,7 @@ namespace Course.dashboard.Controllers.MVC {
         }       
         [HttpGet]  
         public JsonResult Get()
-        {
+       {
             return Json(_subscribe.GetSubscriptions("Test123@gmail.com").Result) ;
         }
     }

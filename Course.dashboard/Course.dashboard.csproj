@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Areas\UI\Models\**" />
+    <Content Remove="Areas\UI\Models\**" />
+    <EmbeddedResource Remove="Areas\UI\Models\**" />
+    <None Remove="Areas\UI\Models\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Course.Service\Course.Service.csproj" />
     <ProjectReference Include="..\Course.UnitOfWork\Course.UnitOfWork.csproj" />
   </ItemGroup>
@@ -26,8 +33,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\UI\Data\" />
-    <Folder Include="Areas\UI\Models\" />
     <Folder Include="wwwroot\images\" />
   </ItemGroup>
 

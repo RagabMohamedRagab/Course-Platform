@@ -918,9 +918,11 @@ a.w3_agile_vimeo:hover{
     width: 100%;
 }
 
-.login-form-grids input[type="password"]{
-	margin:1em 0 0;
-}
+    .login-form-grids input[type="password"],
+    .login-form-grids input[type="text"],
+    .login-form-grids input[type="email"] {
+        margin: 1em 0 0;
+    }
 .forgot {
     margin: 1.5em 0 0;
 }
@@ -991,8 +993,9 @@ a.w3_agile_vimeo:hover{
 	text-transform:uppercase;
 	margin:0 0 2em;
 }
-.login-form-grids input[type="text"]{
-	background:url(../~/UI/images/img-sp.png) no-repeat 5px -259px #fff;
+.login-form-grids input[type="text"] {
+    background: url(../~/UI/images/img-sp.png) no-repeat 5px -259px #fff;
+    margin: 1em 0;
 }
 .login-form-grids input[type="text"]:nth-child(2){
 	background:url(../~/UI/images/img-sp.png) no-repeat 0px -298px #fff;
