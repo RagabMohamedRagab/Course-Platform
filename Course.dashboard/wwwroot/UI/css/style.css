@@ -883,7 +883,7 @@ a.w3_agile_vimeo:hover{
 .breadcrumb1 li span {
     left: 0em;
     padding-right: 1em;
-    color: #3399cc;
+    color: #fe9126;
 }
 .breadcrumbs {
     padding: 1.5em 0;
@@ -897,10 +897,10 @@ a.w3_agile_vimeo:hover{
     font-size: 1em;
     color: #999;
 }
-.breadcrumb1 li a {
-    color: #3399cc;
-    text-decoration: none;
-}
+    .breadcrumb1 li a {
+        color: #fe9126;
+        text-decoration: none;
+    }
 /*-- login --*/
 .login-form-grids{
 	width: 45%;

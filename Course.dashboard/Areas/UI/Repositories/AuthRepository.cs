@@ -1,5 +1,5 @@
 ﻿using Course.Domain.Domains;
-using Microsoft.AspNetCore.Identity;
+
 
 namespace Course.dashboard.Areas.UI.Repositories {
     public class AuthRepository : IAuthRepository {
@@ -13,6 +13,8 @@ namespace Course.dashboard.Areas.UI.Repositories {
             _signInManager = signInManager;
             _roleManager = roleManager;
         }
+
+    
 
         public async Task<bool> RegisterUI(RegisterViewModel model)
         {
@@ -55,5 +57,10 @@ namespace Course.dashboard.Areas.UI.Repositories {
             }
             return true;
         }
+        public async Task LogOut()
+        {
+         await _signInManager.SignOutAsync();
+        }
+
     }
 }

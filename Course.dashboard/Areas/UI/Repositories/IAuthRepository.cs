@@ -2,5 +2,6 @@
     public interface IAuthRepository {
 
         Task<bool> RegisterUI(RegisterViewModel model);
+        Task LogOut();
     }
 }

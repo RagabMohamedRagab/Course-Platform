@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿@inject SignInManager<AppUser> _sign;
+@inject IHttpContextAccessor _httpContextAccessor;
+@{
+    var Name = _httpContextAccessor.HttpContext?.Request.Cookies["UName"];
+}
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -10,7 +15,7 @@
     <link href="~/UI/css/font-awesome.css" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="~/UI/js/jquery-1.11.1.min.js"></script>
     <script type="application/x-javascript">
         addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
@@ -26,6 +31,11 @@
             });
         });
     </script>
+    <style>
+         .reg{
+             cursor:pointer;
+         }
+    </style>
 </head>
 <body>
 
@@ -37,8 +47,13 @@
             </div>
             <div class="agile-login">
                 <ul>
+                    @if(_sign.IsSignedIn(User)){
+                        <li class="reg" title="@Name"><a><i class="bi bi-person-circle" style="font-size:1.2rem"></i></a></li>
+                        <li class="reg" title="LogOut"><a asp-area="UI" asp-controller="Auth" asp-action="LogOut"><i class="bi bi-box-arrow-in-right" style="font-size:1.2rem"></i></a></li>
+                    }else{
                     <li><a asp-area="UI" asp-controller="Auth" asp-action="Register"> Create Account </a></li>
                     <li><a asp-area="UI" asp-controller="Auth" asp-action="Login">Login</a></li>
+                    }
                     <li><a asp-area="UI" asp-controller="Auth" asp-action="ContactUs">Help</a></li>
                 </ul>
             </div>
@@ -115,6 +130,7 @@
 
         });
     </script>
+    <script src="~/Lib/bootstrap-icons/bootstrap.min.js"></script>
     @RenderSection("Scripts", required: false)
 </body>
 </html>
