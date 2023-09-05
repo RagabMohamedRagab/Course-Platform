@@ -22,7 +22,7 @@ namespace Course.dashboard.Areas.UI.Controllers {
 		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> Register(RegisterViewModel model)
 		{
-			if (!ModelState.IsValid ||await _authRepository.RegisterUI(model))
+			if (!ModelState.IsValid ||!await _authRepository.RegisterUI(model))
 			{
 				ModelState.AddModelError(string.Empty, "incorrect Password or email");
 				_toast.AddErrorToastMessage("incorrect Password or email");

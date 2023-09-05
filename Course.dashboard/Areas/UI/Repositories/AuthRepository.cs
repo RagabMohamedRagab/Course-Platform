@@ -19,7 +19,8 @@ namespace Course.dashboard.Areas.UI.Repositories {
             // Fill Data
             var user = new AppUser()
             {
-                UserName = model.Username,
+                Name = model.Username,
+                UserName=model.EmailAddress,
                 Email = model.EmailAddress
             };
             // Save Data

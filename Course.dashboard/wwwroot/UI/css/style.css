@@ -926,19 +926,19 @@ a.w3_agile_vimeo:hover{
 .forgot {
     margin: 1.5em 0 0;
 }
-.login-form-grids input[type="submit"]{
-	outline: none;
+.login-form-grids input[type="submit"] {
+    outline: none;
     border: none;
     padding: 10px 0;
     font-size: 1em;
     color: #fff;
     display: block;
     width: 100%;
-    background:#3399cc;
+    background: #fe9126;
     margin: 1.5em 0 0;
 }
 .login-form-grids input[type="submit"]:hover{
-	background:#fe9126;
+     opacity:0.8;
 }
 .login-form-grids ::-webkit-input-placeholder{
 	color:#999;
@@ -1037,7 +1037,7 @@ a.w3_agile_vimeo:hover{
 }
 .checkbox input,.radio input {
     position: absolute;
-    left: -9999px;
+    left: 28px;
 }
 .checkbox input + i:after {
     content: '';
