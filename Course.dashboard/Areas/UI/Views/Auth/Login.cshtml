@@ -1,4 +1,5 @@
-﻿@{
+﻿@model LoginViewModel;
+@{
 	ViewData["Title"] = "Login";
 }
 
@@ -17,9 +18,17 @@
 	<div class="container">
 		<h2>Login Form</h2>
 		<div class="login-form-grids animated wow slideInUp" data-wow-delay=".5s">
-			<form>
-				<input type="email" placeholder="Email Address" required=" ">
-				<input type="password" placeholder="Password" required=" ">
+			<form method="post" asp-area="UI" asp-controller="Auth" asp-action="Login" asp-antiforgery="true">
+				<div asp-validation-summary="ModelOnly" class="rerror"></div>
+				<div class="form-group">
+					<input asp-for="Email" class="form-control" placeholder="Email Address">
+					<span asp-validation-for="Email"></span>
+				</div> 
+				
+				<div class="form-group">
+					<input asp-for="Password" class="form-control" placeholder="Password">
+					<span asp-validation-for="Password"></span>
+				</div>
 				<div class="forgot">
 					<a href="#">Forgot Password?</a>
 				</div>
@@ -31,3 +40,6 @@
 	</div>
 </div>
 <!-- //login -->
+@section Scripts{
+	<Partial name="_ValidationScriptsPartial" />
+}

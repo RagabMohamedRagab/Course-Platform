@@ -36,23 +36,41 @@ namespace Course.dashboard.Areas.UI.Controllers {
 			_httpContextAccessor.HttpContext?.Response.Cookies.Append("UName", model.Username);
             return RedirectToAction(nameof(Index), "Home");
 		}
-        [AllowAnonymous]
-        [HttpGet]
-		public async Task<IActionResult> LogOut()
-		{
-		await	_authRepository.LogOut();
-		 return RedirectToAction(nameof(Register));
-		}
-            [HttpGet]
+     
+         [HttpGet]
         [AllowAnonymous]
         public IActionResult Login()
 		{
 			return View();
 		}
+		[HttpPost]
+		[AllowAnonymous]
+		public async Task<IActionResult> Login(LoginViewModel model)
+		{
+			if (!ModelState.IsValid)
+			{
+				ModelState.AddModelError(string.Empty, "incorrect Password or email");
+				_toast.AddErrorToastMessage("incorrect Password or email");
+				return View();
+
+			}
+			var path = await _authRepository.Login(model);
+			if (path == "user")
+				return RedirectToAction(nameof(Index), "Home");
+			return Redirect("~/"+path);
+		}
 		[HttpGet]
         public IActionResult ContactUs()
 		{
 			return View();
+		}
+		[AllowAnonymous]
+		[HttpGet]
+		public async Task<IActionResult> LogOut()
+		{
+			await _authRepository.LogOut();
+			_httpContextAccessor.HttpContext?.Response.Cookies.Delete("UName");
+			return RedirectToAction(nameof(Register));
 		}
 	}
 }
