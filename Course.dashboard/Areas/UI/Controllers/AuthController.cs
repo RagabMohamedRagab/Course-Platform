@@ -45,6 +45,7 @@ namespace Course.dashboard.Areas.UI.Controllers {
 		}
 		[HttpPost]
 		[AllowAnonymous]
+		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> Login(LoginViewModel model)
 		{
 			if (!ModelState.IsValid)
@@ -60,8 +61,19 @@ namespace Course.dashboard.Areas.UI.Controllers {
 			return Redirect("~/"+path);
 		}
 		[HttpGet]
+		[AllowAnonymous]
         public IActionResult ContactUs()
 		{
+			return View();
+		}
+		[HttpPost]
+		[AllowAnonymous]
+		[ValidateAntiForgeryToken]
+		public async Task<IActionResult> ContactUs(ContactUsViewModel model)
+		{
+			if (!ModelState.IsValid)
+				return View();
+			_toast.AddSuccessToastMessage("Done");
 			return View();
 		}
 		[AllowAnonymous]
