@@ -61,6 +61,7 @@ builder.Services.AddScoped<ICourseRepository, CourseRepository>();
 builder.Services.AddScoped<IBookRepository, BookRepository>();
 builder.Services.AddScoped<ISubscribeRepository,SubscribeRepository>();
 builder.Services.AddScoped<IAuthRepository, AuthRepository>();
+builder.Services.AddScoped<IContactRepository, ContactRepository>();
 builder.Services.AddSingleton<IHttpContextAccessor,HttpContextAccessor>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 #endregion
@@ -74,6 +75,7 @@ builder.Services.AddScoped<IHomeService, HomeService>();
 builder.Services.AddScoped<ISubscribeService, SubscribeService>();
 builder.Services.AddScoped<IEmailSender,EmailSender>();
 builder.Services.AddScoped<IFileService, FileService>();
+builder.Services.AddScoped<IContactService, ContactService>();
 #endregion
 var app = builder.Build();
 if (app.Environment.IsDevelopment())

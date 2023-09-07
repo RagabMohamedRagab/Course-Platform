@@ -1,17 +1,20 @@
-﻿using Course.Domain.Domains;
-
+﻿using Castle.Components.DictionaryAdapter.Xml;
+using Course.Domain.Domains;
+using Course.Repository.Context;
 
 namespace Course.dashboard.Areas.UI.Repositories {
 	public class AuthRepository : IAuthRepository {
 		private readonly UserManager<AppUser> _userManager;
 		private readonly SignInManager<AppUser> _signInManager;
 		private readonly RoleManager<IdentityRole> _roleManager;
+		private readonly CourseDbContext _courseDbContext;
 
-		public AuthRepository(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, RoleManager<IdentityRole> roleManager)
+		public AuthRepository(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, RoleManager<IdentityRole> roleManager, CourseDbContext courseDbContext)
 		{
 			_userManager = userManager;
 			_signInManager = signInManager;
 			_roleManager = roleManager;
+			_courseDbContext = courseDbContext;
 		}
 
 
@@ -74,6 +77,22 @@ namespace Course.dashboard.Areas.UI.Repositories {
 
 			}
 			return "user";
+		}
+
+		public async Task<bool> Contactus(ContactUsViewModel contact)
+		{
+			try
+			{
+				_courseDbContext.Add<ContactUs>(new ContactUs() { Email = contact.Email, Message = contact.Message, Name = contact.Name });
+				await _courseDbContext.SaveChangesAsync();
+				return true;
+			}
+			catch (Exception)
+			{
+
+				return false;
+			}
+
 		}
 	}
 }

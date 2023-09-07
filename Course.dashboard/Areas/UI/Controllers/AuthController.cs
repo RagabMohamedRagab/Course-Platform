@@ -7,39 +7,39 @@ namespace Course.dashboard.Areas.UI.Controllers {
 	[Area("UI")]
 	public class AuthController : Controller {
 		private readonly IAuthRepository _authRepository;
-        private readonly IHttpContextAccessor _httpContextAccessor;
-        private readonly IToastNotification _toast;
-        public AuthController(IAuthRepository authRepository, IToastNotification toast, IHttpContextAccessor httpContextAccessor)
-        {
-            _authRepository = authRepository;
-            _toast = toast;
-            _httpContextAccessor = httpContextAccessor;
-        }
+		private readonly IHttpContextAccessor _httpContextAccessor;
+		private readonly IToastNotification _toast;
+		public AuthController(IAuthRepository authRepository, IToastNotification toast, IHttpContextAccessor httpContextAccessor)
+		{
+			_authRepository = authRepository;
+			_toast = toast;
+			_httpContextAccessor = httpContextAccessor;
+		}
 
 		[AllowAnonymous]
-        [HttpGet]
+		[HttpGet]
 		public IActionResult Register()
 		{
 			return View();
 		}
 		[HttpPost]
 		[ValidateAntiForgeryToken]
-        [AllowAnonymous]
-        public async Task<IActionResult> Register(RegisterViewModel model)
+		[AllowAnonymous]
+		public async Task<IActionResult> Register(RegisterViewModel model)
 		{
-			if (!ModelState.IsValid ||!await _authRepository.RegisterUI(model))
+			if (!ModelState.IsValid || !await _authRepository.RegisterUI(model))
 			{
 				ModelState.AddModelError(string.Empty, "incorrect Password or email");
 				_toast.AddErrorToastMessage("incorrect Password or email");
 				return View();
 			}
 			_httpContextAccessor.HttpContext?.Response.Cookies.Append("UName", model.Username);
-            return RedirectToAction(nameof(Index), "Home");
+			return RedirectToAction(nameof(Index), "Home");
 		}
-     
-         [HttpGet]
-        [AllowAnonymous]
-        public IActionResult Login()
+
+		[HttpGet]
+		[AllowAnonymous]
+		public IActionResult Login()
 		{
 			return View();
 		}
@@ -58,11 +58,11 @@ namespace Course.dashboard.Areas.UI.Controllers {
 			var path = await _authRepository.Login(model);
 			if (path == "user")
 				return RedirectToAction(nameof(Index), "Home");
-			return Redirect("~/"+path);
+			return Redirect("~/" + path);
 		}
 		[HttpGet]
 		[AllowAnonymous]
-        public IActionResult ContactUs()
+		public IActionResult ContactUs()
 		{
 			return View();
 		}
@@ -71,10 +71,14 @@ namespace Course.dashboard.Areas.UI.Controllers {
 		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> ContactUs(ContactUsViewModel model)
 		{
-			if (!ModelState.IsValid)
+			if (!ModelState.IsValid ||! await _authRepository.Contactus(model))
+			{
+				ModelState.AddModelError(string.Empty, "Ivalid Data");
+				_toast.AddAlertToastMessage("Try again");
 				return View();
+			}
 			_toast.AddSuccessToastMessage("Done");
-			return View();
+			return RedirectToAction(nameof(Index), "Home");
 		}
 		[AllowAnonymous]
 		[HttpGet]

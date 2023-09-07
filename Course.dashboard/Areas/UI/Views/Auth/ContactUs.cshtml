@@ -30,20 +30,33 @@
 			<h2 class="w3_agile_header">Leave a<span> Message</span></h2>
 
 			<form method="post" asp-area="UI" asp-controller="Auth" asp-action="ContactUs" asp-antiforgery="true">
-				<span class="input input--ichiro">
-					<input asp-for="Name" class="input__field input__field--ichiro" placeholder=" " />
-					<label class="input__label input__label--ichiro" for="input-25">
-						<span class="input__label-content input__label-content--ichiro">Your Name</span>
-					</label>
-				</span>
-				<span class="input input--ichiro">
-					<input class="input__field input__field--ichiro" type="email" id="input-26" name="Email" placeholder=" " required="" />
-					<label class="input__label input__label--ichiro" for="input-26">
-						<span class="input__label-content input__label-content--ichiro">Your Email</span>
-					</label>
-				</span>
-				<textarea name="Message" placeholder="Your message here..." required=""></textarea>
-				<input type="submit" value="Submit">
+				<div asp-validation-summary="ModelOnly" class="rerror"></div>
+               <div class="form-group">
+                    <span class="input input--ichiro">
+                        <input asp-for="Name" class="input__field input__field--ichiro form-control" placeholder="Name" />
+                        <label asp-for="Name" class="input__label input__label--ichiro form-label" >
+                            <span class="input__label-content input__label-content--ichiro">Your Name</span>
+                        </label>
+                    </span>
+					<span asp-validation-for="Name" class="rerror"></span>
+			   </div>
+				<div class="form-group">
+					<span class="input input--ichiro">
+						<input asp-for="Email" class="input__field input__field--ichiro form-control " placeholder="Email"  />
+						<label asp-for="Email" class="input__label input__label--ichiro">
+							<span class="input__label-content input__label-content--ichiro">Your Email</span>
+						</label>
+					</span>
+					<span asp-validation-for="Email" class="rerror"></span>
+				</div>
+				<div class="form-group">
+					<textarea asp-for="Message" placeholder="Your message here..." ></textarea>
+					<span asp-validation-for="Message" class="rerror"></span>
+				</div>
+				<div class="form-group">
+					<input type="submit" value="Submit">
+				</div>
+			
 			</form>
 		</div>
 		<div class="clearfix"> </div>

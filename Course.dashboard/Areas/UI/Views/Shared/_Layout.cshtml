@@ -50,11 +50,12 @@
                     @if(_sign.IsSignedIn(User)){
                         <li class="reg" title="@Name"><a><i class="bi bi-person-circle" style="font-size:1.2rem"></i></a></li>
                         <li class="reg" title="LogOut"><a asp-area="UI" asp-controller="Auth" asp-action="LogOut"><i class="bi bi-box-arrow-in-right" style="font-size:1.2rem"></i></a></li>
+                         <li><a asp-area="UI" asp-controller="Auth" asp-action="ContactUs">Help</a></li>
                     }else{
                     <li><a asp-area="UI" asp-controller="Auth" asp-action="Register"> Create Account </a></li>
                     <li><a asp-area="UI" asp-controller="Auth" asp-action="Login">Login</a></li>
                     }
-                    <li><a asp-area="UI" asp-controller="Auth" asp-action="ContactUs">Help</a></li>
+                  
                 </ul>
             </div>
             <div class="product_list_header">
@@ -132,5 +133,6 @@
     </script>
     <script src="~/Lib/bootstrap-icons/bootstrap.min.js"></script>
     @RenderSection("Scripts", required: false)
+    @await Component.InvokeAsync("NToastNotify")
 </body>
 </html>

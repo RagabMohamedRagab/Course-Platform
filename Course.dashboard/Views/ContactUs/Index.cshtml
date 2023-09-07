@@ -1,0 +1,41 @@
+﻿@model IEnumerable<ContactUsViewModel>
+@{
+    ViewData["Title"] = "Messages";
+}
+
+<section class="roles">
+    <div class="row">
+        <div class="col-md-12">
+            <h1> Conatct us From Clients </h1>
+        </div>
+        <div class="col-md-10" style="margin-top:20px">
+            <table class="table table-hover" id="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <td>Email</td>
+                        <th>Message</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                     @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Name</td>
+                            <td>@item.Email</td>
+                            <td>@item.Message</td>
+                            <td>
+                                <a class="btn btn-danger"asp-controller="Contact" asp-action="Delete"><i class='bi bi-trash3-fill'></i></a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+@section Scripts{
+    <Partial name="_ValidationScriptsPartial" />
+}
