@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Course.Repository.ViewModeles {
 	public class ContactUsViewModel {
+		public int Id { get; set; }
 		[MaxLength(150), DataType(DataType.Text)]
 		public string Name { get; set; }
 		[MaxLength(150), DataType(DataType.EmailAddress)]
