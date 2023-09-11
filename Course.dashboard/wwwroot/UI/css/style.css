@@ -569,8 +569,10 @@ p.w3l-ad {
     border: 1px solid #c0bebe;
 }
 .stars {
-    text-align: center;
+
     margin-bottom: 13px;
+    display: flex;
+    justify-content: space-around;
 }
 i.blue-star {
     color: #3399cc;
@@ -1361,6 +1363,7 @@ ul.faq {
 .brands {
     padding: 5em 0;
     background: #eed3b6;
+    margin-top: 15%;
 }
 .brands-w3l {
     text-align: center;

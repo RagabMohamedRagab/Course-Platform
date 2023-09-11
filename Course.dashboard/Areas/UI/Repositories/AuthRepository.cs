@@ -1,6 +1,7 @@
 ﻿using Castle.Components.DictionaryAdapter.Xml;
 using Course.Domain.Domains;
 using Course.Repository.Context;
+using Course.Service.Utilities;
 
 namespace Course.dashboard.Areas.UI.Repositories {
 	public class AuthRepository : IAuthRepository {
@@ -94,5 +95,30 @@ namespace Course.dashboard.Areas.UI.Repositories {
 			}
 
 		}
-	}
+
+        public async Task<IndexViewModel> IndexRepo()
+        {
+			// Get All Titles
+			var titles = _courseDbContext.Titles.OrderByDescending(b=>b.CreateOn).Take(6).ToList().Select(b => new TitlesViewModel()
+			{
+				Id = b.Id,
+				Name = b.Name,
+				Logo = b.Logo,
+				Price = b.Price
+			});
+			// Get All Professor
+			var Proff =await  _userManager.GetUsersInRoleAsync("Professor");
+			var proffesors = Proff.ToList().Select(p => new ProfileUserViewModel()
+			{
+				Name = p.Name,
+				About = p.About,
+				Facebook = p.Facebook,
+				img =p.Logo,
+				Instagram = p.Instagram,
+				LinkedIn = p.LinkedIn,
+				Twitter = p.Twitter
+			});
+			return new IndexViewModel() { Titles = titles, profileUser = proffesors };
+        }
+    }
 }

@@ -429,6 +429,22 @@
       "PackagePath": "staticwebassets\\UI\\images\\9.png"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\Images23.png",
+      "PackagePath": "staticwebassets\\UI\\images\\Images23.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\Slider1.png",
+      "PackagePath": "staticwebassets\\UI\\images\\Slider1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\Slider2.png",
+      "PackagePath": "staticwebassets\\UI\\images\\Slider2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\Slider3.jpg",
+      "PackagePath": "staticwebassets\\UI\\images\\Slider3.jpg"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\arrow.png",
       "PackagePath": "staticwebassets\\UI\\images\\arrow.png"
     },
@@ -571,6 +587,14 @@
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\icon2.png",
       "PackagePath": "staticwebassets\\UI\\images\\icon2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\images.jpg",
+      "PackagePath": "staticwebassets\\UI\\images\\images.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\imges22.png",
+      "PackagePath": "staticwebassets\\UI\\images\\imges22.png"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\offer.png",
