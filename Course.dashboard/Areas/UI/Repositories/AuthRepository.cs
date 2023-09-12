@@ -108,9 +108,9 @@ namespace Course.dashboard.Areas.UI.Repositories {
 			});
 			// Get All Professor
 			var Proff =await  _userManager.GetUsersInRoleAsync("Professor");
-			var proffesors = Proff.ToList().Select(p => new ProfileUserViewModel()
+			var proffesors = Proff.ToList().Take(4).Select(p => new ProfileUserViewModel()
 			{
-				Name = p.Name,
+				Name = (p.Name is null)?p.UserName:p.Name,
 				About = p.About,
 				Facebook = p.Facebook,
 				img =p.Logo,

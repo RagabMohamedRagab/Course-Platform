@@ -25,6 +25,7 @@ namespace Course.Repository.Repositories {
                 UserName = entity.EmailAddress,
                 Email = entity.EmailAddress,
                 PasswordHash = entity.Password,
+                Name=entity.Username
             };
             IdentityResult result = await _userManager.CreateAsync(user, entity.Password);
             if (result.Succeeded)
