@@ -18,6 +18,7 @@ namespace Course.Service.Utilities {
 
             CreateMap<BookFormViewModel,Book>().ReverseMap();
             CreateMap<DisplayAllBooksViewModel,Book>().ReverseMap();
+            CreateMap<BookViewModel, Book>().ReverseMap();
             // Contact 
             CreateMap<ContactUsViewModel, ContactUs>().ReverseMap();
         }

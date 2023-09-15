@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
 namespace Course.Domain.Domains {
-    public class Gallery {
+    public class Gallery: BaseEntity {
         public int Id { get; set; }
         [DataType(DataType.Text), MaxLength(150)]
         public string? Text { get; set; }

@@ -11,6 +11,11 @@
             <span asp-validation-for="Name" class="text-danger"></span>
         </div>
         <div class="form-group">
+            <label asp-for="Price" class="form-label"></label>
+            <input asp-for="Price" class="form-control" placeholder="Book Of Name" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+        <div class="form-group">
             <label asp-for="Description" class="form-label"></label>
             <textarea asp-for="Description" class="form-control" cols="10" rows="10" placeholder="Description of Book"></textarea>
             <span asp-validation-for="Description" class="text-danger"></span>

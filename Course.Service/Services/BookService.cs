@@ -26,6 +26,7 @@ namespace Course.Service.Services {
             var book = _mapper.Map<Book>(model);
             book.Cover = model.Cover.FileName;
             book.book = model.Book.FileName;
+            book.Price=model.Price;
             var userId = await _bookRepository.GetUserByName(model.UserName);
             if (userId is null)
                 return false;

@@ -3,7 +3,7 @@
 using System.ComponentModel.DataAnnotations;
 
 namespace Course.Domain.Domains {
-	public class ContactUs {
+	public class ContactUs: BaseEntity {
         public int  Id { get; set; }
         [MaxLength(150),DataType(DataType.Text)]
         public string?  Name { get; set; }
