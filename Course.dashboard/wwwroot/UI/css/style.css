@@ -1413,8 +1413,9 @@ select#country,select#country1 {
 .products-right-grids{
 	margin-bottom: 2em;
 }
-.numbering{
-	text-align:right;
+.numbering {
+    display: flex;
+    justify-content: center;
 }
 ul.paging {
     margin: 4em auto 0;

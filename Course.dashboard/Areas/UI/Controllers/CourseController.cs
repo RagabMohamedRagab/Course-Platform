@@ -11,9 +11,9 @@ namespace Course.dashboard.Areas.UI.Controllers {
 		}
 
 		[HttpGet]
-		public IActionResult Gourmet(string searchby,string orderby,int currentpage = 1, int pSize = 4)
+		public async Task<IActionResult> Gourmet(string Search, string orderby, int currentPage = 1, int pSize = 3)
 		{
-			return View(_courseUIRepository.DisplayTitles(currentpage,pSize,searchby,orderby));
+			return View(await _courseUIRepository.DisplayTitles(currentPage, pSize, Search, orderby));
 		}
 	}
 }

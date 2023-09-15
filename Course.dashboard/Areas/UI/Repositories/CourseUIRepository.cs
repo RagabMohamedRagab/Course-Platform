@@ -36,6 +36,7 @@ namespace Course.dashboard.Areas.UI.Repositories {
 			int pSize = pageSize;
 			int totalPage = (int)Math.Ceiling(totla/ (double)pSize);
 			allTitles = allTitles.Skip((currentPage - 1) * pageSize).Take(pSize).ToList();
+		
 
 
 			titles.Titles = _mapper.Map<List<TitlesViewModel>>(allTitles);
