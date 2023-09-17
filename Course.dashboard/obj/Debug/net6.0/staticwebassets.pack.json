@@ -741,6 +741,10 @@
       "PackagePath": "staticwebassets\\UI\\images\\tick.png"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\web_search.svg",
+      "PackagePath": "staticwebassets\\UI\\images\\web_search.svg"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\UI\\js\\bootstrap.min.js"
     },

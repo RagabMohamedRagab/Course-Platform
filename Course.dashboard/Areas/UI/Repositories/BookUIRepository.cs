@@ -15,7 +15,7 @@
             // Get All
 
             List<Book> allbooks = await _courseDb.Books.ToListAsync();
-            int totla = allbooks.Count();
+      
             var books = new DisplayBookViewModel();
             if (!allbooks.Any())
             {
@@ -29,13 +29,19 @@
             {
                 allbooks = allbooks.Where(b => b.Name.ToLower().Contains(key.ToLower())).ToList();
             }
-
+            if (!allbooks.Any())
+            {
+                books.IsCompleted = false;
+                books.SearchBy = searchby;
+                return books;
+            }
             // Order By
             allbooks = allbooks.OrderBy(b => b.Name).ToList();
 
             // Take 
             int pSize = pageSize;
-            int totalPage = (int)Math.Ceiling(totla / (double)pSize);
+            int total = allbooks.Count;
+            int totalPage = (int)Math.Ceiling(total / (double)pSize);
             allbooks = allbooks.Skip((currentPage - 1) * pageSize).Take(pSize).ToList();
 
 

@@ -10,9 +10,13 @@
     }
     .search{
      background-color: #fe9126;
-     color:#fff;
-        
+        color: #fff !important;
+        outline:none;
     }
+  
+  /*  .page-link:hover{
+        background-color: #fe9126 !important;
+    }*/
 </style>
 <div class="products">
     <div class="container">
@@ -21,7 +25,7 @@
                 <div class="products-right-grids">
                     <form asp-area="UI" asp-controller="Course" asp-action="Gourmet" method="get">
                         <div class="sorting form-group">
-                            <input name="Search" class="form-control" placeholder="Search by Name" />
+                            <input name="Search" class="form-control" placeholder="Search by Name" value="@Model.SearchBy" />
                         </div>
                         <div class="sorting-left form-group">
                             <input type="submit" value="Search" class="btn btn-secondary search" />
@@ -34,7 +38,7 @@
 
 
 
-
+            @if(Model.IsCompleted){
             <div class="agile_top_brands_grids">
                 @foreach (var item in Model.Titles.OrderBy(b => b.Price))
                 {
@@ -257,7 +261,14 @@
                 </ul>
 
 
-            </nav>
+                </nav>
+            }
+            else
+            {
+                <div style=" width: 50%;height: 50%;display: flex;justify-content: center;margin:10% auto;">
+                    <img src="~/UI/images/web_search.svg" alt="NotFound" class="img-fluid" style="width: 50%;" />
+                </div>
+            }
         </div>
         <div class="clearfix"> </div>
     </div>

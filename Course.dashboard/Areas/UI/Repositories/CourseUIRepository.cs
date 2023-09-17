@@ -14,7 +14,7 @@ namespace Course.dashboard.Areas.UI.Repositories {
 			// Get All
 
 			List<Title> allTitles =await _courseDb.Titles.ToListAsync();
-			int totla=allTitles.Count();
+		
 			var titles = new DisplayTitlesViewModel();
 			if (!allTitles.Any())
 			{
@@ -28,13 +28,19 @@ namespace Course.dashboard.Areas.UI.Repositories {
 			{
 				allTitles = allTitles.Where(b => b.Name.ToLower().Contains(key.ToLower())).ToList();
 			}
-
+			if(!allTitles.Any())
+			{
+                titles.IsCompleted = false;
+                titles.SearchBy = searchby;
+                return titles;
+            }
 			// Order By
 			allTitles = allTitles.OrderBy(b => b.Price).ToList();
 
 			// Take 
 			int pSize = pageSize;
-			int totalPage = (int)Math.Ceiling(totla/ (double)pSize);
+            int total = allTitles.Count;
+            int totalPage = (int)Math.Ceiling(total / (double)pSize);
 			allTitles = allTitles.Skip((currentPage - 1) * pageSize).Take(pSize).ToList();
 		
 

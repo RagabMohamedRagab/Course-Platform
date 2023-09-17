@@ -8,35 +8,34 @@
         width: 100%;
         height: 12rem;
     }
+
+    .search {
+        background-color: #fe9126;
+        color: #fff !important;
+        outline: none;
+    }
 </style>
 <div class="products">
     <div class="container">
         <div class="col-md-12  products-right">
             <div class="products-right-grid">
                 <div class="products-right-grids">
-                    <div class="sorting">
-                        <select id="country" onchange="change_country(this.value)" class="frm-field required sect">
-                            <option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Default sorting</option>
-                            <option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Sort by popularity</option>
-                            <option value="null"><i cla-4]ss="fa fa-arrow-right" aria-hidden="true"></i>Sort by average rating</option>
-                            <option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Sort by price</option>
-                        </select>
-                    </div>
-                    <div class="sorting-left">
-                        <select id="country1" onchange="change_country(this.value)" class="frm-field required sect">
-                            <option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Item on page 9</option>
-                            <option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Item on page 18</option>
-                            <option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Item on page 32</option>
-                            <option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>All</option>
-                        </select>
-                    </div>
+                    <form asp-area="UI" asp-controller="Book" asp-action="Index" method="get">
+                        <div class="sorting form-group">
+                            <input name="Search" class="form-control" placeholder="Search by Name" value="@Model.SearchBy" />
+                        </div>
+                        <div class="sorting-left form-group">
+                            <input type="submit" value="Search" class="btn btn-secondary search" />
+                        </div>
+                    </form>
+
                     <div class="clearfix"> </div>
                 </div>
             </div>
 
 
 
-
+            @if(Model.IsCompleted){
             <div class="agile_top_brands_grids">
                 @foreach (var item in Model.Books.OrderBy(b => b.Name))
                 {
@@ -259,7 +258,14 @@
                 </ul>
 
 
-            </nav>
+                </nav>
+            }
+            else
+            {
+                <div style=" width: 50%;height: 50%;display: flex;justify-content: center;margin:10% auto;">
+                    <img src="~/UI/images/web_search.svg" alt="NotFound" class="img-fluid" style="width: 50%;" />
+                </div>
+            }
         </div>
         <div class="clearfix"> </div>
     </div>
