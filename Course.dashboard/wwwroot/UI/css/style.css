@@ -1399,7 +1399,7 @@ ul.faq {
 .sorting-left{
 	float: right;
     margin-right: 2em;
-    width: 25%;
+
 }
 select#country,select#country1 {
     border: 1px solid #212121;
