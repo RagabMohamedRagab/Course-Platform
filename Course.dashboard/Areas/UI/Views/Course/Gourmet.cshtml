@@ -2,6 +2,7 @@
 @{
     ViewData["Title"] = "Video";
     int Current = Model.CurrentPage;
+    var redirect = "//UI//Cart/Gourmet";
 }
 <style>
     .card-img-top {
@@ -54,7 +55,7 @@
                                                 <h4>$@item.Price <span>$@(item.Price + 10)</span></h4>
                                             </div>
                                             <div class="snipcart-details top_brand_home_details">
-                                                <form action="#" method="post">
+                                                    <form method="post">
                                                     <fieldset>
                                                         <input type="hidden" name="cmd" value="_cart">
                                                         <input type="hidden" name="add" value="1">
@@ -65,7 +66,7 @@
                                                         <input type="hidden" name="currency_code" value="USD">
                                                         <input type="hidden" name="return" value=" ">
                                                         <input type="hidden" name="cancel_return" value=" ">
-                                                        <input type="submit" name="submit" value="Add to cart" class="button">
+                                                            <input type="submit" name="submit" value="Add to cart" class="button" onclick="AddToCart('@item.Id','@(User.Identity.Name)','/UI/Cart/AddToCart')" />
                                                     </fieldset>
                                                 </form>
                                             </div>
@@ -273,3 +274,11 @@
         <div class="clearfix"> </div>
     </div>
 </div>
+@section Scripts{
+    <script>
+        function AddToCart(id,name,url){
+            
+        }
+
+    </script>
+}

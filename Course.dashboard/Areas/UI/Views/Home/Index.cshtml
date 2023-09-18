@@ -134,7 +134,7 @@
 		<div class="container">
 			<h3>Our Instructors</h3>
 			<div class="brands-agile">
-			@foreach (var Inst in Model.profileUser)
+			@foreach (var Inst in Model.profileUser.Take(4))
 			{
 				<div class="col-md-4 top_brand_left" style="margin-bottom: 2%;">
 					<div class="hover14 column">
@@ -172,7 +172,7 @@
 		<div class="container">
 			<h3>New offers</h3>
 			<div class="agile_top_brands_grids">
-			@foreach (var product in Model.Titles)
+			@foreach (var product in Model.Titles.Take(4))
 			{
 				<div class="col-md-3 top_brand_left-1" style="margin-bottom: 2%;">
 					<div class="hover14 column">

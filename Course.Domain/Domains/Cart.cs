@@ -1,7 +1,7 @@
 ﻿
 
 namespace Course.Domain.Domains {
-    public class Subscribe: BaseEntity {
+    public class Cart: BaseEntity {
         public int Id { get; set; }
         [ForeignKey(nameof(User))]
         public string? UserId { get; set; }

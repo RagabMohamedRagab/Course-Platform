@@ -64,6 +64,7 @@ builder.Services.AddScoped<IAuthRepository, AuthRepository>();
 builder.Services.AddScoped<IContactRepository, ContactRepository>();
 builder.Services.AddScoped<ICourseUIRepository, CourseUIRepository>();
 builder.Services.AddScoped<IBookUIRepository, BookUIRepository>();
+builder.Services.AddScoped<ICartRepository, CartRepository>();
 builder.Services.AddSingleton<IHttpContextAccessor,HttpContextAccessor>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 #endregion

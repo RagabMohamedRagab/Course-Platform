@@ -3,7 +3,7 @@ using Course.Repository.IRepositories;
 using Microsoft.AspNetCore.Identity;
 
 namespace Course.Repository.Repositories {
-    public class SubscribeRepository : BaseRepository<Subscribe>,ISubscribeRepository {
+    public class SubscribeRepository : BaseRepository<Cart>,ISubscribeRepository {
         private readonly UserManager<AppUser> _user;
         public SubscribeRepository(CourseDbContext course, UserManager<AppUser> user) : base(course)
         {

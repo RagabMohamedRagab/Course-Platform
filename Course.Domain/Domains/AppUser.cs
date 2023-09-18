@@ -20,7 +20,7 @@ namespace Course.Domain.Domains {
         public string? LinkedIn { get; set; } 
         public bool IsActive { get; set; }
         public virtual ICollection<Title> Titles { get; set; }
-        public virtual ICollection<Subscribe> Subscribes { get; set; }
+        public virtual ICollection<Cart> Subscribes { get; set; }
 
     }
 }
