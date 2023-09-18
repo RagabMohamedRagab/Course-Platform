@@ -13,14 +13,15 @@ namespace Course.dashboard.Areas.UI.Controllers {
             _toast = toast;
         }
         [HttpGet]
-        public async Task<IActionResult> AddToCart(int Id,string UName,string returnUrl)
+        public async Task<IActionResult> Add(int Id,string UName,string returnUrl)
         {
             if(await _cartRepository.Add(Id, UName))
             {
                 _toast.AddSuccessToastMessage("Add To Cart ");
-
+                return LocalRedirect(returnUrl);  
             }
-            return View();
+            _toast.AddErrorToastMessage("Falied To Add");
+            return LocalRedirect(returnUrl);
         }
     }
 }
