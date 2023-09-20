@@ -130,7 +130,7 @@
 	</div><!-- /.carousel -->
 	
 	<!--brands-->
-	<div class="brands">
+	<div class="brands" id="Instructor">
 		<div class="container">
 			<h3>Our Instructors</h3>
 			<div class="brands-agile">
@@ -243,27 +243,24 @@
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Information</h3>
 					<ul class="info">
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="about.html">About Us</a></li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a asp-area="UI" asp-controller="Auth" asp-action="AboutUs">About Us</a></li>
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a asp-area="UI" asp-controller="Auth" asp-action="ContactUs">Contact Us</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="short-codes.html">Short Codes</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="faq.html">FAQ's</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="products.html">Special Products</a></li>
+						
+						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a asp-area="UI" asp-controller="Course" asp-action="Gourmet">Special Products</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Category</h3>
 					<ul class="info">
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="groceries.html">Courses</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="household.html">Books</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="household.html">Our Instructor</a></li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a asp-area="UI" asp-controller="Course" asp-action="Gourmet">Courses</a></li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a asp-area="UI" asp-controller="Book" asp-action="Index">Books</a></li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="#Instructor">Our Instructor</a></li>
 						
 					</ul>
 				</div>
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Profile</h3>
 					<ul class="info">
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="products.html">Store</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="checkout.html">My Cart</a></li>
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a asp-area="UI" asp-controller="Auth" asp-action="Login">Login</a></li>
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a asp-area="UI" asp-controller="Auth" asp-action="Register">Create Account</a></li>
 					</ul>
