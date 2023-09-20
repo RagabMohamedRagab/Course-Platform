@@ -170,9 +170,9 @@
 	<!-- new -->
 	<div class="newproducts-w3agile">
 		<div class="container">
-			<h3>New offers</h3>
+			<h3>New Books</h3>
 			<div class="agile_top_brands_grids">
-			@foreach (var product in Model.Titles.Take(4))
+			@foreach (var product in Model.Books.Take(4))
 			{
 				<div class="col-md-3 top_brand_left-1" style="margin-bottom: 2%;">
 					<div class="hover14 column">
@@ -185,7 +185,7 @@
 									<div class="snipcart-item block">
 										<div class="snipcart-thumb">
 
-											<a href="products.html"><img class="card-img-top" title="@product.Name" alt=" " src="~/Images/Title/@product.Logo" /></a>
+											<a href="products.html"><img class="card-img-top" title="@product.Name" alt=" " src="~/Images/Book/@product.Logo" /></a>
 
 
 											<p>@product.Name</p>

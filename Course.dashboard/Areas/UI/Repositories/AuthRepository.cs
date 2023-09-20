@@ -118,7 +118,14 @@ namespace Course.dashboard.Areas.UI.Repositories {
 				LinkedIn = p.LinkedIn,
 				Twitter = p.Twitter
 			});
-			return new IndexViewModel() { Titles = titles, profileUser = proffesors };
+			var books=_courseDbContext.Books.OrderBy(b=>b.CreateOn).ToList().Select(b => new TitlesViewModel()
+			{
+				Id = b.Id,
+				Name = b.Name,
+				Logo = b.Cover,
+				Price = b.Price
+			});
+			return new IndexViewModel() { Books=books,Titles = titles, profileUser = proffesors };
         }
     }
 }
