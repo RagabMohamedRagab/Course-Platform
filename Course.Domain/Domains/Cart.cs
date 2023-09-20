@@ -8,5 +8,6 @@ namespace Course.Domain.Domains {
         public virtual AppUser User { get; set; }
         public int? TitleId { get; set; }
         public virtual Title Title { get; set; }    
+        public int? ProdutId { get; set; }
     }
 }

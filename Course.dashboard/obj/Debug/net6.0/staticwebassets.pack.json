@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\Images\\Book\\Itaich.png"
     },
     {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\Naruto.jpg",
+      "PackagePath": "staticwebassets\\Images\\Book\\Naruto.jpg"
+    },
+    {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\Images\\Book\\RagabMohamed_Resume.pdf",
       "PackagePath": "staticwebassets\\Images\\Book\\RagabMohamed_Resume.pdf"
     },
@@ -743,6 +747,10 @@
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\images\\web_search.svg",
       "PackagePath": "staticwebassets\\UI\\images\\web_search.svg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\js\\Site.js",
+      "PackagePath": "staticwebassets\\UI\\js\\Site.js"
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\wwwroot\\UI\\js\\bootstrap.min.js",

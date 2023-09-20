@@ -593,7 +593,7 @@ i.gray-star {
 	height: 32px;
 	border: none;
 	text-indent: 100%;
-	background: url(../~/UI/images/arrow.png) no-repeat 0px 0px;
+	background: url('../images/arrow.png') no-repeat 0px 0px;
 }
 #toTopHover {
 	width: 32px;

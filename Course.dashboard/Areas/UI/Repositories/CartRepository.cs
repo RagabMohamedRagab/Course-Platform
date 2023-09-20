@@ -16,7 +16,7 @@ namespace Course.dashboard.Areas.UI.Repositories {
             var user=await _userManager.FindByEmailAsync(UName);
             if (user == null) return false;
 
-            _context.Add<Cart>(new Cart() { TitleId = Id, UserId = user.Id });
+            _context.Add<Cart>(new Cart() { ProdutId = Id, UserId = user.Id });
             await _context.SaveChangesAsync();
             return true;
         }
