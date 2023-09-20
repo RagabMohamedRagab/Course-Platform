@@ -23,5 +23,10 @@ namespace Course.dashboard.Areas.UI.Controllers {
             _toast.AddErrorToastMessage("Falied To Add");
             return LocalRedirect(returnUrl);
         }
+        [HttpGet]
+        public  IActionResult Checkout()
+        {
+            return View();
+        }
     }
 }

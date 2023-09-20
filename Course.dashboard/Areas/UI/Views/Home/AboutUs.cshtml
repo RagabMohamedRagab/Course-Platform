@@ -1,0 +1,124 @@
+﻿@model IEnumerable<ProfessorInfoViewModel>
+@{
+	ViewData["Title"] = "About Us";
+}
+
+
+<!-- breadcrumbs -->
+<div class="breadcrumbs">
+	<div class="container">
+		<ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
+			<li><a asp-area="UI" asp-controller="Home" asp-action="Index"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
+			<li class="active">About </li>
+		</ol>
+	</div>
+</div>
+<!-- //breadcrumbs -->
+<!-- about -->
+<div class="about">
+	<div class="container">
+		<h3 class="w3_agile_header">About Us</h3>
+		<div class="about-agileinfo w3layouts">
+			<div class="col-md-8 about-wthree-grids grid-top">
+				<h4>Unlocking Knowledge: Explore Our Comprehensive Courses System Today! </h4>
+				<p class="top">Welcome to our state-of-the-art Course System, where knowledge meets innovation. Our platform offers a wide range of courses designed to empower you with the skills and expertise you need to excel in your chosen field.</p>
+				<p>Whether you're a student looking to expand your horizons, a professional aiming to advance your career, or simply someone passionate about learning, our Courses System is your gateway to comprehensive, interactive, and engaging educational experiences. Explore our diverse catalog of courses, learn from top instructors, and embark on a journey of continuous learning and personal growth. Join us today and take the first step towards realizing your educational and career goals.</p>
+			</div>
+			<div class="col-md-4 about-wthree-grids">
+				<div class="offic-time">
+					<div class="time-top">
+						<h4>Take It  :</h4>
+					</div>
+					<div class="time-bottom">
+						<h5>But we accuse </h5>
+						<h5> the most honorable.</h5>
+						<p>But we accuse and in the right hatred we lead those who accuse </p>
+					</div>
+				</div>
+	
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!-- //about -->
+<!-- about-slid -->
+
+<!-- //about-slid -->
+<!-- about-team -->
+@if (Model.Any())
+{
+	<div class="about-team">
+		<div class="container">
+			<h3 class="w3_agile_header">Meet Our Team</h3>
+			<div class="team-agileitsinfo">
+				@foreach(var t in Model){
+				<div class="col-md-3 about-team-grids">
+						<img src="~/Images/Profile/@((String.IsNullOrEmpty(t.img)?"Profile.png":t.img))" alt="@t.Name" />
+					<div class="team-w3lstext">
+						<h4>@t.Name</h4>
+						<p>@t.About.</p>
+					</div>
+					<div class="social-icons caption">
+						<ul>
+							<li><a href="@t.Facebook" class="fa fa-facebook facebook"> </a></li>
+							<li><a href="@t.Twitter" class="fa fa-twitter twitter"> </a></li>
+							<li><a href="@t.LinkedIn" class="fa fa-linkedin linkedin"> </a></li>
+								<li><a href="@t.Instagram" class="fa fa-instagram instagram"> </a></li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				}
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+}
+<!-- //about-team -->
+<!-- //footer -->
+<div class="footer">
+	<div class="container">
+		<div class="w3_footer_grids">
+			<div class="col-md-3 w3_footer_grid">
+				<h3>Contact</h3>
+
+				<ul class="address">
+					<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Ashmone,Cairo,  <span>Egypt.</span></li>
+					<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">info@example.com</a></li>
+					<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+011 -212 - 37 - 611</li>
+				</ul>
+			</div>
+			<div class="col-md-3 w3_footer_grid">
+				<h3>Information</h3>
+				<ul class="info">
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a asp-area="UI" asp-controller="Home" asp-action="AboutUs">About Us</a></li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a asp-area="UI" asp-controller="Auth" asp-action="ContactUs">Contact Us</a></li>
+
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a asp-area="UI" asp-controller="Course" asp-action="Gourmet">Special Products</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 w3_footer_grid">
+				<h3>Category</h3>
+				<ul class="info">
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a asp-area="UI" asp-controller="Course" asp-action="Gourmet">Courses</a></li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a asp-area="UI" asp-controller="Book" asp-action="Index">Books</a></li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="#Instructor">Our Instructor</a></li>
+
+				</ul>
+			</div>
+			<div class="col-md-3 w3_footer_grid">
+				<h3>Profile</h3>
+				<ul class="info">
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a asp-area="UI" asp-controller="Cart" asp-action="Checkout">My Cart</a></li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a asp-area="UI" asp-controller="Auth" asp-action="Login">Login</a></li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a asp-area="UI" asp-controller="Auth" asp-action="Register">Create Account</a></li>
+
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+
+
+</div>

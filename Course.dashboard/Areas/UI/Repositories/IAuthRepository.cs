@@ -9,6 +9,7 @@ namespace Course.dashboard.Areas.UI.Repositories {
         Task<bool> Contactus(ContactUsViewModel contact);
         Task<IndexViewModel> IndexRepo();
 
+        Task<IEnumerable<ProfessorInfoViewModel>> AboutUsRepo();
 
     }
 }

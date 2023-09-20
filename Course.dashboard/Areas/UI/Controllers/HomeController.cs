@@ -16,5 +16,10 @@ namespace Course.dashboard.Areas.UI.Controllers {
         {
             return View(await _authRepository.IndexRepo());
         }
+        [HttpGet]
+        public async Task<IActionResult> AboutUs()
+        {
+            return View(await _authRepository.AboutUsRepo());
+        }
     }
 }

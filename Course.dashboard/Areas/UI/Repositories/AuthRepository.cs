@@ -127,5 +127,22 @@ namespace Course.dashboard.Areas.UI.Repositories {
 			});
 			return new IndexViewModel() { Books=books,Titles = titles, profileUser = proffesors };
         }
-    }
+
+		public async Task<IEnumerable<ProfessorInfoViewModel>> AboutUsRepo()
+		{
+			var users =await _userManager.GetUsersInRoleAsync("Admin");
+			var team = users.Select(b => new ProfessorInfoViewModel()
+			{
+				Name = b.Name,
+				About = b.About,
+				Facebook = b.Facebook,
+				img = b.Logo,
+				Instagram = b.Instagram,
+				Twitter = b.Twitter,
+				LinkedIn = b.LinkedIn,
+
+			});
+			return team;
+		}
+	}
 }
