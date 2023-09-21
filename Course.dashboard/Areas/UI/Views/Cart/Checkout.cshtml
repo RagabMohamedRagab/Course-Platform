@@ -1,7 +1,8 @@
-﻿@{
+﻿@model CheckoutViewModel;
+@{
 	ViewData["Title"] = "CheckOut";
 }
-
+@if(Model.IsCompleted){
 <!-- checkout -->
 <div class="checkout">
 	<div class="container">
@@ -143,3 +144,15 @@
 	</div>
 </div>
 <!-- //checkout -->
+}else{
+
+}
+<Partial name="_ValidationScriptsPartial.cshtml" />
+
+@section Scripts{
+	<script>
+
+
+
+	</script>
+}

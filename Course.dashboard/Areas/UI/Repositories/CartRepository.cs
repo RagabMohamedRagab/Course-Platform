@@ -21,5 +21,10 @@ namespace Course.dashboard.Areas.UI.Repositories {
             await _context.SaveChangesAsync();
             return true;
         }
-    }
+
+		public Task<CheckoutViewModel> Checkout(int Cpage, int Psize)
+		{
+			throw new NotImplementedException();
+		}
+	}
 }
