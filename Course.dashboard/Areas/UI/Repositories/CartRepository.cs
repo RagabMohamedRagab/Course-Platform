@@ -11,12 +11,13 @@ namespace Course.dashboard.Areas.UI.Repositories {
             _userManager = userManager;
         }
 
-        public async Task<bool> Add(int Id, string UName)
+        public async Task<bool> Add(int Id, string UName,string type)
         {
-            var user=await _userManager.FindByEmailAsync(UName);
+            var user = await _userManager.FindByEmailAsync(UName);
             if (user == null) return false;
-
-            _context.Add<Cart>(new Cart() { ProdutId = Id, UserId = user.Id });
+            var cart = (type == "C") ? new Cart() { TitleId = Id } : new Cart() { BookId = Id };
+            cart.UserId = user.Id;
+            _context.Add<Cart>(cart);
             await _context.SaveChangesAsync();
             return true;
         }

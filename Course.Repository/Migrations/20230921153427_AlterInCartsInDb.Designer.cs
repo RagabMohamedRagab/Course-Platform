@@ -4,6 +4,7 @@ using Course.Repository.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Course.Repository.Migrations
 {
     [DbContext(typeof(CourseDbContext))]
-    partial class CourseDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230921153427_AlterInCartsInDb")]
+    partial class AlterInCartsInDb
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -80,6 +83,9 @@ namespace Course.Repository.Migrations
 
                     b.Property<DateTime>("ModifiedOn")
                         .HasColumnType("date");
+
+                    b.Property<int?>("ProdutId")
+                        .HasColumnType("int");
 
                     b.Property<int?>("TitleId")
                         .HasColumnType("int");
@@ -257,7 +263,7 @@ namespace Course.Repository.Migrations
                         new
                         {
                             Id = "2c5e174e-3b0e-446f-86af-483d56fd7210",
-                            ConcurrencyStamp = "848cade4-4c8c-47c1-b3cf-91e31311b5ba",
+                            ConcurrencyStamp = "a5bb482d-918e-4af2-a2a1-f407202dab01",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
@@ -484,15 +490,15 @@ namespace Course.Repository.Migrations
                         {
                             Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "2379dad7-4a49-4674-99a2-11f8656411d8",
+                            ConcurrencyStamp = "7d821926-6060-4ac8-8152-7a294c05df8f",
                             Email = "Admin123@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = true,
                             NormalizedEmail = "ADMIN123@GMAIL.COM",
                             NormalizedUserName = "ADMIN123@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEAOed0F1RwlyXmGV5i03jr/aLbWRbjw3jti8m5wwDVkvS0bKMhDogx2WnXb4vWyFNA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEEZVpjaMsNkzuy8FQKs/B7PYKl/9g+4s3/9q4aTV1caoPJp8Ib74NwuaozBvwdIxwA==",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "ec726283-8ed3-4d01-8aa4-0485250593c1",
+                            SecurityStamp = "1342b1dc-f18a-4721-8b03-3e97aeef9e89",
                             TwoFactorEnabled = false,
                             UserName = "Admin123@gmail.com",
                             IsActive = false
