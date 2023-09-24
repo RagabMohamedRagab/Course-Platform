@@ -24,9 +24,9 @@ namespace Course.dashboard.Areas.UI.Controllers {
             return LocalRedirect(returnUrl);
         }
         [HttpGet]
-        public  IActionResult Checkout()
+        public async  Task<IActionResult> Checkout(int currentpage,int pagesize,decimal discound,string uname)
         {
-            return View();
+            return View(await _cartRepository.Checkout(currentpage, pagesize, discound, uname));
         }
     }
 }

@@ -261,7 +261,16 @@
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Profile</h3>
 					<ul class="info">
-					<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a asp-area="UI" asp-controller="Cart" asp-action="Checkout">My Cart</a></li>
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a 
+						    asp-area="UI"
+							asp-controller="Cart"
+							asp-action="Checkout"
+							asp-route-currentpage="1"
+					       asp-route-pagesize="4"
+						   asp-route-discound="0.1"
+						   asp-route-uname="@(User.Identity?.Name)"
+					
+					>My Cart</a></li>
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a asp-area="UI" asp-controller="Auth" asp-action="Login">Login</a></li>
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a asp-area="UI" asp-controller="Auth" asp-action="Register">Create Account</a></li>
 

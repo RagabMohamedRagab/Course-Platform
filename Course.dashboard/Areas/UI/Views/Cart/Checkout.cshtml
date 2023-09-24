@@ -1,158 +1,142 @@
 ﻿@model CheckoutViewModel;
 @{
-	ViewData["Title"] = "CheckOut";
+    ViewData["Title"] = "CheckOut";
+    int record = 0;
 }
-@if(Model.IsCompleted){
-<!-- checkout -->
-<div class="checkout">
-	<div class="container">
-		<h2>Your shopping cart contains: <span>3 Products</span></h2>
-		<div class="checkout-right">
-			<table class="timetable_sub">
-				<thead>
-					<tr>
-						<th>SL No.</th>
-						<th>Product</th>
-						<th>Quality</th>
-						<th>Product Name</th>
+<style>
+    .card-img-top {
+        width: 48% !important;
+        height: 5rem !important;
+    }
+</style>
+@if (Model.IsCompleted)
+{
+    <!-- checkout -->
+    <div class="checkout">
+        <div class="container">
+            <h2>Your shopping cart contains: <span>@Model.CartViewModels.Count Products</span></h2>
+            <div class="checkout-right">
+                <table class="timetable_sub">
+                    <thead>
+                        <tr>
+                            <th>SL No.</th>
+                            <th>Product</th>
+                            <th>Quality</th>
+                            <th>Product Name</th>
 
-						<th>Price</th>
-						<th>Remove</th>
-					</tr>
-				</thead>
-				<tr class="rem1">
-					<td class="invert">1</td>
-					<td class="invert-image"><a href="single.html"><img src="~/UI/Images/1.png" alt=" " class="img-responsive" /></a></td>
-					<td class="invert">
-						<div class="quantity">
-							<div class="quantity-select">
-								<div class="entry value-minus">&nbsp;</div>
-								<div class="entry value"><span>1</span></div>
-								<div class="entry value-plus active">&nbsp;</div>
-							</div>
-						</div>
-					</td>
-					<td class="invert">Tata Salt</td>
+                            <th>Price</th>
+                            <th>Remove</th>
+                        </tr>
+                    </thead>
+                    @foreach (var cart in Model.CartViewModels)
+                    {
+                        <tr class="rem@(++record)">
+                            <td class="invert">@record</td>
+                            <td class="invert-image"><a href="single.html"><img src="@(String.IsNullOrEmpty(cart.img)?"~/Images/Title/NotFound.svg":cart.img)" alt="@cart.Name" class="card-img-top img-responsive" /></a></td>
+                            <td class="invert">
+                                <div class="quantity">
+                                    <div class="quantity-select">
+                                        <div class="entry value-minus">&nbsp;</div>
+                                        <div class="entry value"><span>@cart.Quantity</span></div>
+                                        <div class="entry value-plus active">&nbsp;</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="invert">@cart.Name</td>
 
-					<td class="invert">$290.00</td>
-					<td class="invert">
-						<div class="rem">
-							<div class="close1"> </div>
-						</div>
-						<script>
-							$(document).ready(function (c) {
-								$('.close1').on('click', function (c) {
-									$('.rem1').fadeOut('slow', function (c) {
-										$('.rem1').remove();
-									});
-								});
-							});
-						</script>
-					</td>
-				</tr>
-				<tr class="rem2">
-					<td class="invert">2</td>
-					<td class="invert-image"><a href="single.html"><img src="~/UI/Images/2.png" alt=" " class="img-responsive" /></a></td>
-					<td class="invert">
-						<div class="quantity">
-							<div class="quantity-select">
-								<div class="entry value-minus">&nbsp;</div>
-								<div class="entry value"><span>1</span></div>
-								<div class="entry value-plus active">&nbsp;</div>
-							</div>
-						</div>
-					</td>
-					<td class="invert">Fortune oil</td>
+                            <td class="invert">$@cart.Price</td>
+                            <td class="invert">
+                                <div class="rem">
+                                    <div class="close@(record)" style="
+                        background: url('/UI/images/close_1.png') no-repeat 0px 0px;  cursor: pointer;
+                        width: 28px;
+                        height: 28px;
+                        position: absolute;
+                        right: 15px;
+                        top: -13px;
+                       -webkit-transition: color 0.2s ease-in-out;
+                        -moz-transition: color 0.2s ease-in-out;
+                        -o-transition: color 0.2s ease-in-out;
+                         transition: color 0.2s ease-in-out;">
+                                    </div>
+                                </div>
+                                <script>
+                                    $(document).ready(function (c) {
 
-					<td class="invert">$250.00</td>
-					<td class="invert">
-						<div class="rem">
-							<div class="close2"> </div>
-						</div>
-						<script>
-							$(document).ready(function (c) {
-								$('.close2').on('click', function (c) {
-									$('.rem2').fadeOut('slow', function (c) {
-										$('.rem2').remove();
-									});
-								});
-							});
-						</script>
-					</td>
-				</tr>
-				<tr class="rem3">
-					<td class="invert">3</td>
-					<td class="invert-image"><a href="single.html"><img src="~/UI/Images/3.png" alt=" " class="img-responsive" /></a></td>
-					<td class="invert">
-						<div class="quantity">
-							<div class="quantity-select">
-								<div class="entry value-minus">&nbsp;</div>
-								<div class="entry value"><span>1</span></div>
-								<div class="entry value-plus active">&nbsp;</div>
-							</div>
-						</div>
-					</td>
-					<td class="invert">Aashirvaad atta</td>
+                                        $('.close@(record)').on('click', function (c) {
+                                            $('.rem@(record)').fadeOut('slow', function (c) {
+                                                $('.rem@(record)').remove();
+                                            });
+                                        });
+                                    });
+                                </script>
+                            </td>
+                        </tr>
+                    }
+                    <!--quantity-->
+                    <script>
+                        $('.value-plus').on('click', function () {
+                            var divUpd = $(this).parent().find('.value'), newVal = parseInt(divUpd.text(), 10) + 1;
+                            divUpd.text(newVal);
+                        });
 
-					<td class="invert">$15.00</td>
-					<td class="invert">
-						<div class="rem">
-							<div class="close3"> </div>
-						</div>
-						<script>
-							$(document).ready(function (c) {
-								$('.close3').on('click', function (c) {
-									$('.rem3').fadeOut('slow', function (c) {
-										$('.rem3').remove();
-									});
-								});
-							});
-						</script>
-					</td>
-				</tr>
-				<!--quantity-->
-				<script>
-					$('.value-plus').on('click', function () {
-						var divUpd = $(this).parent().find('.value'), newVal = parseInt(divUpd.text(), 10) + 1;
-						divUpd.text(newVal);
-					});
+                        $('.value-minus').on('click', function () {
+                            var divUpd = $(this).parent().find('.value'), newVal = parseInt(divUpd.text(), 10) - 1;
+                            if (newVal >= 1) divUpd.text(newVal);
+                        });
+                    </script>
+                    <!--quantity-->
+                </table>
+                <nav class="numbering">
+                    <ul class="pagination paging">
+                        <li>
+                            <a href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li class="active"><a href="#">1<span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li>
+                            <a href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
 
-					$('.value-minus').on('click', function () {
-						var divUpd = $(this).parent().find('.value'), newVal = parseInt(divUpd.text(), 10) - 1;
-						if (newVal >= 1) divUpd.text(newVal);
-					});
-				</script>
-				<!--quantity-->
-			</table>
-		</div>
-		<div class="checkout-left">
-			<div class="checkout-left-basket">
-				<h4>Continue to basket</h4>
-				<ul>
-					<li>Product1 <i>-</i> <span>$15.00 </span></li>
-					<li>Product2 <i>-</i> <span>$25.00 </span></li>
-					<li>Product3 <i>-</i> <span>$29.00 </span></li>
-					<li>Total Service Charges <i>-</i> <span>$15.00</span></li>
-					<li>Total <i>-</i> <span>$84.00</span></li>
-				</ul>
-			</div>
-			<div class="checkout-right-basket">
-				<a href="single.html"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>Continue Shopping</a>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-</div>
-<!-- //checkout -->
-}else{
+            <div class="checkout-left">
+                <div class="checkout-left-basket">
+                    <h4>Continue to basket</h4>
+                    <ul>
+
+                        <li>Total Service Charges <i>-</i> <span>$15.00</span></li>
+                        <li>Discount<i>-</i> <span>$@Model.Discount</span></li>
+                        <li>Total <i>-</i> <span>$@(Model.TotalPrice+15)</span></li>
+                    </ul>
+                </div>
+                <div class="checkout-right-basket">
+                    <a href="single.html"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>Continue paying</a>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+    <!-- //checkout -->
+}
+else
+{
 
 }
-<Partial name="_ValidationScriptsPartial.cshtml" />
+<Partial name="_ValidationScriptsPartial" />
 
 @section Scripts{
-	<script>
+    <script>
 
 
 
-	</script>
+    </script>
 }
