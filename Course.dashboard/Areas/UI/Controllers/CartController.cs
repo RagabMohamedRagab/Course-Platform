@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using NToastNotify;
+using System.Drawing.Printing;
 
 namespace Course.dashboard.Areas.UI.Controllers {
     [Area("UI")]
@@ -24,9 +25,9 @@ namespace Course.dashboard.Areas.UI.Controllers {
             return LocalRedirect(returnUrl);
         }
         [HttpGet]
-        public async  Task<IActionResult> Checkout(int currentpage,int pagesize,decimal discound,string uname)
+        public async  Task<IActionResult> Checkout(int currentPage, decimal discound,string uname,int pagesize=4)
         {
-            return View(await _cartRepository.Checkout(currentpage, pagesize, discound, uname));
+            return View(await _cartRepository.Checkout(currentPage, pagesize, discound, uname));
         }
     }
 }

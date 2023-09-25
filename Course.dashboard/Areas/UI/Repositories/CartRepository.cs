@@ -1,6 +1,7 @@
 ﻿using Course.Domain.Domains;
 using Course.Repository.Context;
 using Microsoft.EntityFrameworkCore;
+using System.Drawing.Printing;
 
 namespace Course.dashboard.Areas.UI.Repositories {
 	public class CartRepository : ICartRepository {
@@ -75,9 +76,22 @@ namespace Course.dashboard.Areas.UI.Repositories {
 				}
 				checkout.CartViewModels.Add(cart);
 			}
+
 			checkout.CartViewModels = checkout.CartViewModels.DistinctBy(b=>b.Name).ToList();
 			checkout.Discount = discount;                                                                       // 0.1
 			checkout.TotalPrice = checkout.CartViewModels.Sum(b => b.Price) * discount;        // price *0.1
+            checkout.Totaldata = checkout.CartViewModels.Count;
+			int totaldata = checkout.CartViewModels.Count,
+							  pagesize = Psize == 0 ? 4 : Psize,
+							  //pagesize = 1,
+							 currentpage = Cpage == 0 ? 1 : Cpage;
+			int totalPages =(int) Math.Ceiling(totaldata / (double)pagesize);
+
+			checkout.CartViewModels = checkout.CartViewModels.Skip((currentpage - 1) * pagesize).Take(pagesize).ToList();
+			checkout.CurrentPage = currentpage;
+			checkout.PageSize=pagesize;
+			checkout.TotalPages = totalPages;
+		
 			checkout.IsCompleted = true;
 			return checkout;
 		}

@@ -2,6 +2,7 @@
 @{
     ViewData["Title"] = "CheckOut";
     int record = 0;
+    int Current = Model.CurrentPage;
 }
 <style>
     .card-img-top {
@@ -14,7 +15,7 @@
     <!-- checkout -->
     <div class="checkout">
         <div class="container">
-            <h2>Your shopping cart contains: <span>@Model.CartViewModels.Count Products</span></h2>
+            <h2>Your shopping cart contains: <span>@Model.Totaldata Products</span></h2>
             <div class="checkout-right">
                 <table class="timetable_sub">
                     <thead>
@@ -88,23 +89,191 @@
                     <!--quantity-->
                 </table>
                 <nav class="numbering">
-                    <ul class="pagination paging">
-                        <li>
-                            <a href="#" aria-label="Previous">
-                                <span aria-hidden="true">&laquo;</span>
-                            </a>
+
+                    <ul class="pagination" id="pag" style="font-size: 1.1rem;">
+                        <li class="page-item @(Model.CurrentPage<=1?"disabled":"")">
+                            <a class="page-link"
+                               asp-area="UI"
+                               asp-controller="Cart"
+                               asp-action="Checkout"
+                               asp-route-pagesize="@Model.PageSize"
+                               asp-route-discound="0.1"
+                               asp-route-uname="@(User.Identity.Name)"
+                               asp-route-currentPage="@(Model.CurrentPage-1)">Previous</a>
                         </li>
-                        <li class="active"><a href="#">1<span class="sr-only">(current)</span></a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
-                        <li><a href="#">5</a></li>
-                        <li>
-                            <a href="#" aria-label="Next">
-                                <span aria-hidden="true">&raquo;</span>
-                            </a>
+
+                        @if (Current == 1)
+                        {
+                            if (Current == Model.TotalPages)
+                            {
+                                for (int i = Current; i <= Model.TotalPages; i++)
+                                {
+                                    <li class="page-item @(i==1?"active":"")">
+                                        <a class="page-link"
+                                           asp-area="UI"
+                                           asp-controller="Cart"
+                                           asp-action="Checkout"
+                                           asp-route-pagesize="@Model.PageSize"
+                                           asp-route-discound="0.1"
+                                           asp-route-uname="@(User.Identity.Name)"
+                                           asp-route-currentPage="@i">@i</a>
+                                    </li>
+                                }
+                            }
+                            else if (Model.TotalPages < 3)
+                            {
+                                for (int i = Current; i < Current + 2; i++)
+                                {
+                                    <li class="page-item @(i==1?"active":"")">
+                                        <a class="page-link"
+                                           asp-area="UI"
+                                           asp-controller="Cart"
+                                           asp-action="Checkout"
+                                           asp-route-pagesize="@Model.PageSize"
+                                           asp-route-discound="0.1"
+                                           asp-route-uname="@(User.Identity.Name)"
+                                           asp-route-currentPage="@i">@i</a>
+                                    </li>
+                                }
+
+                            }
+                            else
+                            {
+                                for (int i = Current; i <= Current + 2; i++)
+                                {
+                                    <li class="page-item @(i==1?"active":"")">
+                                        <a class="page-link"
+                                           asp-area="UI"
+                                           asp-controller="Cart"
+                                           asp-action="Checkout"
+                                           asp-route-pagesize="@Model.PageSize"
+                                           asp-route-discound="0.1"
+                                           asp-route-uname="@(User.Identity.Name)"
+                                           asp-route-currentPage="@i">@i</a>
+                                    </li>
+                                }
+                            }
+                        }
+                        else if (Model.TotalPages < 3)
+                        {
+                            for (int i = Current - 1; i <= Current; i++)
+                            {
+                                <li class="page-item @(Model.CurrentPage==i?"active":"")">
+                                    <a class="page-link"
+                                       asp-area="UI"
+                                       asp-controller="Cart"
+                                       asp-action="Checkout"
+                                       asp-route-pagesize="@Model.PageSize"
+                                       asp-route-discound="0.1"
+                                       asp-route-uname="@(User.Identity.Name)"
+                                       asp-route-currentPage="@i">@i</a>
+                                </li>
+                            }
+                        }
+                        else if (Model.TotalPages >= 3)
+                        {
+                            if (Current == Model.TotalPages)
+                            {
+                                <li class="page-item @(Model.CurrentPage==Current-2?"active":"")">
+                                    <a class="page-link"
+                                       asp-area="UI"
+                                       asp-controller="Cart"
+                                       asp-action="Checkout"
+                                       asp-route-pagesize="@Model.PageSize"
+                                       asp-route-discound="0.1"
+                                       asp-route-uname="@(User.Identity.Name)"
+                                       asp-route-currentPage="@(Current-2)">
+                                        @(
+                                            Current - 2
+                                            )
+                                        
+                                    </a>
+                                </li>
+
+                                <li class="page-item @(Model.CurrentPage==Current-1?"active":"")">
+                                    <a class="page-link"
+                                       asp-area="UI"
+                                       asp-controller="Course"
+                                       asp-action="Gourmet"
+                                   
+                                       asp-route-currentPage="@(Current-1)">
+                                        @(
+                                            Current - 1
+                                            )
+                                    </a>
+                                </li>
+                                <li class="page-item @(Model.CurrentPage==Current?"active":"")">
+                                    <a class="page-link"
+                                       asp-area="UI"
+                                       asp-controller="Cart"
+                                       asp-action="Checkout"
+                                       asp-route-pagesize="@Model.PageSize"
+                                       asp-route-discound="0.1"
+                                       asp-route-uname="@(User.Identity.Name)"
+                                       asp-route-currentPage="@(Current)">
+                                        @(
+                                            Current
+                                            )
+                                    </a>
+                                </li>
+
+                            }
+                            else
+                            {
+                                <li class="page-item @(Model.CurrentPage==Current-1?"active":"")">
+                                    <a class="page-link"
+                                       asp-area="UI"
+                                       asp-controller="Cart"
+                                       asp-action="Checkout"
+                                       asp-route-pagesize="@Model.PageSize"
+                                       asp-route-discound="0.1"
+                                       asp-route-uname="@(User.Identity.Name)"
+                                       asp-route-currentPage="@(Current-1)">
+                                        @(
+                                            Current - 1
+                                            )
+                                    </a>
+                                </li>
+
+                                <li class="page-item @(Model.CurrentPage==Current?"active":"")">
+                                    <a class="page-link"
+                                       asp-area="UI"
+                                       asp-controller="Cart"
+                                       asp-action="Checkout"
+                                       asp-route-pagesize="@Model.PageSize"
+                                       asp-route-discound="0.1"
+                                       asp-route-uname="@(User.Identity.Name)"
+                                       asp-route-currentPage="@Current">@Current</a>
+                                </li>
+                                <li class="page-item @(Model.CurrentPage==Current+1?"active":"")">
+                                    <a class="page-link"
+                                       asp-area="UI"
+                                       asp-controller="Cart"
+                                       asp-action="Checkout"
+                                       asp-route-pagesize="@Model.PageSize"
+                                       asp-route-discound="0.1"
+                                       asp-route-uname="@(User.Identity.Name)"
+                                       asp-route-currentPage="@(Current+1)">
+                                        @(
+                                            Current + 1
+                                            )
+                                    </a>
+                                </li>
+                            }
+                        }
+                        <li class="page-item @(Model.CurrentPage==Model.TotalPages ? "disabled" : "")">
+                            <a class="page-link"
+                               asp-area="UI"
+                               asp-controller="Cart"
+                               asp-action="Checkout"
+                               asp-route-pagesize="@Model.PageSize"
+                               asp-route-discound="0.1"
+                               asp-route-uname="@(User.Identity.Name)"
+                               asp-route-currentPage="@(Model.CurrentPage+1)">Next</a>
                         </li>
                     </ul>
+
+
                 </nav>
             </div>
 
@@ -112,7 +281,6 @@
                 <div class="checkout-left-basket">
                     <h4>Continue to basket</h4>
                     <ul>
-
                         <li>Total Service Charges <i>-</i> <span>$15.00</span></li>
                         <li>Discount<i>-</i> <span>$@Model.Discount</span></li>
                         <li>Total <i>-</i> <span>$@(Model.TotalPrice+15)</span></li>
