@@ -14,20 +14,31 @@ namespace Course.dashboard.Areas.UI.Controllers {
             _toast = toast;
         }
         [HttpGet]
-        public async Task<IActionResult> Add(int Id,string UName,string returnUrl,string type)
+        public async Task<IActionResult> Add(int Id, string uname, string returnUrl, string type)
         {
-            if(await _cartRepository.Add(Id, UName,type))
+            if (await _cartRepository.Add(Id, uname, type))
             {
                 _toast.AddSuccessToastMessage("Add To Cart ");
-                return LocalRedirect(returnUrl);  
+                return LocalRedirect(returnUrl);
             }
             _toast.AddErrorToastMessage("Falied To Add");
             return LocalRedirect(returnUrl);
         }
         [HttpGet]
-        public async  Task<IActionResult> Checkout(int currentPage, decimal discound,string uname,int pagesize=4)
+        public async Task<IActionResult> Checkout(int currentPage, decimal discound, string uname, int pagesize)
         {
-            return View(await _cartRepository.Checkout(currentPage, pagesize, discound, uname));
+            return View(await _cartRepository.Checkout(uname, currentPage, pagesize, discound));
+        }
+        [HttpGet]
+        public async Task<IActionResult> Delete(int Id, string UN)
+        {
+            if (Id <= 0 || String.IsNullOrEmpty(UN) || !await _cartRepository.DeleteCart(Id, UN))
+            {
+                _toast.AddErrorToastMessage("UnCorrect");
+                return RedirectToAction(nameof(Checkout), new { currentPage = 1, discound = 0.1, uname = UN, pagesize = 4 });
+            }
+            _toast.AddSuccessToastMessage("Done ");
+            return RedirectToAction(nameof(Checkout), new { currentPage = 1, discound = 0.1, uname = UN, pagesize = 4 });
         }
     }
 }

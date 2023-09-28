@@ -37,18 +37,18 @@
                             <td class="invert">
                                 <div class="quantity">
                                     <div class="quantity-select">
-                                        <div class="entry value-minus">&nbsp;</div>
+                                        <div class="entry value-minus" onclick="Down('@cart.Id','@(User.Identity.Name)','/UI/Cart/Checkout?uname=@(User.Identity.Name)','@cart.type')">&nbsp;</div>
                                         <div class="entry value"><span>@cart.Quantity</span></div>
-                                        <div class="entry value-plus active">&nbsp;</div>
+                                        <div class="entry value-plus active" id="up" onclick="UP('@cart.Id','@(User.Identity.Name)','/UI/Cart/Checkout?uname=@(User.Identity.Name)','@cart.type')">&nbsp;</div>
                                     </div>
                                 </div>
                             </td>
                             <td class="invert">@cart.Name</td>
-
-                            <td class="invert">$@cart.Price</td>
+                            <td style="display:none"><input value="@cart.Price"/></td>
+                            <td class="invert" id="@record">$@cart.Price</td>
                             <td class="invert">
                                 <div class="rem">
-                                    <div class="close@(record)" style="
+                                    <a asp-area="UI" asp-controller="Cart" asp-action="Delete" asp-route-Id="@cart.Id" asp-route-UN="@(User.Identity.Name)" class="close@(record)" style="
                         background: url('/UI/images/close_1.png') no-repeat 0px 0px;  cursor: pointer;
                         width: 28px;
                         height: 28px;
@@ -59,7 +59,8 @@
                         -moz-transition: color 0.2s ease-in-out;
                         -o-transition: color 0.2s ease-in-out;
                          transition: color 0.2s ease-in-out;">
-                                    </div>
+                                      
+                                    </a>
                                 </div>
                                 <script>
                                     $(document).ready(function (c) {
@@ -79,6 +80,7 @@
                         $('.value-plus').on('click', function () {
                             var divUpd = $(this).parent().find('.value'), newVal = parseInt(divUpd.text(), 10) + 1;
                             divUpd.text(newVal);
+                            var Increase=$(this).parent().find()
                         });
 
                         $('.value-minus').on('click', function () {
@@ -303,8 +305,30 @@ else
 
 @section Scripts{
     <script>
+        function Down(id, name, url,t) {
+            //
+            console.log(id + ":" + name + ":" + url + ":" + t);
+            $.ajax({
+                url: `/UI/Cart/Add?Id=${id}&uname=${name}&returnUrl=${url}&type=${t}`,
+                type: "GET",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                    console.log(data)
+                }
+            })
+        }
 
-
+        function UP(id, name, url, t) {
+            console.log(id+":"+name+":"+url+":"+t);
+            $.ajax({
+                url: `/UI/Cart/Add?Id=${id}&uname=${name}&returnUrl=${url}&type=${t}`,
+                type: "GET",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                    console.log(data)
+                }
+            })
+        }
 
     </script>
 }
