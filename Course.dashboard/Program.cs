@@ -1,3 +1,5 @@
+using Course.dashboard.Areas.UI.GateWay.Models;
+using Course.dashboard.Areas.UI.GateWay.Services;
 using Course.dashboard.Areas.UI.Repositories;
 using Course.Domain.Domains;
 using Course.Repository.Context;
@@ -17,6 +19,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
+builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("StripeSettings"));
 builder.Services.AddSession();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddAuthentication();
@@ -79,6 +82,7 @@ builder.Services.AddScoped<ISubscribeService, SubscribeService>();
 builder.Services.AddScoped<IEmailSender,EmailSender>();
 builder.Services.AddScoped<IFileService, FileService>();
 builder.Services.AddScoped<IContactService, ContactService>();
+builder.Services.AddScoped<IStripeService,StripeService>();
 #endregion
 var app = builder.Build();
 if (app.Environment.IsDevelopment())

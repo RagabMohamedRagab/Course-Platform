@@ -5,7 +5,7 @@ using NToastNotify;
 
 namespace Course.dashboard.Areas.UI.Controllers {
 	[Area("UI")]
-	public class AuthController : Controller {
+	public class AuthController : Microsoft.AspNetCore.Mvc.Controller {
 		private readonly IAuthRepository _authRepository;
 		private readonly IHttpContextAccessor _httpContextAccessor;
 		private readonly IToastNotification _toast;

@@ -4,14 +4,15 @@ using System.Drawing.Printing;
 
 namespace Course.dashboard.Areas.UI.Controllers {
     [Area("UI")]
-    public class CartController : Controller {
+    public class CartController : Microsoft.AspNetCore.Mvc.Controller {
         private readonly ICartRepository _cartRepository;
         private readonly IToastNotification _toast;
-
-        public CartController(ICartRepository cartRepository, IToastNotification toast)
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        public CartController(ICartRepository cartRepository, IToastNotification toast, IHttpContextAccessor httpContextAccessor)
         {
             _cartRepository = cartRepository;
             _toast = toast;
+            _httpContextAccessor = httpContextAccessor;
         }
         [HttpGet]
         public async Task<IActionResult> Add(int Id, string uname, string returnUrl, string type)
@@ -27,6 +28,8 @@ namespace Course.dashboard.Areas.UI.Controllers {
         [HttpGet]
         public async Task<IActionResult> Checkout(int currentPage, decimal discound, string uname, int pagesize)
         {
+            _toast.AddSuccessToastMessage("Done ");
+            uname = uname ?? _httpContextAccessor.HttpContext?.Request.Cookies["UName"];
             return View(await _cartRepository.Checkout(uname, currentPage, pagesize, discound));
         }
         [HttpGet]

@@ -3274,6 +3274,23 @@
           }
         }
       },
+      "Stripe.net/42.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "System.Configuration.ConfigurationManager": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Stripe.net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Stripe.net.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -9048,6 +9065,29 @@
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
+    "Stripe.net/42.8.0": {
+      "sha512": "t5yqYsSl5TUApCjRmsKyAyU8xWU9S5ycBjuYjPC+r0fM1BBgYm4L2DnedxY3k5vJyNDLYNBlrWPXGS8y7wIjYg==",
+      "type": "package",
+      "path": "stripe.net/42.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/net461/Stripe.net.dll",
+        "lib/net461/Stripe.net.xml",
+        "lib/net5.0/Stripe.net.dll",
+        "lib/net5.0/Stripe.net.xml",
+        "lib/net6.0/Stripe.net.dll",
+        "lib/net6.0/Stripe.net.xml",
+        "lib/netcoreapp3.1/Stripe.net.dll",
+        "lib/netcoreapp3.1/Stripe.net.xml",
+        "lib/netstandard2.0/Stripe.net.dll",
+        "lib/netstandard2.0/Stripe.net.xml",
+        "stripe.net.42.8.0.nupkg.sha512",
+        "stripe.net.nuspec"
+      ]
+    },
     "System.AppContext/4.3.0": {
       "sha512": "fKC+rmaLfeIzUhagxY17Q9siv/sPrjjKcfNg1Ic8IlQkZLipo8ljcaZQu4VtI4Jqbzjc2VTjzGLF6WmsRXAEgA==",
       "type": "package",
@@ -13142,7 +13182,8 @@
       "Microsoft.EntityFrameworkCore.Proxies >= 7.0.7",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.16",
       "MimeKit >= 3.6.1",
-      "NToastNotify >= 7.0.0"
+      "NToastNotify >= 7.0.0",
+      "Stripe.net >= 42.8.0"
     ]
   },
   "packageFolders": {
@@ -13231,6 +13272,10 @@
           "NToastNotify": {
             "target": "Package",
             "version": "[7.0.0, )"
+          },
+          "Stripe.net": {
+            "target": "Package",
+            "version": "[42.8.0, )"
           }
         },
         "imports": [

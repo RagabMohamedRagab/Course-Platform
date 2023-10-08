@@ -1400,3 +1400,4 @@ C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\refint\Course.dashb
 C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.pdb
 C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\Course.dashboard.genruntimeconfig.cache
 C:\Users\pc\Desktop\Course\Course.dashboard\obj\Debug\net6.0\ref\Course.dashboard.dll
+C:\Users\pc\Desktop\Course\Course.dashboard\bin\Debug\net6.0\Stripe.net.dll

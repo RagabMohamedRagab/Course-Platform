@@ -2,7 +2,7 @@
 
 namespace Course.dashboard.Areas.UI.Controllers {
 	[Area("UI")]
-	public class CourseController : Controller {
+	public class CourseController : Microsoft.AspNetCore.Mvc.Controller {
 		private readonly ICourseUIRepository _courseUIRepository;
 
 		public CourseController(ICourseUIRepository courseUIRepository)

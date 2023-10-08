@@ -30,6 +30,7 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
     <PackageReference Include="MimeKit" Version="3.6.1" />
     <PackageReference Include="NToastNotify" Version="7.0.0" />
+    <PackageReference Include="Stripe.net" Version="42.8.0" />
   </ItemGroup>
 
   <ItemGroup>

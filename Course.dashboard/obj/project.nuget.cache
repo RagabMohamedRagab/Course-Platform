@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jL1GVmGF20WSrLJJq91nUAVPJ9dwUlP3HIg1/gx+Kpu79BQMmVuZ6oF2Q2meGryE8zbzhfntcnEc6KrlJw3ICg==",
+  "dgSpecHash": "We/182WjL53vMqP9eLn479bZ3M6a3zGf1sDYvhIDYIW9M+4aHr0xFcXtpIbtVLQ3mp5n8Ky2hEIJfZLPgYQ3yw==",
   "success": true,
   "projectFilePath": "C:\\Users\\pc\\Desktop\\Course\\Course.dashboard\\Course.dashboard.csproj",
   "expectedPackageFiles": [
@@ -198,6 +198,7 @@
     "C:\\Users\\pc\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\stripe.net\\42.8.0\\stripe.net.42.8.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
