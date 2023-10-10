@@ -7,10 +7,12 @@ namespace Course.dashboard.Areas.UI.Repositories {
     public class CartRepository : ICartRepository {
         private readonly CourseDbContext _context;
         private readonly UserManager<AppUser> _userManager;
-        public CartRepository(CourseDbContext context, UserManager<AppUser> userManager)
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        public CartRepository(CourseDbContext context, UserManager<AppUser> userManager, IHttpContextAccessor httpContextAccessor)
         {
             _context = context;
             _userManager = userManager;
+            _httpContextAccessor = httpContextAccessor;
         }
 
         public async Task<bool> Add(int Id, string UName, string type)
@@ -100,7 +102,7 @@ namespace Course.dashboard.Areas.UI.Repositories {
             checkout.CurrentPage = currentpage;
             checkout.PageSize = pagesize;
             checkout.TotalPages = totalPages;
-
+            _httpContextAccessor.HttpContext?.Response.Cookies.Append("Amount", (checkout.TotalPrice + 15).ToString());
             checkout.IsCompleted = true;
             return checkout;
         }

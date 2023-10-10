@@ -5,15 +5,18 @@ namespace Course.dashboard.Areas.UI.Controllers {
     [Area("UI")]
     public class PaymentController :Controller {
         private readonly IStripeService _stripeService;
-
-        public PaymentController(IStripeService stripeService)
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        public PaymentController(IStripeService stripeService, IHttpContextAccessor httpContextAccessor)
         {
             _stripeService = stripeService;
+            _httpContextAccessor = httpContextAccessor;
         }
-
-        public async Task<IActionResult> GateWay(int amount)
+        [HttpGet]
+        public async Task<IActionResult> GateWay()
         {
-            var url =await _stripeService.OnlinePaymentStripe(amount);
+
+            int Amount = 1299;
+            var url =await _stripeService.OnlinePaymentStripe(Amount);
             return Redirect(url);
         }
     }

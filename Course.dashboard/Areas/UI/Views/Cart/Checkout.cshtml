@@ -289,7 +289,10 @@
                     </ul>
                 </div>
                 <div class="checkout-right-basket">
-                    <a asp-area="UI" asp-Controller="Payment" asp-action="GateWay" asp-route-amount="@(Model.TotalPrice+15)"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>Continue paying</a>
+                   
+                    <a asp-area="UI" asp-Controller="Payment" asp-action="GateWay" asp-route-Amount="@(Model.TotalPrice+15)"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>Continue paying</a>
+             
+          
                 </div>
                 <div class="clearfix"> </div>
             </div>
