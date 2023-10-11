@@ -53,6 +53,5 @@ cd CourseSystem
  # Contact
 If you have any questions or need assistance, feel free to contact us at rajab.mohamed.rajab23@gmail.com
 
-
 In this example, we've provided a clear structure for your README, including sections for features, getting started, usage, contributing. You can use this as a template and replace the content with information specific to your course platform. Don't forget to update the installation and configuration instructions to match your project's requirements.
 
