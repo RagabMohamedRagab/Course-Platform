@@ -7,8 +7,8 @@ A versatile online platform for managing and delivering courses.
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Contact](#contact)
+
 
 ## Features
 - Two Dashborads for Admin and Teacher and UI For Students
@@ -40,7 +40,7 @@ git clone https://github.com/RagabMohamedRagab/CourseSystem
 ```bash
 cd CourseSystem
 ```
-# Usage
+## Usage
  <ol>
 
   <li> Create a new course and add content.</li>
